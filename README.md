@@ -7,7 +7,7 @@ The conversion was done with the [Grew software](http://grew.loria.fr).
 The whole corpus contains 70,624 tokens in 3,099 sentences.
 The 3,099 sentences are taken from:
 
- * Newpaper "Est Républicain": 524 sentences (sent_id prefix: `annodis.er_`)
+ * Newspaper "Est Républicain": 524 sentences (sent_id prefix: `annodis.er_`)
  * EMEA medical corpus: 1,018 sentence (sent_id prefix: `emea-fr-dev_` and `emea-fr-test_`)
  * Europar: 561 sentences (sent_id prefiw: `Europar.550_`)
  * Wikipedia: 996 sentences (sent_id prefix: `frwiki_50.1000_`)
