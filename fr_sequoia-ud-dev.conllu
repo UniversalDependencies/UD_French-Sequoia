@@ -4443,7 +4443,7 @@
 46	toujours	toujours	ADV	_	_	47	advmod	_	_
 47	situées	situer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
 48	bien	bien	ADV	_	_	56	advmod	_	_
-49-50	au	_	_	_	_	_	_	_	_
+49-50	au	_	_	_	_	_	_	_	SpaceAfter=No
 49	à	à	ADP	_	_	56	case	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	fixed	_	_
 51	-	-	PUNCT	_	_	49	fixed	_	SpaceAfter=No
