@@ -2685,7 +2685,7 @@
 19	conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	prévention	prévention	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	1	punct	_	_
+22	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = annodis.er_00131
 # text = Cette soirée sera agrémentée d'une exposition concernant la genèse du système solaire.
@@ -2754,7 +2754,7 @@
 43	2	2	NUM	_	NumType=Card	44	nummod	_	_
 44	mn	mn	NOUN	_	Gender=Fem	37	obl	_	_
 45	30	30	NUM	_	NumType=Card	44	nummod	_	SpaceAfter=No
-46	.	.	PUNCT	_	_	1	punct	_	_
+46	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = annodis.er_00133
 # text = Les jeunes intéressés peuvent s'inscrire dès maintenant.
@@ -2836,7 +2836,7 @@
 31	maître	maître	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	1	punct	_	_
+34	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = annodis.er_00139
 # text = Dans un premier temps, ils ont étudié les dialogues du livre et en ont extrait quelques-uns pour mieux les mettre en scène.
@@ -3540,7 +3540,7 @@
 4	pour	pour	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	ville	ville	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	1	punct	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00187
 # text = Certes, l'harmonie -deuxième composante de l'Harmonie municipale- est, elle, encore au grand complet.
@@ -3951,7 +3951,7 @@
 4	pour	pour	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	cité	cité	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-7	!	!	PUNCT	_	_	1	punct	_	_
+7	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00211
 # text = Création d'un atelier "Arts plastiques".
@@ -5054,7 +5054,7 @@
 6	jeter	jeter	VERB	_	VerbForm=Inf	4	xcomp	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	éponge	éponge	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	1	punct	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = annodis.er_00267
 # text = Ce prêt aurait permis aussi à la société de lancer sa production de plaques offset en numérique, une technologie qu'elle est parvenue à maîtriser l'an dernier, et qui pouvait la sauver, car elle est très attendue sur le marché.
@@ -5590,7 +5590,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Déportation	déportation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-16	;	;	PUNCT	_	_	1	punct	_	_
+16	;	;	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00292
 # text = l'Union nationale des orphelins de déportés et fusillés ;
@@ -7157,7 +7157,7 @@
 45	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	42	conj	_	_
 46	électives	électif	ADJ	_	Gender=Fem|Number=Plur	45	amod	_	SpaceAfter=No
 47	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	1	punct	_	_
+48	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00374
 # text = Chantal DIDIER
@@ -7364,7 +7364,7 @@
 23	trouvait	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	_
 24	à	à	ADP	_	_	25	case	_	_
 25	Lyon	Lyon	PROPN	_	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	1	punct	_	_
+26	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = annodis.er_00389
 # text = Denise Jacquin n'est plus
@@ -7456,7 +7456,7 @@
 22	gardé	garder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	vaches	vache	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	1	punct	_	_
+25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = annodis.er_00393
 # text = Alors qu'elle est adolescente, sa famille s'installe à l'Isle-sur-le-Doubs.
@@ -7495,7 +7495,7 @@
 # sent_id = annodis.er_00396
 # text = Puis, elle décide de rester à la maison pour s'occuper de sa fille et de ses deux fils Denis et René.
 1	Puis	puis	CCONJ	_	_	4	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
 4	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	6	mark	_	_
@@ -7517,7 +7517,7 @@
 21	Denis	Denis	PROPN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	René	René	PROPN	_	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	1	punct	_	_
+24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = annodis.er_00397
 # text = En 1968, Denise reprend un emploi à la fonderie de Colombier-Fontaine où elle restera jusqu'à sa retraite, en 1983.
@@ -8055,7 +8055,7 @@
 17	frotte	frotter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	ventre	ventre	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	_
+20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = annodis.er_00431
 # text = Le grand chef essaie de le chasser en tapant sur un bouclier, mais le lion continue à se frotter le ventre, il n'avait pas faim, il était seulement malade.
@@ -10844,7 +10844,7 @@
 41	et	et	CCONJ	_	_	43	cc	_	_
 42	du	du	DET	_	Gender=Masc|Number=Sing	43	det	_	_
 43	clopidogrel	clopidogrel	NOUN	_	Gender=Masc|Number=Sing	40	conj	_	SpaceAfter=No
-44	,	,	PUNCT	_	_	11	punct	_	_
+44	,	,	PUNCT	_	_	20	punct	_	_
 45	et	et	CCONJ	_	_	47	cc	_	_
 46	comme	comme	ADP	_	_	47	case	_	_
 47	anticoagulant	anticoagulant	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	_
@@ -11161,7 +11161,7 @@
 15	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	coronarien	coronarien	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	8	punct	_	_
+18	,	,	PUNCT	_	_	12	punct	_	_
 19	soit	soit	CCONJ	_	_	22	cc	_	_
 20	dans	dans	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -13203,9 +13203,9 @@
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	suivants	suivant	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 26	:	:	PUNCT	_	_	25	punct	_	_
-27	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	autre	autre	ADJ	_	Number=Sing	30	amod	_	SpaceAfter=No
-29	"	"	PUNCT	_	_	30	punct	_	_
+29	"	"	PUNCT	_	_	28	punct	_	_
 30	site	site	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	ponction	ponction	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
@@ -13689,9 +13689,9 @@
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	suivants	suivant	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 27	:	:	PUNCT	_	_	26	punct	_	_
-28	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	autre	autre	ADJ	_	Number=Sing	31	amod	_	SpaceAfter=No
-30	"	"	PUNCT	_	_	31	punct	_	_
+30	"	"	PUNCT	_	_	29	punct	_	_
 31	site	site	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	ponction	ponction	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
@@ -13700,7 +13700,7 @@
 36	rétropéritonéal	rétropéritonéal	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	35	punct	_	_
 38	gastro-intestinal	gastro-intestinal	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
-39	,	,	PUNCT	_	_	36	punct	_	_
+39	,	,	PUNCT	_	_	35	punct	_	_
 40	ou	ou	CCONJ	_	_	46	cc	_	_
 41-42	au	_	_	_	_	_	_	_	_
 41	à	à	ADP	_	_	46	case	_	_
@@ -14579,10 +14579,10 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	total	total	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	356	356	NUM	_	NumType=Card	9	nummod	_	_
-5	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+5	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 6	7,7	7,7	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
 7	%	%	NOUN	_	Gender=Masc	4	appos	_	SpaceAfter=No
-8	)	)	PUNCT	_	_	9	punct	_	_
+8	)	)	PUNCT	_	_	4	punct	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 10	randomisés	randomiser	VERB	_	Tense=Past|VerbForm=Part	9	acl	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
@@ -14668,10 +14668,10 @@
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	angioplastie	angioplastie	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
-21	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+21	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 22	56	56	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
-23	%	%	NOUN	_	Gender=Masc	17	obl	_	SpaceAfter=No
-24	)	)	PUNCT	_	_	17	punct	_	_
+23	%	%	NOUN	_	Gender=Masc	20	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	20	punct	_	_
 25	ou	ou	CCONJ	_	_	28	cc	_	_
 26	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -18616,7 +18616,7 @@
 7	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	Aclasta	Aclasta	PROPN	_	_	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	4	punct	_	_
+10	,	,	PUNCT	_	_	7	punct	_	_
 11	soit	soit	CCONJ	_	_	13	cc	_	_
 12	du	du	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	risédronate	risédronate	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
@@ -26285,7 +26285,7 @@
 47	de	de	ADP	_	_	49	case	_	_
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
-50	,	,	PUNCT	_	_	35	punct	_	_
+50	,	,	PUNCT	_	_	49	punct	_	_
 51	où	où	PRON	_	PronType=Rel	56	iobj	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
 53	économies	économie	NOUN	_	Gender=Fem|Number=Plur	56	nsubj	_	_
@@ -26433,7 +26433,7 @@
 17	de	de	ADP	_	_	14	fixed	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	UE	UE	PROPN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	1	punct	_	_
+20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Europar.550_00017
 # text = Si nous parvenons à atteindre nos objectifs, nous aurons économisé, en 2020, 6 millions de tonnes d'émissions de CO2 par an.
@@ -26858,7 +26858,7 @@
 # sent_id = Europar.550_00029
 # text = Or, il apparaît aujourd'hui évident que si l'on ouvre, Madame la Présidente, le débat que vous nous demandez d'ouvrir, et que la Conférence des présidents nous demande d'ouvrir, sur le fondement de l'article 50, alors on ouvre une brèche redoutable dans le principe de la liberté, de la souveraineté des États, de la constitution libre des gouvernements qui sont issus d'élections démocratiques, alors demain une autre majorité dans ce Parlement pourra s'arroger une immixtion dans la constitution d'un gouvernement résultant cependant d'élections libres, régulières, paisibles et démocratiques à l'intérieur d'un État membre.
 1	Or	or	CCONJ	_	_	4	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 4	apparaît	apparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	aujourd'	aujourd'	ADP	_	_	4	advmod	_	SpaceAfter=No
@@ -26977,7 +26977,7 @@
 115	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	116	det	_	_
 116	État	état	NOUN	_	Gender=Masc|Number=Sing	113	nmod	_	_
 117	membre	membre	NOUN	_	Gender=Masc|Number=Sing	116	nmod	_	SpaceAfter=No
-118	.	.	PUNCT	_	_	1	punct	_	_
+118	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Europar.550_00030
 # text = Si vous ratifiez...
@@ -28584,7 +28584,7 @@
 # sent_id = Europar.550_00133
 # text = Or, il est pris en otage et traité comme un prisonnier de guerre.
 1	Or	or	CCONJ	_	_	5	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	5	punct	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj:pass	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -28597,7 +28597,7 @@
 12	prisonnier	prisonnier	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	1	punct	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Europar.550_00134
 # text = La guerre en Tchétchénie, comme toute guerre, est un cortège d'horreurs.
@@ -28808,7 +28808,7 @@
 55	de	de	ADP	_	_	56	case	_	_
 56	pêche	pêche	NOUN	_	Gender=Fem|Number=Sing	54	nmod	_	_
 57	incontrôlée	incontrôlé	ADJ	_	Gender=Fem|Number=Sing	54	amod	_	SpaceAfter=No
-58	.	.	PUNCT	_	_	1	punct	_	_
+58	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00143
 # text = Il est toutefois intéressant de préciser que la petite pêche côtière démontre qu'il est possible de combiner une activité de pêche et un développement durable non agressif pour le milieu marin.
@@ -30698,7 +30698,7 @@
 14	avec	avec	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	1	punct	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00219
 # text = Nous ne sommes pas d'accord que le Conseil se réserve les pouvoirs de mise en oeuvre du système.
@@ -31284,7 +31284,7 @@
 11	sur	sur	ADP	_	_	13	case	_	_
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00248
 # text = Nous proposons donc de reporter ce débat au mois d'avril.
@@ -32372,7 +32372,7 @@
 56	d'	de	ADP	_	_	58	case	_	SpaceAfter=No
 57	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
 58	consensus	consensus	NOUN	_	Gender=Masc|Number=Sing	53	obl	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	1	punct	_	_
+59	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = Europar.550_00292
 # text = Le troisième principe fondamental consacré dans le rapport est précisément la proposition d'une révision générale -j'insiste sur "générale"- de l'ensemble des institutions qui composent l'Union européenne.
@@ -32479,7 +32479,7 @@
 45	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	_
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
 47	élargissement	élargissement	NOUN	_	Gender=Masc|Number=Sing	45	nsubj	_	SpaceAfter=No
-48	.	.	PUNCT	_	_	1	punct	_	_
+48	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Europar.550_00295
 # text = Et il est très naturel, quand nous constatons et convenons tous que dans une Europe de quinze États membres il y a déjà des dysfonctionnements auxquels il convient de remédier, qu'il faille à plus forte raison le faire quand nous parlerons d'une Union de 18, 20, 25 et 27 membres.
@@ -32541,7 +32541,7 @@
 55	et	et	CCONJ	_	_	56	cc	_	_
 56	27	27	NUM	_	NumType=Card	50	conj	_	_
 57	membres	membre	NOUN	_	Gender=Masc|Number=Plur	48	nmod	_	SpaceAfter=No
-58	.	.	PUNCT	_	_	1	punct	_	_
+58	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Europar.550_00296
 # text = Le quatrième point consiste en certaines propositions nouvelles, bien que les questions auxquelles elles se réfèrent aient toujours fait l'objet de discussions.
@@ -32970,7 +32970,7 @@
 15	leur	son	DET	_	Number=Sing|Poss=Yes	17	nmod:poss	_	_
 16	énorme	énorme	ADJ	_	Number=Sing	17	amod	_	_
 17	travail	travail	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	1	punct	_	_
+18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Europar.550_00307
 # text = Un grand merci également au commissaire Barnier pour sa compréhension et merci également à notre collègue Vitorino, en particulier pour un point que je souhaiterais exposer à présent.
@@ -34882,7 +34882,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	par	par	ADP	_	_	15	case	_	_
 15	secteur	secteur	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	1	punct	_	_
+16	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Europar.550_00390
 # text = En même temps, suite aux fusions, aux acquisitions et aux concentrations, les frontières entre banques, assurances, fonds d'investissement et fonds de pension s'effacent.
@@ -37668,7 +37668,7 @@
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
 31	jeunes	jeune	ADJ	_	Number=Plur	32	amod	_	_
 32	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
-33	.	.	PUNCT	_	_	1	punct	_	_
+33	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00525
 # text = En effet, une telle mesure ne nécessiterait pas de ressources financières importantes, et il serait tout à fait possible de la mettre en application.
@@ -39440,8 +39440,8 @@
 7	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 8	Manche	Manche	PROPN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	11	punct	_	_
-11	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
 12	où	où	PRON	_	PronType=Rel	17	iobj	_	_
 13	Théophile	Théophile	PROPN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
 14	Maupas	Maupas	PROPN	_	Gender=Masc|Number=Sing	13	flat:name	_	_
@@ -39829,7 +39829,7 @@
 14	toute	tout	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Roumanie	Roumanie	PROPN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	6	punct	_	_
+17	,	,	PUNCT	_	_	10	punct	_	_
 18	et	et	CCONJ	_	_	21	cc	_	_
 19	moins	moins	ADV	_	_	21	det	_	_
 20	de	de	ADP	_	_	19	fixed	_	_
@@ -40685,8 +40685,8 @@
 33	pierres	pierre	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
 34	fines	fin	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	24	punct	_	SpaceAfter=No
-36	,	,	PUNCT	_	_	37	punct	_	_
-37	échantillon	échantillon	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
+36	,	,	PUNCT	_	_	24	punct	_	_
+37	échantillon	échantillon	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
 38	de	de	ADP	_	_	40	case	_	_
 39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	production	production	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
@@ -44049,7 +44049,7 @@
 20	Orient	Orient	PROPN	_	_	9	nmod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	France	France	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	19	punct	_	_
+23	,	,	PUNCT	_	_	20	punct	_	_
 24	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	20	appos	_	_
 25	maçonnique	maçonnique	ADJ	_	Number=Sing	24	amod	_	_
 26	qui	qui	PRON	_	PronType=Rel	32	nsubj:pass	_	_
@@ -44281,7 +44281,7 @@
 54	idées	idée	NOUN	_	Gender=Fem|Number=Plur	51	obl	_	SpaceAfter=No
 55	"	"	PUNCT	_	_	50	punct	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	65	punct	_	_
-57	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+57	"	"	PUNCT	_	_	65	punct	_	SpaceAfter=No
 58	rallié	rallier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	65	advcl	_	_
 59	à	à	ADP	_	_	61	case	_	_
 60	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
@@ -44296,7 +44296,7 @@
 69	nom	nom	NOUN	_	Gender=Masc|Number=Sing	65	obj	_	_
 70	à	à	ADP	_	_	71	case	_	_
 71	particule	particule	NOUN	_	Gender=Fem|Number=Sing	69	nmod	_	SpaceAfter=No
-72	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+72	"	"	PUNCT	_	_	65	punct	_	SpaceAfter=No
 73	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00297
@@ -46732,7 +46732,7 @@
 34	étrangères	étranger	ADJ	_	Gender=Fem|Number=Plur	33	amod	_	_
 35	Roland	Roland	PROPN	_	Gender=Masc|Number=Sing	30	flat:name	_	_
 36	Dumas	Dumas	PROPN	_	_	35	flat:name	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	1	punct	_	_
+37	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = frwiki_50.1000_00381
 # text = Et lors de son voyage en Chine, Jean-François Briand n'avait entendu parler d'aucune intervention du prétendu "réseau Elf", qu'était censé incarner sur place l'homme d'affaires Edmond Kwan.
@@ -46774,7 +46774,7 @@
 35	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
 36	Edmond	Edmond	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	_
 37	Kwan	Kwan	PROPN	_	_	36	flat:name	_	SpaceAfter=No
-38	.	.	PUNCT	_	_	1	punct	_	_
+38	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = frwiki_50.1000_00382
 # text = Après la conclusion du marché taïwanais, en août 1991, les "doutes" du dirigeant de Thomson se changèrent en inquiétudes.
@@ -47497,7 +47497,7 @@
 
 # sent_id = frwiki_50.1000_00412
 # text = - Frégates de Taïwan : Charasse se défend, AP, 28 mai 2004
-1	-	-	PUNCT	_	_	8	punct	_	_
+1	-	-	PUNCT	_	_	2	punct	_	_
 2	Frégates	frégate	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Taïwan	Taïwan	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -49516,7 +49516,7 @@
 9	pour	pour	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	Asie	Asie	PROPN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	2	punct	_	_
+12	,	,	PUNCT	_	_	6	punct	_	_
 13	représentant	représentant	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -51339,7 +51339,7 @@
 11	de	de	ADP	_	_	8	fixed	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	SAR	SAR	PROPN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	5	punct	_	_
+14	,	,	PUNCT	_	_	7	punct	_	_
 15	salaires	salaire	NOUN	_	Gender=Masc|Number=Plur	7	appos	_	_
 16	ne	ne	ADV	_	Polarity=Neg	17	advmod	_	_
 17	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	15	acl	_	_
@@ -54914,7 +54914,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	opinion	opinion	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	publique	public	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	1	punct	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = frwiki_50.1000_00802
 # text = Sepp Blatter (président de la FIFA) qualifie l'affaire de "plus gros scandale de l'histoire du football".
@@ -55659,11 +55659,11 @@
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	Marcel	Marcel	PROPN	_	Gender=Masc|Number=Sing	1	conj	_	_
 5	Carton	Carton	PROPN	_	_	4	flat:name	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	13	punct	_	_
+6	,	,	PUNCT	_	_	1	punct	_	_
 7	tous	tout	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 8	deux	deux	NUM	_	NumType=Card	9	nummod	_	_
 9	diplomates	diplomate	NOUN	_	Number=Plur	1	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	13	punct	_	_
+10	,	,	PUNCT	_	_	1	punct	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 12	été	être	AUX	_	Tense=Past|VerbForm=Part	13	aux:pass	_	_
 13	enlevés	enlever	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -55889,7 +55889,7 @@
 39	et	et	CCONJ	_	_	41	cc	_	_
 40	ses	son	DET	_	Number=Plur|Poss=Yes	41	nmod:poss	_	_
 41	filles	fille	NOUN	_	Gender=Fem|Number=Plur	36	conj	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	24	punct	_	_
+42	,	,	PUNCT	_	_	36	punct	_	_
 43	et	et	CCONJ	_	_	45	cc	_	_
 44	quinze	quinze	NUM	_	NumType=Card	45	nummod	_	_
 45	otages	otage	NOUN	_	Gender=Masc|Number=Plur	36	conj	_	_
@@ -56040,7 +56040,7 @@
 # sent_id = frwiki_50.1000_00850
 # text = Mais, les choses pourraient s'être passées différemment.
 1	Mais	mais	CCONJ	_	_	5	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	5	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	choses	chose	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 5	pourraient	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -56048,7 +56048,7 @@
 7	être	être	AUX	_	VerbForm=Inf	8	aux	_	_
 8	passées	passer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	xcomp	_	_
 9	différemment	différemment	ADV	_	_	8	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	1	punct	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00851
 # text = Cette note -qui est à l'origine d'une information judiciaire ouverte et confiée à la juge d'instruction Isabelle Prévost-Desprez- ne s'attarde pas réellement sur le paiement d'une hypothétique rançon, mais détaille plutôt un système de "rétro-commissions" qui y serait lié.
@@ -56198,7 +56198,7 @@
 12	retracés	retracer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
 13	avoisineraient	avoisiner	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-15	850 000	850 000	ADJ	_	_	16	amod	_	_
+15	850 000	850 000	NUM	_	NumType=Card	16	amod	_	_
 16	F	F	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
 17	!	!	PUNCT	_	_	13	punct	_	_
 
@@ -56423,7 +56423,7 @@
 25	de	de	ADP	_	_	27	case	_	_
 26	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
 27	rançon	rançon	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
-28	?	?	PUNCT	_	_	1	punct	_	_
+28	?	?	PUNCT	_	_	18	punct	_	_
 
 # sent_id = frwiki_50.1000_00866
 # text = Alors, à qui profite le crime ?

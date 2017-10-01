@@ -1693,11 +1693,11 @@
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	Union	Union	PROPN	_	Number=Sing	35	nsubj	_	_
 27	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	35	punct	_	_
+28	,	,	PUNCT	_	_	26	punct	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	26	appos	_	_
 31	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	35	punct	_	_
+32	,	,	PUNCT	_	_	26	punct	_	_
 33	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 34	enfin	enfin	ADV	_	_	35	advmod	_	_
 35	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	23	ccomp	_	_
@@ -1895,7 +1895,7 @@
 29	rapidement	rapidement	ADV	_	_	27	advmod	_	_
 30	que	que	SCONJ	_	_	31	mark	_	_
 31	prévu	prévoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	ccomp	_	SpaceAfter=No
-32	.	.	PUNCT	_	_	1	punct	_	_
+32	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Europar.550_00386
 # text = John Kenneth Galbraith a dénoncé l'illusion selon laquelle argent et intelligence seraient des facteurs liés.
@@ -2225,7 +2225,7 @@
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	si	si	SCONJ	_	_	15	advmod	_	_
 14	possible	possible	ADJ	_	Number=Sing	13	fixed	_	_
-15	aujourd'	aujourd'	ADP	_	_	8	advmod	_	SpaceAfter=No
+15	aujourd'	aujourd'	ADP	_	_	5	advmod	_	SpaceAfter=No
 16	hui	hui	NOUN	_	_	15	fixed	_	_
 17	plutôt	plutôt	ADV	_	_	19	mark	_	_
 18	que	que	SCONJ	_	_	17	fixed	_	_
@@ -2330,7 +2330,7 @@
 7	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 8	devenir	devenir	VERB	_	VerbForm=Inf	7	xcomp	_	_
 9	astronaute	astronaute	NOUN	_	Number=Sing	8	xcomp	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	8	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
 13	astronaute	astronaute	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
@@ -3569,7 +3569,7 @@
 32	en	en	ADP	_	_	33	case	_	_
 33	juin	juin	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
 34	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	33	amod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	1	punct	_	_
+35	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = annodis.er_00276
 # text = Alors le tribunal lui avait accordé un ultime délai : fin janvier, avec l'échec que l'on sait.
@@ -3924,7 +3924,7 @@
 27	dans	dans	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	monde	monde	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	1	punct	_	_
+30	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00361
 # text = Elles n'ont pas produit d'effet, notamment auprès des grandes formations susceptibles d'avoir des députés.
@@ -6586,7 +6586,7 @@
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	Aclasta	Aclasta	PROPN	_	_	2	nmod	_	_
 10	5	5	NUM	_	NumType=Card	11	nummod	_	_
-11	mg	mg	NOUN	_	Gender=Masc	7	nmod	_	_
+11	mg	mg	NOUN	_	Gender=Masc	9	nmod	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 14	par	par	ADP	_	_	15	case	_	_
@@ -6648,7 +6648,7 @@
 67	une	un	PRON	_	Gender=Fem|Number=Sing	63	conj	_	_
 68	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	67	amod	_	_
 69	prévalentes	prévalent	ADJ	_	_	63	amod	_	_
-70	;	;	PUNCT	_	_	37	punct	_	_
+70	;	;	PUNCT	_	_	41	punct	_	_
 71	soit	soit	CCONJ	_	_	73	cc	_	_
 72	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
 73	T-score	T-score	NOUN	_	Gender=Masc|Number=Sing	41	conj	_	_
@@ -8088,7 +8088,7 @@
 # text = Un livre, Pour l'honneur de Théo et des caporaux de Souain, écrit par Jacqueline Laisné, l'institutrice qui prit la suite de Blanche Maupas dans son école, raconte également cette histoire.
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	livre	livre	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	34	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	Pour	pour	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
@@ -8101,7 +8101,7 @@
 12	caporaux	caporal	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Souain	Souain	PROPN	_	_	12	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	34	punct	_	_
+15	,	,	PUNCT	_	_	2	punct	_	_
 16	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 17	par	par	ADP	_	_	18	case	_	_
 18	Jacqueline	Jacqueline	PROPN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -8952,7 +8952,7 @@
 39	d'	de	ADP	_	_	27	advmod	_	SpaceAfter=No
 40	autre	autre	ADJ	_	Number=Sing	39	fixed	_	_
 41	part	part	NOUN	_	Number=Sing	39	fixed	_	_
-42	(	(	PUNCT	_	_	79	punct	_	SpaceAfter=No
+42	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
 43	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	45	nsubj	_	_
 44	ne	ne	ADV	_	Polarity=Neg	45	advmod	_	_
 45	votent	voter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
@@ -8986,7 +8986,7 @@
 71	leur	son	DET	_	Number=Sing|Poss=Yes	72	nmod:poss	_	_
 72	service	service	NOUN	_	Gender=Masc|Number=Sing	54	obl	_	_
 73	actif	actif	ADJ	_	Gender=Masc|Number=Sing	72	amod	_	SpaceAfter=No
-74	)	)	PUNCT	_	_	79	punct	_	SpaceAfter=No
+74	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	79	punct	_	_
 76	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
 77	général	général	NOUN	_	Gender=Masc|Number=Sing	79	nsubj	_	_
@@ -9854,7 +9854,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	page	page	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-14	15 000	15 000	NOUN	_	NumType=Card	12	appos	_	SpaceAfter=No
+14	15 000	15 000	NOUN	_	NumType=Card	10	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 16	-	-	PUNCT	_	_	7	punct	_	_
 17	demandés	demander	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
