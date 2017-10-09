@@ -5424,8 +5424,8 @@
 16	particulièrement	particulièrement	ADV	_	_	14	advmod	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	mise	mise	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
-19	en	en	ADP	_	_	18	advmod	_	_
-20	place	place	NOUN	_	Gender=Fem|Number=Sing	19	fixed	_	_
+19	en	en	ADP	_	_	20	case	_	_
+20	place	place	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -7789,8 +7789,8 @@
 2	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	de	de	ADP	_	_	4	mark	_	_
 4	mettre	mettre	VERB	_	VerbForm=Inf	2	xcomp	_	_
-5	en	en	ADP	_	_	4	obl	_	_
-6	place	place	NOUN	_	Gender=Fem|Number=Sing	5	fixed	_	_
+5	en	en	ADP	_	_	6	case	_	_
+6	place	place	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 7	différentes	différent	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	actions	action	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
@@ -7847,8 +7847,8 @@
 8	projets	projet	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 9	à	à	ADP	_	_	10	mark	_	_
 10	mettre	mettre	VERB	_	VerbForm=Inf	8	acl	_	_
-11	en	en	ADP	_	_	10	obl	_	_
-12	place	place	NOUN	_	Gender=Fem|Number=Sing	11	fixed	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	place	place	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
 13	pour	pour	ADP	_	_	16	case	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
 15	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
@@ -10040,8 +10040,8 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	prises	prise	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
-14	en	en	ADP	_	_	13	advmod	_	_
-15	charge	charge	NOUN	_	Gender=Fem|Number=Sing	14	fixed	_	_
+14	en	en	ADP	_	_	15	case	_	_
+15	charge	charge	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	urgentes	urgent	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	patients	patient	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
@@ -12297,8 +12297,8 @@
 4	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	être	être	AUX	_	VerbForm=Inf	6	aux:pass	_	_
 6	mises	mettre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
-7	en	en	ADP	_	_	6	obl	_	_
-8	place	place	NOUN	_	Gender=Fem|Number=Sing	7	fixed	_	_
+7	en	en	ADP	_	_	8	case	_	_
+8	place	place	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	faire	faire	VERB	_	VerbForm=Inf	6	advcl	_	_
 11	face	face	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
@@ -14656,8 +14656,8 @@
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	soit	soit	CCONJ	_	_	8	cc	_	_
 8	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_
-9	en	en	ADP	_	_	8	obl	_	_
-10	charge	charge	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	charge	charge	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 11	médicalement	médicalement	ADV	_	_	8	advmod	_	_
 12	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 13	33	33	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
@@ -17403,7 +17403,7 @@
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 15	pour	pour	ADP	_	_	17	case	_	_
 16	chaque	chaque	DET	_	Number=Sing	17	det	_	_
 17	kilogramme	kilogramme	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
@@ -19160,8 +19160,8 @@
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	aux:pass	_	_
 15	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
-16	en	en	ADP	_	_	15	obl	_	_
-17	place	place	NOUN	_	Gender=Fem|Number=Sing	16	fixed	_	_
+16	en	en	ADP	_	_	17	case	_	_
+17	place	place	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 18	suite	suite	NOUN	_	Gender=Fem|Number=Sing	21	case	_	_
 19	à	à	ADP	_	_	18	fixed	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
@@ -50166,7 +50166,7 @@
 12	sein	sein	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
 13	de	de	ADP	_	_	10	fixed	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	office	office	NOUN	_	Number=Sing	8	nmod	_	_
+15	office	office	NOUN	_	Number=Sing	6	nmod	_	_
 16	HLM	HLM	NOUN	_	_	15	nmod	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -57927,8 +57927,8 @@
 40	,	,	PUNCT	_	_	42	punct	_	_
 41	se	se	PRON	_	Person=3|Reflex=Yes	42	expl	_	_
 42	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-43	en	en	ADP	_	_	42	obl	_	_
-44	place	place	NOUN	_	Gender=Fem|Number=Sing	43	fixed	_	_
+43	en	en	ADP	_	_	44	case	_	_
+44	place	place	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	_
 45	à	à	ADP	_	_	48	case	_	_
 46	partir	partir	VERB	_	VerbForm=Inf	45	fixed	_	_
 47	de	de	ADP	_	_	45	fixed	_	_
