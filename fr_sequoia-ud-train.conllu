@@ -1674,11 +1674,11 @@
 1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
 2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	advmod	_	_
-4	plus	plus	ADV	_	_	6	advmod	_	_
-5	de	de	ADP	_	_	6	det	_	_
+4	plus	plus	ADV	_	_	6	det	_	_
+5	de	de	ADP	_	_	4	fixed	_	_
 6	trois-quarts	trois-quarts	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	_
+8	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	que	que	SCONJ	_	_	17	mark	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	digne	digne	ADJ	_	Number=Sing	12	amod	_	_
@@ -2357,7 +2357,7 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	vide	vide	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 16	de	de	ADP	_	_	20	case	_	_
-17	plus	plus	ADV	_	_	20	advmod	_	_
+17	plus	plus	ADV	_	_	19	advmod	_	_
 18	de	de	ADP	_	_	17	fixed	_	_
 19	dix	dix	NUM	_	NumType=Card	20	nummod	_	_
 20	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
@@ -4169,7 +4169,7 @@
 1	Ce	ce	PRON	_	Number=Sing|Person=3	7	nsubj	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 3	déjà	déjà	ADV	_	_	7	advmod	_	_
-4	plus	plus	ADV	_	_	7	advmod	_	_
+4	plus	plus	ADV	_	_	6	advmod	_	_
 5	de	de	ADP	_	_	4	fixed	_	_
 6	trente	trente	NUM	_	NumType=Card	7	nummod	_	_
 7	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
@@ -6906,7 +6906,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	départements	département	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 18	élisant	élire	VERB	_	Tense=Pres|VerbForm=Part	17	acl	_	_
-19	plus	plus	ADV	_	_	22	advmod	_	_
+19	plus	plus	ADV	_	_	21	advmod	_	_
 20	de	de	ADP	_	_	19	fixed	_	_
 21	deux	deux	NUM	_	NumType=Card	22	nummod	_	_
 22	sénateurs	sénateur	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
@@ -7323,7 +7323,7 @@
 
 # sent_id = annodis.er_00387
 # text = Plus d'une quinzaine étaient réquisitionnés pour poursuivre les recherches l'après-midi.
-1	Plus	plus	ADV	_	_	4	advmod	_	_
+1	Plus	plus	ADV	_	_	3	advmod	_	_
 2	d'	de	ADP	_	_	1	fixed	_	SpaceAfter=No
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	quinzaine	quinzaine	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
@@ -10316,7 +10316,7 @@
 3	été	être	AUX	_	Tense=Past|VerbForm=Part	4	aux:pass	_	_
 4	étudié	étudier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	chez	chez	ADP	_	_	9	case	_	_
-6	plus	plus	ADV	_	_	9	advmod	_	_
+6	plus	plus	ADV	_	_	8	advmod	_	_
 7	de	de	ADP	_	_	6	fixed	_	_
 8	20 000	20 000	DET	_	_	9	det	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
@@ -10419,7 +10419,7 @@
 14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	aux:pass	_	_
 15	étudiée	étudier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 16	chez	chez	ADP	_	_	20	case	_	_
-17	plus	plus	ADV	_	_	20	advmod	_	_
+17	plus	plus	ADV	_	_	19	advmod	_	_
 18	de	de	ADP	_	_	17	fixed	_	_
 19	6 000	6 000	DET	_	_	20	det	_	_
 20	patients	patient	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
@@ -10671,7 +10671,7 @@
 9	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 10	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 11	chez	chez	ADP	_	_	15	case	_	_
-12	plus	plus	ADV	_	_	15	advmod	_	_
+12	plus	plus	ADV	_	_	14	advmod	_	_
 13	d'	de	ADP	_	_	12	fixed	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -12694,7 +12694,7 @@
 14	patients	patient	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 15	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
 16	de	de	ADP	_	_	20	case	_	_
-17	plus	plus	ADV	_	_	20	advmod	_	_
+17	plus	plus	ADV	_	_	19	advmod	_	_
 18	de	de	ADP	_	_	17	fixed	_	_
 19	65	65	NUM	_	NumType=Card	20	nummod	_	_
 20	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
@@ -13188,12 +13188,12 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	mais	mais	CCONJ	_	_	15	cc	_	_
 11	avec	avec	ADP	_	_	15	case	_	_
-12	plus	plus	ADV	_	_	15	advmod	_	_
-13	de	de	ADP	_	_	15	dep	_	_
+12	plus	plus	ADV	_	_	14	advmod	_	_
+13	de	de	ADP	_	_	12	fixed	_	_
 14	0,1	0,1	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
 15	%	%	NOUN	_	Gender=Masc	8	conj	_	_
 16	de	de	ADP	_	_	17	case	_	_
-17	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	12	fixed	_	_
+17	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
 18	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 19	peu	peu	ADV	_	_	20	advmod	_	_
 20	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
@@ -13355,7 +13355,7 @@
 14	patients	patient	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 15	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
 16	de	de	ADP	_	_	20	case	_	_
-17	plus	plus	ADV	_	_	20	advmod	_	_
+17	plus	plus	ADV	_	_	19	advmod	_	_
 18	de	de	ADP	_	_	17	fixed	_	_
 19	65	65	NUM	_	NumType=Card	20	nummod	_	_
 20	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
@@ -13603,7 +13603,7 @@
 53	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	54	det	_	SpaceAfter=No
 54	hémoglobine	hémoglobine	NOUN	_	Gender=Fem|Number=Sing	51	nmod	_	_
 55	de	de	ADP	_	_	59	case	_	_
-56	plus	plus	ADV	_	_	59	advmod	_	_
+56	plus	plus	ADV	_	_	58	advmod	_	_
 57	de	de	ADP	_	_	56	fixed	_	_
 58	3	3	NUM	_	NumType=Card	59	nummod	_	_
 59	g	g	NOUN	_	_	51	nmod	_	SpaceAfter=No
@@ -13675,12 +13675,12 @@
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	fréquence	fréquence	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
 13	de	de	ADP	_	_	17	case	_	_
-14	plus	plus	ADV	_	_	17	advmod	_	_
-15	de	de	ADP	_	_	17	dep	_	_
+14	plus	plus	ADV	_	_	16	advmod	_	_
+15	de	de	ADP	_	_	14	fixed	_	_
 16	0,1	0,1	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
 17	%	%	NOUN	_	Gender=Masc	12	nmod	_	_
 18	de	de	ADP	_	_	19	case	_	_
-19	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	14	fixed	_	_
+19	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 20	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 21	peu	peu	ADV	_	_	22	advmod	_	_
 22	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
@@ -14480,7 +14480,7 @@
 56	)	)	PUNCT	_	_	36	punct	_	SpaceAfter=No
 57	,	,	PUNCT	_	_	14	punct	_	_
 58	chez	chez	ADP	_	_	62	case	_	_
-59	plus	plus	ADV	_	_	62	advmod	_	_
+59	plus	plus	ADV	_	_	61	advmod	_	_
 60	de	de	ADP	_	_	59	fixed	_	_
 61	13 819	13 819	DET	_	_	62	det	_	_
 62	patients	patient	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
@@ -17599,7 +17599,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	mort	mort	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-13	moins	moins	ADV	_	_	16	advmod	_	_
+13	moins	moins	ADV	_	_	15	advmod	_	_
 14	de	de	ADP	_	_	13	fixed	_	_
 15	1	1	NUM	_	NumType=Card	16	nummod	_	_
 16	patient	patient	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -17749,7 +17749,7 @@
 7	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 8	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	moins	moins	ADV	_	_	11	advmod	_	_
-10	de	de	ADP	_	_	11	dep	_	_
+10	de	de	ADP	_	_	9	fixed	_	_
 11	1	1	PRON	_	NumType=Card	7	iobj	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
 13	100	100	NUM	_	NumType=Card	14	nummod	_	_
@@ -17780,7 +17780,7 @@
 17	rares	rare	ADJ	_	Number=Plur	15	amod	_	_
 18	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 19	moins	moins	ADV	_	_	21	advmod	_	_
-20	de	de	ADP	_	_	21	dep	_	_
+20	de	de	ADP	_	_	19	fixed	_	_
 21	1	1	PRON	_	NumType=Card	17	iobj	_	_
 22	pour	pour	ADP	_	_	24	case	_	_
 23	1000	1000	NUM	_	NumType=Card	24	nummod	_	_
@@ -17898,7 +17898,7 @@
 6	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 7	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	moins	moins	ADV	_	_	10	advmod	_	_
-9	de	de	ADP	_	_	10	dep	_	_
+9	de	de	ADP	_	_	8	fixed	_	_
 10	1	1	PRON	_	NumType=Card	6	iobj	_	_
 11	pour	pour	ADP	_	_	13	case	_	_
 12	100	100	NUM	_	NumType=Card	13	nummod	_	_
@@ -18810,7 +18810,7 @@
 9	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 10	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 11	chez	chez	ADP	_	_	15	case	_	_
-12	plus	plus	ADV	_	_	15	advmod	_	_
+12	plus	plus	ADV	_	_	14	advmod	_	_
 13	d'	de	ADP	_	_	12	fixed	_	SpaceAfter=No
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -21086,7 +21086,7 @@
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	calcémie	calcémie	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 26	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-27	moins	moins	ADV	_	_	30	advmod	_	_
+27	moins	moins	ADV	_	_	29	advmod	_	_
 28	de	de	ADP	_	_	27	fixed	_	_
 29	1,87	1,87	NUM	_	NumType=Card	30	nummod	_	_
 30	mmol	mmol	NOUN	_	_	21	appos	_	SpaceAfter=No
@@ -23110,7 +23110,7 @@
 9	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
 10	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 11	de	de	ADP	_	_	15	case	_	_
-12	plus	plus	ADV	_	_	15	advmod	_	_
+12	plus	plus	ADV	_	_	14	advmod	_	_
 13	de	de	ADP	_	_	12	fixed	_	_
 14	30	30	NUM	_	NumType=Card	15	nummod	_	_
 15	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
@@ -24144,7 +24144,7 @@
 8	patients	patient	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
 9	âgés	âgé	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 10	de	de	ADP	_	_	14	case	_	_
-11	moins	moins	ADV	_	_	14	advmod	_	_
+11	moins	moins	ADV	_	_	13	advmod	_	_
 12	de	de	ADP	_	_	11	fixed	_	_
 13	18	18	NUM	_	NumType=Card	14	nummod	_	_
 14	ans	an	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
@@ -24607,7 +24607,7 @@
 8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	agir	agir	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	pendant	pendant	ADP	_	_	14	case	_	_
-11	plus	plus	ADV	_	_	14	advmod	_	_
+11	plus	plus	ADV	_	_	13	advmod	_	_
 12	d'	de	ADP	_	_	11	fixed	_	SpaceAfter=No
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	an	an	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
@@ -24782,14 +24782,14 @@
 12	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	survenant	survenir	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
 14	chez	chez	ADP	_	_	18	case	_	_
-15	plus	plus	ADV	_	_	18	advmod	_	_
-16	de	de	ADP	_	_	18	dep	_	_
+15	plus	plus	ADV	_	_	17	advmod	_	_
+16	de	de	ADP	_	_	15	fixed	_	_
 17	30	30	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
 18	%	%	NOUN	_	Gender=Masc	13	obl	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-21	patients	patient	NOUN	_	Gender=Masc|Number=Plur	15	fixed	_	SpaceAfter=No
+21	patients	patient	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	11	punct	_	_
 23	mais	mais	CCONJ	_	_	26	cc	_	_
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
@@ -24925,7 +24925,7 @@
 3	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 4	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 5	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
-6	moins	moins	ADV	_	_	9	advmod	_	_
+6	moins	moins	ADV	_	_	8	advmod	_	_
 7	de	de	ADP	_	_	6	fixed	_	_
 8	10	10	NUM	_	NumType=Card	9	nummod	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
@@ -25042,7 +25042,7 @@
 4	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 5	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 6	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
-7	moins	moins	ADV	_	_	10	advmod	_	_
+7	moins	moins	ADV	_	_	9	advmod	_	_
 8	d'	de	ADP	_	_	7	fixed	_	SpaceAfter=No
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	patient	patient	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
@@ -25186,7 +25186,7 @@
 3	rares	rare	ADJ	_	Number=Plur	1	amod	_	_
 4	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 5	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
-6	moins	moins	ADV	_	_	9	advmod	_	_
+6	moins	moins	ADV	_	_	8	advmod	_	_
 7	d'	de	ADP	_	_	6	fixed	_	SpaceAfter=No
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	patient	patient	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -31872,7 +31872,7 @@
 57	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	aux	_	_
 58	exprimée	exprimer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	52	csubj	_	_
 59	à	à	ADP	_	_	63	case	_	_
-60	plus	plus	ADV	_	_	63	advmod	_	_
+60	plus	plus	ADV	_	_	62	advmod	_	_
 61	d'	de	ADP	_	_	60	fixed	_	SpaceAfter=No
 62	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
 63	reprise	reprise	NOUN	_	Gender=Fem|Number=Sing	58	obl	_	_
@@ -33367,7 +33367,7 @@
 20	pas	pas	ADV	_	Polarity=Neg	21	advmod	_	_
 21	plu	pleuvoir	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
 22	depuis	depuis	ADP	_	_	26	case	_	_
-23	plus	plus	ADV	_	_	26	advmod	_	_
+23	plus	plus	ADV	_	_	25	advmod	_	_
 24	de	de	ADP	_	_	23	fixed	_	_
 25	trois	trois	NUM	_	NumType=Card	26	nummod	_	_
 26	ans	an	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
@@ -45702,14 +45702,14 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	objet	objet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	9	case	_	_
-6	plus	plus	ADV	_	_	9	advmod	_	_
-7	de	de	ADP	_	_	9	dep	_	_
+6	plus	plus	ADV	_	_	8	advmod	_	_
+7	de	de	ADP	_	_	6	fixed	_	_
 8	500	500	NUM	_	NumType=Card	9	nummod	_	_
 9	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	4	obl	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	commissions	commission	NOUN	_	Gender=Fem|Number=Plur	6	fixed	_	_
+13	commissions	commission	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	rétrocommissions	rétrocommission	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
 16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
