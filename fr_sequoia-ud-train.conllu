@@ -2141,7 +2141,7 @@
 26	fasse	faire	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:caus	_	_
 27	tomber	tomber	VERB	_	VerbForm=Inf	22	acl	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	27	obj:caus	_	SpaceAfter=No
+29	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	27	obj:agent	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	perchée	perché	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
 32	juste	juste	ADV	_	_	39	advmod	_	_
@@ -3022,7 +3022,7 @@
 2	s'	se	PRON	_	Person=3|Reflex=Yes	3	expl	_	SpaceAfter=No
 3	exprimer	exprimer	VERB	_	VerbForm=Inf	13	dislocated	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	enfants	enfant	NOUN	_	Number=Plur	3	obj:caus	_	_
+5	enfants	enfant	NOUN	_	Number=Plur	3	obj:agent	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	travers	travers	NOUN	_	Gender=Masc	6	fixed	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
@@ -4157,7 +4157,7 @@
 24	partager	partager	VERB	_	VerbForm=Inf	22	xcomp	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	24	obl:caus	_	_
+27	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	24	obl:agent	_	_
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -4622,7 +4622,7 @@
 24	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:caus	_	_
 25	apparaître	apparaître	VERB	_	VerbForm=Inf	0	root	_	_
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	solde	solde	NOUN	_	Gender=Masc|Number=Sing	25	obj:caus	_	_
+27	solde	solde	NOUN	_	Gender=Masc|Number=Sing	25	obj:agent	_	_
 28	financier	financier	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29	positif	positif	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	25	punct	_	_
@@ -5490,7 +5490,7 @@
 39	reconnaître	reconnaître	VERB	_	VerbForm=Inf	36	acl	_	_
 40	par	par	ADP	_	_	42	case	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	Nation	Nation	PROPN	_	Gender=Fem|Number=Sing	39	obl:caus	_	_
+42	Nation	Nation	PROPN	_	Gender=Fem|Number=Sing	39	obl:agent	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	ampleur	ampleur	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
 45-46	des	_	_	_	_	_	_	_	_
@@ -35175,7 +35175,7 @@
 19	savoir	savoir	VERB	_	VerbForm=Inf	16	conj	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	commission	commission	NOUN	_	Gender=Fem|Number=Sing	19	obl:caus	_	_
+22	commission	commission	NOUN	_	Gender=Fem|Number=Sing	19	obl:agent	_	_
 23	que	que	SCONJ	_	_	26	mark	_	_
 24	je	il	PRON	_	Number=Sing|Person=1	26	nsubj	_	_
 25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
@@ -46994,7 +46994,7 @@
 10	promise	promettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	4	obl:caus	_	_
+13	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	4	obl:agent	_	_
 14	secrets	secret	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
 15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	Elf	Elf	PROPN	_	_	13	nmod	_	SpaceAfter=No
@@ -52506,7 +52506,7 @@
 17	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	13	flat:name	_	_
 18	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	17	flat:name	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	10	obj:caus	_	_
+20	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	10	obj:agent	_	_
 21	en	en	ADP	_	_	22	case	_	_
 22	titre	titre	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23	de	de	ADP	_	_	24	case	_	_

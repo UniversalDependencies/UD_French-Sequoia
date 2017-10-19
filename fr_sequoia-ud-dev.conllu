@@ -2909,7 +2909,7 @@
 26	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux:caus	_	_
 27	apparaître	apparaître	VERB	_	VerbForm=Inf	0	root	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	27	obj:caus	_	_
+29	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	27	obj:agent	_	_
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -4882,7 +4882,7 @@
 36	but	but	NOUN	_	Gender=Masc|Number=Sing	34	xcomp	_	_
 37	principal	principal	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
 38	de	de	ADP	_	_	42	mark	_	_
-39	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3	42	obj:caus	_	_
+39	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3	42	obj:agent	_	_
 40	faire	faire	AUX	_	VerbForm=Inf	42	aux:caus	_	_
 41	encore	encore	ADV	_	_	42	advmod	_	_
 42	évoluer	évoluer	VERB	_	VerbForm=Inf	34	xcomp	_	_
@@ -6128,7 +6128,7 @@
 10	faire	faire	AUX	_	VerbForm=Inf	11	aux:caus	_	_
 11	aboutir	aboutir	VERB	_	VerbForm=Inf	4	advcl	_	_
 12	son	son	DET	_	Number=Sing|Poss=Yes	13	nmod:poss	_	_
-13	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	11	obj:caus	_	_
+13	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	11	obj:agent	_	_
 14	:	:	PUNCT	_	_	4	punct	_	_
 15	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -10642,7 +10642,7 @@
 7	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:caus	_	_
 8	gonfler	gonfler	VERB	_	VerbForm=Inf	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	prix	prix	NOUN	_	Gender=Masc|Number=Sing	8	obj:caus	_	SpaceAfter=No
+10	prix	prix	NOUN	_	Gender=Masc|Number=Sing	8	obj:agent	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = frwiki_50.1000_00363

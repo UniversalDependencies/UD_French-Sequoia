@@ -2773,7 +2773,7 @@
 19	établir	établir	VERB	_	VerbForm=Inf	16	xcomp	_	_
 20	par	par	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
-22	services	service	NOUN	_	Gender=Masc|Number=Plur	19	obl:caus	_	_
+22	services	service	NOUN	_	Gender=Masc|Number=Plur	19	obl:agent	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	DDE	DDE	PROPN	_	Gender=Fem|Number=Sing	22	nmod	_	_
@@ -3259,7 +3259,7 @@
 17	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:caus	_	_
 18	coïncider	coïncider	VERB	_	VerbForm=Inf	0	root	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	promotion	promotion	NOUN	_	Gender=Fem|Number=Sing	18	obj:caus	_	_
+20	promotion	promotion	NOUN	_	Gender=Fem|Number=Sing	18	obj:agent	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	Office	Office	PROPN	_	Number=Sing	20	nmod	_	_
@@ -8615,7 +8615,7 @@
 31	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	30	flat:name	_	_
 32	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
 33	fortes	fort	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	_
-34	présomptions	présomption	NOUN	_	Gender=Fem|Number=Plur	25	obj:caus	_	_
+34	présomptions	présomption	NOUN	_	Gender=Fem|Number=Plur	25	obj:agent	_	_
 35	sur	sur	ADP	_	_	37	case	_	_
 36	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	37	nmod:poss	_	_
 37	participation	participation	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
