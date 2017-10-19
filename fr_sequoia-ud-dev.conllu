@@ -840,7 +840,7 @@
 5	prévues	prévoir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 6	par	par	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	loi	loi	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+8	loi	loi	NOUN	_	Gender=Fem|Number=Sing	5	obl:agent	_	_
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
@@ -1008,7 +1008,7 @@
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	passionné	passionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 17	de	de	ADP	_	_	18	case	_	_
-18	jardinage	jardinage	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
+18	jardinage	jardinage	NOUN	_	Gender=Masc|Number=Sing	16	obl:agent	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	correspondant	correspondant	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	_
 21	local	local	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
@@ -1326,7 +1326,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	égayée	égayer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
 9	de	de	ADP	_	_	10	case	_	_
-10	fleurs	fleur	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+10	fleurs	fleur	NOUN	_	Gender=Fem|Number=Plur	8	obl:agent	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	biscuits	biscuit	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
@@ -1597,7 +1597,7 @@
 5	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
 6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
 9	coronarien	coronarien	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 11	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -1666,7 +1666,7 @@
 28	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
 29	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+31	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	28	obl:agent	_	_
 32	intraveineuse	intraveineux	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 33	à	à	ADP	_	_	37	case	_	_
 34	raison	raison	NOUN	_	Gender=Fem|Number=Sing	33	fixed	_	_
@@ -1805,7 +1805,7 @@
 21	patients	patient	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
 22	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	_
 23	de	de	ADP	_	_	24	case	_	_
-24	SCA	SCA	NOUN	_	_	22	obl	_	_
+24	SCA	SCA	NOUN	_	_	22	obl:agent	_	_
 25	;	;	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-dev_00196
@@ -1996,7 +1996,7 @@
 70	induite	induire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	69	acl	_	_
 71	par	par	ADP	_	_	73	case	_	_
 72	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	73	det	_	SpaceAfter=No
-73	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	70	obl	_	_
+73	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	70	obl:agent	_	_
 74	avec	avec	ADP	_	_	75	case	_	_
 75	thrombose	thrombose	NOUN	_	Gender=Fem|Number=Sing	73	nmod	_	_
 76	(	(	PUNCT	_	_	75	punct	_	SpaceAfter=No
@@ -2041,7 +2041,7 @@
 31	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
 32	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+34	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	31	obl:agent	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	0.25	0.25	NUM	_	NumType=Card	37	nummod	_	_
 37	mg	mg	NOUN	_	Gender=Masc	34	nmod	_	SpaceAfter=No
@@ -2489,7 +2489,7 @@
 11	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 12	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	11	obl:agent	_	_
 15	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	solution	solution	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
 17	en	en	ADP	_	_	18	case	_	_
@@ -3107,7 +3107,7 @@
 11	prescrit	prescrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	_
 12	par	par	ADP	_	_	14	case	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
-14	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+14	médecins	médecin	NOUN	_	Gender=Masc|Number=Plur	11	obl:agent	_	_
 15	expérimentés	expérimenté	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -3288,7 +3288,7 @@
 9	envisagée	envisager	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	xcomp	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	prescripteur	prescripteur	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	prescripteur	prescripteur	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00119
@@ -3301,7 +3301,7 @@
 6	patients	patient	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
 7	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+9	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
@@ -3722,7 +3722,7 @@
 35	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
 36	d'	de	ADP	_	_	38	case	_	SpaceAfter=No
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	phase	phase	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	_
+38	phase	phase	NOUN	_	Gender=Fem|Number=Sing	35	obl:agent	_	_
 39	d'	de	ADP	_	_	40	case	_	SpaceAfter=No
 40	élimination	élimination	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
 41	prolongée	prolonger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
@@ -3769,7 +3769,7 @@
 14	données	donner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
 15	par	par	ADP	_	_	17	case	_	_
 16	votre	son	DET	_	Number=Sing|Poss=Yes	17	nmod:poss	_	_
-17	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	14	obl:agent	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00423
@@ -4605,7 +4605,7 @@
 31	accompagnée	accompagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	ccomp	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	poursuite	poursuite	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+34	poursuite	poursuite	NOUN	_	Gender=Fem|Number=Sing	31	obl:agent	_	_
 35-36	des	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
@@ -4744,7 +4744,7 @@
 13	partie	partie	NOUN	_	Gender=Fem|Number=Sing	12	fixed	_	_
 14	par	par	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+16	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	8	obl:agent	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -5481,7 +5481,7 @@
 22	concernés	concerner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	xcomp	_	_
 23	par	par	ADP	_	_	25	case	_	_
 24	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
-25	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+25	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	22	obl:agent	_	_
 26	spatiale	spatial	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -5639,7 +5639,7 @@
 93	fusillés	fusiller	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 94	par	par	ADP	_	_	96	case	_	_
 95	leurs	son	DET	_	Number=Plur|Poss=Yes	96	nmod:poss	_	_
-96	camarades	camarade	NOUN	_	Number=Plur	93	obl	_	_
+96	camarades	camarade	NOUN	_	Number=Plur	93	obl:agent	_	_
 97-98	du	_	_	_	_	_	_	_	_
 97	de	de	ADP	_	_	99	case	_	_
 98	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	99	det	_	_
@@ -5860,7 +5860,7 @@
 10	révélée	révéler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Canard	Canard	PROPN	_	Gender=Masc|Number=Sing	10	obl	_	_
+13	Canard	Canard	PROPN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
 14	enchaîné	enchaîner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	10	10	NUM	_	NumType=Card	17	nummod	_	_
@@ -5969,7 +5969,7 @@
 6	politique	politique	ADJ	_	Number=Sing	5	amod	_	_
 7	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 8	par	par	ADP	_	_	9	case	_	_
-9	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
+9	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
 10	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	9	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	7	punct	_	_
 12	et	et	CCONJ	_	_	20	cc	_	_
@@ -6139,7 +6139,7 @@
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
 22	animé	animer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	conj	_	_
 23	par	par	ADP	_	_	24	case	_	_
-24	Andrew	Andrew	PROPN	_	Gender=Masc|Number=Sing	22	obl	_	_
+24	Andrew	Andrew	PROPN	_	Gender=Masc|Number=Sing	22	obl:agent	_	_
 25	Wang	Wang	PROPN	_	_	24	flat:name	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	30	punct	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -6156,7 +6156,7 @@
 38	,	,	PUNCT	_	_	36	punct	_	_
 39	animé	animer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
 40	par	par	ADP	_	_	41	case	_	_
-41	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	39	obl	_	_
+41	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	39	obl:agent	_	_
 42	Sirven	Sirven	PROPN	_	_	41	flat:name	_	_
 43	et	et	CCONJ	_	_	44	cc	_	_
 44	Edmond	Edmond	PROPN	_	Gender=Masc|Number=Sing	41	conj	_	_
@@ -6348,7 +6348,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	instruite	instruire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	par	par	ADP	_	_	7	case	_	_
-7	Dominique	Dominique	PROPN	_	Number=Sing	5	obl	_	_
+7	Dominique	Dominique	PROPN	_	Number=Sing	5	obl:agent	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	Talancé	Talancé	PROPN	_	_	7	nmod	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
@@ -6543,7 +6543,7 @@
 7	émaillée	émailler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	multiples	multiple	ADJ	_	Number=Plur	10	amod	_	_
-10	incidents	incident	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+10	incidents	incident	NOUN	_	Gender=Masc|Number=Plur	7	obl:agent	_	_
 11	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	Affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
 13	Schuller-Maréchal	Schuller-Maréchal	PROPN	_	_	12	nmod	_	SpaceAfter=No
@@ -6787,7 +6787,7 @@
 13	en	en	ADP	_	_	14	case	_	_
 14	espèces	espèce	NOUN	_	Gender=Fem|Number=Plur	12	obl	_	_
 15	par	par	ADP	_	_	16	case	_	_
-16	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	12	obl	_	_
+16	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	12	obl:agent	_	_
 17	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	16	flat:name	_	_
 18	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 19	Affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -6811,7 +6811,7 @@
 4	instruite	instruire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	par	par	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	juge	juge	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	juge	juge	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
 8	Armand	Armand	PROPN	_	Gender=Masc|Number=Sing	7	flat:name	_	_
 9	Riberolles	Riberolles	PROPN	_	_	8	flat:name	_	_
 10	à	à	ADP	_	_	13	case	_	_
@@ -8889,7 +8889,7 @@
 3	patients	patient	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
 4	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-6	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+6	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
 7	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
@@ -8950,7 +8950,7 @@
 3	patients	patient	NOUN	_	Gender=Masc|Number=Plur	42	obl	_	_
 4	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-6	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+6	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
 7	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 9	inclus	inclure	VERB	_	Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
@@ -9707,7 +9707,7 @@
 7	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
@@ -10149,7 +10149,7 @@
 20	par	par	ADP	_	_	23	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 22	précédents	précédent	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
-23	insuccès	insuccès	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	insuccès	insuccès	NOUN	_	Gender=Masc|Number=Plur	19	obl:agent	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	12	punct	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
 26	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	12	conj	_	_
@@ -10333,7 +10333,7 @@
 9	droite	droite	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 10	affirmée	affirmer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
 11	par	par	ADP	_	_	12	case	_	_
-12	VGE	VGE	PROPN	_	_	10	obl	_	_
+12	VGE	VGE	PROPN	_	_	10	obl:agent	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
 14	son	son	DET	_	Number=Sing|Poss=Yes	15	nmod:poss	_	_
 15	livre	livre	NOUN	_	Number=Sing	10	obl	_	_
@@ -10377,7 +10377,7 @@
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	signée	signer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
 16	par	par	ADP	_	_	17	case	_	_
-17	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	15	obl	_	_
+17	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	15	obl:agent	_	_
 18	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	17	flat:name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	17	punct	_	_
 20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
@@ -10404,7 +10404,7 @@
 41	rémunérée	rémunérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	46	advcl	_	_
 42	par	par	ADP	_	_	44	case	_	_
 43	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-44	ville	ville	NOUN	_	Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+44	ville	ville	NOUN	_	Gender=Fem|Number=Sing	41	obl:agent	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	_
 46	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
 47	en	en	ADP	_	_	46	advmod	_	_
@@ -10523,7 +10523,7 @@
 23	,	,	PUNCT	_	_	6	punct	_	_
 24	par	par	ADP	_	_	26	case	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	nommé	nommé	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+26	nommé	nommé	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
 27	Bidegain	Bidegain	PROPN	_	_	26	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	26	punct	_	_
 29	sous-chef	sous-chef	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
@@ -10735,7 +10735,7 @@
 22	bloqué	bloquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	34	advcl	_	_
 23	par	par	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	Élysée	Élysée	PROPN	_	Gender=Fem|Number=Sing	22	obl	_	_
+25	Élysée	Élysée	PROPN	_	Gender=Fem|Number=Sing	22	obl:agent	_	_
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	Quai	Quai	PROPN	_	Gender=Masc|Number=Sing	25	conj	_	_
@@ -10885,7 +10885,7 @@
 12	Dumas	Dumas	PROPN	_	_	11	flat:name	_	_
 13	orchestré	orchestrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 14	par	par	ADP	_	_	15	case	_	_
-15	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	13	obl	_	_
+15	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
 16	Sirven	Sirven	PROPN	_	_	15	flat:name	_	_
 17	par	par	ADP	_	_	21	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	_
@@ -11063,7 +11063,7 @@
 74	corroborés	corroborer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	72	acl	_	_
 75	par	par	ADP	_	_	77	case	_	_
 76	divers	divers	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	77	det	_	_
-77	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	74	obl	_	_
+77	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	74	obl:agent	_	_
 78	factuels	factuel	ADJ	_	Gender=Masc|Number=Plur	77	amod	_	SpaceAfter=No
 79	,	,	PUNCT	_	_	80	punct	_	_
 80	concourent	concourir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	65	ccomp	_	_
@@ -11108,7 +11108,7 @@
 117	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
 118	par	par	ADP	_	_	120	case	_	_
 119	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	120	det	_	_
-120	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	117	obl	_	_
+120	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	117	obl:agent	_	_
 121-122	du	_	_	_	_	_	_	_	_
 121	de	de	ADP	_	_	123	case	_	_
 122	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	123	det	_	_
@@ -11140,7 +11140,7 @@
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	dirigée	diriger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
 18	par	par	ADP	_	_	19	case	_	_
-19	Francis	Francis	PROPN	_	Number=Sing	17	obl	_	_
+19	Francis	Francis	PROPN	_	Number=Sing	17	obl:agent	_	_
 20	Poullain	Poullain	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	12	punct	_	_
 22	à	à	ADP	_	_	23	case	_	_
@@ -11464,7 +11464,7 @@
 25	réalisées	réaliser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
 26	par	par	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	photographe	photographe	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+28	photographe	photographe	NOUN	_	Gender=Masc|Number=Sing	25	obl:agent	_	_
 29	libanais	libanais	ADJ	_	Gender=Masc	28	amod	_	_
 30	indépendant	indépendant	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 31	Adnan	Adnan	PROPN	_	_	28	nmod	_	_
@@ -11476,13 +11476,13 @@
 37	diffusées	diffuser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	36	acl	_	_
 38	par	par	ADP	_	_	40	case	_	_
 39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
-40	agence	agence	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+40	agence	agence	NOUN	_	Gender=Fem|Number=Sing	37	obl:agent	_	_
 41	Reuters	Reuters	PROPN	_	_	40	nmod	_	_
 42	et	et	CCONJ	_	_	43	cc	_	_
 43	reprises	reprendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	37	conj	_	_
 44	par	par	ADP	_	_	46	case	_	_
 45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	presse	presse	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	_
+46	presse	presse	NOUN	_	Gender=Fem|Number=Sing	43	obl:agent	_	_
 47	internationale	international	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	11	punct	_	_
 
