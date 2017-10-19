@@ -1046,7 +1046,7 @@
 # sent_id = annodis.er_00420
 # text = Le conteur a fait jouer les enfants.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	conteur	conteur	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	conteur	conteur	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:caus	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
 5	jouer	jouer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -2881,7 +2881,7 @@
 # sent_id = emea-fr-test_00042
 # text = Une comparaison de l'ensemble des femmes sous Aclasta (associé ou non à d'autres traitements anti-ostéoporotiques) avec celles sous placebo a fait apparaître une réduction du risque de fracture de la hanche de 41%.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	comparaison	comparaison	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
+2	comparaison	comparaison	NOUN	_	Gender=Fem|Number=Sing	27	nsubj:caus	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -2909,7 +2909,7 @@
 26	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux:caus	_	_
 27	apparaître	apparaître	VERB	_	VerbForm=Inf	0	root	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+29	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	27	obj:caus	_	_
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -4882,7 +4882,7 @@
 36	but	but	NOUN	_	Gender=Masc|Number=Sing	34	xcomp	_	_
 37	principal	principal	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
 38	de	de	ADP	_	_	42	mark	_	_
-39	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3	42	obj	_	_
+39	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3	42	obj:caus	_	_
 40	faire	faire	AUX	_	VerbForm=Inf	42	aux:caus	_	_
 41	encore	encore	ADV	_	_	42	advmod	_	_
 42	évoluer	évoluer	VERB	_	VerbForm=Inf	34	xcomp	_	_
@@ -6128,7 +6128,7 @@
 10	faire	faire	AUX	_	VerbForm=Inf	11	aux:caus	_	_
 11	aboutir	aboutir	VERB	_	VerbForm=Inf	4	advcl	_	_
 12	son	son	DET	_	Number=Sing|Poss=Yes	13	nmod:poss	_	_
-13	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
+13	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	11	obj:caus	_	_
 14	:	:	PUNCT	_	_	4	punct	_	_
 15	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -8767,7 +8767,7 @@
 6	en	en	ADP	_	_	5	fixed	_	_
 7	1980	1980	NUM	_	NumType=Card	3	conj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj:caus	_	_
 10	se	se	PRON	_	Person=3|Reflex=Yes	12	obj	_	_
 11	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:caus	_	_
 12	apprécier	apprécier	VERB	_	VerbForm=Inf	0	root	_	_
@@ -10637,12 +10637,12 @@
 2	interdites	interdire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	commissions	commission	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
+5	commissions	commission	NOUN	_	Gender=Fem|Number=Plur	8	nsubj:caus	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:caus	_	_
 8	gonfler	gonfler	VERB	_	VerbForm=Inf	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	prix	prix	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	prix	prix	NOUN	_	Gender=Masc|Number=Sing	8	obj:caus	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = frwiki_50.1000_00363

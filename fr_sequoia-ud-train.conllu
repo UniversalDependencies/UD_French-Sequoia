@@ -2137,11 +2137,11 @@
 22	temps	temps	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 23	qu'	que	SCONJ	_	_	27	mark	_	SpaceAfter=No
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	dépanneur	dépanneur	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+25	dépanneur	dépanneur	NOUN	_	Gender=Masc|Number=Sing	27	nsubj:caus	_	_
 26	fasse	faire	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:caus	_	_
 27	tomber	tomber	VERB	_	VerbForm=Inf	22	acl	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+29	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	27	obj:caus	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	perchée	perché	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
 32	juste	juste	ADV	_	_	39	advmod	_	_
@@ -3022,7 +3022,7 @@
 2	s'	se	PRON	_	Person=3|Reflex=Yes	3	expl	_	SpaceAfter=No
 3	exprimer	exprimer	VERB	_	VerbForm=Inf	13	dislocated	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	enfants	enfant	NOUN	_	Number=Plur	3	obj	_	_
+5	enfants	enfant	NOUN	_	Number=Plur	3	obj:caus	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	travers	travers	NOUN	_	Gender=Masc	6	fixed	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
@@ -4157,7 +4157,7 @@
 24	partager	partager	VERB	_	VerbForm=Inf	22	xcomp	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
-27	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
+27	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	24	obl:caus	_	_
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -4610,7 +4610,7 @@
 12	populaire	populaire	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	25	punct	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+15	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	25	nsubj:caus	_	_
 16	dressé	dresser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
 17	par	par	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -4622,7 +4622,7 @@
 24	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:caus	_	_
 25	apparaître	apparaître	VERB	_	VerbForm=Inf	0	root	_	_
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	solde	solde	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	_
+27	solde	solde	NOUN	_	Gender=Masc|Number=Sing	25	obj:caus	_	_
 28	financier	financier	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29	positif	positif	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	25	punct	_	_
@@ -5490,7 +5490,7 @@
 39	reconnaître	reconnaître	VERB	_	VerbForm=Inf	36	acl	_	_
 40	par	par	ADP	_	_	42	case	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
-42	Nation	Nation	PROPN	_	Gender=Fem|Number=Sing	39	obl	_	_
+42	Nation	Nation	PROPN	_	Gender=Fem|Number=Sing	39	obl:caus	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	ampleur	ampleur	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
 45-46	des	_	_	_	_	_	_	_	_
@@ -9791,7 +9791,7 @@
 3	maison	maison	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 4	Belot	Belot	PROPN	_	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	12	punct	_	_
-6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+6	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	12	nsubj:caus	_	_
 7	s'	se	PRON	_	Person=3|Reflex=Yes	12	obj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 9	très	très	ADV	_	_	10	advmod	_	_
@@ -35175,7 +35175,7 @@
 19	savoir	savoir	VERB	_	VerbForm=Inf	16	conj	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	commission	commission	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+22	commission	commission	NOUN	_	Gender=Fem|Number=Sing	19	obl:caus	_	_
 23	que	que	SCONJ	_	_	26	mark	_	_
 24	je	il	PRON	_	Number=Sing|Person=1	26	nsubj	_	_
 25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
@@ -35472,7 +35472,7 @@
 15	ans	an	NOUN	_	Gender=Masc|Number=Plur	25	advcl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	25	punct	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	effet	effet	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
+18	effet	effet	NOUN	_	Gender=Masc|Number=Sing	25	nsubj:caus	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	ces	ce	DET	_	Number=Plur|PronType=Dem	21	det	_	_
 21	améliorations	amélioration	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
@@ -40253,7 +40253,7 @@
 
 # sent_id = frwiki_50.1000_00096
 # text = Ils lui ont fait subir des chocs électriques sur les parties sensibles de son corps.
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	5	nsubj:caus	_	_
 2	lui	lui	PRON	_	Number=Sing|Person=3	5	iobj	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
@@ -46982,7 +46982,7 @@
 
 # sent_id = frwiki_50.1000_00390
 # text = Alfred Sirven fait payer une partie de la commission promise par les fonds secrets d'Elf.
-1	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+1	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	4	nsubj:caus	_	_
 2	Sirven	Sirven	PROPN	_	_	1	flat:name	_	_
 3	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:caus	_	_
 4	payer	payer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -46994,7 +46994,7 @@
 10	promise	promettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+13	fonds	fonds	NOUN	_	Gender=Masc|Number=Plur	4	obl:caus	_	_
 14	secrets	secret	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
 15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	Elf	Elf	PROPN	_	_	13	nmod	_	SpaceAfter=No
@@ -52491,7 +52491,7 @@
 3	2001	2001	NUM	_	NumType=Card	2	nummod	_	_
 4	:	:	PUNCT	_	_	10	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	juge	juge	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	juge	juge	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:caus	_	_
 7	Éric	Éric	PROPN	_	_	6	flat:name	_	_
 8	Halphen	Halphen	PROPN	_	_	7	flat:name	_	_
 9	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:caus	_	_
@@ -52506,7 +52506,7 @@
 17	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	13	flat:name	_	_
 18	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	17	flat:name	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+20	convocation	convocation	NOUN	_	Gender=Fem|Number=Sing	10	obj:caus	_	_
 21	en	en	ADP	_	_	22	case	_	_
 22	titre	titre	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 23	de	de	ADP	_	_	24	case	_	_
