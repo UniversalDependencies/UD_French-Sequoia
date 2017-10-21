@@ -35477,7 +35477,7 @@
 20	ces	ce	DET	_	Number=Plur|PronType=Dem	21	det	_	_
 21	améliorations	amélioration	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
 22	techniques	technique	ADJ	_	Number=Plur	21	amod	_	_
-23	se	se	PRON	_	Person=3|Reflex=Yes	25	expl	_	_
+23	se	se	PRON	_	Person=3|Reflex=Yes	25	obj	_	_
 24	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:caus	_	_
 25	attendre	attendre	VERB	_	VerbForm=Inf	0	root	_	_
 26	longtemps	longtemps	ADV	_	_	25	advmod	_	SpaceAfter=No
