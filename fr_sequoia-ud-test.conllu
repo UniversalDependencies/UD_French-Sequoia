@@ -554,13 +554,13 @@
 9	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	_
 10	s'	se	PRON	_	Person=3|Reflex=Yes	11	expl	_	SpaceAfter=No
 11	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-12	pas	pas	ADV	_	_	14	advmod	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	moins	moins	ADV	_	_	11	advmod	_	_
+12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	_	_
+14	moins	moins	ADV	_	_	12	fixed	_	_
 15-16	du	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	monde	monde	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+15	de	de	ADP	_	_	12	fixed	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	fixed	_	_
+17	monde	monde	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	ces	ce	DET	_	Number=Plur|PronType=Dem	20	det	_	_
 20	tragédies	tragédie	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
@@ -942,7 +942,7 @@
 21	présenterons	présenter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	18	acl:relcl	_	_
 22	demain	demain	ADV	_	_	21	advmod	_	_
 23	en	en	ADP	_	_	24	mark	_	_
-24	plénière	plénier	ADJ	_	Gender=Fem|Number=Sing	21	advcl	_	SpaceAfter=No
+24	plénière	plénier	ADJ	_	Gender=Fem|Number=Sing	21	advmod	_	SpaceAfter=No
 25	-	-	PUNCT	_	_	9	punct	_	_
 26-27	au	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	28	case	_	_
@@ -5736,11 +5736,11 @@
 15	DE	de	ADP	_	_	17	case	_	_
 16	CES	ce	DET	_	Number=Plur|PronType=Dem	17	det	_	_
 17	MEDICAMENTS	médicament	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
-18	S'	si	SCONJ	_	_	19	mark	_	SpaceAfter=No
-19	IL	il	PRON	_	Number=Sing|Person=3	4	nmod	_	MWE=il_y_a|MWEPOS=V
-20	Y	y	PRON	_	Person=3	19	fixed	_	_
-21	A	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	fixed	_	_
-22	LIEU	lieu	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+18	S'	si	SCONJ	_	_	4	dep	_	SpaceAfter=No
+19	IL	il	PRON	_	Number=Sing|Person=3	21	nsubj	_	MWE=il_y_a|MWEPOS=V
+20	Y	y	PRON	_	Person=3	21	expl	_	_
+21	A	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+22	LIEU	lieu	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
 
 # sent_id = emea-fr-dev_00441
 # text = INDICATIONS D'UTILISATION
@@ -7957,7 +7957,7 @@
 # text = Ils étaient tous coupables ou aucun ne l'était.
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
-3	tous	tout	PRON	_	Gender=Masc|Number=Plur	4	iobj	_	_
+3	tous	tout	ADJ	_	Gender=Masc|Number=Plur	4	advmod	_	_
 4	coupables	coupable	ADJ	_	Number=Plur	0	root	_	_
 5	ou	ou	CCONJ	_	_	8	cc	_	_
 6	aucun	aucun	PRON	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -9623,7 +9623,7 @@
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
 42	Finances	finance	NOUN	_	Gender=Fem|Number=Plur	38	conj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	35	punct	_	_
-44	seul	seul	ADJ	_	Gender=Masc|Number=Sing	45	advcl	_	_
+44	seul	seul	ADJ	_	Gender=Masc|Number=Sing	45	advmod	_	_
 45	habilité	habiliter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl	_	_
 46	à	à	ADP	_	_	47	mark	_	_
 47	saisir	saisir	VERB	_	VerbForm=Inf	45	xcomp	_	_
@@ -11344,7 +11344,7 @@
 1	D'	de	ADP	_	_	4	case	_	MWE=d'après|MWEPOS=ADP|SpaceAfter=No
 2	après	après	ADP	_	_	1	fixed	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	commentaires	commentaire	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+4	commentaires	commentaire	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
 5	les	le	PRON	_	Number=Plur|Person=3	6	obj	_	_
 6	accompagnant	accompagner	VERB	_	Tense=Pres|VerbForm=Part	4	acl	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
@@ -11352,13 +11352,13 @@
 9	publication	publication	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 10	par	par	ADP	_	_	11	case	_	_
 11	Reuters	Reuters	PROPN	_	_	9	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	il	il	PRON	_	Number=Sing|Person=3	0	root	_	MWE=il_y_a|MWEPOS=V
-14	y	y	PRON	_	Person=3	13	fixed	_	_
-15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	fixed	_	_
-16	notamment	notamment	ADV	_	_	13	advmod	_	_
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	il	il	PRON	_	Number=Sing|Person=3	15	nsubj	_	MWE=il_y_a|MWEPOS=V
+14	y	y	PRON	_	Person=3	15	expl	_	_
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	notamment	notamment	ADV	_	_	15	advmod	_	_
 17	deux	deux	NUM	_	NumType=Card	18	nummod	_	_
-18	clichés	cliché	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+18	clichés	cliché	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	22	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -11384,7 +11384,7 @@
 38	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
 39	censés	censé	ADJ	_	Gender=Masc|Number=Sing	18	acl:relcl	_	_
 40	représenter	représenter	VERB	_	VerbForm=Inf	39	xcomp	_	_
-41	chacun	chacun	PRON	_	Gender=Masc	40	iobj	_	_
+41	chacun	chacun	PRON	_	Gender=Masc	40	parataxis	_	_
 42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 43	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
 44	immeuble	immeuble	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
@@ -11399,16 +11399,16 @@
 53	raid	raid	NOUN	_	Gender=Masc|Number=Sing	47	obl:agent	_	_
 54	israélien	israélien	ADJ	_	Gender=Masc|Number=Sing	53	amod	_	SpaceAfter=No
 55	"	"	PUNCT	_	_	44	punct	_	_
-56	[	[	PUNCT	_	_	13	punct	_	SpaceAfter=No
-57	3	3	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
-58	]	]	PUNCT	_	_	13	punct	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	13	punct	_	_
+56	[	[	PUNCT	_	_	15	punct	_	SpaceAfter=No
+57	3	3	NUM	_	NumType=Card	15	obl	_	SpaceAfter=No
+58	]	]	PUNCT	_	_	15	punct	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = frwiki_50.1000_00910
 # text = Sur la première, des fumées ont été rajoutées par ordinateur sur une photo représentant un quartier de Beyrouth ayant subi une attaque aérienne.
 1	Sur	sur	ADP	_	_	3	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	9	obl	_	SpaceAfter=No
+3	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	9	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	fumées	fumée	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
