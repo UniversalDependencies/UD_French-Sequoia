@@ -2425,7 +2425,7 @@
 6	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	ou	ou	CCONJ	_	_	9	cc	_	_
-9	non	non	ADV	_	_	10	conj	_	_
+9	non	non	ADV	_	_	7	conj	_	_
 10	approprié	approprié	ADJ	_	Gender=Masc|Number=Sing	3	ccomp	_	_
 11	pour	pour	ADP	_	_	12	case	_	_
 12	vous	soi	PRON	_	Number=Plur|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No

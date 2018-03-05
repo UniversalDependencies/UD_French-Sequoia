@@ -18318,7 +18318,7 @@
 6	hydratés	hydrater	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
 7	avant	avant	ADP	_	_	11	case	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	après	après	ADP	_	_	11	conj	_	_
+9	après	après	ADP	_	_	7	conj	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -24258,7 +24258,7 @@
 14	)	)	PUNCT	_	_	4	punct	_	_
 15	avant	avant	ADP	_	_	19	case	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
-17	après	après	ADP	_	_	19	conj	_	_
+17	après	après	ADP	_	_	15	conj	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
 20	par	par	ADP	_	_	21	case	_	_
@@ -25736,7 +25736,7 @@
 6	convenablement	convenablement	ADV	_	_	5	advmod	_	_
 7	avant	avant	ADP	_	_	11	case	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	après	après	ADP	_	_	11	conj	_	_
+9	après	après	ADP	_	_	7	conj	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	administration	administration	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
