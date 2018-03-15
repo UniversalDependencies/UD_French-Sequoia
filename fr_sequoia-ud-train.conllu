@@ -3889,7 +3889,7 @@
 20	à	à	ADP	_	_	23	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	26	26	NUM	_	NumType=Card	23	nummod	_	_
-23	avril	avril	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	avril	avril	NOUN	_	Gender=Masc|Number=Sing	19	nmod:range	_	_
 24	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4452,7 +4452,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	à	à	ADP	_	_	7	case	_	_
-7	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	5	nmod:range	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	19	punct	_	_
 9	peu	peu	ADV	_	_	11	advmod	_	_
 10	après	après	ADP	_	_	11	case	_	_
@@ -6878,7 +6878,7 @@
 14	%	%	NOUN	_	Gender=Masc	11	obl	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	47,5	47,5	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
-17	%	%	NOUN	_	Gender=Masc	14	nmod	_	SpaceAfter=No
+17	%	%	NOUN	_	Gender=Masc	14	nmod:range	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = annodis.er_00359
@@ -8586,7 +8586,7 @@
 20	1.000	1.000	PRON	_	NumType=Card	18	obl	_	_
 21	à	à	ADP	_	_	23	case	_	_
 22	1.500	1.500	NUM	_	NumType=Card	23	nummod	_	_
-23	m2	m2	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+23	m2	m2	NOUN	_	Gender=Masc|Number=Sing	20	nmod:range	_	_
 
 # sent_id = annodis.er_00463
 # text = Accord du conseil sur la même base que précédemment.
@@ -26127,7 +26127,7 @@
 39	°C	°C	NOUN	_	_	36	nmod	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	8	8	NUM	_	NumType=Card	42	nummod	_	_
-42	°C	°C	NOUN	_	_	39	nmod	_	SpaceAfter=No
+42	°C	°C	NOUN	_	_	39	nmod:range	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00544
@@ -30061,7 +30061,7 @@
 49	Mai	Mai	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
 50	à	à	ADP	_	_	52	case	_	_
 51	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
-52	place	place	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
+52	place	place	NOUN	_	Gender=Fem|Number=Sing	47	nmod:range	_	_
 53	Tienanmen	Tienanmen	PROPN	_	_	52	nmod	_	SpaceAfter=No
 54	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -32192,7 +32192,7 @@
 29	à	à	ADP	_	_	32	case	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	XXIe	XXIe	ADJ	_	NumType=Ord	32	amod	_	_
-32	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+32	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	28	nmod:range	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	21	punct	_	_
 34	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	35	det	_	_
 35	défis	défi	NOUN	_	Gender=Masc|Number=Plur	21	appos	_	_
@@ -42415,7 +42415,7 @@
 14	de	de	ADP	_	_	15	case	_	_
 15	1983	1983	NUM	_	NumType=Card	3	nmod	_	_
 16	à	à	ADP	_	_	17	case	_	_
-17	1993	1993	NUM	_	NumType=Card	15	nmod	_	_
+17	1993	1993	NUM	_	NumType=Card	15	nmod:range	_	_
 18	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 19	Michel	Michel	PROPN	_	Gender=Masc|Number=Sing	3	appos	_	_
 20	Roussin	Roussin	PROPN	_	_	19	flat:name	_	SpaceAfter=No
@@ -42589,7 +42589,7 @@
 34	de	de	ADP	_	_	35	case	_	_
 35	1983	1983	NUM	_	NumType=Card	23	nmod	_	_
 36	à	à	ADP	_	_	37	case	_	_
-37	1993	1993	NUM	_	NumType=Card	35	nmod	_	_
+37	1993	1993	NUM	_	NumType=Card	35	nmod:range	_	_
 38	:	:	PUNCT	_	_	23	punct	_	_
 39	Michel	Michel	PROPN	_	Gender=Masc|Number=Sing	23	appos	_	_
 40	Roussin	Roussin	PROPN	_	_	39	flat:name	_	SpaceAfter=No
@@ -43740,7 +43740,7 @@
 16	amende	amende	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	dix	dix	NUM	_	NumType=Card	19	nummod	_	_
-19	mois	mois	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
+19	mois	mois	NOUN	_	Gender=Masc|Number=Plur	16	nmod:range	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	prison	prison	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 22	avec	avec	ADP	_	_	23	case	_	_
@@ -46069,7 +46069,7 @@
 52	prévus	prévoir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	50	acl	_	_
 53	à	à	ADP	_	_	55	case	_	_
 54	16	16	NUM	_	NumType=Card	55	nummod	_	_
-55	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	50	nmod	_	_
+55	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	50	nmod:range	_	_
 56	de	de	ADP	_	_	57	case	_	_
 57	francs	franc	NOUN	_	Gender=Masc|Number=Plur	55	nmod	_	_
 58	lors	lors	ADV	_	_	61	case	_	MWE=lors_de|MWEPOS=ADP
@@ -48598,7 +48598,7 @@
 2	De	de	ADP	_	_	3	case	_	_
 3	2004	2004	NUM	_	NumType=Card	8	obl	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	2006	2006	NUM	_	NumType=Card	3	nmod	_	_
+5	2006	2006	NUM	_	NumType=Card	3	nmod:range	_	_
 6	s'	se	PRON	_	Person=3|Reflex=Yes	8	expl	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	développée	développer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -52873,7 +52873,7 @@
 23	à	à	ADP	_	_	26	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	5	5	NUM	_	NumType=Card	26	nummod	_	_
-26	avril	avril	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+26	avril	avril	NOUN	_	Gender=Masc|Number=Sing	21	nmod:range	_	_
 27	2006	2006	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -54270,7 +54270,7 @@
 23	de	de	ADP	_	_	24	case	_	_
 24	1995	1995	NUM	_	NumType=Card	18	nmod	_	_
 25	à	à	ADP	_	_	26	case	_	_
-26	1997	1997	NUM	_	NumType=Card	24	nmod	_	SpaceAfter=No
+26	1997	1997	NUM	_	NumType=Card	24	nmod:range	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 29	été	être	AUX	_	Tense=Past|VerbForm=Part	30	aux:pass	_	_
@@ -55260,7 +55260,7 @@
 23	à	à	ADP	_	_	26	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 25	quatrième	quatrième	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	26	amod	_	_
-26	place	place	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	place	place	NOUN	_	Gender=Fem|Number=Sing	22	nmod:range	_	_
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	participera	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	conj	_	_
 29-30	au	_	_	_	_	_	_	_	_
@@ -55342,7 +55342,7 @@
 38	17	17	PRON	_	NumType=Card	36	obl	_	_
 39	à	à	ADP	_	_	41	case	_	_
 40	9	9	NUM	_	NumType=Card	41	nummod	_	_
-41	points	point	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
+41	points	point	NOUN	_	Gender=Masc|Number=Plur	38	nmod:range	_	_
 42	de	de	ADP	_	_	43	case	_	_
 43	retard	retard	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	46	punct	_	_
@@ -55351,14 +55351,14 @@
 47	de	de	ADP	_	_	48	case	_	_
 48	19	19	PRON	_	NumType=Card	46	orphan	_	_
 49	à	à	ADP	_	_	50	case	_	_
-50	15	15	PRON	_	NumType=Card	48	nmod	_	_
+50	15	15	PRON	_	NumType=Card	48	nmod:range	_	_
 51	et	et	CCONJ	_	_	53	cc	_	_
 52	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	Lazio	Lazio	PROPN	_	Gender=Fem|Number=Sing	36	conj	_	_
 54	de	de	ADP	_	_	55	case	_	_
 55	11	11	PRON	_	NumType=Card	53	orphan	_	_
 56	à	à	ADP	_	_	57	case	_	_
-57	3	3	PRON	_	NumType=Card	55	nmod	_	SpaceAfter=No
+57	3	3	PRON	_	NumType=Card	55	nmod:range	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00819

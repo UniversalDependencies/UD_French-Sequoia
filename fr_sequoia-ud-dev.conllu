@@ -50,7 +50,7 @@
 11	30	30	NUM	_	NumType=Card	10	nummod	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	18	18	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
-14	h	h	NOUN	_	_	10	nmod	_	SpaceAfter=No
+14	h	h	NOUN	_	_	10	nmod:range	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00037
@@ -4182,12 +4182,12 @@
 31	artiste	artiste	NOUN	_	Number=Sing	12	obl	_	_
 32	à	à	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	utilisateur	utilisateur	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+34	utilisateur	utilisateur	NOUN	_	Gender=Masc|Number=Sing	31	nmod:range	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	31	punct	_	_
 36-37	au	_	_	_	_	_	_	_	_
 36	à	à	ADP	_	_	38	case	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	consommateur	consommateur	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+38	consommateur	consommateur	NOUN	_	Gender=Masc|Number=Sing	31	nmod:range	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Europar.550_00069
