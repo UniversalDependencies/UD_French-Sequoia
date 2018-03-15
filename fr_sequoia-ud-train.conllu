@@ -40241,7 +40241,7 @@
 # sent_id = frwiki_50.1000_00096
 # text = Ils lui ont fait subir des chocs électriques sur les parties sensibles de son corps.
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3	5	nsubj:caus	_	_
-2	lui	lui	PRON	_	Number=Sing|Person=3	5	iobj	_	_
+2	lui	lui	PRON	_	Number=Sing|Person=3	5	iobj:agent	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
 5	subir	subir	VERB	_	VerbForm=Inf	0	root	_	_

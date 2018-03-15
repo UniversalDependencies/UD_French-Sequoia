@@ -4255,7 +4255,7 @@
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
 5	participer	participer	VERB	_	VerbForm=Inf	0	root	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	enfants	enfant	NOUN	_	Number=Plur	5	obj	_	_
+7	enfants	enfant	NOUN	_	Number=Plur	5	obj:agent	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
