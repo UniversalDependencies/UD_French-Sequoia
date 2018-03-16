@@ -5276,7 +5276,7 @@
 # text = Rare (1/10000 à 1/1000)
 1	Rare	rare	ADJ	_	Number=Sing	0	root	_	_
 2	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
-3	1/10000	1/10000	NOUN	_	NumType=Card	1	obl	_	_
+3	1/10000	1/10000	NOUN	_	NumType=Card	1	parataxis	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	1/1000	1/1000	NOUN	_	NumType=Card	3	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	1	punct	_	_
@@ -5336,7 +5336,7 @@
 9	très	très	ADV	_	_	10	advmod	_	_
 10	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 11	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-12	1/10	1/10	NOUN	_	NumType=Card	10	obl	_	SpaceAfter=No
+12	1/10	1/10	NOUN	_	NumType=Card	10	parataxis	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	10	punct	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -5346,7 +5346,7 @@
 19	façon	façon	NOUN	_	Gender=Fem|Number=Sing	16	orphan	_	_
 20	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-22	1/100	1/100	NOUN	_	NumType=Card	20	obl	_	_
+22	1/100	1/100	NOUN	_	NumType=Card	20	parataxis	_	_
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	<	<	ADP	_	_	25	case	_	_
 25	1/10	1/10	NOUN	_	NumType=Card	22	conj	_	SpaceAfter=No
@@ -6287,7 +6287,7 @@
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 36	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-37	voir	voir	VERB	_	VerbForm=Inf	19	advcl	_	_
+37	voir	voir	VERB	_	VerbForm=Inf	19	parataxis	_	_
 38	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	_
 39	5.1	5.1	NUM	_	NumType=Card	38	nummod	_	SpaceAfter=No
 40	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -6697,7 +6697,7 @@
 7	vertébrale	vertébral	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 9	0-3	0-3	NUM	_	NumType=Card	10	nummod	_	_
-10	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00224
@@ -6854,7 +6854,7 @@
 35	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
 36	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 37	p	p	NOUN	_	_	38	nsubj	_	_
-38	<	<	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	4	advcl	_	_
+38	<	<	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	4	parataxis	_	_
 39	0,01	0,01	NUM	_	NumType=Card	38	obj	_	_
 40	pour	pour	ADP	_	_	43	case	_	_
 41	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	_
@@ -9460,11 +9460,11 @@
 50	2001	2001	NUM	_	NumType=Card	49	nummod	_	_
 51	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
 52	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-53	5	5	NUM	_	NumType=Card	52	nummod	_	SpaceAfter=No
+53	5	5	NUM	_	NumType=Card	52	parataxis	_	SpaceAfter=No
 54	-	-	PUNCT	_	_	2	punct	_	_
 55	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 56	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	57	amod	_	_
-57	Duché	Duché	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+57	Duché	Duché	PROPN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
 58-59	du	_	_	_	_	_	_	_	_
 58	de	de	ADP	_	_	60	case	_	_
 59	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_

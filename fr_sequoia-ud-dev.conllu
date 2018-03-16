@@ -2440,7 +2440,7 @@
 5	rarement	rarement	ADV	_	_	4	advmod	_	_
 6	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 7	environ	environ	ADV	_	_	8	advmod	_	_
-8	1	1	PRON	_	NumType=Card	4	iobj	_	_
+8	1	1	PRON	_	NumType=Card	4	parataxis	_	_
 9	pour	pour	ADP	_	_	11	case	_	_
 10	1000	1000	NUM	_	NumType=Card	11	nummod	_	_
 11	patients	patient	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
@@ -2530,7 +2530,7 @@
 6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	moins	moins	ADV	_	_	9	advmod	_	_
 8	de	de	ADP	_	_	7	fixed	_	_
-9	1	1	PRON	_	NumType=Card	5	iobj	_	_
+9	1	1	PRON	_	NumType=Card	5	parataxis	_	_
 10	pour	pour	ADP	_	_	12	case	_	_
 11	100	100	NUM	_	NumType=Card	12	nummod	_	_
 12	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
@@ -3249,7 +3249,7 @@
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 10	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-11	voir	voir	VERB	_	VerbForm=Inf	3	advcl	_	_
+11	voir	voir	VERB	_	VerbForm=Inf	3	parataxis	_	_
 12	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 13	4.4	4.4	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -3268,7 +3268,7 @@
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	allaite	allaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 11	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-12	voir	voir	VERB	_	VerbForm=Inf	3	advcl	_	_
+12	voir	voir	VERB	_	VerbForm=Inf	3	parataxis	_	_
 13	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
 14	4.6	4.6	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -3346,7 +3346,7 @@
 50	d'	de	ADP	_	_	51	case	_	SpaceAfter=No
 51	Aclasta	Aclasta	PROPN	_	_	49	nmod	_	_
 52	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-53	voir	voir	VERB	_	VerbForm=Inf	16	advcl	_	_
+53	voir	voir	VERB	_	VerbForm=Inf	16	parataxis	_	_
 54	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	53	obj	_	_
 55	4.2	4.2	NUM	_	NumType=Card	54	nummod	_	SpaceAfter=No
 56	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
@@ -3461,7 +3461,7 @@
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 23	malformations	malformation	NOUN	_	Gender=Fem|Number=Plur	16	acl:relcl	_	_
 24	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-25	voir	voir	VERB	_	VerbForm=Inf	12	advcl	_	_
+25	voir	voir	VERB	_	VerbForm=Inf	12	parataxis	_	_
 26	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 27	5.3	5.3	NUM	_	NumType=Card	26	nummod	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -3664,7 +3664,7 @@
 16	entre	entre	ADP	_	_	17	case	_	_
 17	Aclasta	Aclasta	PROPN	_	_	15	obl	_	_
 18	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-19	34	34	PRON	_	NumType=Card	17	nmod	_	_
+19	34	34	PRON	_	NumType=Card	17	parataxis	_	_
 20	[	[	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	3,2	3,2	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
 22	%	%	NOUN	_	Gender=Masc	19	appos	_	SpaceAfter=No
@@ -3674,7 +3674,7 @@
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 28	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-29	29	29	PRON	_	NumType=Card	27	nmod	_	_
+29	29	29	PRON	_	NumType=Card	27	parataxis	_	_
 30	[	[	PUNCT	_	_	29	punct	_	SpaceAfter=No
 31	2,7	2,7	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 32	%	%	NOUN	_	Gender=Masc	29	appos	_	SpaceAfter=No
@@ -8585,7 +8585,7 @@
 23	frais	frais	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
 24	diminuer	diminuer	VERB	_	VerbForm=Inf	17	xcomp	_	_
 25	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-26	150	150	PRON	_	NumType=Card	17	iobj	_	_
+26	150	150	PRON	_	NumType=Card	17	parataxis	_	_
 27	par	par	ADP	_	_	28	case	_	_
 28	an	an	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	17	punct	_	_
@@ -9014,7 +9014,7 @@
 19	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 20	post-commercialisation	post-commercialisation	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 21	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-22	voir	voir	VERB	_	VerbForm=Inf	14	advcl	_	_
+22	voir	voir	VERB	_	VerbForm=Inf	14	parataxis	_	_
 23	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 24	4.8	4.8	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -9152,7 +9152,7 @@
 44	GP	GP	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	_
 45	IIb/IIIa	IIb/IIIa	PROPN	_	_	44	nmod	_	_
 46	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
-47	voir	voir	VERB	_	VerbForm=Inf	15	advcl	_	_
+47	voir	voir	VERB	_	VerbForm=Inf	15	parataxis	_	_
 48	table	table	NOUN	_	Gender=Fem|Number=Sing	47	obj	_	_
 49	2	2	NUM	_	NumType=Card	48	nummod	_	SpaceAfter=No
 50	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
@@ -9163,7 +9163,7 @@
 1	Très	très	ADV	_	_	2	advmod	_	_
 2	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 3	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-4	1/10	1/10	NOUN	_	NumType=Card	2	obl	_	SpaceAfter=No
+4	1/10	1/10	NOUN	_	NumType=Card	2	parataxis	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00215
@@ -9464,7 +9464,7 @@
 8	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	moins	moins	ADV	_	_	11	advmod	_	_
 10	de	de	ADP	_	_	9	fixed	_	_
-11	1	1	PRON	_	NumType=Card	7	iobj	_	_
+11	1	1	PRON	_	NumType=Card	7	parataxis	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
 13	10	10	NUM	_	NumType=Card	14	nummod	_	_
 14	patients	patient	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
@@ -9752,7 +9752,7 @@
 52	d'	de	ADP	_	_	53	case	_	SpaceAfter=No
 53	Aclasta	Aclasta	PROPN	_	_	51	nmod	_	_
 54	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-55	voir	voir	VERB	_	VerbForm=Inf	17	advcl	_	_
+55	voir	voir	VERB	_	VerbForm=Inf	17	parataxis	_	_
 56	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	55	obj	_	_
 57	4.4	4.4	NUM	_	NumType=Card	56	nummod	_	SpaceAfter=No
 58	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
@@ -9831,7 +9831,7 @@
 23	in	in	X	_	_	20	amod	_	MWE=in_vitro|MWEPOS=ADJ
 24	vitro	vitro	X	_	_	23	fixed	_	_
 25	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-26	voir	voir	VERB	_	VerbForm=Inf	7	advcl	_	_
+26	voir	voir	VERB	_	VerbForm=Inf	7	parataxis	_	_
 27	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
 28	5.2	5.2	NUM	_	NumType=Card	27	nummod	_	SpaceAfter=No
 29	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -9922,7 +9922,7 @@
 38	façon	façon	NOUN	_	Gender=Fem|Number=Sing	36	obl	_	_
 39	systématique	systématique	ADJ	_	Number=Sing	38	amod	_	_
 40	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-41	voir	voir	VERB	_	VerbForm=Inf	12	advcl	_	_
+41	voir	voir	VERB	_	VerbForm=Inf	12	parataxis	_	_
 42	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
 43	4.2	4.2	NUM	_	NumType=Card	42	nummod	_	SpaceAfter=No
 44	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -9984,7 +9984,7 @@
 26	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	27	amod	_	_
 27	année	année	NOUN	_	Gender=Fem|Number=Sing	23	orphan	_	_
 28	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-29	voir	voir	VERB	_	VerbForm=Inf	3	advcl	_	_
+29	voir	voir	VERB	_	VerbForm=Inf	3	parataxis	_	_
 30	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
 31	2	2	NUM	_	NumType=Card	30	nummod	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -11103,7 +11103,7 @@
 114	.	.	PUNCT	_	_	80	punct	_	SpaceAfter=No
 115	"	"	PUNCT	_	_	80	punct	_	_
 116	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
-117	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	advcl	_	_
+117	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	parataxis	_	_
 118	par	par	ADP	_	_	120	case	_	_
 119	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	120	det	_	_
 120	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	117	obl:agent	_	_
