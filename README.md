@@ -3,7 +3,7 @@ UD_French-Sequoia is an automatic conversion of the Sequoia Treebank corpus [Fre
 
 # Introduction
 UD_French-Sequoia is an automatic conversion of the Sequoia Treebank corpus [French Sequoia corpus](http://deep-sequoia.inria.fr).
-The conversion was done with the [Grew software](http://grew.loria.fr) and the Graph Rewriting System [described here](https://gitlab.inria.fr/grew/SSQ_UD).
+The conversion was done with the [Grew software](http://grew.fr) and the Graph Rewriting System [described here](https://gitlab.inria.fr/grew/SSQ_UD).
 
 ## Origin
 The first version of the Sequoia Corpus was presented in (Candito & Seddah, 2012)
@@ -40,6 +40,9 @@ The Sequoia Corpus was presented in (Candito & Seddah, 2012) and revised later, 
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Subtyping of the `obl` relation with 3 relations `obl:arg`, `obl:mod`, `obl:agent`
+  * Several corrections in the original corpus and in the conversion process
 * 2017-11-15 v2.1
   * Manual corrections in the original Treebank
   * Application of an updated conversion system, taking into account new decisions taken for harmonisation of several French Treebanks (causative, copules, auxiliaries)
