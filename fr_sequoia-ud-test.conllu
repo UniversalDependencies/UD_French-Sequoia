@@ -390,7 +390,7 @@
 8	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 9	que	que	SCONJ	_	_	15	mark	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+11	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 12	s'	se	PRON	_	Person=3|Reflex=Yes	15	expl	_	SpaceAfter=No
 13	y	y	PRON	_	Person=3	15	iobj	_	_
 14	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
@@ -405,7 +405,7 @@
 4	vraiment	vraiment	ADV	_	_	3	advmod	_	_
 5	si	si	SCONJ	_	_	8	mark	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 8	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 9	encore	encore	ADV	_	_	8	advmod	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -422,7 +422,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	22	advcl	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	fils	fils	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
@@ -548,7 +548,7 @@
 3	également	également	ADV	_	_	2	advmod	_	_
 4	que	que	SCONJ	_	_	11	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+6	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 9	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	_
@@ -734,7 +734,7 @@
 7	dans	dans	ADP	_	_	8	case	_	_
 8	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	11	obl:mod	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 11	chercherait	chercher	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 12	à	à	ADP	_	_	13	mark	_	_
 13	utiliser	utiliser	VERB	_	VerbForm=Inf	11	xcomp	_	_
@@ -859,7 +859,7 @@
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	émissions	émission	NOUN	_	Gender=Fem|Number=Plur	25	obj	_	_
 28	de	de	ADP	_	_	29	case	_	_
-29	NOX	NOX	PROPN	_	_	27	nmod	_	_
+29	NOX	NOX	NOUN	_	Gender=Masc	27	nmod	_	_
 30	en	en	ADP	_	_	33	case	_	MWE=en_cas_de|MWEPOS=ADP
 31	cas	cas	NOUN	_	Gender=Masc	30	fixed	_	_
 32	de	de	ADP	_	_	30	fixed	_	_
@@ -876,7 +876,7 @@
 43-44	du	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
+45	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Europar.550_00178
@@ -1030,7 +1030,7 @@
 2	conséquence	conséquence	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
 8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
@@ -1048,7 +1048,7 @@
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	Parlement	Parlement	PROPN	_	_	15	nmod	_	SpaceAfter=No
+22	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00210
@@ -1099,7 +1099,7 @@
 43	subsidiaire	subsidiaire	ADJ	_	Number=Sing	42	amod	_	_
 44	que	que	PRON	_	PronType=Rel	47	obj	_	_
 45	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	47	nsubj	_	_
+46	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	47	nsubj	_	_
 47	prépare	préparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
 48	activement	activement	ADV	_	_	47	advmod	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	5	punct	_	_
@@ -1107,7 +1107,7 @@
 # sent_id = Europar.550_00217
 # text = Le Conseil a bien sûr fait preuve de générosité en ce sens qu'il a confié la gestion et le fonctionnement technique à la Commission.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	bien	bien	ADV	_	_	6	advmod	_	MWE=bien_sûr|MWEPOS=ADV
 5	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	4	fixed	_	_
@@ -1130,7 +1130,7 @@
 22	technique	technique	ADJ	_	Number=Sing	21	amod	_	_
 23	à	à	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	16	obl:arg	_	SpaceAfter=No
+25	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	16	obl:arg	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00223
@@ -1162,7 +1162,7 @@
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Parlement	Parlement	PROPN	_	_	24	nmod	_	_
+27	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 29	soulevés	soulever	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
 30	lors	lors	ADV	_	_	33	case	_	MWE=lors_de|MWEPOS=ADP
@@ -1196,7 +1196,7 @@
 4	cela	cela	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	_
 5	incitera	inciter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	à	à	ADP	_	_	9	mark	_	_
 9	adopter	adopter	VERB	_	VerbForm=Inf	5	xcomp	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -1222,7 +1222,7 @@
 1	J'	il	PRON	_	Number=Sing|Person=1	2	nsubj	_	SpaceAfter=No
 2	invite	inviter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 5	à	à	ADP	_	_	6	mark	_	_
 6	prendre	prendre	VERB	_	VerbForm=Inf	2	xcomp	_	_
 7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
@@ -1407,7 +1407,7 @@
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Parlement	Parlement	PROPN	_	_	14	nmod	_	_
+17	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	européen	européen	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	vous	se	PRON	_	Number=Plur|Person=2|Reflex=Yes	21	expl	_	_
@@ -1694,7 +1694,7 @@
 27	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	26	punct	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	26	appos	_	_
+30	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	26	appos	_	_
 31	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	26	punct	_	_
 33	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
@@ -1730,7 +1730,7 @@
 8	cité	citer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
 9	par	par	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Banque	banque	PROPN	_	Gender=Fem|Number=Sing	8	obl:agent	_	_
+11	Banque	banque	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	_
 12	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	investissement	investissement	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -1780,7 +1780,7 @@
 4	intention	intention	NOUN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	pour	pour	ADP	_	_	9	mark	_	_
 9	supprimer	supprimer	VERB	_	VerbForm=Inf	1	advcl	_	_
 10	à	à	ADP	_	_	9	advmod	_	MWE=à_court_terme|MWEPOS=ADV
@@ -2204,7 +2204,7 @@
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	Parlement	Parlement	PROPN	_	_	23	nmod	_	SpaceAfter=No
+26	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00468
@@ -2253,7 +2253,7 @@
 # text = Si la Commission n'agit pas de la sorte, les saisies illégales de terres pourraient s'étendre au reste de l'Afrique australe et entraîner une catastrophe, non seulement pour cette région, mais aussi pour tout le reste de l'Afrique.
 1	Si	si	SCONJ	_	_	5	mark	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Commission	commission	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 5	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -2358,7 +2358,7 @@
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Parlement	Parlement	PROPN	_	_	14	nmod	_	_
+17	Parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	européen	européen	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
@@ -2514,9 +2514,11 @@
 4	solennelle	solennel	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	close	clore	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-7	à	à	ADP	_	_	8	case	_	_
-8	12h30	12h30	NOUN	_	_	6	obl:mod	_	SpaceAfter=No
-9	)	)	PUNCT	_	_	6	punct	_	_
+7	à	à	ADP	_	_	9	case	_	_
+8	12	12	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
+9	h	h	NOUN	_	_	6	obl:mod	_	SpaceAfter=No
+10	30	30	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
+11	)	)	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00512
 # text = Par ailleurs, la délégation britannique, composée actuellement de 36 députés, a présenté à nouveau la résolution dans sa forme originale.
@@ -3248,7 +3250,7 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Comité	Comité	PROPN	_	_	8	nmod	_	_
+11	Comité	comité	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	départemental	départemental	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	action	action	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -3260,7 +3262,7 @@
 20	promotion	promotion	NOUN	_	Gender=Fem|Number=Sing	18	obj:agent	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-23	Office	Office	PROPN	_	Number=Sing	20	nmod	_	_
+23	Office	office	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	tourisme	tourisme	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 26	avec	avec	ADP	_	_	29	case	_	_
@@ -3271,7 +3273,7 @@
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	hôtel-restaurant	hôtel-restaurant	NOUN	_	Number=Sing	29	nmod	_	_
 33	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	Relais	Relais	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	_
+34	Relais	relais	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 35	à	à	ADP	_	_	36	case	_	_
 36	Arc-et-Senans	Arc-et-Senans	PROPN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	18	punct	_	_
@@ -3323,7 +3325,7 @@
 9	classement	classement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	Office	Office	PROPN	_	Number=Sing	9	nmod	_	_
+12	Office	office	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	tourisme	tourisme	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
@@ -3664,7 +3666,7 @@
 # sent_id = annodis.er_00290
 # text = la Fédération nationale des fils de morts pour la France ;
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Fédération	Fédération	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	Fédération	fédération	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	nationale	national	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -8137,7 +8139,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	journal	journal	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	Évènement	Évènement	PROPN	_	Number=Sing	2	nmod	_	_
+4	Évènement	évènement	NOUN	_	Number=Sing	2	nmod	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -8856,7 +8858,7 @@
 9	G.O.	G.O.	PROPN	_	_	6	nmod	_	_
 10	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Conseil	conseil	PROPN	_	Gender=Masc|Number=Sing	6	appos	_	_
+12	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	Ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
@@ -9464,7 +9466,7 @@
 54	-	-	PUNCT	_	_	2	punct	_	_
 55	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 56	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	57	amod	_	_
-57	Duché	Duché	PROPN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
+57	Duché	duché	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
 58-59	du	_	_	_	_	_	_	_	_
 58	de	de	ADP	_	_	60	case	_	_
 59	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
@@ -9628,7 +9630,7 @@
 46	à	à	ADP	_	_	47	mark	_	_
 47	saisir	saisir	VERB	_	VerbForm=Inf	45	xcomp	_	_
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	commission	commission	PROPN	_	Gender=Fem|Number=Sing	47	obj	_	_
+49	commission	commission	NOUN	_	Gender=Fem|Number=Sing	47	obj	_	_
 50	consultative	consultatif	ADJ	_	Gender=Fem|Number=Sing	49	amod	_	_
 51-52	du	_	_	_	_	_	_	_	_
 51	de	de	ADP	_	_	53	case	_	_
@@ -9828,7 +9830,7 @@
 
 # sent_id = frwiki_50.1000_00560
 # text = République de Chine
-1	République	république	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	République	République	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Chine	Chine	PROPN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
@@ -11290,7 +11292,7 @@
 35-36	du	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	golfe	golfe	PROPN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+37	golfe	golfe	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
 38	d'	de	ADP	_	_	39	case	_	SpaceAfter=No
 39	Ajaccio	Ajaccio	PROPN	_	Gender=Masc|Number=Sing	37	nmod	_	_
 40	en	en	ADP	_	_	41	case	_	_
