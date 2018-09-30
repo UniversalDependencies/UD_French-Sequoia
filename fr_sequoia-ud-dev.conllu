@@ -229,8 +229,8 @@
 15	établissements	établissement	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	5	punct	_	_
 17	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
-18	23	23	NUM	_	NumType=Card	17	nummod	_	_
-19	juin	juin	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+18	23	23	NUM	_	NumType=Card	17	nmod	_	_
+19	juin	juin	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	5	punct	_	_
 21	à	à	ADP	_	_	26	case	_	MWE=à_l'occasion_de|MWEPOS=ADP
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	fixed	_	SpaceAfter=No
@@ -286,10 +286,10 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Meuse	Meuse	PROPN	_	Gender=Fem|Number=Sing	4	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	21	21	NUM	_	NumType=Card	13	nummod	_	_
-13	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
-14	1924	1924	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	21	21	NUM	_	NumType=Card	4	obl:mod	_	_
+13	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+14	1924	1924	NUM	_	NumType=Card	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
 16	issue	issu	ADJ	_	Gender=Fem|Number=Sing	4	advmod	_	_
 17	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
@@ -652,11 +652,11 @@
 31	machines	machine	NOUN	_	Gender=Fem|Number=Plur	33	nsubj:pass	_	_
 32	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
 33	arrêtées	arrêter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
-34	depuis	depuis	ADP	_	_	37	case	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-36	14	14	NUM	_	NumType=Card	37	nummod	_	_
-37	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	33	obl:mod	_	_
-38	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	37	amod	_	SpaceAfter=No
+34	depuis	depuis	ADP	_	_	36	case	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	14	14	NUM	_	NumType=Card	33	obl:mod	_	_
+37	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+38	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	36	amod	_	SpaceAfter=No
 39	"	"	PUNCT	_	_	3	punct	_	_
 40	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
@@ -945,10 +945,10 @@
 
 # sent_id = annodis.er_00394
 # text = Le 19 juillet 1947, la défunte épouse René Jacquin, originaire de la commune.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	19	19	NUM	_	NumType=Card	3	nummod	_	_
-3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
-4	1947	1947	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	19	19	NUM	_	NumType=Card	8	obl:mod	_	_
+3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	1947	1947	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	défunte	défunt	ADJ	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -4758,10 +4758,10 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Présidente	président	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	13	13	NUM	_	NumType=Card	7	nummod	_	_
-7	avril	avril	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
-8	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	13	13	NUM	_	NumType=Card	9	obl:mod	_	_
+7	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+8	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 9	débutera	débuter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	Iran	Iran	PROPN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
@@ -5534,10 +5534,10 @@
 12	condamnés	condamner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 13	à	à	ADP	_	_	14	case	_	_
 14	mort	mort	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	16	16	NUM	_	NumType=Card	17	nummod	_	_
-17	mars	mars	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
-18	1915	1915	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	16	16	NUM	_	NumType=Card	12	obl:mod	_	_
+17	mars	mars	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+18	1915	1915	NUM	_	NumType=Card	17	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = frwiki_50.1000_00021
@@ -5545,9 +5545,9 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	93	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	93	punct	_	_
-4	17	17	NUM	_	NumType=Card	5	nummod	_	_
-5	mars	mars	NOUN	_	Gender=Masc|Number=Sing	93	obl:mod	_	_
-6	1915	1915	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+4	17	17	NUM	_	NumType=Card	93	obl:mod	_	_
+5	mars	mars	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+6	1915	1915	NUM	_	NumType=Card	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	93	punct	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	début	début	NOUN	_	Gender=Masc|Number=Sing	93	obl:mod	_	_
@@ -5649,10 +5649,10 @@
 
 # sent_id = frwiki_50.1000_00028
 # text = Le 11 avril 1920, le ministère de la justice refusait d'examiner le dossier.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	11	11	NUM	_	NumType=Card	3	nummod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
-4	1920	1920	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	11	11	NUM	_	NumType=Card	11	obl:mod	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	1920	1920	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -5861,10 +5861,10 @@
 12	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Canard	Canard	PROPN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
 14	enchaîné	enchaîner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	10	10	NUM	_	NumType=Card	17	nummod	_	_
-17	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
-18	1979	1979	NUM	_	NumType=Card	17	nummod	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	10	10	NUM	_	NumType=Card	10	obl:mod	_	_
+17	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+18	1979	1979	NUM	_	NumType=Card	17	nmod	_	_
 19	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
 20	impliquait	impliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -6215,7 +6215,7 @@
 12	voyage	voyage	NOUN	_	Gender=Masc|Number=Sing	24	obl:mod	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-15	1990	1990	NUM	_	NumType=Card	14	nummod	_	_
+15	1990	1990	NUM	_	NumType=Card	14	nmod	_	_
 16	à	à	ADP	_	_	17	case	_	_
 17	Pékin	Pékin	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	_
@@ -6628,9 +6628,9 @@
 # sent_id = frwiki_50.1000_00681
 # text = - 25 avril 2001 : le juge Éric Halphen se déclare incompétent pour instruire le cas du président Chirac, en raison de son immunité présidentielle.
 1	-	-	PUNCT	_	_	11	punct	_	_
-2	25	25	NUM	_	NumType=Card	3	nummod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
-4	2001	2001	NUM	_	NumType=Card	3	nummod	_	_
+2	25	25	NUM	_	NumType=Card	11	obl:mod	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	2001	2001	NUM	_	NumType=Card	3	nmod	_	_
 5	:	:	PUNCT	_	_	11	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	juge	juge	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -6660,9 +6660,9 @@
 # sent_id = frwiki_50.1000_00699
 # text = - 5 avril 2006 : dernier jour du procès des HLM de paris consacré aux plaidoiries.
 1	-	-	PUNCT	_	_	7	punct	_	_
-2	5	5	NUM	_	NumType=Card	3	nummod	_	_
-3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-4	2006	2006	NUM	_	NumType=Card	3	nummod	_	_
+2	5	5	NUM	_	NumType=Card	7	nmod	_	_
+3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	2006	2006	NUM	_	NumType=Card	3	nmod	_	_
 5	:	:	PUNCT	_	_	7	punct	_	_
 6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -6840,10 +6840,10 @@
 
 # sent_id = frwiki_50.1000_00808
 # text = Le 14 juillet 2006, le tribunal rend sa décision.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	14	14	NUM	_	NumType=Card	3	nummod	_	_
-3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
-4	2006	2006	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	14	14	NUM	_	NumType=Card	8	obl:mod	_	_
+3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	2006	2006	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -7034,10 +7034,10 @@
 3	parlementaire	parlementaire	ADJ	_	Number=Sing	2	amod	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
 5	constituée	constituer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	2	2	NUM	_	NumType=Card	8	nummod	_	_
-8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
-9	1953	1953	NUM	_	NumType=Card	8	nummod	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	2	2	NUM	_	NumType=Card	5	obl:mod	_	_
+8	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+9	1953	1953	NUM	_	NumType=Card	8	nmod	_	_
 10	;	;	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00982
@@ -8546,11 +8546,11 @@
 26	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 27	loi	loi	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
 28-29	du	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	31	case	_	_
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-30	16	16	NUM	_	NumType=Card	31	nummod	_	_
-31	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-32	1998	1998	NUM	_	NumType=Card	31	nummod	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	16	16	NUM	_	NumType=Card	27	nmod	_	_
+31	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+32	1998	1998	NUM	_	NumType=Card	31	nmod	_	_
 33	sur	sur	ADP	_	_	35	case	_	_
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
 35	Offices	office	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
@@ -10372,7 +10372,7 @@
 10	datée	dater	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
-13	1993	1993	NUM	_	NumType=Card	12	nummod	_	_
+13	1993	1993	NUM	_	NumType=Card	12	nmod	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	signée	signer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
 16	par	par	ADP	_	_	17	case	_	_
@@ -10683,9 +10683,9 @@
 17	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Monde	Monde	PROPN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	12	punct	_	_
-20	20	20	NUM	_	NumType=Card	21	nummod	_	_
-21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-22	2000	2000	NUM	_	NumType=Card	21	nummod	_	_
+20	20	20	NUM	_	NumType=Card	12	nmod	_	_
+21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+22	2000	2000	NUM	_	NumType=Card	21	nmod	_	_
 
 # sent_id = frwiki_50.1000_00377
 # text = Le réseau C repose sur Edmond Kwan et Alfred Sirven, dirigeant d'Elf.
@@ -10853,7 +10853,7 @@
 16	décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
-19	2000	2000	NUM	_	NumType=Card	18	nummod	_	_
+19	2000	2000	NUM	_	NumType=Card	18	nmod	_	_
 20	à	à	ADP	_	_	21	case	_	_
 21	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
 22	en	en	ADP	_	_	23	mark	_	_
@@ -11000,7 +11000,7 @@
 15	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	_
-18	2006	2006	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+18	2006	2006	NUM	_	NumType=Card	17	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	34	punct	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	juge	juge	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
@@ -11177,9 +11177,9 @@
 # sent_id = frwiki_50.1000_00628
 # text = - 22 septembre 1994 : Le juge Éric Halphen interroge Francis Poullain sur ses liens avec Rémy Halbwax.
 1	-	-	PUNCT	_	_	10	punct	_	_
-2	22	22	NUM	_	NumType=Card	3	nummod	_	_
-3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
-4	1994	1994	NUM	_	NumType=Card	3	nummod	_	_
+2	22	22	NUM	_	NumType=Card	10	obl:mod	_	_
+3	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	1994	1994	NUM	_	NumType=Card	3	nmod	_	_
 5	:	:	PUNCT	_	_	10	punct	_	_
 6	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	juge	juge	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -11199,9 +11199,9 @@
 # sent_id = frwiki_50.1000_00650
 # text = - 17 décembre 1994 : la PJ enregistre une conversation téléphonique entre Didier Schuller et le Dr Maréchal ;
 1	-	-	PUNCT	_	_	8	punct	_	_
-2	17	17	NUM	_	NumType=Card	3	nummod	_	_
-3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
-4	1994	1994	NUM	_	NumType=Card	3	nummod	_	_
+2	17	17	NUM	_	NumType=Card	8	obl:mod	_	_
+3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	1994	1994	NUM	_	NumType=Card	3	nmod	_	_
 5	:	:	PUNCT	_	_	8	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	PJ	PJ	PROPN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -11424,9 +11424,9 @@
 # sent_id = frwiki_50.1000_00890
 # text = - 13 octobre 2004 : Recours en cassation rejeté
 1	-	-	PUNCT	_	_	6	punct	_	_
-2	13	13	NUM	_	NumType=Card	3	nummod	_	_
-3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-4	2004	2004	NUM	_	NumType=Card	3	nummod	_	_
+2	13	13	NUM	_	NumType=Card	6	nmod	_	_
+3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+4	2004	2004	NUM	_	NumType=Card	3	nmod	_	_
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	Recours	recours	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	en	en	ADP	_	_	8	case	_	_
