@@ -4300,7 +4300,7 @@
 5	de	de	ADP	_	_	6	case	_	_
 6	mars	mars	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 7	à	à	ADP	_	_	8	case	_	_
-8	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	6	nmod:range	_	_
+8	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	à	à	ADP	_	_	13	case	_	MWE=à_raison_de|MWEPOS=ADP
 10	raison	raison	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	_
 11	d'	de	ADP	_	_	9	fixed	_	SpaceAfter=No
