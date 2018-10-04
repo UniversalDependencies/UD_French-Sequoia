@@ -35294,22 +35294,17 @@
 11	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 12	local	local	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
-14	c'	ce	PRON	_	Number=Sing|Person=3	22	cc	_	MWE=c'est-à-dire|MWEPOS=CCONJ|SpaceAfter=No
-15	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	fixed	_	SpaceAfter=No
-16	-	-	PUNCT	_	_	14	fixed	_	SpaceAfter=No
-17	à	à	ADP	_	_	14	fixed	_	SpaceAfter=No
-18	-	-	PUNCT	_	_	14	fixed	_	SpaceAfter=No
-19	dire	dire	VERB	_	VerbForm=Inf	14	fixed	_	_
-20	par	par	ADP	_	_	22	case	_	_
-21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
-22	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
-23	compétentes	compétent	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
-24-25	des	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-26	aéroports	aéroport	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
-27	concernés	concerner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	acl	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	6	punct	_	_
+14	c'est-à-dire	c'est-à-dire	ADV	_	_	17	advmod	_	_
+15	par	par	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
+17	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	8	obl:mod	_	_
+18	compétentes	compétent	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+19-20	des	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+21	aéroports	aéroport	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
+22	concernés	concerner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00409
 # text = Divers aéroports y travaillent déjà à l'heure actuelle en promulguant des interdictions de vol pour les avions les plus bruyants ou pour certains vols de nuit.

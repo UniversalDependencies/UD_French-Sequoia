@@ -7799,28 +7799,23 @@
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	exercice	exercice	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	8	punct	_	_
-13	c'	ce	PRON	_	Number=Sing|Person=3	21	cc	_	MWE=c'est-à-dire|MWEPOS=CCONJ|SpaceAfter=No
-14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	fixed	_	SpaceAfter=No
-15	-	-	PUNCT	_	_	13	fixed	_	SpaceAfter=No
-16	à	à	ADP	_	_	13	fixed	_	SpaceAfter=No
-17	-	-	PUNCT	_	_	13	fixed	_	SpaceAfter=No
-18	dire	dire	VERB	_	VerbForm=Inf	13	fixed	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	21	amod	_	_
-21	acte	acte	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	8	punct	_	_
-23	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
-24	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
-25	être	être	AUX	_	VerbForm=Inf	26	aux:pass	_	_
-26	clôturés	clôturer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	xcomp	_	_
-27	même	même	ADV	_	_	33	mark	_	MWE=même_si|MWEPOS=SCONJ
-28	si	si	SCONJ	_	_	27	fixed	_	_
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-30	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	31	amod	_	_
-31	acte	acte	NOUN	_	Gender=Masc|Number=Sing	33	nsubj:pass	_	_
-32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:pass	_	_
-33	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	24	advcl	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	3	punct	_	_
+13	c'est-à-dire	c'est-à-dire	ADV	_	_	16	advmod	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	16	amod	_	_
+16	acte	acte	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	8	punct	_	_
+18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
+19	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+20	être	être	AUX	_	VerbForm=Inf	21	aux:pass	_	_
+21	clôturés	clôturer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	19	xcomp	_	_
+22	même	même	ADV	_	_	28	mark	_	MWE=même_si|MWEPOS=SCONJ
+23	si	si	SCONJ	_	_	22	fixed	_	_
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
+26	acte	acte	NOUN	_	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
+27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
+28	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00319
 # text = Nous nous efforçons depuis des années de mieux défendre les intérêts financiers de la Communauté.
