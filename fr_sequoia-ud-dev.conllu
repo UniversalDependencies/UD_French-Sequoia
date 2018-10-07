@@ -4955,7 +4955,7 @@
 45	de	de	ADP	_	_	47	case	_	_
 46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	manière	manière	NOUN	_	Gender=Fem|Number=Sing	44	obl:mod	_	_
-48	dont	dont	PRON	_	PronType=Rel	50	dep	_	_
+48	dont	dont	PRON	_	PronType=Rel	50	iobj	_	_
 49	s'	se	PRON	_	Person=3|Reflex=Yes	50	expl	_	SpaceAfter=No
 50	expriment	exprimer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	acl:relcl	_	_
 51	tous	tout	ADJ	_	Gender=Masc|Number=Plur	53	amod	_	_

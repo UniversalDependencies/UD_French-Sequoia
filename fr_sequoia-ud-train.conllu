@@ -30830,7 +30830,7 @@
 30	examiner	examiner	VERB	_	VerbForm=Inf	25	acl	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	manière	manière	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
-33	dont	dont	PRON	_	PronType=Rel	36	dep	_	_
+33	dont	dont	PRON	_	PronType=Rel	36	iobj	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	36	nsubj	_	_
 36	gère	gérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
@@ -39847,7 +39847,7 @@
 14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	aux:pass	_	_
 15	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
 16	comme	comme	ADP	_	_	17	mark	_	_
-17	trouvés	trouver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	ccomp	_	_
+17	trouvés	trouver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	xcomp	_	_
 18	dans	dans	ADP	_	_	20	case	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
 20	charniers	charnier	NOUN	_	Gender=Masc|Number=Plur	17	obl:mod	_	_
@@ -49430,7 +49430,7 @@
 11	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	22	advmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	DGSE	DGSE	PROPN	_	Gender=Fem|Number=Sing	11	dep	_	_
+14	DGSE	DGSE	PROPN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
 15	reconverti	reconvertir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -57323,8 +57323,8 @@
 2	Salam	Salam	PROPN	_	_	0	root	_	_
 3	Daher	Daher	PROPN	_	_	2	flat:name	_	_
 4	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-5	alias	alia	NOUN	_	_	2	appos	_	_
-6	Casque	Casque	PROPN	_	_	5	nmod	_	_
+5	alias	alia	ADV	_	_	6	advmod	_	_
+6	Casque	Casque	PROPN	_	_	2	appos	_	_
 7	Vert	Vert	PROPN	_	Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	2	punct	_	_
 
