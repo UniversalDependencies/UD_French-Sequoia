@@ -57323,7 +57323,7 @@
 2	Salam	Salam	PROPN	_	_	0	root	_	_
 3	Daher	Daher	PROPN	_	_	2	flat:name	_	_
 4	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-5	alias	alia	ADV	_	_	6	advmod	_	_
+5	alias	alias	ADV	_	_	6	advmod	_	_
 6	Casque	Casque	PROPN	_	_	2	appos	_	_
 7	Vert	Vert	PROPN	_	Gender=Masc|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	2	punct	_	_
