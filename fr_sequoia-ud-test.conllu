@@ -3363,7 +3363,7 @@
 6	grave	grave	ADJ	_	Number=Sing	7	amod	_	_
 7	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
-9	Suzanne	Suzanne	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+9	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 10	Sequin	Sequin	PROPN	_	_	9	flat:name	_	_
 11	s'	se	PRON	_	Person=3|Reflex=Yes	13	expl	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_

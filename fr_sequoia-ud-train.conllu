@@ -3123,7 +3123,7 @@
 
 # sent_id = annodis.er_00160
 # text = Suzanne Sequin n'est plus.
-1	Suzanne	Suzanne	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+1	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	Sequin	Sequin	PROPN	_	_	1	flat:name	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -25823,7 +25823,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00527
-# text = De plus, chez les patients atteints de maladie de Paget, il est fortement conseillé d'administrer des suppléments appropriés de calcium correspondant à un apport en calcium- élément d'au moins 500 mg deux fois par jour, pendant au moins les 10 jours suivant l'administration d'Aclasta.
+# text = De plus, chez les patients atteints de maladie de Paget, il est fortement conseillé d'administrer des suppléments appropriés de calcium correspondant à un apport en calcium-élément d'au moins 500 mg deux fois par jour, pendant au moins les 10 jours suivant l'administration d'Aclasta.
 1	De	de	ADP	_	_	16	advmod	_	MWE=de_plus|MWEPOS=ADV
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	16	punct	_	_
@@ -25852,35 +25852,33 @@
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	apport	apport	NOUN	_	Gender=Masc|Number=Sing	24	obl:arg	_	_
 28	en	en	ADP	_	_	29	case	_	_
-29	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
-30	-	-	PUNCT	_	_	29	punct	_	_
-31	élément	élément	NOUN	_	Gender=Masc|Number=Sing	29	appos	_	_
-32	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
-33-34	au	_	_	_	_	_	_	_	_
-33	à	à	ADP	_	_	37	advmod	_	MWE=au_moins|MWEPOS=ADV
-34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	fixed	_	_
-35	moins	moins	ADV	_	_	33	fixed	_	_
-36	500	500	NUM	_	NumType=Card	37	nummod	_	_
-37	mg	mg	NOUN	_	Gender=Masc	31	nmod	_	_
-38	deux	deux	NUM	_	NumType=Card	39	nummod	_	_
-39	fois	fois	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
-40	par	par	ADP	_	_	41	case	_	_
-41	jour	jour	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	27	punct	_	_
-43	pendant	pendant	ADP	_	_	49	case	_	_
-44-45	au	_	_	_	_	_	_	_	_
-44	à	à	ADP	_	_	49	advmod	_	MWE=au_moins|MWEPOS=ADV
-45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	fixed	_	_
-46	moins	moins	ADV	_	_	44	fixed	_	_
-47	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
-48	10	10	NUM	_	NumType=Card	49	nummod	_	_
-49	jours	jour	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
-50	suivant	suivre	VERB	_	Tense=Pres|VerbForm=Part	49	acl	_	_
-51	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	52	det	_	SpaceAfter=No
-52	administration	administration	NOUN	_	Gender=Fem|Number=Sing	50	obj	_	_
-53	d'	de	ADP	_	_	54	case	_	SpaceAfter=No
-54	Aclasta	Aclasta	PROPN	_	_	52	nmod	_	SpaceAfter=No
-55	.	.	PUNCT	_	_	16	punct	_	_
+29	calcium-élément	calcium-élément	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+30	d'	de	ADP	_	_	35	case	_	SpaceAfter=No
+31-32	au	_	_	_	_	_	_	_	_
+31	à	à	ADP	_	_	35	advmod	_	MWE=au_moins|MWEPOS=ADV
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	fixed	_	_
+33	moins	moins	ADV	_	_	31	fixed	_	_
+34	500	500	NUM	_	NumType=Card	35	nummod	_	_
+35	mg	mg	NOUN	_	Gender=Masc	29	nmod	_	_
+36	deux	deux	NUM	_	NumType=Card	37	nummod	_	_
+37	fois	fois	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
+38	par	par	ADP	_	_	39	case	_	_
+39	jour	jour	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	27	punct	_	_
+41	pendant	pendant	ADP	_	_	47	case	_	_
+42-43	au	_	_	_	_	_	_	_	_
+42	à	à	ADP	_	_	47	advmod	_	MWE=au_moins|MWEPOS=ADV
+43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	fixed	_	_
+44	moins	moins	ADV	_	_	42	fixed	_	_
+45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	47	det	_	_
+46	10	10	NUM	_	NumType=Card	47	nummod	_	_
+47	jours	jour	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+48	suivant	suivre	VERB	_	Tense=Pres|VerbForm=Part	47	acl	_	_
+49	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
+50	administration	administration	NOUN	_	Gender=Fem|Number=Sing	48	obj	_	_
+51	d'	de	ADP	_	_	52	case	_	SpaceAfter=No
+52	Aclasta	Aclasta	PROPN	_	_	50	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = emea-fr-test_00529
 # text = Une mesure du calcium sérique est recommandée avant la perfusion d'Aclasta chez les patient atteints de la maladie de Paget.

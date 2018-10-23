@@ -276,8 +276,8 @@
 
 # sent_id = annodis.er_00163
 # text = Suzanne Collin était née à Brauvilliers dans la Meuse, le 21 janvier 1924, issue d'une famille de cinq enfants.
-1	Suzanne	Suzanne	PROPN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-2	Collin	Collin	PROPN	_	Gender=Masc|Number=Sing	1	flat:name	_	_
+1	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	Collin	Collin	PROPN	_	_	1	flat:name	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
 4	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	à	à	ADP	_	_	6	case	_	_
@@ -1336,7 +1336,7 @@
 17	suivantes	suivant	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 18	:	:	PUNCT	_	_	16	punct	_	_
 19	Paulette	Paulette	PROPN	_	Gender=Fem|Number=Sing	16	appos	_	_
-20	Bertrand	Bertrand	PROPN	_	Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
+20	Bertrand	Bertrand	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	19	punct	_	_
 22	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
 23	en	en	ADP	_	_	24	case	_	_
@@ -1354,20 +1354,20 @@
 35	1921	1921	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	32	punct	_	_
 37	;	;	PUNCT	_	_	38	punct	_	_
-38	Suzanne	Suzanne	PROPN	_	Gender=Masc|Number=Sing	19	conj	_	_
+38	Suzanne	Suzanne	PROPN	_	Gender=Fem|Number=Sing	19	conj	_	_
 39	Grim	Grim	PROPN	_	_	38	flat:name	_	_
 40	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 41	1903	1903	NUM	_	NumType=Card	38	nummod	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	38	punct	_	_
 43	;	;	PUNCT	_	_	44	punct	_	_
 44	Joséphine	Joséphine	PROPN	_	Gender=Fem|Number=Sing	19	conj	_	_
-45	Conte	Conte	PROPN	_	Gender=Masc|Number=Sing	44	flat:name	_	_
+45	Conte	Conte	PROPN	_	_	44	flat:name	_	_
 46	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
 47	1912	1912	NUM	_	NumType=Card	44	nummod	_	SpaceAfter=No
 48	)	)	PUNCT	_	_	44	punct	_	_
 49	;	;	PUNCT	_	_	50	punct	_	_
 50	Jeanne	Jeanne	PROPN	_	Gender=Fem|Number=Sing	19	conj	_	_
-51	Fosse	Fosse	PROPN	_	Gender=Masc|Number=Sing	50	flat:name	_	_
+51	Fosse	Fosse	PROPN	_	_	50	flat:name	_	_
 52	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
 53	1907	1907	NUM	_	NumType=Card	50	nummod	_	SpaceAfter=No
 54	)	)	PUNCT	_	_	50	punct	_	_
