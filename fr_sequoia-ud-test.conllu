@@ -3590,8 +3590,8 @@
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	échec	échec	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 17	que	que	PRON	_	PronType=Rel	20	obj	_	_
-18	l'	le	PART	_	Definite=Def|Number=Sing|PronType=Art	19	expl	_	SpaceAfter=No
-19	on	il	PRON	_	Number=Sing|Person=3	20	nsubj	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	nsubj	_	MWE=il|MWEPOS=PRON|SpaceAfter=No
+19	on	il	PRON	_	Number=Sing|Person=3	18	fixed	_	_
 20	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -9311,8 +9311,8 @@
 37	de	de	ADP	_	_	38	case	_	_
 38	ce	ce	PRON	_	_	32	obl:arg	_	_
 39	que	que	PRON	_	PronType=Rel	42	obj	_	_
-40	l'	le	PART	_	Definite=Def|Number=Sing|PronType=Art	41	expl	_	SpaceAfter=No
-41	on	il	PRON	_	Number=Sing|Person=3	42	nsubj	_	_
+40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	42	nsubj	_	MWE=il|MWEPOS=PRON|SpaceAfter=No
+41	on	il	PRON	_	Number=Sing|Person=3	40	fixed	_	_
 42	versait	verser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl:relcl	_	_
 43	à	à	ADP	_	_	44	case	_	_
 44	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	42	obl:arg	_	_
