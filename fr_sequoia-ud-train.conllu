@@ -3622,11 +3622,11 @@
 29	soulignent	souligner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	acl:relcl	_	_
 30	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
 31	Christian	Christian	PROPN	_	Gender=Masc|Number=Sing	30	flat:name	_	_
-32	Langlois	Langlois	PROPN	_	_	31	flat:name	_	_
+32	Langlois	Langlois	PROPN	_	_	30	flat:name	_	_
 33	et	et	CCONJ	_	_	34	cc	_	_
 34	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
 35	Patrice	Patrice	PROPN	_	Gender=Masc|Number=Sing	34	flat:name	_	_
-36	Lanini	Lanini	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+36	Lanini	Lanini	PROPN	_	_	34	flat:name	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	30	punct	_	_
 38	délégués	délégué	NOUN	_	Gender=Masc|Number=Plur	30	appos	_	_
 39	syndicaux	syndical	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	_
@@ -8640,7 +8640,7 @@
 # text = Mme Michèle Demange, adjoint au maire, conduira les opérations.
 1	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 2	Michèle	Michèle	PROPN	_	Gender=Fem|Number=Sing	1	flat:name	_	_
-3	Demange	Demange	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+3	Demange	Demange	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	adjoint	adjoint	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 6-7	au	_	_	_	_	_	_	_	_
@@ -27560,7 +27560,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	Charlotte	Charlotte	PROPN	_	Gender=Fem|Number=Sing	11	flat:name	_	_
-13	Cederschiöld	Cederschiöld	PROPN	_	_	12	flat:name	_	SpaceAfter=No
+13	Cederschiöld	Cederschiöld	PROPN	_	_	11	flat:name	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
 15	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
@@ -32805,7 +32805,7 @@
 15	à	à	ADP	_	_	16	case	_	_
 16	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 17	Da	Da	PROPN	_	Gender=Masc|Number=Sing	16	flat:name	_	_
-18	Costa	Costa	PROPN	_	Gender=Masc|Number=Sing	17	flat:name	_	_
+18	Costa	Costa	PROPN	_	Gender=Masc|Number=Sing	16	flat:name	_	_
 19	pour	pour	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	collaboration	collaboration	NOUN	_	Gender=Fem|Number=Sing	16	orphan	_	_
@@ -34990,7 +34990,7 @@
 8	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	Barón	Barón	PROPN	_	_	9	flat:name	_	_
-11	Crespo	Crespo	PROPN	_	_	10	flat:name	_	_
+11	Crespo	Crespo	PROPN	_	_	9	flat:name	_	_
 12	s'	se	PRON	_	Person=3|Reflex=Yes	15	expl	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 14	aussi	aussi	ADV	_	_	15	advmod	_	_
@@ -37867,7 +37867,7 @@
 12	de	de	ADP	_	_	9	fixed	_	_
 13	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 14	Barón	Barón	PROPN	_	_	13	flat:name	_	_
-15	Crespo	Crespo	PROPN	_	_	14	flat:name	_	SpaceAfter=No
+15	Crespo	Crespo	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	4	punct	_	_
 17	que	que	SCONJ	_	_	46	mark	_	_
 18	s'	si	SCONJ	_	_	20	mark	_	SpaceAfter=No
@@ -37982,7 +37982,7 @@
 26	de	de	ADP	_	_	27	case	_	_
 27	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 28	André	André	PROPN	_	Gender=Masc|Number=Sing	27	flat:name	_	_
-29	Brie	Brie	PROPN	_	Gender=Masc|Number=Sing	28	flat:name	_	SpaceAfter=No
+29	Brie	Brie	PROPN	_	Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	27	punct	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	membre	membre	NOUN	_	Gender=Masc|Number=Sing	27	appos	_	_

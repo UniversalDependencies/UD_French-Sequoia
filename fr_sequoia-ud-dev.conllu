@@ -7579,7 +7579,7 @@
 # text = M. Eric Rouleau, ex-ambassadeur de France, parle, lui, d'un génocide au ralenti.
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 2	Eric	Eric	PROPN	_	Gender=Masc|Number=Sing	1	flat:name	_	_
-3	Rouleau	Rouleau	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+3	Rouleau	Rouleau	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	ex-ambassadeur	ex-ambassadeur	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 6	de	de	ADP	_	_	7	case	_	_
