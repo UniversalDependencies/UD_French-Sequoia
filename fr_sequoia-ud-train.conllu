@@ -4395,7 +4395,7 @@
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35	affaibli	affaiblir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
 36-37	au	_	_	_	_	_	_	_	_
-36	à	à	ADP	_	_	35	advmod	_	MWE=au_fur_et_à_mesure_du|MWEPOS=ADV
+36	à	à	ADP	_	_	35	advmod	_	MWE=au_fur_et_à_mesure|MWEPOS=ADV
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	fixed	_	_
 38	fur	fur	NOUN	_	Gender=Masc|Number=Sing	36	fixed	_	_
 39	et	et	CCONJ	_	_	36	fixed	_	_
@@ -57263,7 +57263,7 @@
 3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	13	punct	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-6	neuf	neuf	NUM	_	Gender=Masc|Number=Sing|NumType=Card	9	amod	_	MWE=neuf_cent_vingt|MWEPOS=ADJ
+6	neuf	neuf	NUM	_	Gender=Masc|NumType=Card	9	amod	_	MWE=neuf_cent_vingt|MWEPOS=ADJ
 7	cent	cent	NUM	_	NumType=Card	6	fixed	_	_
 8	vingt	vingt	NUM	_	NumType=Card	6	fixed	_	_
 9	photos	photo	NOUN	_	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
@@ -57742,7 +57742,7 @@
 9	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
 10	fixé	fixer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 11	à	à	ADP	_	_	13	case	_	_
-12	17	17	NUM	_	Gender=Masc|Number=Plur|NumType=Card	13	nummod	_	_
+12	17	17	NUM	_	NumType=Card	13	nummod	_	_
 13	F	F	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	_
 14	en	en	ADP	_	_	15	case	_	_
 15	1945	1945	NUM	_	NumType=Card	10	obl:mod	_	SpaceAfter=No
