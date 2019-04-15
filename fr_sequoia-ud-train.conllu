@@ -826,7 +826,7 @@
 13	Hedin	Hedin	PROPN	_	_	12	flat:name	_	_
 14	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-16	venus	venir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	ccomp	_	_
+16	venus	venir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl:cleft	_	_
 17	mettre	mettre	VERB	_	VerbForm=Inf	16	xcomp	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	main	main	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
@@ -2014,7 +2014,7 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	véhicule	véhicule	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-14	pu	pouvoir	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	_
+14	pu	pouvoir	VERB	_	Tense=Past|VerbForm=Part	5	advcl:cleft	_	_
 15	passer	passer	VERB	_	VerbForm=Inf	14	xcomp	_	_
 16	entre	entre	ADP	_	_	19	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -3420,7 +3420,7 @@
 16	Harmonie	Harmonie	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 17	-	-	PUNCT	_	_	7	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
-19	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+19	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl:cleft	_	_
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
 21	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	7	punct	_	_
@@ -4164,7 +4164,7 @@
 8	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 9	se	se	PRON	_	Person=3|Reflex=Yes	11	obj	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-11	inscrites	inscrire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	inscrites	inscrire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	advcl:cleft	_	_
 12	pour	pour	ADP	_	_	15	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
@@ -29449,7 +29449,7 @@
 6	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	9	obl:mod	_	_
 7	notre	son	DET	_	Number=Sing|Poss=Yes	8	det	_	_
 8	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-9	rejette	rejeter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	rejette	rejeter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl:cleft	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	propositions	proposition	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
@@ -37547,7 +37547,7 @@
 27	mafias	mafia	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
 28	qui	qui	PRON	_	PronType=Rel	30	nsubj	_	_
 29	l'	le	PRON	_	Number=Sing|Person=3	30	obj	_	SpaceAfter=No
-30	organisent	organiser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	SpaceAfter=No
+30	organisent	organiser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	advcl:cleft	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00521
@@ -41025,7 +41025,7 @@
 27	famille	famille	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
 28	qui	qui	PRON	_	PronType=Rel	30	nsubj:pass	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
-30	critiqué	critiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	ccomp	_	SpaceAfter=No
+30	critiqué	critiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	advcl:cleft	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = frwiki_50.1000_00137
@@ -44698,7 +44698,7 @@
 16	politique	politique	ADJ	_	Number=Sing	15	amod	_	_
 17	que	que	PRON	_	PronType=Rel	19	iobj	_	_
 18	se	se	PRON	_	Person=3|Reflex=Yes	19	expl	_	_
-19	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+19	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl:cleft	_	_
 20	ici	ici	ADV	_	_	19	advmod	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	crise	crise	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
@@ -47090,7 +47090,7 @@
 4	van	van	X	_	_	3	dep	_	_
 5	Ruymbeke	Ruymbeke	PROPN	_	_	3	flat:name	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
-7	reprendra	reprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+7	reprendra	reprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl:cleft	_	_
 8	alors	alors	ADV	_	_	7	advmod	_	_
 9	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -51078,7 +51078,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
-5	aide	aider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+5	aide	aider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:cleft	_	_
 6	Francis	Francis	PROPN	_	Number=Sing	5	obj	_	_
 7	Poullain	Poullain	PROPN	_	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
@@ -52369,7 +52369,7 @@
 10	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	9	flat:name	_	_
 11	que	que	PRON	_	PronType=Rel	13	iobj	_	_
 12	nous	il	PRON	_	Number=Plur|Person=1	13	nsubj	_	_
-13	travaillions	travailler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+13	travaillions	travailler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	7	advcl:cleft	_	SpaceAfter=No
 14	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	7	punct	_	_
 16	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
@@ -56218,7 +56218,7 @@
 13	lui-même	lui-même	PRON	_	_	11	nmod	_	_
 14	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 15	lui	lui	PRON	_	Number=Sing|Person=3	16	iobj	_	_
-16	fournit	fournir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	ccomp	_	_
+16	fournit	fournir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl:cleft	_	_
 17	son	son	DET	_	Number=Sing|Poss=Yes	18	det	_	_
 18	alibi	alibi	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	16	punct	_	_

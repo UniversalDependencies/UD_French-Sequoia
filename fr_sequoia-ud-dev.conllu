@@ -7003,7 +7003,7 @@
 13	que	que	PRON	_	PronType=Rel	18	obj	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	nsubj	_	MWE=il|MWEPOS=PRON|SpaceAfter=No
 15	on	il	PRON	_	Number=Sing|Person=3	14	fixed	_	_
-16	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+16	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl:cleft	_	_
 17	à	à	ADP	_	_	18	mark	_	_
 18	atteindre	atteindre	VERB	_	VerbForm=Inf	16	xcomp	_	_
 19-20	au	_	_	_	_	_	_	_	_
@@ -7756,7 +7756,7 @@
 10	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 11	l'	le	PRON	_	Number=Sing|Person=3	13	obj	_	SpaceAfter=No
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	conduite	conduire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+13	conduite	conduire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	advcl:cleft	_	_
 14-15	aux	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -8281,7 +8281,7 @@
 29	de	de	ADP	_	_	31	case	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	lavoir	lavoir	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-32	pourront	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	ccomp	_	_
+32	pourront	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	advcl:cleft	_	_
 33	découvrir	découvrir	VERB	_	VerbForm=Inf	32	xcomp	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	6	punct	_	_
 
