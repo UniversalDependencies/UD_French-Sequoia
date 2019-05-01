@@ -1,9 +1,10 @@
 # Summary
-UD_French-Sequoia is an automatic conversion of the Sequoia Treebank corpus [French Sequoia corpus](http://deep-sequoia.inria.fr).
+**UD_French-Sequoia** is an automatic conversion of the Sequoia Treebank corpus [French Sequoia corpus](http://deep-sequoia.inria.fr).
 
 # Introduction
-UD_French-Sequoia is an automatic conversion of the Sequoia Treebank corpus [French Sequoia corpus](http://deep-sequoia.inria.fr).
+**UD_French-Sequoia** is an automatic conversion of the Sequoia Treebank corpus [French Sequoia corpus](http://deep-sequoia.inria.fr).
 The conversion was done with the [Grew software](http://grew.fr) and the Graph Rewriting System [described here](https://gitlab.inria.fr/grew/SSQ_UD).
+See [here](http://deep-sequoia.inria.fr/process) for more info about the conversion process.
 
 ## Origin
 The first version of the Sequoia Corpus was presented in (Candito & Seddah, 2012)
@@ -13,9 +14,9 @@ The whole corpus contains 70,624 tokens in 3,099 sentences.
 
 In **UD_French-Sequoia**, data were randomly split into:
 
- * `fr_sequoia-ud-test.conllu`: 10,050 tokens in 456 sentences
- * `fr_sequoia-ud-dev.conllu`: 10,013 tokens in 412 sentences
- * `fr_sequoia-ud-train.conllu`: 50,561 tokens in 2,231 sentences
+ * `fr_sequoia-ud-test.conllu`: 10,048 tokens in 456 sentences
+ * `fr_sequoia-ud-dev.conllu`: 10,002 tokens in 412 sentences
+ * `fr_sequoia-ud-train.conllu`: 50,517 tokens in 2,231 sentences
 
 ## Genres
 The original sentences of the corpus are taken from:
@@ -40,6 +41,13 @@ The Sequoia Corpus was presented in (Candito & Seddah, 2012) and revised later, 
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Several corrections in the original corpus (often found during PARSEME-Fr annotation project)
+  * Update the conversion process (mainly to handle new validation rules)
+* 2018-11-15 v2.3
+  * Change date annotation
+  * Improve NOUN/PROPN distinction
+  * Several corrections in the original corpus and in the conversion process
 * 2018-04-15 v2.2
   * Subtyping of the `obl` relation with 3 relations `obl:arg`, `obl:mod`, `obl:agent`
   * Several corrections in the original corpus and in the conversion process
