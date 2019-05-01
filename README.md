@@ -7,7 +7,7 @@ The conversion was done with the [Grew software](http://grew.fr) and the Graph R
 See [here](http://deep-sequoia.inria.fr/process) for more info about the conversion process.
 
 ## Origin
-The first version of the Sequoia Corpus was presented in (Candito & Seddah, 2012)
+The first version of the Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-diderot.archives-ouvertes.fr/hal-00698938/).
 
 ## Splitting
 The whole corpus contains 70,624 tokens in 3,099 sentences.
@@ -30,7 +30,9 @@ The original sentences of the corpus are taken from:
 
 The conversion has been performed by Bruno Guillaume with the Graph Rewriting System [described here](https://gitlab.inria.fr/grew/SSQ_UD) developed by Bruno Guillaume and Guy Perrier.
 
-The Sequoia Corpus was presented in (Candito & Seddah, 2012) and revised later, notably during the project of deep annotation described in (Candito & al. 2014) and (Perrier & al. 2014).
+The Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-diderot.archives-ouvertes.fr/hal-00698938/) and revised later, notably during the project of deep annotation described in [(Candito & al. 2014)](http://hal.inria.fr/docs/00/97/15/74/PDF/deep_sequoia.final_with_keywords.pdf) and [(Perrier & al. 2014)](http://talc2.loria.fr/deep-sequoia/papers/syntaxe_profonde.pdf).
+
+The conversion process to UD is descibed in [(Bonfante & al. 2018)](https://hal.inria.fr/hal-01814386), chapter 3.
 
 # References
 **(Candito & Seddah, 2012)** Marie Candito, Djamé Seddah. [Le corpus Sequoia : annotation syntaxique et exploitation pour l'adaptation d'analyseur par pont lexical](https://hal-univ-diderot.archives-ouvertes.fr/hal-00698938/). TALN 2012 - 19e conférence sur le Traitement Automatique des Langues Naturelles, Jun 2012, Grenoble, France. 2012.
@@ -38,6 +40,8 @@ The Sequoia Corpus was presented in (Candito & Seddah, 2012) and revised later, 
 **(Candito & al. 2014)** Marie Candito, Guy Perrier, Bruno Guillaume, Corentin Ribeyre, Karën Fort, Djamé Seddah and Éric de la Clergerie. (2014) [Deep Syntax Annotation of the Sequoia French Treebank](http://hal.inria.fr/docs/00/97/15/74/PDF/deep_sequoia.final_with_keywords.pdf). *Proc. of LREC 2014*, Reykjavic, Iceland.
 
 **(Perrier & al. 2014)** Guy Perrier, Marie Candito, Bruno Guillaume, Corentin Ribeyre, Karën Fort and Djamé Seddah. (2014) [Un schéma d'annotation en dépendances syntaxiques profondes pour le français](http://talc2.loria.fr/deep-sequoia/papers/syntaxe_profonde.pdf). *Proc. of TALN 2014*, Marseille, France.
+
+**(Bonfante & al. 2018)** Guillaume Bonfante, Bruno Guillaume, Guy Perrier. [Application of Graph Rewriting to Natural Language Processing](https://hal.inria.fr/hal-01814386). ISTE Wiley, 1, pp.272, 2018, Logic, Linguistics and Computer Science Set.
 
 # Changelog
 
