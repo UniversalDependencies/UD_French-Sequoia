@@ -1530,7 +1530,7 @@
 10	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	12	aux	_	_
 11	également	également	ADV	_	_	12	advmod	_	_
 12	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
-13	de	de	ADP	_	_	15	case	_	MWE=du|MWEPOS=DET
+13	de	de	ADP	_	_	15	det	_	MWE=du|MWEPOS=DET
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	fixed	_	SpaceAfter=No
 15	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
@@ -1871,7 +1871,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	patients	patient	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 7	recevant	recevoir	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
-8	de	de	ADP	_	_	10	case	_	MWE=du|MWEPOS=DET
+8	de	de	ADP	_	_	10	det	_	MWE=du|MWEPOS=DET
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	fixed	_	_
 10	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -3192,7 +3192,7 @@
 23	du	du	DET	_	Gender=Masc|Number=Sing	24	det	_	_
 24	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 25	ou	ou	CCONJ	_	_	28	cc	_	_
-26	de	de	ADP	_	_	28	case	_	MWE=du|MWEPOS=DET
+26	de	de	ADP	_	_	28	det	_	MWE=du|MWEPOS=DET
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	fixed	_	SpaceAfter=No
 28	ibuprofène	ibuprofène	NOUN	_	Gender=Masc|Number=Sing	24	conj	_	_
 29	après	après	ADP	_	_	31	case	_	_
@@ -4160,11 +4160,11 @@
 10	de	de	ADP	_	_	11	mark	_	_
 11	pouvoir	pouvoir	VERB	_	VerbForm=Inf	9	acl	_	_
 12	transmettre	transmettre	VERB	_	VerbForm=Inf	11	xcomp	_	_
-13	de	de	ADP	_	_	15	case	_	MWE=du|MWEPOS=DET
+13	de	de	ADP	_	_	15	det	_	MWE=du|MWEPOS=DET
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	fixed	_	SpaceAfter=No
 15	art	art	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 16	et	et	CCONJ	_	_	19	cc	_	_
-17	de	de	ADP	_	_	19	case	_	MWE=du|MWEPOS=DET
+17	de	de	ADP	_	_	19	det	_	MWE=du|MWEPOS=DET
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	fixed	_	SpaceAfter=No
 19	information	information	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	12	punct	_	_
@@ -4247,7 +4247,7 @@
 # text = Il faut de la flexibilité et la charge administrative doit être réduite, c'est là une priorité.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	5	case	_	MWE=du|MWEPOS=DET
+3	de	de	ADP	_	_	5	det	_	MWE=du|MWEPOS=DET
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	fixed	_	_
 5	flexibilité	flexibilité	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 6	et	et	CCONJ	_	_	10	cc	_	_
@@ -7349,7 +7349,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	aussi	aussi	ADV	_	_	2	advmod	_	_
-4	de	de	ADP	_	_	6	case	_	MWE=du|MWEPOS=DET
+4	de	de	ADP	_	_	6	det	_	MWE=du|MWEPOS=DET
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	fixed	_	_
 6	flexibilité	flexibilité	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 7	pour	pour	ADP	_	_	9	case	_	_

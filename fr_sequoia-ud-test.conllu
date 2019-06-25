@@ -243,7 +243,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	de	de	ADP	_	_	15	mark	_	_
 15	diffuser	diffuser	VERB	_	VerbForm=Inf	12	conj	_	_
-16	de	de	ADP	_	_	18	case	_	MWE=du|MWEPOS=DET
+16	de	de	ADP	_	_	18	det	_	MWE=du|MWEPOS=DET
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	fixed	_	_
 18	culture	culture	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 19	selon	selon	ADP	_	_	21	case	_	_
@@ -4683,7 +4683,7 @@
 4	en	en	ADP	_	_	5	case	_	_
 5	conjonction	conjonction	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
 6	avec	avec	ADP	_	_	9	case	_	_
-7	de	de	ADP	_	_	9	case	_	MWE=du|MWEPOS=DET
+7	de	de	ADP	_	_	9	det	_	MWE=du|MWEPOS=DET
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	fixed	_	SpaceAfter=No
 9	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
@@ -4808,7 +4808,7 @@
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	également	également	ADV	_	_	6	advmod	_	_
 6	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-7	de	de	ADP	_	_	9	case	_	MWE=du|MWEPOS=DET
+7	de	de	ADP	_	_	9	det	_	MWE=du|MWEPOS=DET
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	fixed	_	SpaceAfter=No
 9	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
@@ -5427,7 +5427,7 @@
 # text = Angiox contient de la bivalirudine, un inhibiteur direct et spécifique de la thrombine, qui se lie à la fois au site catalytique et à l'exosite de liaison des anions de la thrombine en phase liquide et liée aux caillots.
 1	Angiox	Angiox	PROPN	_	_	2	nsubj	_	_
 2	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	5	case	_	MWE=du|MWEPOS=DET
+3	de	de	ADP	_	_	5	det	_	MWE=du|MWEPOS=DET
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	fixed	_	_
 5	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_

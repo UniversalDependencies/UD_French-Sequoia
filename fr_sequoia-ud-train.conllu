@@ -4091,15 +4091,15 @@
 1	Quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	toiles	toile	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
-4	de	de	ADP	_	_	6	case	_	MWE=du|MWEPOS=DET
+4	de	de	ADP	_	_	6	det	_	MWE=du|MWEPOS=DET
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	fixed	_	SpaceAfter=No
 6	acrylique	acrylique	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	de	de	ADP	_	_	10	case	_	MWE=du|MWEPOS=DET
+8	de	de	ADP	_	_	10	det	_	MWE=du|MWEPOS=DET
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	fixed	_	SpaceAfter=No
 10	huile	huile	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
-12	de	de	ADP	_	_	14	case	_	MWE=du|MWEPOS=DET
+12	de	de	ADP	_	_	14	det	_	MWE=du|MWEPOS=DET
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	fixed	_	SpaceAfter=No
 14	encre	encre	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 15	de	de	ADP	_	_	16	case	_	_
@@ -4107,7 +4107,7 @@
 17	,	,	PUNCT	_	_	2	punct	_	_
 18	mais	mais	CCONJ	_	_	22	cc	_	_
 19	aussi	aussi	ADV	_	_	22	advmod	_	_
-20	de	de	ADP	_	_	22	case	_	MWE=du|MWEPOS=DET
+20	de	de	ADP	_	_	22	det	_	MWE=du|MWEPOS=DET
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	fixed	_	_
 22	sculpture	sculpture	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 23	et	et	CCONJ	_	_	27	cc	_	_
@@ -8100,7 +8100,7 @@
 # text = Arturo a de la chance, il arrive en Chine au moment de la fête de la nouvelle année.
 1	Arturo	Arturo	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	5	case	_	MWE=du|MWEPOS=DET
+3	de	de	ADP	_	_	5	det	_	MWE=du|MWEPOS=DET
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	fixed	_	_
 5	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -10372,7 +10372,7 @@
 59	en	en	ADP	_	_	60	case	_	_
 60	combinaison	combinaison	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
 61	avec	avec	ADP	_	_	64	case	_	_
-62	de	de	ADP	_	_	64	case	_	MWE=du|MWEPOS=DET
+62	de	de	ADP	_	_	64	det	_	MWE=du|MWEPOS=DET
 63	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	62	fixed	_	SpaceAfter=No
 64	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	60	nmod	_	_
 65	(	(	PUNCT	_	_	64	punct	_	SpaceAfter=No
@@ -10824,7 +10824,7 @@
 35	précoce	précoce	ADJ	_	Number=Sing	33	conj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	30	punct	_	_
 37	avec	avec	ADP	_	_	40	case	_	_
-38	de	de	ADP	_	_	40	case	_	MWE=du|MWEPOS=DET
+38	de	de	ADP	_	_	40	det	_	MWE=du|MWEPOS=DET
 39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	fixed	_	SpaceAfter=No
 40	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
 41	et	et	CCONJ	_	_	43	cc	_	_
@@ -11081,7 +11081,7 @@
 3	être	être	AUX	_	VerbForm=Inf	4	aux:pass	_	_
 4	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
 5	avec	avec	ADP	_	_	8	case	_	_
-6	de	de	ADP	_	_	8	case	_	MWE=du|MWEPOS=DET
+6	de	de	ADP	_	_	8	det	_	MWE=du|MWEPOS=DET
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	fixed	_	SpaceAfter=No
 8	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
@@ -11358,7 +11358,7 @@
 36	patient	patient	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
 37	traité	traiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	conj	_	_
 38	avec	avec	ADP	_	_	41	case	_	_
-39	de	de	ADP	_	_	41	case	_	MWE=du|MWEPOS=DET
+39	de	de	ADP	_	_	41	det	_	MWE=du|MWEPOS=DET
 40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	39	fixed	_	SpaceAfter=No
 41	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	_
 42	non	non	ADV	_	_	43	advmod	_	_
@@ -11782,13 +11782,13 @@
 # text = Utilisation avec de l'héparine non fractionnée et de l'héparine de bas poids moléculaire
 1	Utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	avec	avec	ADP	_	_	5	case	_	_
-3	de	de	ADP	_	_	5	case	_	MWE=du|MWEPOS=DET
+3	de	de	ADP	_	_	5	det	_	MWE=du|MWEPOS=DET
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	fixed	_	SpaceAfter=No
 5	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 6	non	non	ADV	_	_	7	advmod	_	_
 7	fractionnée	fractionner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 8	et	et	CCONJ	_	_	11	cc	_	_
-9	de	de	ADP	_	_	11	case	_	MWE=du|MWEPOS=DET
+9	de	de	ADP	_	_	11	det	_	MWE=du|MWEPOS=DET
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	fixed	_	SpaceAfter=No
 11	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -12333,7 +12333,7 @@
 34	respiration	respiration	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 35	sifflante	sifflant	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	39	punct	_	_
-37	de	de	ADP	_	_	39	case	_	MWE=du|MWEPOS=DET
+37	de	de	ADP	_	_	39	det	_	MWE=du|MWEPOS=DET
 38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	fixed	_	SpaceAfter=No
 39	hypotension	hypotension	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 40	et	et	CCONJ	_	_	42	cc	_	_
@@ -12644,14 +12644,14 @@
 27	été	être	AUX	_	Tense=Past|VerbForm=Part	28	aux:pass	_	_
 28	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
 29	avec	avec	ADP	_	_	32	case	_	_
-30	de	de	ADP	_	_	32	case	_	MWE=du|MWEPOS=DET
+30	de	de	ADP	_	_	32	det	_	MWE=du|MWEPOS=DET
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	fixed	_	SpaceAfter=No
 32	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	_
 33	non	non	ADV	_	_	34	advmod	_	_
 34	fractionnée	fractionner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	32	acl	_	_
 35	ou	ou	CCONJ	_	_	39	cc	_	_
 36	avec	avec	ADP	_	_	39	case	_	_
-37	de	de	ADP	_	_	39	case	_	MWE=du|MWEPOS=DET
+37	de	de	ADP	_	_	39	det	_	MWE=du|MWEPOS=DET
 38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	fixed	_	SpaceAfter=No
 39	enoxaparine	enoxaparine	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
 40	plus	plus	ADP	_	_	42	case	_	_
@@ -12718,7 +12718,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	patients	patient	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 7	recevant	recevoir	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
-8	de	de	ADP	_	_	10	case	_	MWE=du|MWEPOS=DET
+8	de	de	ADP	_	_	10	det	_	MWE=du|MWEPOS=DET
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	fixed	_	_
 10	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -12856,7 +12856,7 @@
 20	seule	seul	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	22	aux	_	_
 22	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
-23	de	de	ADP	_	_	25	case	_	MWE=du|MWEPOS=DET
+23	de	de	ADP	_	_	25	det	_	MWE=du|MWEPOS=DET
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	fixed	_	SpaceAfter=No
 25	héparine	héparine	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 26	avant	avant	ADP	_	_	28	case	_	_
@@ -14720,7 +14720,7 @@
 28	patients	patient	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
 29	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	30	aux	_	_
 30	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl	_	_
-31	de	de	ADP	_	_	33	case	_	MWE=du|MWEPOS=DET
+31	de	de	ADP	_	_	33	det	_	MWE=du|MWEPOS=DET
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	fixed	_	SpaceAfter=No
 33	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
@@ -14773,7 +14773,7 @@
 24	patients	patient	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
 25	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	26	aux	_	_
 26	reçus	recevoir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
-27	de	de	ADP	_	_	29	case	_	MWE=du|MWEPOS=DET
+27	de	de	ADP	_	_	29	det	_	MWE=du|MWEPOS=DET
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	fixed	_	SpaceAfter=No
 29	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
@@ -18357,7 +18357,7 @@
 37	du	du	DET	_	Gender=Masc|Number=Sing	38	det	_	_
 38	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
 39	ou	ou	CCONJ	_	_	42	cc	_	_
-40	de	de	ADP	_	_	42	case	_	MWE=du|MWEPOS=DET
+40	de	de	ADP	_	_	42	det	_	MWE=du|MWEPOS=DET
 41	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	40	fixed	_	SpaceAfter=No
 42	ibuprofène	ibuprofène	NOUN	_	Gender=Masc|Number=Sing	38	conj	_	_
 43	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
@@ -20622,7 +20622,7 @@
 22	du	du	DET	_	Gender=Masc|Number=Sing	23	det	_	_
 23	paracétamol	paracétamol	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
 24	ou	ou	CCONJ	_	_	27	cc	_	_
-25	de	de	ADP	_	_	27	case	_	MWE=du|MWEPOS=DET
+25	de	de	ADP	_	_	27	det	_	MWE=du|MWEPOS=DET
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	fixed	_	SpaceAfter=No
 27	ibuprofène	ibuprofène	NOUN	_	Gender=Masc|Number=Sing	23	conj	_	_
 28	peu	peu	ADV	_	_	31	advmod	_	_
@@ -23872,7 +23872,7 @@
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	remplacé	remplacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
 14	par	par	ADP	_	_	17	case	_	_
-15	de	de	ADP	_	_	17	case	_	MWE=du|MWEPOS=DET
+15	de	de	ADP	_	_	17	det	_	MWE=du|MWEPOS=DET
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	fixed	_	SpaceAfter=No
 17	os	os	NOUN	_	Gender=Masc|Number=Sing	13	obl:agent	_	_
 18	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
@@ -27708,7 +27708,7 @@
 # text = Il faut de la flexibilité.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	5	case	_	MWE=du|MWEPOS=DET
+3	de	de	ADP	_	_	5	det	_	MWE=du|MWEPOS=DET
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	fixed	_	_
 5	flexibilité	flexibilité	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -29254,7 +29254,7 @@
 4	nous	il	PRON	_	Number=Plur|Person=1	5	nsubj	_	_
 5	devrions	devoir	VERB	_	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 6	accorder	accorder	VERB	_	VerbForm=Inf	5	xcomp	_	_
-7	de	de	ADP	_	_	9	case	_	MWE=du|MWEPOS=DET
+7	de	de	ADP	_	_	9	det	_	MWE=du|MWEPOS=DET
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	fixed	_	SpaceAfter=No
 9	importance	importance	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 10-11	aux	_	_	_	_	_	_	_	_
@@ -33821,7 +33821,7 @@
 20	50	50	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
 21	%	%	NOUN	_	Gender=Masc	25	nsubj	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
-23	de	de	ADP	_	_	25	case	_	MWE=du|MWEPOS=DET
+23	de	de	ADP	_	_	25	det	_	MWE=du|MWEPOS=DET
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	fixed	_	SpaceAfter=No
 25	argent	argent	NOUN	_	Gender=Masc|Number=Sing	7	advcl	_	_
 26	récupéré	récupérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
@@ -40980,7 +40980,7 @@
 4	cependant	cependant	ADV	_	_	5	advmod	_	_
 5	perçue	percevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	comme	comme	ADP	_	_	9	case	_	_
-7	de	de	ADP	_	_	9	case	_	MWE=du|MWEPOS=DET
+7	de	de	ADP	_	_	9	det	_	MWE=du|MWEPOS=DET
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	fixed	_	SpaceAfter=No
 9	arrogance	arrogance	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
