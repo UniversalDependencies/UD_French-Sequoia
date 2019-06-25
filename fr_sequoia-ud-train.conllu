@@ -33864,7 +33864,7 @@
 7	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
 8	y	y	PRON	_	Person=3	9	expl	_	_
 9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	que	que	ADV	_	_	14	advmod	_	_
+10	que	que	ADV	_	_	12	advmod	_	_
 11	très	très	ADV	_	_	12	advmod	_	_
 12	peu	peu	ADV	_	_	9	obj	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
@@ -39792,20 +39792,20 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Roumanie	Roumanie	PROPN	_	Gender=Fem|Number=Sing	6	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	et	et	CCONJ	_	_	20	cc	_	_
+17	et	et	CCONJ	_	_	18	cc	_	_
 18	moins	moins	ADV	_	_	9	conj	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	200	200	PRON	_	NumType=Card	18	obl:arg	_	_
 21	à	à	ADP	_	_	22	case	_	_
-22	Timisoara	Timisoara	PROPN	_	_	20	orphan	_	_
-23	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	Timisoara	Timisoara	PROPN	_	_	18	orphan	_	_
+23	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	seulement	seulement	ADV	_	_	25	advmod	_	_
 25	96	96	PRON	_	NumType=Card	20	nmod	_	_
 26	selon	selon	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	décomptes	décompte	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
 29	officiels	officiel	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	SpaceAfter=No
-30	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+30	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = frwiki_50.1000_00068

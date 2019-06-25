@@ -793,8 +793,8 @@
 33	bien	bien	ADV	_	_	28	advmod	_	MWE=bien_entendu|MWEPOS=ADV
 34	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	fixed	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	28	punct	_	_
-36	mais	mais	CCONJ	_	_	41	cc	_	_
-37	également	également	ADV	_	_	41	advmod	_	_
+36	mais	mais	CCONJ	_	_	38	cc	_	_
+37	également	également	ADV	_	_	38	advmod	_	_
 38	beaucoup	beaucoup	ADV	_	_	28	conj	_	_
 39	d'	de	ADP	_	_	41	case	_	SpaceAfter=No
 40	autres	autre	ADJ	_	Number=Plur	41	amod	_	_
