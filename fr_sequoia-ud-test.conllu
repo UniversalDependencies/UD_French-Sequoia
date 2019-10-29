@@ -6234,7 +6234,7 @@
 2	Aclasta	Aclasta	PROPN	_	_	7	nsubj:pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	SpaceAfter=No
 4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
-5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl	_	_
+5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl:subj	_	_
 6	été	être	AUX	_	Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	approuvé	approuver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 8	?	?	PUNCT	_	_	7	punct	_	_
