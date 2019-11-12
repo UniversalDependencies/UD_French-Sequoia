@@ -68,38 +68,40 @@
     <feat name="Voice" value="Pass" upos="VERB">756</feat><!-- utilisé, administré, mis, observée, recommandé, traités, condamné, arrêté, observé, présentés -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="45">
+  <deps unique="47">
     <dep name="acl">1090</dep>
     <dep name="acl:relcl">536</dep>
     <dep name="advcl">592</dep>
     <dep name="advcl:cleft">20</dep>
     <dep name="advmod">2477</dep>
     <dep name="amod">3810</dep>
-    <dep name="appos">489</dep>
-    <dep name="aux">948</dep>
+    <dep name="appos">589</dep>
     <dep name="aux:caus">34</dep>
     <dep name="aux:pass">756</dep>
-    <dep name="case">10315</dep>
+    <dep name="aux:tense">948</dep>
+    <dep name="case">10279</dep>
     <dep name="cc">1655</dep>
     <dep name="ccomp">335</dep>
     <dep name="conj">2037</dep>
     <dep name="cop">563</dep>
-    <dep name="csubj">1</dep>
+    <dep name="csubj">33</dep>
     <dep name="csubj:pass">1</dep>
-    <dep name="dep">238</dep>
-    <dep name="det">10338</dep>
+    <dep name="dep">245</dep>
+    <dep name="det">10374</dep>
     <dep name="discourse">3</dep>
     <dep name="dislocated">17</dep>
-    <dep name="expl">358</dep>
+    <dep name="expl:comp">286</dep>
+    <dep name="expl:pass">57</dep>
+    <dep name="expl:subj">241</dep>
     <dep name="fixed">677</dep>
     <dep name="flat:foreign">76</dep>
-    <dep name="flat:name">898</dep>
+    <dep name="flat:name">851</dep>
     <dep name="goeswith">2</dep>
     <dep name="iobj">219</dep>
     <dep name="iobj:agent">1</dep>
     <dep name="mark">1497</dep>
-    <dep name="nmod">7185</dep>
-    <dep name="nsubj">3091</dep>
+    <dep name="nmod">7132</dep>
+    <dep name="nsubj">2858</dep>
     <dep name="nsubj:caus">16</dep>
     <dep name="nsubj:pass">595</dep>
     <dep name="nummod">1048</dep>
@@ -113,6 +115,6 @@
     <dep name="punct">7861</dep>
     <dep name="root">3099</dep>
     <dep name="vocative">53</dep>
-    <dep name="xcomp">1057</dep>
+    <dep name="xcomp">1025</dep>
   </deps>
 </treebank>

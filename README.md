@@ -10,7 +10,7 @@ See [here](http://deep-sequoia.inria.fr/process) for more info about the convers
 The first version of the Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-diderot.archives-ouvertes.fr/hal-00698938/).
 
 ## Splitting
-The whole corpus contains 70,624 tokens in 3,099 sentences.
+The whole corpus contains 70,567 tokens in 3,099 sentences.
 
 In **UD_French-Sequoia**, data were randomly split into:
 
@@ -32,12 +32,12 @@ The conversion has been performed by Bruno Guillaume with the Graph Rewriting Sy
 
 The Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-diderot.archives-ouvertes.fr/hal-00698938/) and revised later, notably during the project of deep annotation described in [(Candito & al. 2014)](http://hal.inria.fr/docs/00/97/15/74/PDF/deep_sequoia.final_with_keywords.pdf) and [(Perrier & al. 2014)](http://talc2.loria.fr/deep-sequoia/papers/syntaxe_profonde.pdf).
 
-The conversion process to UD is descibed in [(Bonfante & al. 2018)](https://hal.inria.fr/hal-01814386), chapter 3.
+The conversion process to UD is described in [(Bonfante & al. 2018)](https://hal.inria.fr/hal-01814386), chapter 3.
 
 # References
 **(Candito & Seddah, 2012)** Marie Candito, Djamé Seddah. [Le corpus Sequoia : annotation syntaxique et exploitation pour l'adaptation d'analyseur par pont lexical](https://hal-univ-diderot.archives-ouvertes.fr/hal-00698938/). TALN 2012 - 19e conférence sur le Traitement Automatique des Langues Naturelles, Jun 2012, Grenoble, France. 2012.
 
-**(Candito & al. 2014)** Marie Candito, Guy Perrier, Bruno Guillaume, Corentin Ribeyre, Karën Fort, Djamé Seddah and Éric de la Clergerie. (2014) [Deep Syntax Annotation of the Sequoia French Treebank](http://hal.inria.fr/docs/00/97/15/74/PDF/deep_sequoia.final_with_keywords.pdf). *Proc. of LREC 2014*, Reykjavic, Iceland.
+**(Candito & al. 2014)** Marie Candito, Guy Perrier, Bruno Guillaume, Corentin Ribeyre, Karën Fort, Djamé Seddah and Éric de la Clergerie. (2014) [Deep Syntax Annotation of the Sequoia French Treebank](http://hal.inria.fr/docs/00/97/15/74/PDF/deep_sequoia.final_with_keywords.pdf). *Proc. of LREC 2014*, Reykjavík, Iceland.
 
 **(Perrier & al. 2014)** Guy Perrier, Marie Candito, Bruno Guillaume, Corentin Ribeyre, Karën Fort and Djamé Seddah. (2014) [Un schéma d'annotation en dépendances syntaxiques profondes pour le français](http://talc2.loria.fr/deep-sequoia/papers/syntaxe_profonde.pdf). *Proc. of TALN 2014*, Marseille, France.
 
@@ -45,6 +45,11 @@ The conversion process to UD is descibed in [(Bonfante & al. 2018)](https://hal.
 
 # Changelog
 
+* 2019-11-15 v2.5
+  * Update the conversion process to improve consistency with other French treebanks:
+     * expletive annotation with relations `expl:subj`, `expl:comp` and `expl:pass` 
+     * `aux` -> `aux:tense`
+     * `MWEPOS` -> `EXTPOS` 
 * 2019-05-15 v2.4
   * Several corrections in the original corpus (often found during PARSEME-Fr annotation project)
   * Update the conversion process (mainly to handle new validation rules)
