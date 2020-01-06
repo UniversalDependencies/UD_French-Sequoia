@@ -1176,7 +1176,7 @@
 1	Je	il	PRON	_	Number=Sing|Person=1	4	nsubj	_	_
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	peut-être	peut-être	ADV	_	_	4	advmod	_	_
-4	têtu	têtu	ADJ	_	_	0	root	_	SpaceAfter=No
+4	têtu	têtu	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	mais	mais	CCONJ	_	_	9	cc	_	_
 7	c'	ce	PRON	_	Number=Sing|Person=3	9	nsubj	_	SpaceAfter=No
@@ -5171,7 +5171,7 @@
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	endocardite	endocardite	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 12	bactérienne	bactérien	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	subaiguë	subaiguë	ADJ	_	_	11	amod	_	SpaceAfter=No
+13	subaiguë	subaiguë	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00153
@@ -5420,7 +5420,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-6	hémodialysable	hémodialysable	ADJ	_	_	0	root	_	SpaceAfter=No
+6	hémodialysable	hémodialysable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00293
@@ -5589,7 +5589,7 @@
 # text = La stabilité physicochimique du produit reconstitué a été démontrée pendant 24 heures entre 2 °C- 8 °C.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	stabilité	stabilité	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
-3	physicochimique	physicochimique	ADJ	_	_	2	amod	_	_
+3	physicochimique	physicochimique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -5665,7 +5665,7 @@
 # text = DATE DE PREMIERE AUTORISATION / DE RENOUVELLEMENT DE L'AUTORISATION
 1	DATE	date	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	DE	de	ADP	_	_	4	case	_	_
-3	PREMIERE	PREMIERE	ADJ	_	_	4	amod	_	_
+3	PREMIERE	première	ADJ	_	NumType=Ord	4	amod	_	_
 4	AUTORISATION	autorisation	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 5	/	ou	CCONJ	_	_	7	cc	_	_
 6	DE	de	ADP	_	_	7	case	_	_
@@ -6019,7 +6019,7 @@
 22	chez	chez	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	3	obl:mod	_	_
-25	ménopausées	ménopausé	ADJ	_	_	24	amod	_	_
+25	ménopausées	ménopausé	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
 26	que	que	SCONJ	_	_	29	mark	_	_
 27	chez	chez	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
@@ -6078,7 +6078,7 @@
 19	de	de	ADP	_	_	20	case	_	_
 20	phosphatases	phosphatase	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
 21	alcalines	alcalin	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
-22	sériques	sérique	ADJ	_	_	20	amod	_	_
+22	sériques	sérique	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
 23	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 24	enzyme	enzyme	NOUN	_	Number=Sing	20	appos	_	_
 25	impliquée	impliquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
@@ -6465,7 +6465,7 @@
 9	administration	administration	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	acide	acide	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-12	zolédronique	zolédronique	ADJ	_	_	11	amod	_	SpaceAfter=No
+12	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	_
 14	en	en	ADP	_	_	18	advmod	_	EXTPOS=ADV|MWE=en_particulier
 15	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	fixed	_	_
@@ -6491,7 +6491,7 @@
 35	anticancéreuse	anticancéreux	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	34	conj	_	_
-38	néphrotoxiques	néphrotoxique	ADJ	_	_	37	amod	_	_
+38	néphrotoxiques	néphrotoxique	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	_
 39	concomitants	concomitant	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	déshydratation	déshydratation	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
@@ -6550,7 +6550,7 @@
 # sent_id = emea-fr-test_00201
 # text = Effets pharmacodynamiques
 1	Effets	effet	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	pharmacodynamiques	pharmacodynamique	ADJ	_	_	1	amod	_	_
+2	pharmacodynamiques	pharmacodynamique	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 
 # sent_id = emea-fr-test_00202
 # text = Le traitement par Aclasta réduit rapidement la vitesse de renouvellement osseux, à partir de taux post-ménopausiques élevés.
@@ -6570,7 +6570,7 @@
 14	partir	partir	VERB	_	VerbForm=Inf	13	fixed	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	taux	taux	NOUN	_	Gender=Masc|Number=Plur	13	dep	_	_
-17	post-ménopausiques	post-ménopausique	ADJ	_	_	16	amod	_	_
+17	post-ménopausiques	post-ménopausique	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 18	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6601,7 +6601,7 @@
 23	chez	chez	ADP	_	_	25	case	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
 25	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	22	obl:mod	_	_
-26	ménopausées	ménopausé	ADJ	_	_	25	amod	_	_
+26	ménopausées	ménopausé	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
 27	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 28	7 736	7 736	DET	_	_	29	det	_	_
 29	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	25	appos	_	_
@@ -6647,7 +6647,7 @@
 66	ou	ou	CCONJ	_	_	67	cc	_	_
 67	une	un	PRON	_	Gender=Fem|Number=Sing	63	conj	_	_
 68	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	67	amod	_	_
-69	prévalentes	prévalent	ADJ	_	_	63	amod	_	_
+69	prévalentes	prévalent	ADJ	_	Gender=Fem|Number=Sing	63	amod	_	_
 70	;	;	PUNCT	_	_	41	punct	_	_
 71	soit	soit	CCONJ	_	_	73	cc	_	_
 72	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	73	det	_	_
@@ -6668,7 +6668,7 @@
 85	sans	sans	ADP	_	_	83	conj	_	_
 86	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	73	nmod	_	_
 87	vertébrale	vertébral	ADJ	_	Gender=Fem|Number=Sing	86	amod	_	_
-88	prévalente	prévalent	ADJ	_	_	86	amod	_	SpaceAfter=No
+88	prévalente	prévalent	ADJ	_	Gender=Fem|Number=Sing	86	amod	_	SpaceAfter=No
 89	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = emea-fr-test_00208
@@ -7152,7 +7152,7 @@
 19	mg	mg	NOUN	_	Gender=Masc	10	nmod	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 21	acide	acide	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-22	zolédronique	zolédronique	ADJ	_	_	21	amod	_	_
+22	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23	chez	chez	ADP	_	_	25	case	_	_
 24	64	64	NUM	_	NumType=Card	25	nummod	_	_
 25	patients	patient	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
@@ -7183,7 +7183,7 @@
 6	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	acide	acide	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	zolédronique	zolédronique	ADJ	_	_	8	amod	_	SpaceAfter=No
+9	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	19	punct	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	concentrations	concentration	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
@@ -7606,7 +7606,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	acide	acide	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-8	zolédronique	zolédronique	ADJ	_	_	7	amod	_	SpaceAfter=No
+8	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00506
@@ -7623,7 +7623,7 @@
 10	mg	mg	NOUN	_	Gender=Masc	8	obj	_	_
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	acide	acide	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-13	zolédronique	zolédronique	ADJ	_	_	12	amod	_	_
+13	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 14	anhydre	anhydre	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
 16	ce	ce	PRON	_	_	10	appos	_	_
@@ -7634,8 +7634,8 @@
 21	mg	mg	NOUN	_	Gender=Masc	18	obl:arg	_	_
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	acide	acide	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-24	zolédronique	zolédronique	ADJ	_	_	23	amod	_	_
-25	monohydraté	monohydraté	ADJ	_	_	23	amod	_	SpaceAfter=No
+24	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	monohydraté	monohydraté	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-test_00508
@@ -7682,7 +7682,7 @@
 9	mesurer	mesurer	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	taux	taux	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
-12	sériques	sérique	ADJ	_	_	11	amod	_	_
+12	sériques	sérique	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	créatinine	créatinine	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15-16	des	_	_	_	_	_	_	_	_
@@ -7713,7 +7713,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	réserve	réserve	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-20	parathyroïde	parathyroïd	ADJ	_	_	19	amod	_	SpaceAfter=No
+20	parathyroïde	parathyroïd	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	8	punct	_	_
 22	malabsorption	malabsorption	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 23	intestinale	intestinal	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
@@ -7736,7 +7736,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	acide	acide	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-12	zolédronique	zolédronique	ADJ	_	_	11	amod	_	_
+12	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	sur	sur	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -9671,7 +9671,7 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	intermédiaire	intermédiaire	NOUN	_	Number=Sing	22	nmod	_	_
-27	taiwanais	taiwanai	ADJ	_	_	26	amod	_	SpaceAfter=No
+27	taiwanais	taiwanais	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	26	punct	_	_
 29	Andrew	Andrew	PROPN	_	Gender=Masc|Number=Sing	26	appos	_	_
 30	Wang	Wang	PROPN	_	_	29	flat:name	_	SpaceAfter=No
