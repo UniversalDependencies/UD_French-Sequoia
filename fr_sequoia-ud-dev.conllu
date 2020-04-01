@@ -361,7 +361,7 @@
 11	président	président	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	Harmonie	Harmonie	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	Harmonie	harmonie	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	_
 16	accusé	accuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 17	de	de	ADP	_	_	19	mark	_	_
@@ -986,7 +986,7 @@
 20	et	et	CCONJ	_	_	23	cc	_	_
 21	ses	son	DET	_	Number=Plur|Poss=Yes	23	det	_	_
 22	sept	sept	NUM	_	NumType=Card	23	nummod	_	_
-23	arrière-petits-enfants	arrière-petits-enfant	NOUN	_	Number=Plur	15	conj	_	SpaceAfter=No
+23	arrière-petits-enfants	arrière-petit-enfant	NOUN	_	Number=Plur	15	conj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = annodis.er_00409
@@ -3176,7 +3176,7 @@
 7	survenant	survenir	VERB	_	Tense=Pres|VerbForm=Part	5	acl	_	_
 8	dans	dans	ADP	_	_	12	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-10	trois	trois	NUM	_	NumType=Card	11	obl:mod	_	_
+10	trois	trois	NUM	_	NumType=Card	12	nummod	_	_
 11	premiers	premier	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	_
 12	jours	jour	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	_
 13	suivant	suivre	VERB	_	Tense=Pres|VerbForm=Part	12	acl	_	_
@@ -5667,7 +5667,7 @@
 3	Offenstadt	Offenstadt	PROPN	_	_	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-6	Fusillés	Fusillé	NOUN	_	Number=Plur	2	nmod	_	_
+6	Fusillés	fusillé	NOUN	_	Number=Plur	2	nmod	_	_
 7	de	de	ADP	_	_	10	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	Grande	grand	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
@@ -10344,7 +10344,7 @@
 
 # sent_id = frwiki_50.1000_00194
 # text = Lien externe
-1	Lien	Lien	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+1	Lien	lien	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	externe	externe	ADJ	_	Number=Sing	1	amod	_	_
 
 # sent_id = frwiki_50.1000_00205

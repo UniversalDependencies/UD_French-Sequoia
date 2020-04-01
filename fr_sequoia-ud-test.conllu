@@ -443,7 +443,7 @@
 24	vite	vite	ADV	_	_	22	advmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	22	punct	_	_
 26	croyez	croire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	parataxis	_	SpaceAfter=No
-27	-moi	-moi	PRON	_	_	26	obj	_	_
+27	-moi	moi	PRON	_	_	26	obj	_	_
 28	!	!	PUNCT	_	_	22	punct	_	_
 
 # sent_id = Europar.550_00098
