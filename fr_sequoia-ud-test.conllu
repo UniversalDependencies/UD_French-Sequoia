@@ -8338,7 +8338,7 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	parti	parti	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
-27	socialiste	socialiste	NOUN	_	Number=Sing	26	nmod	_	_
+27	socialiste	socialiste	ADJ	_	Number=Sing	26	amod	_	_
 28	François	François	PROPN	_	Gender=Masc|Number=Sing	23	appos	_	_
 29	Mitterrand	Mitterrand	PROPN	_	_	28	flat:name	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	6	punct	_	_

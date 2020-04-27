@@ -8337,7 +8337,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	seuil	seuil	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	en-dessous	en-dessous	ADP	_	_	14	case	_	_
+12	en-dessous	en-dessous	ADV	_	_	14	case	_	_
 13-14	duquel	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing	21	obl:arg	_	_
@@ -14524,7 +14524,7 @@
 32	instable	instable	ADJ	_	Number=Sing	31	amod	_	_
 33	ou	ou	CCONJ	_	_	34	cc	_	_
 34	IDM	IDM	NOUN	_	_	31	conj	_	_
-35	ST-	ST-	NOUN	_	_	34	nmod	_	SpaceAfter=No
+35	ST-	ST-	ADJ	_	_	34	amod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = emea-fr-dev_00313
@@ -37570,7 +37570,7 @@
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	souvent	souvent	ADV	_	_	4	advmod	_	_
 4	sceptique	sceptique	ADJ	_	Number=Sing	0	root	_	_
-5	vis-à-vis	vis-à-vis	ADV	_	Gender=Fem	4	advmod	_	_
+5	vis-à-vis	vis-à-vis	ADV	_	_	4	advmod	_	_
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -45303,8 +45303,8 @@
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
-41	bons	bon	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
-42	républicains	républicain	ADJ	_	Gender=Masc|Number=Plur	41	amod	_	_
+41	bons	bon	ADJ	_	Gender=Masc|Number=Plur	38	nmod	_	_
+42	républicains	républicain	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
 43	par	par	ADP	_	_	45	case	_	_
 44	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
 45	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	35	obl:agent	_	_
