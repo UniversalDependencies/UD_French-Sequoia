@@ -52993,7 +52993,7 @@
 71	mots	mot	NOUN	_	Gender=Masc|Number=Plur	49	nmod	_	_
 72	de	de	ADP	_	_	74	case	_	_
 73	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
-74	vice-procureure	vice-procureure	NOUN	_	Gender=Fem|Number=Sing	71	nmod	_	SpaceAfter=No
+74	vice-procureure	vice-procureur	NOUN	_	Gender=Fem|Number=Sing	71	nmod	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	74	punct	_	_
 76	Chantal	Chantal	PROPN	_	Gender=Fem|Number=Sing	74	appos	_	_
 77	de	de	ADP	_	_	78	case	_	_
