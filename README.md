@@ -45,11 +45,14 @@ The conversion process to UD is described in [(Bonfante & al. 2018)](https://hal
 
 # Changelog
 
+* 2020-05-15 v2.6
+  * Fix some annotation errors found during PARSEME-Fr project
+  * Fix some inconsistent lemmas and morphological features
 * 2019-11-15 v2.5
   * Update the conversion process to improve consistency with other French treebanks:
-     * expletive annotation with relations `expl:subj`, `expl:comp` and `expl:pass` 
+     * expletive annotation with relations `expl:subj`, `expl:comp` and `expl:pass`
      * `aux` -> `aux:tense`
-     * `MWEPOS` -> `EXTPOS` 
+     * `MWEPOS` -> `EXTPOS`
 * 2019-05-15 v2.4
   * Several corrections in the original corpus (often found during PARSEME-Fr annotation project)
   * Update the conversion process (mainly to handle new validation rules)

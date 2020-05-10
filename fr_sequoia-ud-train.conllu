@@ -672,7 +672,7 @@
 7	à	à	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	collectivités	collectivité	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	_
-10	participantes	participant	ADJ	_	_	9	amod	_	SpaceAfter=No
+10	participantes	participant	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	et	et	CCONJ	_	_	17	cc	_	_
 13	en	en	ADP	_	_	17	advmod	_	EXTPOS=ADV|MWE=en_particulier
@@ -1503,7 +1503,7 @@
 11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 12	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Gaule	Gaule	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-14	vidusienne	vidusien	ADJ	_	_	13	amod	_	SpaceAfter=No
+14	vidusienne	vidusien	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	13	punct	_	_
 16	durant	durant	ADP	_	_	18	case	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -1788,7 +1788,7 @@
 12	à	à	ADP	_	_	14	case	_	_
 13	120	120	NUM	_	NumType=Card	14	nummod	_	_
 14	pigeons	pigeon	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
-15	voyageurs	voyageur	ADJ	_	_	14	amod	_	SpaceAfter=No
+15	voyageurs	voyageur	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	10	punct	_	_
 17	et	et	CCONJ	_	_	23	cc	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -2655,7 +2655,7 @@
 1	Et	et	CCONJ	_	_	14	cc	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	société	société	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
-4	Lorraine	Lorrain	ADJ	_	_	3	amod	_	_
+4	Lorraine	lorrain	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 6	astronomie	astronomie	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -3193,7 +3193,7 @@
 5	dans	dans	ADP	_	_	7	case	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	droguerie	droguerie	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
-8	barisienne	barisien	ADJ	_	_	7	amod	_	SpaceAfter=No
+8	barisienne	barisien	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
 10	puis	puis	CCONJ	_	_	11	cc	_	_
 11	épousa	épouser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
@@ -3417,7 +3417,7 @@
 13	composantes	composante	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	Harmonie	Harmonie	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	Harmonie	harmonie	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 17	-	-	PUNCT	_	_	7	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl:cleft	_	_
@@ -3541,7 +3541,7 @@
 7	composante	composante	NOUN	_	Gender=Fem|Number=Sing	4	appos	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	Harmonie	Harmonie	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	Harmonie	harmonie	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 11	municipale	municipal	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	-	-	PUNCT	_	_	4	punct	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
@@ -3565,7 +3565,7 @@
 5	dorénavant	dorénavant	ADV	_	_	9	advmod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	défilés	défilé	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
-8	montbéliardais	montbéliardai	ADJ	_	_	7	amod	_	_
+8	montbéliardais	montbéliardais	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 9	auront	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	petit	petit	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
@@ -7645,7 +7645,7 @@
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	section	section	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-29	l'isloise	l'islois	ADJ	_	_	28	amod	_	SpaceAfter=No
+29	l'isloise	l'islois	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = annodis.er_00404
@@ -8337,7 +8337,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	seuil	seuil	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	en-dessous	en-dessous	ADP	_	_	14	case	_	_
+12	en-dessous	en-dessous	ADV	_	_	14	case	_	_
 13-14	duquel	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing	21	obl:arg	_	_
@@ -9479,7 +9479,7 @@
 18	à	à	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	brigade	brigade	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-21	bethoncourtoise	bethoncourtois	ADJ	_	_	20	amod	_	_
+21	bethoncourtoise	bethoncourtois	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	avant	avant	ADP	_	_	25	mark	_	_
 23	d'	de	ADP	_	_	25	mark	_	SpaceAfter=No
 24	être	être	AUX	_	VerbForm=Inf	25	aux:pass	_	_
@@ -9625,7 +9625,7 @@
 
 # sent_id = annodis.er_00516
 # text = Natif des Forges de Méziré, en 1928, il a fréquenté l'école de Morvillars jusqu'au CEP.
-1	Natif	natif	ADJ	_	_	13	advmod	_	_
+1	Natif	natif	ADJ	_	Gender=Masc|Number=Sing	13	advmod	_	_
 2-3	des	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -9798,7 +9798,7 @@
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	Jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	20	obl:arg	_	_
 25	olympiques	olympique	ADJ	_	Number=Plur	24	amod	_	_
-26	inter-établissements	inter-établissement	ADJ	_	_	24	amod	_	SpaceAfter=No
+26	inter-établissements	inter-établissement	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
 27	"	"	PUNCT	_	_	24	punct	_	_
 28	et	et	CCONJ	_	_	34	cc	_	_
 29	bien	bien	ADV	_	_	34	advmod	_	EXTPOS=ADV|MWE=bien_sûr
@@ -9824,10 +9824,10 @@
 # sent_id = emea-fr-dev_00003
 # text = RAPPORT EUROPÉEN PUBLIC D'ÉVALUATION (EPAR)
 1	RAPPORT	rapport	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	EUROPÉEN	EUROPÉEN	ADJ	_	_	1	amod	_	_
+2	EUROPÉEN	européen	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	PUBLIC	public	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 4	D'	de	ADP	_	_	5	case	_	SpaceAfter=No
-5	ÉVALUATION	ÉVALUATION	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	ÉVALUATION	évaluation	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 6	(	(	PUNCT	_	_	1	punct	_	SpaceAfter=No
 7	EPAR	épar	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	1	punct	_	_
@@ -9978,7 +9978,7 @@
 5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
 7	coronaire	coronaire	ADJ	_	Number=Sing	6	amod	_	_
-8	percutanée	percutané	ADJ	_	_	6	amod	_	SpaceAfter=No
+8	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 9	"	"	PUNCT	_	_	6	punct	_	_
 10	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 11	ICP	ICP	NOUN	_	_	6	appos	_	SpaceAfter=No
@@ -10368,7 +10368,7 @@
 55	avec	avec	ADP	_	_	57	case	_	_
 56	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 57	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	20	obl:arg	_	_
-58	standard	standard	ADJ	_	_	57	amod	_	_
+58	standard	standard	ADJ	_	Gender=Masc|Number=Sing	57	amod	_	_
 59	en	en	ADP	_	_	60	case	_	_
 60	combinaison	combinaison	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
 61	avec	avec	ADP	_	_	64	case	_	_
@@ -10525,7 +10525,7 @@
 26	que	que	SCONJ	_	_	28	mark	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	25	dep	_	_
-29	standard	standard	ADJ	_	_	28	amod	_	_
+29	standard	standard	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 30	pour	pour	ADP	_	_	31	mark	_	_
 31	prévenir	prévenir	VERB	_	VerbForm=Inf	25	advcl	_	_
 32	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
@@ -10841,7 +10841,7 @@
 52	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	51	obj	_	_
 54	coronaire	coronaire	ADJ	_	Number=Sing	53	amod	_	_
-55	percutanée	percutané	ADJ	_	_	53	amod	_	_
+55	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	53	amod	_	_
 56	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
 57	ICP	ICP	NOUN	_	_	53	appos	_	SpaceAfter=No
 58	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
@@ -11099,7 +11099,7 @@
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	coronaire	coronaire	ADJ	_	Number=Sing	7	amod	_	_
-9	percutanée	percutané	ADJ	_	_	7	amod	_	_
+9	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 10	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 11	ICP	ICP	NOUN	_	_	7	appos	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -11836,7 +11836,7 @@
 36	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
 37	par	par	ADP	_	_	38	case	_	_
 38	voie	voie	NOUN	_	Gender=Fem|Number=Sing	36	obl:mod	_	_
-39	sous-cutanée	sous-cutané	ADJ	_	_	38	amod	_	SpaceAfter=No
+39	sous-cutanée	sous-cutané	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00143
@@ -12158,7 +12158,7 @@
 6	avec	avec	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	inhibiteurs	inhibiteur	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-9	plaquettaires	plaquettaire	ADJ	_	_	8	amod	_	_
+9	plaquettaires	plaquettaire	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	ou	ou	CCONJ	_	_	12	cc	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	anticoagulants	anticoagulant	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
@@ -12315,7 +12315,7 @@
 16	comportent	comporter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 17	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
 18	réactions	réaction	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
-19	urticariennes	urticarien	ADJ	_	_	18	amod	_	SpaceAfter=No
+19	urticariennes	urticarien	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	urticaire	urticaire	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
@@ -12368,7 +12368,7 @@
 # text = La formation intra-procédurale de thrombus a été observée pendant les procédures de brachythérapie gamma avec Angiox.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	formation	formation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
-3	intra-procédurale	intra-procédural	ADJ	_	_	2	amod	_	_
+3	intra-procédurale	intra-procédural	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	thrombus	thrombus	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
@@ -12418,7 +12418,7 @@
 14	produise	produire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 15	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	SpaceAfter=No
 16	interactions	interaction	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
-17	pharmacodynamiques	pharmacodynamique	ADJ	_	_	16	amod	_	_
+17	pharmacodynamiques	pharmacodynamique	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 18	avec	avec	ADP	_	_	20	case	_	_
 19	ces	ce	DET	_	Number=Plur|PronType=Dem	20	det	_	_
 20	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
@@ -12456,8 +12456,8 @@
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	antithrombotiques	antithrombotique	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
 29	ou	ou	CCONJ	_	_	30	cc	_	_
-30	agents	agent	NOUN	_	Number=Plur	24	conj	_	_
-31	antiplaquettaires	antiplaquettaire	ADJ	_	_	30	amod	_	SpaceAfter=No
+30	agents	agent	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
+31	antiplaquettaires	antiplaquettaire	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	21	punct	_	_
 33	augmente	augmenter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -12521,7 +12521,7 @@
 28	ou	ou	CCONJ	_	_	30	cc	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	développement	développement	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
-31	post-natal	post-natal	ADJ	_	_	30	amod	_	_
+31	post-natal	post-natal	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
 32	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 33	voir	voir	VERB	_	VerbForm=Inf	7	parataxis	_	_
 34	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
@@ -13063,7 +13063,7 @@
 25	rétropéritonéale	rétropéritonéal	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
-28	intraoculaire	intraoculaire	ADJ	_	_	27	amod	_	SpaceAfter=No
+28	intraoculaire	intraoculaire	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
 31	exigeant	exiger	VERB	_	Tense=Pres|VerbForm=Part	30	acl	_	_
@@ -13447,11 +13447,11 @@
 # sent_id = emea-fr-dev_00246
 # text = Troubles respiratoires, thoraciques et médiastinaux
 1	Troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	respiratoires	respiratoire	ADJ	_	Number=Plur	1	amod	_	SpaceAfter=No
+2	respiratoires	respiratoire	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
-4	thoraciques	thoracique	ADJ	_	Number=Plur	2	conj	_	_
+4	thoraciques	thoracique	ADJ	_	Gender=Masc|Number=Plur	2	conj	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
-6	médiastinaux	médiastinal	ADJ	_	_	2	conj	_	_
+6	médiastinaux	médiastinal	ADJ	_	Gender=Masc|Number=Plur	2	conj	_	_
 
 # sent_id = emea-fr-dev_00247
 # text = Dyspnée
@@ -13466,7 +13466,7 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	tissus	tissu	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
-7	sous-cutanés	sous-cutané	ADJ	_	_	6	amod	_	_
+7	sous-cutanés	sous-cutané	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 
 # sent_id = emea-fr-dev_00249
 # text = Rash
@@ -13965,12 +13965,12 @@
 # sent_id = emea-fr-dev_00291
 # text = Propriétés pharmacodynamiques
 1	Propriétés	propriété	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-2	pharmacodynamiques	pharmacodynamique	ADJ	_	_	1	amod	_	_
+2	pharmacodynamiques	pharmacodynamique	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 
 # sent_id = emea-fr-dev_00292
 # text = Classe pharmacothérapeutique : inhibiteur direct de la thrombine, code ATC : B01AE06.
 1	Classe	classe	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	pharmacothérapeutique	pharmacothérapeutique	ADJ	_	_	1	amod	_	_
+2	pharmacothérapeutique	pharmacothérapeutique	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	:	:	PUNCT	_	_	1	punct	_	_
 4	inhibiteur	inhibiteur	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 5	direct	direct	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -13995,7 +13995,7 @@
 7	dans	dans	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	processus	processus	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
-10	thrombotique	thrombotique	ADJ	_	_	9	amod	_	SpaceAfter=No
+10	thrombotique	thrombotique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
 12	scindant	scinder	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -14026,7 +14026,7 @@
 38	de	de	ADP	_	_	39	case	_	_
 39	liaisons	liaison	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	_
 40	croisées	croisé	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	_
-41	covalentes	covalent	ADJ	_	_	39	amod	_	_
+41	covalentes	covalent	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	_
 42	qui	qui	PRON	_	PronType=Rel	43	nsubj	_	_
 43	stabilise	stabiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -14252,7 +14252,7 @@
 16	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	libération	libération	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	plaquettaire	plaquettaire	ADJ	_	_	18	amod	_	SpaceAfter=No
+19	plaquettaire	plaquettaire	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00302
@@ -14332,7 +14332,7 @@
 # text = Les effets pharmacodynamiques de la bivalirudine peuvent être évalués en utilisant des mesures de l'anticoagulation, notamment l'ACT.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	effets	effet	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
-3	pharmacodynamiques	pharmacodynamique	ADJ	_	_	2	amod	_	_
+3	pharmacodynamiques	pharmacodynamique	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -14524,7 +14524,7 @@
 32	instable	instable	ADJ	_	Number=Sing	31	amod	_	_
 33	ou	ou	CCONJ	_	_	34	cc	_	_
 34	IDM	IDM	NOUN	_	_	31	conj	_	_
-35	ST-	ST-	NOUN	_	_	34	nmod	_	SpaceAfter=No
+35	ST-	ST-	ADJ	_	_	34	amod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = emea-fr-dev_00313
@@ -14610,7 +14610,7 @@
 21	ECG	ECG	NOUN	_	Number=Sing	17	nmod	_	_
 22	ou	ou	CCONJ	_	_	25	cc	_	_
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
-24	bio	bio	ADJ	_	_	25	amod	_	_
+24	bio	bio	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
 25	marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	_
 26	cardiaques	cardiaque	ADJ	_	Number=Plur	25	amod	_	_
 27	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
@@ -14673,8 +14673,8 @@
 # text = Les traitements anti-aggrégants plaquettaires additionnels utilisés dans l'étude comprennent l'aspirine et le clopidogrel.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	traitements	traitement	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
-3	anti-aggrégants	anti-aggrégant	ADJ	_	_	2	amod	_	_
-4	plaquettaires	plaquettaire	ADJ	_	_	3	amod	_	_
+3	anti-aggrégants	anti-aggrégant	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+4	plaquettaires	plaquettaire	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 5	additionnels	additionnel	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 6	utilisés	utiliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
@@ -14819,7 +14819,7 @@
 25	rétropéritonéale	rétropéritonéal	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
-28	intraoculaire	intraoculaire	ADJ	_	_	27	amod	_	SpaceAfter=No
+28	intraoculaire	intraoculaire	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	21	conj	_	_
 31	exigeant	exiger	VERB	_	Tense=Pres|VerbForm=Part	30	acl	_	_
@@ -14979,7 +14979,7 @@
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
 22	coronaire	coronaire	ADJ	_	Number=Sing	21	amod	_	_
-23	percutanée	percutané	ADJ	_	_	21	amod	_	_
+23	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 24	et	et	CCONJ	_	_	26	cc	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	patients	patient	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	_
@@ -15196,7 +15196,7 @@
 # text = La clairance systémique de la bivalirudine diminue avec le taux de filtration glomérulaire (TFG).
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	clairance	clairance	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	systémique	systémique	ADJ	_	_	2	amod	_	_
+3	systémique	systémique	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -15206,7 +15206,7 @@
 10	taux	taux	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	filtration	filtration	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-13	glomérulaire	glomérulaire	ADJ	_	_	12	amod	_	_
+13	glomérulaire	glomérulaire	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 15	TFG	TFG	NOUN	_	_	10	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
@@ -15573,7 +15573,7 @@
 48	de	de	ADP	_	_	49	case	_	_
 49	coagulation	coagulation	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
 50	non	non	ADV	_	_	51	advmod	_	_
-51	homéostasique	homéostasique	ADJ	_	_	49	amod	_	SpaceAfter=No
+51	homéostasique	homéostasique	ADJ	_	Gender=Fem|Number=Sing	49	amod	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	33	punct	_	_
 
 # sent_id = emea-fr-dev_00362
@@ -15739,7 +15739,7 @@
 3	point	point	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	vue	vue	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	microbiologique	microbiologique	ADJ	_	_	3	amod	_	SpaceAfter=No
+6	microbiologique	microbiologique	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	produit	produit	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -16088,7 +16088,7 @@
 10	Oxfordshire	Oxfordshire	X	_	_	1	flat:foreign	_	_
 11	OX14	OX14	X	_	_	1	flat:foreign	_	_
 12	4SA	4SA	X	_	_	1	flat:foreign	_	_
-13	ROYAUME-UNI	ROYAUME-UNI	X	_	_	1	flat:foreign	_	_
+13	ROYAUME-UNI	Royaume-Uni	X	_	_	1	flat:foreign	_	_
 
 # sent_id = emea-fr-dev_00400
 # text = DATE DE MISE A JOUR DU TEXTE
@@ -16432,8 +16432,8 @@
 # text = MISE EN GARDE SPECIALE INDIQUANT QUE LE MEDICAMENT DOIT ETRE CONSERVE HORS DE PORTEE ET DE VUE DES ENFANTS
 1	MISE	mise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	EN	en	ADP	_	_	3	case	_	_
-3	GARDE	garde	NOUN	_	Number=Sing	1	nmod	_	_
-4	SPECIALE	spécial	ADJ	_	_	1	amod	_	_
+3	GARDE	garde	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	SPECIALE	spécial	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 5	INDIQUANT	indiquer	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
 6	QUE	que	SCONJ	_	_	9	mark	_	_
 7	LE	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -16550,7 +16550,7 @@
 4	SUR	sur	ADP	_	_	6	case	_	_
 5	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	EMBALLAGE	emballage	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
-7	EXTERIEUR	EXTERIEUR	ADJ	_	_	6	amod	_	_
+7	EXTERIEUR	ext2rieur	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 
 # sent_id = emea-fr-dev_00445
 # text = Emballage extérieur (emballage de 10 flacons)
@@ -16585,8 +16585,8 @@
 # text = MISE EN GARDE SPECIALE INDIQUANT QUE LE MEDICAMENT DOIT ETRE CONSERVE HORS DE PORTEE ET DE VUE DES ENFANTS
 1	MISE	mise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	EN	en	ADP	_	_	3	case	_	_
-3	GARDE	garde	NOUN	_	Number=Sing	1	nmod	_	_
-4	SPECIALE	spécial	ADJ	_	_	1	amod	_	_
+3	GARDE	garde	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	SPECIALE	spécial	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 5	INDIQUANT	indiquer	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
 6	QUE	que	SCONJ	_	_	9	mark	_	_
 7	LE	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -16832,7 +16832,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-5	antithrombotique	antithrombotique	ADJ	_	_	4	amod	_	SpaceAfter=No
+5	antithrombotique	antithrombotique	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00476
@@ -17437,7 +17437,7 @@
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	_
 12	coronaire	coronaire	ADJ	_	Number=Sing	11	amod	_	_
-13	percutanée	percutané	ADJ	_	_	11	amod	_	_
+13	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 14	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 15	ICP	ICP	NOUN	_	_	11	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -17478,7 +17478,7 @@
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 8	coronaire	coronaire	ADJ	_	Number=Sing	7	amod	_	_
-9	percutanée	percutané	ADJ	_	_	7	amod	_	_
+9	percutanée	percutané	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 10	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 11	ICP	ICP	NOUN	_	_	7	appos	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -17550,7 +17550,7 @@
 2	SONT	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
 3	LES	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	EFFETS	effet	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	_
-5	INDESIRABLES	INDESIRABLES	ADJ	_	_	4	amod	_	_
+5	INDESIRABLES	indésirable	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 6	EVENTUELS	éventuel	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 
 # sent_id = emea-fr-dev_00528
@@ -17703,7 +17703,7 @@
 12	que	que	SCONJ	_	_	14	mark	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	réactions	réaction	NOUN	_	Gender=Fem|Number=Plur	11	dep	_	_
-15	urticariennes	urticarien	ADJ	_	_	14	amod	_	SpaceAfter=No
+15	urticariennes	urticarien	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00538
@@ -17784,7 +17784,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	effets	effet	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-8	iindésirables	iindésirable	ADJ	_	_	7	amod	_	SpaceAfter=No
+8	iindésirables	indésirable	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
 10	potentiellement	potentiellement	ADV	_	_	11	advmod	_	_
 11	moins	moins	ADV	_	_	12	advmod	_	_
@@ -18013,7 +18013,7 @@
 # sent_id = emea-fr-dev_00562
 # text = INFORMATIONS SUPPLEMENTAIRES
 1	INFORMATIONS	information	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-2	SUPPLEMENTAIRES	SUPPLEMENTAIRES	ADJ	_	_	1	amod	_	_
+2	SUPPLEMENTAIRES	supplémentaire	ADJ	_	Gender=Fem|Number=Plur	1	amod	_	_
 
 # sent_id = emea-fr-dev_00563
 # text = Que contient l'Angiox
@@ -18116,7 +18116,7 @@
 10	Oxfordshire	Oxfordshire	X	_	_	1	flat:foreign	_	_
 11	OX14	OX14	X	_	_	1	flat:foreign	_	_
 12	4SA	4SA	X	_	_	1	flat:foreign	_	_
-13	ROYAUME-UNI	ROYAUME-UNI	X	_	_	1	flat:foreign	_	_
+13	ROYAUME-UNI	Royaume-Uni	X	_	_	1	flat:foreign	_	_
 
 # sent_id = emea-fr-dev_00572
 # text = Fabricant
@@ -18131,7 +18131,7 @@
 # sent_id = emea-fr-test_00002
 # text = RAPPORT EUROPEEN PUBLIC D'EVALUATION (EPAR)
 1	RAPPORT	rapport	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-2	EUROPEEN	EUROPEEN	ADJ	_	_	1	amod	_	_
+2	EUROPEEN	européen	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	PUBLIC	public	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 4	D'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	EVALUATION	évaluation	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -18438,7 +18438,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	acide	acide	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
-9	zolédronique	zolédronique	ADJ	_	_	8	amod	_	SpaceAfter=No
+9	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -18669,7 +18669,7 @@
 30	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	autre	autre	ADJ	_	Number=Sing	32	amod	_	_
 32	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
-33	anti-ostéoporosique	anti-ostéoporosique	ADJ	_	_	32	amod	_	SpaceAfter=No
+33	anti-ostéoporosique	anti-ostéoporosique	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	24	punct	_	_
 35	sur	sur	ADP	_	_	37	case	_	_
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -18830,7 +18830,7 @@
 18	à	à	ADP	_	_	20	case	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	acide	acide	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-21	zolédronique	zolédronique	ADJ	_	_	20	amod	_	SpaceAfter=No
+21	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	à	à	ADP	_	_	26	case	_	_
 24	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	SpaceAfter=No
@@ -18984,7 +18984,7 @@
 27	tant	tant	ADV	_	_	26	fixed	_	_
 28	que	que	SCONJ	_	_	26	fixed	_	_
 29	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	24	obl:mod	_	_
-30	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	_	29	amod	_	SpaceAfter=No
+30	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00059
@@ -19114,7 +19114,7 @@
 6	D'	de	ADP	_	_	8	case	_	SpaceAfter=No
 7	UNE	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	UTILISATION	utilisation	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9	SURE	sûr	ADJ	_	_	8	amod	_	_
+9	SURE	sûr	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	ET	et	CCONJ	_	_	11	cc	_	_
 11	EFFICACE	efficace	ADJ	_	Number=Sing	9	conj	_	_
 12-13	DU	_	_	_	_	_	_	_	_
@@ -19133,7 +19133,7 @@
 # text = Les états membres doivent s'assurer que le programme d'éducation qui a été mis en place suite à l'indication dans le traitement de l'ostéoporose post-ménopausique soit étendu aux prescripteurs potentiels concernés par la nouvelle indication : traitement de l'ostéoporose post-ménopausique et de l'ostéoporose masculine chez les patients à risque élevé des fractures, notamment chez les patients ayant eu une fracture de hanche récente secondaire à un traumatisme modéré.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	états	état	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
-3	membres	membre	ADJ	_	_	2	amod	_	_
+3	membres	membre	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	s'	se	PRON	_	Person=3|Reflex=Yes	6	expl:comp	_	SpaceAfter=No
 6	assurer	assurer	VERB	_	VerbForm=Inf	4	xcomp	_	_
@@ -19158,7 +19158,7 @@
 25	de	de	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
-28	post-ménopausique	post-ménopausique	ADJ	_	_	27	amod	_	_
+28	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
 30	étendu	étendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	ccomp	_	_
 31-32	aux	_	_	_	_	_	_	_	_
@@ -19176,7 +19176,7 @@
 42	de	de	ADP	_	_	44	case	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	41	nmod	_	_
-45	post-ménopausique	post-ménopausique	ADJ	_	_	44	amod	_	_
+45	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	_
 46	et	et	CCONJ	_	_	49	cc	_	_
 47	de	de	ADP	_	_	49	case	_	_
 48	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
@@ -19246,7 +19246,7 @@
 10	mg	mg	NOUN	_	Gender=Masc	8	obj	_	_
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	acide	acide	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-13	zolédronique	zolédronique	ADJ	_	_	12	amod	_	_
+13	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 14	anhydre	anhydre	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
 16	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
@@ -19255,8 +19255,8 @@
 19	mg	mg	NOUN	_	Gender=Masc	16	obl:arg	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 21	acide	acide	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-22	zolédronique	zolédronique	ADJ	_	_	21	amod	_	_
-23	monohydraté	monohydraté	ADJ	_	_	21	amod	_	SpaceAfter=No
+22	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	monohydraté	monohydraté	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-test_00078
@@ -19270,7 +19270,7 @@
 7	mg	mg	NOUN	_	Gender=Masc	5	obj	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	acide	acide	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	zolédronique	zolédronique	ADJ	_	_	9	amod	_	_
+10	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11	anhydre	anhydre	ADJ	_	Number=Sing	9	amod	_	_
 12	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -19278,8 +19278,8 @@
 15	mg	mg	NOUN	_	Gender=Masc	12	obl:arg	_	_
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 17	acide	acide	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-18	zolédronique	zolédronique	ADJ	_	_	17	amod	_	_
-19	monohydraté	monohydraté	ADJ	_	_	17	amod	_	SpaceAfter=No
+18	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	monohydraté	monohydraté	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00079
@@ -19296,7 +19296,7 @@
 2	de	de	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
-5	post-ménopausique	post-ménopausique	ADJ	_	_	4	amod	_	_
+5	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 8	masculine	masculin	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
@@ -19345,7 +19345,7 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-7	post-ménopausique	post-ménopausique	ADJ	_	_	6	amod	_	_
+7	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	et	et	CCONJ	_	_	11	cc	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
@@ -19710,7 +19710,7 @@
 5	mg	mg	NOUN	_	Gender=Masc	2	nmod	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	acide	acide	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	zolédronique	zolédronique	ADJ	_	_	7	amod	_	_
+8	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	être	être	AUX	_	VerbForm=Inf	11	aux:pass	_	_
 11	administrée	administrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	_
@@ -19907,7 +19907,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	acide	acide	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-12	zolédronique	zolédronique	ADJ	_	_	11	amod	_	_
+12	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	sur	sur	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -20022,7 +20022,7 @@
 14	Zometa	Zometa	PROPN	_	_	9	appos	_	_
 15	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	acide	acide	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
-17	zolédronique	zolédronique	ADJ	_	_	16	amod	_	SpaceAfter=No
+17	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -20079,7 +20079,7 @@
 25	compris	compris	ADJ	_	Gender=Masc	24	fixed	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	acide	acide	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-28	zolédronique	zolédronique	ADJ	_	_	27	amod	_	SpaceAfter=No
+28	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-test_00129
@@ -20221,14 +20221,14 @@
 11	avec	avec	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	acide	acide	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
-14	zolédronique	zolédronique	ADJ	_	_	13	amod	_	SpaceAfter=No
+14	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-test_00137
 # text = L'acide zolédronique ne se lie pas fortement aux protéines plasmatiques (liaison d'environ 43 à 55%) ;
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	acide	acide	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-3	zolédronique	zolédronique	ADJ	_	_	2	amod	_	_
+3	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
 5	se	se	PRON	_	Person=3|Reflex=Yes	6	obj	_	_
 6	lie	lier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -20275,7 +20275,7 @@
 # text = L'acide zolédronique est éliminé par excrétion rénale.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	acide	acide	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-3	zolédronique	zolédronique	ADJ	_	_	2	amod	_	_
+3	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	éliminé	éliminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	par	par	ADP	_	_	7	case	_	_
@@ -20338,7 +20338,7 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	acide	acide	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-15	zolédronique	zolédronique	ADJ	_	_	14	amod	_	_
+15	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 16	chez	chez	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	femme	femme	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -20367,7 +20367,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	acide	acide	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	zolédronique	zolédronique	ADJ	_	_	5	amod	_	_
+6	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	lait	lait	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -20647,7 +20647,7 @@
 5	HORIZON-PFT	HORIZON-PFT	PROPN	_	_	3	nmod	_	_
 6	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 7	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
-8	post-ménopausique	post-ménopausique	ADJ	_	_	7	amod	_	SpaceAfter=No
+8	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	3	punct	_	_
 10	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 11	voir	voir	VERB	_	VerbForm=Inf	3	acl	_	_
@@ -20939,7 +20939,7 @@
 # text = L'acide zolédronique a été associé à une anomalie de la fonction rénale se manifestant sous forme d'une détérioration de la fonction rénale (c-à-d. augmentation de la créatininémie) et dans de rares cas insuffisance rénale aiguë.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	acide	acide	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
-3	zolédronique	zolédronique	ADJ	_	_	2	amod	_	_
+3	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
 6	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -21150,7 +21150,7 @@
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	transitoires	transitoire	ADJ	_	Number=Plur	21	amod	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
-25	asymptomatiques	asymptomatique	ADJ	_	_	23	conj	_	SpaceAfter=No
+25	asymptomatiques	asymptomatique	ADJ	_	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	21	punct	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	calcémie	calcémie	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -21232,7 +21232,7 @@
 19	sur	sur	ADP	_	_	21	case	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
-22	post-ménopausique	post-ménopausique	ADJ	_	_	21	amod	_	_
+22	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 24	étude	étude	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
 25	PFT	PFT	PROPN	_	_	24	nmod	_	SpaceAfter=No
@@ -21326,7 +21326,7 @@
 40	administration	administration	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	_
 41	d'	de	ADP	_	_	42	case	_	SpaceAfter=No
 42	acide	acide	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-43	zolédronique	zolédronique	ADJ	_	_	42	amod	_	SpaceAfter=No
+43	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	37	punct	_	_
 
 # sent_id = emea-fr-test_00185
@@ -21363,7 +21363,7 @@
 30	dont	dont	PRON	_	PronType=Rel	32	nmod	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	acide	acide	NOUN	_	Gender=Masc|Number=Sing	28	acl:relcl	_	_
-33	zolédronique	zolédronique	ADJ	_	_	32	amod	_	SpaceAfter=No
+33	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = emea-fr-test_00186
@@ -21602,7 +21602,7 @@
 # sent_id = emea-fr-test_00196
 # text = Classe pharmacothérapeutique : bisphosphonate, code ATC : M05BA08
 1	Classe	classe	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	pharmacothérapeutique	pharmacothérapeutique	ADJ	_	_	1	amod	_	_
+2	pharmacothérapeutique	pharmacothérapeutique	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
 3	:	:	PUNCT	_	_	1	punct	_	_
 4	bisphosphonate	bisphosphonate	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
@@ -21621,7 +21621,7 @@
 # text = L'acide zolédronique appartient à la classe des bisphosphonates azotés ;
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	acide	acide	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	zolédronique	zolédronique	ADJ	_	_	2	amod	_	_
+3	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	appartient	appartenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -21735,7 +21735,7 @@
 20	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 21	aucun	aucun	DET	_	Gender=Masc|Number=Sing	22	det	_	_
 22	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
-23	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	_	22	amod	_	_
+23	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 24	concomitant	concomitant	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	20	punct	_	_
 26	alors	alors	ADV	_	_	31	mark	_	EXTPOS=SCONJ|MWE=alors_que
@@ -21771,7 +21771,7 @@
 # text = Les traitements anti-ostéoporotiques concomitants incluaient : calcitonines, raloxifène, tamoxifène, traitement hormonal de substitution, tibolone ; mais excluaient les autres bisphosphonates.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	traitements	traitement	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
-3	anti-ostéoporotiques	anti-ostéoporotique	ADJ	_	_	2	amod	_	_
+3	anti-ostéoporotiques	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	concomitants	concomitant	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 5	incluaient	inclure	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	:	:	PUNCT	_	_	5	punct	_	_
@@ -21827,7 +21827,7 @@
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
 5	vertébrales	vertébral	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
-6	morphométriques	morphométrique	ADJ	_	_	4	amod	_	_
+6	morphométriques	morphométrique	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 
 # sent_id = emea-fr-test_00214
 # text = Résultat Placebo
@@ -22028,7 +22028,7 @@
 29	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
-32	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	_	31	amod	_	_
+32	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
 33	concomitant	concomitant	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -22241,7 +22241,7 @@
 28	atteintes	atteindre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	27	acl	_	_
 29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
 30	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	28	obl:agent	_	_
-31	post-ménopausique	post-ménopausique	ADJ	_	_	30	amod	_	_
+31	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 32	traitées	traiter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	acl	_	_
 33	par	par	ADP	_	_	34	case	_	_
 34	Aclasta	Aclasta	PROPN	_	_	32	obl:mod	_	_
@@ -22260,7 +22260,7 @@
 # text = L'analyse histomorphométrique a révélé une réduction de 63% du remodellage osseux.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	analyse	analyse	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-3	histomorphométrique	histomorphométrique	ADJ	_	_	2	amod	_	_
+3	histomorphométrique	histomorphométrique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -22293,7 +22293,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	volume	volume	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 15	osseux	osseux	ADJ	_	Gender=Masc	14	amod	_	_
-16	trabéculaire	trabéculaire	ADJ	_	_	14	amod	_	_
+16	trabéculaire	trabéculaire	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	préservation	préservation	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
@@ -22303,7 +22303,7 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	os	os	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-26	trabéculaire	trabéculaire	ADJ	_	_	25	amod	_	_
+26	trabéculaire	trabéculaire	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 27	chez	chez	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	_
@@ -22341,7 +22341,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	taux	taux	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
-12	sériques	sérique	ADJ	_	_	11	amod	_	_
+12	sériques	sérique	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -22360,7 +22360,7 @@
 26	et	et	CCONJ	_	_	28	cc	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	taux	taux	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
-29	sériques	sérique	ADJ	_	_	28	amod	_	_
+29	sériques	sérique	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	bêta-C-télopeptides	bêta-C-télopeptide	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
 32	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
@@ -22506,7 +22506,7 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
-19	pré-ménopausiques	pré-ménopausique	ADJ	_	_	18	amod	_	_
+19	pré-ménopausiques	pré-ménopausique	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	fin	fin	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
@@ -22560,7 +22560,7 @@
 10	dans	dans	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-13	postménopausique	postménopausique	ADJ	_	_	12	amod	_	SpaceAfter=No
+13	postménopausique	postménopausique	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	taille	taille	NOUN	_	Gender=Fem|Number=Sing	19	nsubj:pass	_	_
@@ -22821,7 +22821,7 @@
 26	voie	voie	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 27	orale	oral	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
 28	ou	ou	CCONJ	_	_	29	cc	_	_
-29	intra-musculaire	intra-musculaire	ADJ	_	_	27	conj	_	SpaceAfter=No
+29	intra-musculaire	intra-musculaire	ADJ	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	14	punct	_	_
 31	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux:pass	_	_
 32	donnée	donner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	_
@@ -23076,7 +23076,7 @@
 37	chez	chez	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
 39	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	32	obl:mod	_	_
-40	ménopausées	ménopausé	ADJ	_	_	39	amod	_	SpaceAfter=No
+40	ménopausées	ménopausé	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = emea-fr-test_00282
@@ -23112,7 +23112,7 @@
 29	de	de	ADP	_	_	30	case	_	_
 30	phosphatases	phosphatase	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
 31	alcalines	alcalin	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
-32	sériques	sérique	ADJ	_	_	30	amod	_	_
+32	sériques	sérique	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
 33	2,6	2,6	NUM	_	NumType=Card	36	nummod	_	_
 34	à	à	ADP	_	_	35	case	_	_
 35	3,0	3,0	NUM	_	NumType=Card	33	nmod	_	_
@@ -23153,7 +23153,7 @@
 8	mg	mg	NOUN	_	Gender=Masc	5	nmod	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	acide	acide	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	zolédronique	zolédronique	ADJ	_	_	10	amod	_	_
+11	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 12	versus	vs	ADP	_	_	14	case	_	_
 13	30	30	NUM	_	NumType=Card	14	nummod	_	_
 14	mg	mg	NOUN	_	Gender=Masc	8	nmod	_	_
@@ -23197,7 +23197,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	phosphatases	phosphatase	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
 18	alcalines	alcalin	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
-19	sériques	sérique	ADJ	_	_	17	amod	_	_
+19	sériques	sérique	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
 20	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 21	PAS	PAS	NOUN	_	_	17	appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	17	punct	_	_
@@ -23385,7 +23385,7 @@
 14	mg	mg	NOUN	_	Gender=Masc	11	nmod	_	_
 15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	acide	acide	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-17	zolédronique	zolédronique	ADJ	_	_	16	amod	_	_
+17	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	chez	chez	ADP	_	_	20	case	_	_
 19	7	7	NUM	_	NumType=Card	20	nummod	_	_
 20	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	_
@@ -23488,7 +23488,7 @@
 # text = L'acide zolédronique n'est pas métabolisé et est éliminé sous forme inchangée par voie rénale.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	acide	acide	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
-3	zolédronique	zolédronique	ADJ	_	_	2	amod	_	_
+3	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
 6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
@@ -23562,7 +23562,7 @@
 11	dans	dans	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	circulation	circulation	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
-14	systémique	systémique	ADJ	_	_	13	amod	_	_
+14	systémique	systémique	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	éliminé	éliminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 17	par	par	ADP	_	_	18	case	_	_
@@ -23647,7 +23647,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-20	post-ménopausique	post-ménopausique	ADJ	_	_	19	amod	_	SpaceAfter=No
+20	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -23998,7 +23998,7 @@
 2	de	de	ADP	_	_	3	mark	_	_
 3	recevoir	recevoir	VERB	_	VerbForm=Inf	5	advcl	_	_
 4	Aclasta	Aclasta	PROPN	_	_	3	obj	_	_
-5	dites	dites	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dites	dire	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	votre	son	DET	_	Number=Sing|Poss=Yes	8	det	_	_
 8	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
@@ -24875,7 +24875,7 @@
 22	de	de	ADP	_	_	24	case	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
-25	post-ménopausique	post-ménopausique	ADJ	_	_	24	amod	_	SpaceAfter=No
+25	post-ménopausique	post-ménopausique	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = emea-fr-test_00479
@@ -25148,7 +25148,7 @@
 106	de	de	ADP	_	_	108	case	_	_
 107	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	108	det	_	_
 108	taux	taux	NOUN	_	Gender=Masc|Number=Plur	104	nmod	_	_
-109	sériques	sérique	ADJ	_	_	108	amod	_	_
+109	sériques	sérique	ADJ	_	Gender=Masc|Number=Plur	108	amod	_	_
 110	de	de	ADP	_	_	111	case	_	_
 111	créatinine	créatinine	NOUN	_	Gender=Fem|Number=Sing	108	nmod	_	SpaceAfter=No
 112	,	,	PUNCT	_	_	113	punct	_	_
@@ -25543,7 +25543,7 @@
 7	mg	mg	NOUN	_	Gender=Masc	5	obj	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	acide	acide	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	zolédronique	zolédronique	ADJ	_	_	9	amod	_	_
+10	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11	anhydre	anhydre	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct	_	_
 13	ce	ce	PRON	_	_	7	appos	_	_
@@ -25554,8 +25554,8 @@
 18	mg	mg	NOUN	_	Gender=Masc	15	obl:arg	_	_
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	acide	acide	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-21	zolédronique	zolédronique	ADJ	_	_	20	amod	_	_
-22	monohydraté	monohydraté	ADJ	_	_	20	amod	_	SpaceAfter=No
+21	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22	monohydraté	monohydraté	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00509
@@ -25874,7 +25874,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	sérique	sérique	ADJ	_	_	5	amod	_	_
+6	sérique	sérique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 8	recommandée	recommander	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 9	avant	avant	ADP	_	_	11	case	_	_
@@ -25978,7 +25978,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	procédures	procédure	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
 9	médicales	médical	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
-10	standards	standard	ADJ	_	_	8	amod	_	SpaceAfter=No
+10	standards	standard	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00538
@@ -29763,7 +29763,7 @@
 17	tous	tout	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	pays	pays	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	_
-20	tiers	tiers	ADJ	_	_	19	amod	_	_
+20	tiers	tiers	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 21	avec	avec	ADP	_	_	22	case	_	_
 22	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	24	obl:arg	_	_
 23	nous	il	PRON	_	Number=Plur|Person=1	24	nsubj	_	_
@@ -30776,7 +30776,7 @@
 36	tous	tout	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	_
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 38	États	état	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
-39	membres	membre	ADJ	_	_	38	amod	_	SpaceAfter=No
+39	membres	membre	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = Europar.550_00222
@@ -31362,7 +31362,7 @@
 30	de	de	ADP	_	_	32	case	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
 32	États	état	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-33	membres	membre	ADJ	_	_	32	amod	_	SpaceAfter=No
+33	membres	membre	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00253
@@ -31400,7 +31400,7 @@
 11	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	États	état	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-14	membres	membre	ADJ	_	_	13	amod	_	_
+14	membres	membre	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -32475,7 +32475,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	quinze	quinze	NUM	_	NumType=Card	19	nummod	_	_
 19	États	état	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
-20	membres	membre	ADJ	_	_	19	amod	_	_
+20	membres	membre	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 21	il	il	PRON	_	Number=Sing|Person=3	23	expl:subj	_	_
 22	y	y	PRON	_	Person=3	23	expl:comp	_	_
 23	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
@@ -32576,7 +32576,7 @@
 26	tous	tout	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	pays	pays	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
-29	membres	membre	ADJ	_	_	28	amod	_	_
+29	membres	membre	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 30	à	à	ADP	_	_	34	case	_	_
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 32	plus	plus	ADV	_	_	33	advmod	_	_
@@ -34831,10 +34831,10 @@
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	9	obl:agent	_	_
-13	réglementaire	réglementaire	ADJ	_	Number=Sing	12	amod	_	_
+13	réglementaire	réglementaire	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	prudentiel	prudentiel	ADJ	_	_	13	conj	_	_
-16	efficace	efficace	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+15	prudentiel	prudentiel	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	_
+16	efficace	efficace	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Europar.550_00389
@@ -34914,7 +34914,7 @@
 13	instauré	instaurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	autorité	autorité	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
-16	prudentielle	prudentiel	ADJ	_	_	15	amod	_	_
+16	prudentielle	prudentiel	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	unique	unique	ADJ	_	Number=Sing	15	amod	_	_
 18	pour	pour	ADP	_	_	21	case	_	_
 19	tout	tout	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
@@ -34957,7 +34957,7 @@
 31	matière	matière	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
-34	prudentiel	prudentiel	ADJ	_	_	33	amod	_	_
+34	prudentiel	prudentiel	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
 35-36	des	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
@@ -35626,7 +35626,7 @@
 14	dans	dans	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	réseaux	réseau	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-17	transeuropéens	transeuropéen	ADJ	_	_	16	amod	_	_
+17	transeuropéens	transeuropéen	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	_
 18	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
 19	strictement	strictement	ADV	_	_	20	advmod	_	_
 20	respectée	respecter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	SpaceAfter=No
@@ -35641,7 +35641,7 @@
 5	politique	politique	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	transport	transport	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	transeuropéen	transeuropéen	ADJ	_	_	7	amod	_	_
+8	transeuropéen	transeuropéen	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	répercussions	répercussion	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	_
@@ -37570,7 +37570,7 @@
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	souvent	souvent	ADV	_	_	4	advmod	_	_
 4	sceptique	sceptique	ADJ	_	Number=Sing	0	root	_	_
-5	vis-à-vis	vis-à-vis	ADV	_	Gender=Fem	4	advmod	_	_
+5	vis-à-vis	vis-à-vis	ADV	_	_	4	advmod	_	_
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -37751,7 +37751,7 @@
 35	,	,	PUNCT	_	_	23	punct	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	engagement	engagement	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
-38	antiterroriste	antiterroriste	ADJ	_	_	37	amod	_	_
+38	antiterroriste	antiterroriste	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	_
 39-40	du	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
@@ -38535,7 +38535,7 @@
 21	vers	vers	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	pays	pays	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
-24	tiers	tiers	ADJ	_	_	23	amod	_	SpaceAfter=No
+24	tiers	tiers	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = frwiki_50.1000_00001
@@ -39349,7 +39349,7 @@
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	Conseils	Conseils	PROPN	_	_	9	nmod	_	_
+14	Conseils	conseil	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -39615,7 +39615,7 @@
 3	Maupas	Maupas	PROPN	_	Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Fusillé	Fusillé	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	Fusillé	fusillé	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	Éditions	édition	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 9	Isoète	Isoète	PROPN	_	_	8	nmod	_	SpaceAfter=No
@@ -41590,7 +41590,7 @@
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	accompagné	accompagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	différentes	différentes	DET	_	_	11	det	_	_
+10	différentes	différent	DET	_	_	11	det	_	_
 11	condamnations	condamnation	NOUN	_	Gender=Fem|Number=Plur	8	obl:agent	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -41655,7 +41655,7 @@
 8	cour	cour	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Cassation	cassation	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	française	français	ADJ	_	_	8	amod	_	_
+11	française	français	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
@@ -42500,7 +42500,7 @@
 1	Sur	sur	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	plan	plan	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
-4	procédural	procédural	ADJ	_	_	3	amod	_	SpaceAfter=No
+4	procédural	procédural	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -43480,7 +43480,7 @@
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	22	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-21	IIIème	IIIème	ADJ	_	_	22	amod	_	_
+21	IIIème	IIIème	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	22	amod	_	_
 22	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 23	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
 24	jugé	juger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -44003,7 +44003,7 @@
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	20	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-19	Grand	Grand	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+19	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 20	Orient	Orient	PROPN	_	_	9	nmod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	France	France	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
@@ -44202,7 +44202,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	clérical	clérical	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	cléricalisant	cléricalisant	ADJ	_	_	19	amod	_	SpaceAfter=No
+20	cléricalisant	cléricalisant	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 21	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
@@ -44215,7 +44215,7 @@
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
 32	calotin	calotin	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
-33	pur-sang	pur-sang	ADJ	_	_	32	amod	_	SpaceAfter=No
+33	pur-sang	pur-sang	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
 34	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	"	"	PUNCT	_	_	37	punct	_	SpaceAfter=No
@@ -45303,8 +45303,8 @@
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
-41	bons	bon	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
-42	républicains	républicain	ADJ	_	Gender=Masc|Number=Plur	41	amod	_	_
+41	bons	bon	ADJ	_	Gender=Masc|Number=Plur	38	nmod	_	_
+42	républicains	républicain	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	_
 43	par	par	ADP	_	_	45	case	_	_
 44	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
 45	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	35	obl:agent	_	_
@@ -48714,7 +48714,7 @@
 31	et	et	CCONJ	_	_	38	cc	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	scénario	scénario	NOUN	_	Gender=Masc|Number=Sing	38	nsubj	_	_
-34	conspirationniste	conspirationniste	ADJ	_	_	33	amod	_	_
+34	conspirationniste	conspirationniste	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
 35-36	du	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -49639,7 +49639,7 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	matériel	matériel	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
-17	ultrasophistiqué	ultrasophistiqué	ADJ	_	_	16	amod	_	SpaceAfter=No
+17	ultrasophistiqué	ultrasophistiqué	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = frwiki_50.1000_00527
@@ -49732,7 +49732,7 @@
 5	trouver	trouver	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	pays	pays	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-8	tiers	tier	ADJ	_	_	7	amod	_	_
+8	tiers	tiers	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	rachèterait	racheter	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -50394,7 +50394,7 @@
 9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	réquisitoire	réquisitoire	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
-12	supplétif	supplétif	ADJ	_	_	11	amod	_	_
+12	supplétif	supplétif	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 13	pour	pour	ADP	_	_	15	case	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	trafic	trafic	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
@@ -50479,7 +50479,7 @@
 21	,	,	PUNCT	_	_	10	punct	_	_
 22	sur	sur	ADP	_	_	23	case	_	_
 23	commission	commission	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
-24	rogatoire	rogatoire	ADJ	_	_	23	amod	_	_
+24	rogatoire	rogatoire	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
@@ -50735,7 +50735,7 @@
 # sent_id = frwiki_50.1000_00591
 # text = - Affaires politico-financières
 1	-	-	PUNCT	_	_	2	punct	_	_
-2	Affaires	affaires	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+2	Affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	politico-financières	politico-financier	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 
 # sent_id = frwiki_50.1000_00592
@@ -51651,7 +51651,7 @@
 39	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
 40	son	son	DET	_	Number=Sing|Poss=Yes	41	det	_	_
 41	député	député	NOUN	_	Gender=Masc|Number=Sing	34	acl:relcl	_	_
-42	suppléant	suppléant	ADJ	_	_	41	amod	_	SpaceAfter=No
+42	suppléant	suppléant	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	34	punct	_	_
 44	et	et	CCONJ	_	_	47	cc	_	_
 45-46	du	_	_	_	_	_	_	_	_
@@ -52854,7 +52854,7 @@
 2	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
 4	politiques	politique	ADJ	_	Number=Plur	3	amod	_	SpaceAfter=No
-5	-clés	-clé	ADJ	_	_	3	amod	_	_
+5	-clés	-clé	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
@@ -52993,7 +52993,7 @@
 71	mots	mot	NOUN	_	Gender=Masc|Number=Plur	49	nmod	_	_
 72	de	de	ADP	_	_	74	case	_	_
 73	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	74	det	_	_
-74	vice-procureure	vice-procureure	NOUN	_	Gender=Fem|Number=Sing	71	nmod	_	SpaceAfter=No
+74	vice-procureure	vice-procureur	NOUN	_	Gender=Fem|Number=Sing	71	nmod	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	74	punct	_	_
 76	Chantal	Chantal	PROPN	_	Gender=Fem|Number=Sing	74	appos	_	_
 77	de	de	ADP	_	_	78	case	_	_
@@ -53545,7 +53545,7 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	contribuable	contribuable	NOUN	_	Number=Sing	6	nmod	_	_
-10	francilien	francilien	ADJ	_	_	9	amod	_	_
+10	francilien	francilien	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11	se	se	PRON	_	Person=3|Reflex=Yes	12	expl:comp	_	_
 12	montent	monter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -53807,7 +53807,7 @@
 37	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	34	obl:agent	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	BTP	BTP	PROPN	_	_	37	nmod	_	_
-40	attributaires	attributaire	ADJ	_	_	37	amod	_	_
+40	attributaires	attributaire	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	_
 41-42	des	_	_	_	_	_	_	_	_
 41	de	de	ADP	_	_	43	case	_	_
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
@@ -56688,7 +56688,7 @@
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	manipulation	manipulation	NOUN	_	Gender=Fem|Number=Sing	4	advcl	_	_
-16	barbouzarde	barbouzard	ADJ	_	_	15	amod	_	SpaceAfter=No
+16	barbouzarde	barbouzard	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	15	punct	_	_
 18	visant	viser	VERB	_	Tense=Pres|VerbForm=Part	15	acl	_	_
 19	à	à	ADP	_	_	21	mark	_	_
@@ -58026,7 +58026,7 @@
 51	y	y	PRON	_	Person=3	53	case	_	EXTPOS=ADP|MWE=y_compris
 52	compris	compris	ADJ	_	Gender=Masc	51	fixed	_	_
 53	tiralleurs	tirailleur	NOUN	_	Gender=Masc|Number=Plur	48	nmod	_	_
-54	sénégalais	sénégalai	ADJ	_	_	53	amod	_	_
+54	sénégalais	sénégalais	ADJ	_	Gender=Masc|Number=Plur	53	amod	_	_
 55	et	et	CCONJ	_	_	56	cc	_	_
 56	marocains	marocain	ADJ	_	Gender=Masc|Number=Plur	54	conj	_	SpaceAfter=No
 57	)	)	PUNCT	_	_	48	punct	_	_
@@ -58215,7 +58215,7 @@
 19	émission	émission	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
-22	maîtresse	maîtress	ADJ	_	_	21	amod	_	_
+22	maîtresse	maître	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	25	det	_	_
 25	diplomatie	diplomatie	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -58295,7 +58295,7 @@
 19	Indochine	Indochine	PROPN	_	_	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	Descours	Descours	PROPN	_	_	17	conj	_	_
-22	&	&	CCONJ	_	_	23	cc	_	_
+22	&	et	CCONJ	_	_	23	cc	_	_
 23	Cabaud	Cabaud	PROPN	_	_	21	conj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
@@ -58449,7 +58449,7 @@
 20	Indochine	Indochine	PROPN	_	_	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	2	punct	_	_
 22	dans	dans	ADP	_	_	23	case	_	_
-23	Études	Étude	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+23	Études	étude	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
 24	Internationales	international	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	23	punct	_	_
 26	Vol.	volume	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
@@ -58481,8 +58481,8 @@
 12	vietnamien	vietnamien	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
 14	dans	dans	ADP	_	_	15	case	_	_
-15	Études	Étude	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-16	Internationales	internationale	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+15	Études	étude	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+16	Internationales	international	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	15	punct	_	_
 18	Vol.	volume	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	XVIII	XVIII	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
