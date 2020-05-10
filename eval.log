@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_French-Sequoia:
-commit d62db7f1b43904a3dfbe7667a149153b938cd1ea
-Merge: 3bed199 b3e7d05
+commit a0f896114a09ba00f65392e8a3069f6ff2fff74d
+Merge: ca11dcf 0afbd12
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 70567 of 70567 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.51312522625424.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 44409 out of 70567 total words have one or more features.
+Features: 44618 out of 70567 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
