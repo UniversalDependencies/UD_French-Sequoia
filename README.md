@@ -44,7 +44,8 @@ The conversion process to UD is described in [(Bonfante & al. 2018)](https://hal
 **(Bonfante & al. 2018)** Guillaume Bonfante, Bruno Guillaume, Guy Perrier. [Application of Graph Rewriting to Natural Language Processing](https://hal.inria.fr/hal-01814386). ISTE Wiley, 1, pp.272, 2018, Logic, Linguistics and Computer Science Set.
 
 # Changelog
-
+* 2020-11-14 v2.7
+  * No major change
 * 2020-05-15 v2.6
   * Fix some annotation errors found during PARSEME-Fr project
   * Fix some inconsistent lemmas and morphological features
