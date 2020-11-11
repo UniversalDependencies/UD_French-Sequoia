@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_French-Sequoia:
-commit a0f896114a09ba00f65392e8a3069f6ff2fff74d
-Merge: ca11dcf 0afbd12
+commit 670c2c4e17721b2cb1198b49c8db43c0b516b205
+Merge: d5e92a1 134ce9f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 70567 of 70567 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.51312522625424.
