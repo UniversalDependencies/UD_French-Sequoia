@@ -10,7 +10,7 @@
     <dev><sentences>412</sentences><tokens>9720</tokens><words>10002</words><fused>282</fused></dev>
     <test><sentences>456</sentences><tokens>9738</tokens><words>10048</words><fused>310</fused></test>
   </size>
-  <lemmas unique="6731" /><!-- le, de, ,, ., un, à, être, et, il, avoir, en, que, ce, pour, son -->
+  <lemmas unique="6727" /><!-- le, de, ,, ., un, à, être, et, il, avoir, en, que, ce, pour, son -->
   <forms unique="9393" /><!-- de, ,, ., le, les, la, à, l', et, d', en, une, un, est, pour -->
   <fusions unique="8" /><!-- des, du, au, aux, auxquels, auxquelles, duquel, desdites -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
