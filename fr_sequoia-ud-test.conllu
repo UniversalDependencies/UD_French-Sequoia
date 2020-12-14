@@ -727,30 +727,29 @@
 # text = Y a-t-il des circonstances dans lesquelles la Commission chercherait à utiliser le vote à la majorité qualifiée pour l'un de ces sujets ?
 1	Y	y	PRON	_	Person=3	2	expl:comp	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No|wordform=t
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	expl:subj	_	wordform=il
-5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
-6	circonstances	circonstance	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
-7	dans	dans	ADP	_	_	8	case	_	_
-8	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	11	obl:mod	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-11	chercherait	chercher	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
-12	à	à	ADP	_	_	13	mark	_	_
-13	utiliser	utiliser	VERB	_	VerbForm=Inf	11	xcomp	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	vote	vote	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
-16	à	à	ADP	_	_	18	case	_	_
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	majorité	majorité	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-19	qualifiée	qualifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
-20	pour	pour	ADP	_	_	22	case	_	_
-21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
-22	un	un	PRON	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
-23	de	de	ADP	_	_	25	case	_	_
-24	ces	ce	DET	_	Number=Plur|PronType=Dem	25	det	_	_
-25	sujets	sujet	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
-26	?	?	PUNCT	_	_	2	punct	_	_
+3	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	2	expl:subj	_	_
+4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
+5	circonstances	circonstance	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
+6	dans	dans	ADP	_	_	7	case	_	_
+7	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	10	obl:mod	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	chercherait	chercher	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+11	à	à	ADP	_	_	12	mark	_	_
+12	utiliser	utiliser	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vote	vote	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	à	à	ADP	_	_	17	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	majorité	majorité	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	qualifiée	qualifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19	pour	pour	ADP	_	_	21	case	_	_
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	un	un	PRON	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	ces	ce	DET	_	Number=Plur|PronType=Dem	24	det	_	_
+24	sujets	sujet	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+25	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00164
 # text = On s'en aperçoit aux nombreuses lettres que nous recevons des organisations environnementales mais aussi du secteur économique, avec à sa tête l'industrie du ciment, bien entendu, mais également beaucoup d'autres secteurs, comme l'industrie de transformation du bois, l'industrie du papier, l'industrie de transformation du métal, etc.
@@ -3589,11 +3588,10 @@
 14	avec	avec	ADP	_	_	16	case	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	échec	échec	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
-17	que	que	PRON	_	PronType=Rel	20	obj	_	_
-18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	nsubj	_	ExtPos=PRON|SpaceAfter=No
-19	on	il	PRON	_	Number=Sing|Person=3	18	fixed	_	_
-20	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	6	punct	_	_
+17	que	que	PRON	_	PronType=Rel	19	obj	_	_
+18	l'on	il	PRON	_	Number=Sing	19	nsubj	_	wordform=on
+19	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00282
 # text = Ce dernier vient de répondre aux maires de la vallée et au député Claude Jacquot, qui lui avaient fait collectivement un courrier pour, de nouveau, attirer son attention sur ce dossier.
@@ -6230,14 +6228,13 @@
 
 # sent_id = emea-fr-test_00054
 # text = Pourquoi Aclasta a-t-il été approuvé ?
-1	Pourquoi	pourquoi	ADV	_	PronType=Int	7	advmod	_	_
-2	Aclasta	Aclasta	PROPN	_	_	7	nsubj:pass	_	_
-3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	SpaceAfter=No
-4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No|wordform=t
-5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	expl:subj	_	wordform=il
-6	été	être	AUX	_	Tense=Past|VerbForm=Part	7	aux:pass	_	_
-7	approuvé	approuver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-8	?	?	PUNCT	_	_	7	punct	_	_
+1	Pourquoi	pourquoi	ADV	_	PronType=Int	6	advmod	_	_
+2	Aclasta	Aclasta	PROPN	_	_	6	nsubj:pass	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
+4	-t-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	6	expl:subj	_	_
+5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	approuvé	approuver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00074
 # text = L'information
@@ -9308,15 +9305,14 @@
 36	partie	partie	NOUN	_	Gender=Fem|Number=Sing	32	obl:mod	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	ce	ce	PRON	_	_	32	obl:arg	_	_
-39	que	que	PRON	_	PronType=Rel	42	obj	_	_
-40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	42	nsubj	_	ExtPos=PRON|SpaceAfter=No
-41	on	il	PRON	_	Number=Sing|Person=3	40	fixed	_	_
-42	versait	verser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl:relcl	_	_
-43	à	à	ADP	_	_	44	case	_	_
-44	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	42	obl:arg	_	_
-45	Wang	Wang	PROPN	_	_	44	flat:name	_	SpaceAfter=No
-46	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
-47	.	.	PUNCT	_	_	10	punct	_	_
+39	que	que	PRON	_	PronType=Rel	41	obj	_	_
+40	l'on	il	PRON	_	Number=Sing	41	nsubj	_	wordform=on
+41	versait	verser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl:relcl	_	_
+42	à	à	ADP	_	_	43	case	_	_
+43	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	41	obl:arg	_	_
+44	Wang	Wang	PROPN	_	_	43	flat:name	_	SpaceAfter=No
+45	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = frwiki_50.1000_00421
 # text = Il est probable que ce blocage a eu lieu avant la dispersion des commissions occultes.
