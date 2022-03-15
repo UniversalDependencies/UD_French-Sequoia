@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00011
 # text = cela signifie que leur consommation énergétique, qui représente actuellement 10% de la consommation énergétique moyenne de l'UE, enregistrera une forte augmentation à mesure qu'ils exigeront des commodités élémentaires comme l'eau chaude et, peut-être même, l'air conditionné, des moyens de transport et la modernisation de leurs industries.
 1	cela	cela	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
@@ -147,10 +148,10 @@
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Digital	Digital	X	_	_	17	nmod	_	_
-21	Millenium	Millenium	X	_	_	20	flat:foreign	_	_
-22	Corporate	Corporate	X	_	_	20	flat:foreign	_	_
-23	Act	Act	X	_	_	20	flat:foreign	_	_
+20	Digital	Digital	X	_	Foreign=Yes	17	nmod	_	_
+21	Millenium	Millenium	X	_	Foreign=Yes	20	flat:foreign	_	_
+22	Corporate	Corporate	X	_	Foreign=Yes	20	flat:foreign	_	_
+23	Act	Act	X	_	Foreign=Yes	20	flat:foreign	_	_
 24	et	et	CCONJ	_	_	29	cc	_	_
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
 26	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	29	nsubj	_	_
@@ -8213,20 +8214,20 @@
 # text = - (en) Maggie O'Kane, This time I 'm scared, The Guardian, December 5, 2002.
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	en	en	X	_	_	0	root	_	SpaceAfter=No
+3	en	en	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	Maggie	Maggie	PROPN	_	Gender=Fem|Number=Sing	3	dep	_	_
 6	O'Kane	O'Kane	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	This	This	X	_	_	3	dep	_	_
-9	time	time	X	_	_	8	flat:foreign	_	_
-10	I	I	X	_	_	8	flat:foreign	_	_
+8	This	This	X	_	Foreign=Yes	3	dep	_	_
+9	time	time	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	I	I	X	_	Foreign=Yes	8	flat:foreign	_	_
 11	'	'	PUNCT	_	_	8	punct	_	SpaceAfter=No
-12	m	m	X	_	_	8	flat:foreign	_	_
-13	scared	scared	X	_	_	8	flat:foreign	_	SpaceAfter=No
+12	m	m	X	_	Foreign=Yes	8	flat:foreign	_	_
+13	scared	scared	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
-15	The	The	X	_	_	3	dep	_	_
-16	Guardian	Guardian	X	_	_	15	flat:foreign	_	SpaceAfter=No
+15	The	The	X	_	Foreign=Yes	3	dep	_	_
+16	Guardian	Guardian	X	_	Foreign=Yes	15	flat:foreign	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	3	punct	_	_
 18	December	December	NOUN	_	_	3	dep	_	_
 19	5	5	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
@@ -8238,18 +8239,18 @@
 # text = - (en) Ian Urbina, HBO adds disclaimer to Gulf War movie, Asia Times, Nov 13, 2002.
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	en	en	X	_	_	0	root	_	SpaceAfter=No
+3	en	en	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	Ian	Ian	PROPN	_	Gender=Masc|Number=Sing	3	dep	_	_
 6	Urbina	Urbina	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	HBO	HBO	PROPN	_	_	3	dep	_	_
-9	adds	adds	X	_	_	8	dep	_	_
-10	disclaimer	disclaimer	X	_	_	8	dep	_	_
-11	to	to	X	_	_	8	dep	_	_
-12	Gulf	Gulf	X	_	_	8	dep	_	_
-13	War	War	X	_	_	8	dep	_	_
-14	movie	movie	X	_	_	8	dep	_	SpaceAfter=No
+9	adds	adds	X	_	Foreign=Yes	8	dep	_	_
+10	disclaimer	disclaimer	X	_	Foreign=Yes	8	dep	_	_
+11	to	to	X	_	Foreign=Yes	8	dep	_	_
+12	Gulf	Gulf	X	_	Foreign=Yes	8	dep	_	_
+13	War	War	X	_	Foreign=Yes	8	dep	_	_
+14	movie	movie	X	_	Foreign=Yes	8	dep	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	_
 16	Asia	Asia	PROPN	_	Number=Sing	3	dep	_	_
 17	Times	Times	PROPN	_	_	16	flat:name	_	SpaceAfter=No
@@ -9582,7 +9583,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	juges	juge	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	_
 9	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	8	flat:name	_	_
-10	van	van	X	_	_	9	dep	_	_
+10	van	van	X	_	Foreign=Yes	9	dep	_	_
 11	Ruymbeke	Ruymbeke	PROPN	_	_	9	flat:name	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	Xavière	Xavière	PROPN	_	_	9	conj	_	_
@@ -11440,9 +11441,9 @@
 
 # sent_id = frwiki_50.1000_00929
 # text = Drinking From Home.
-1	Drinking	Drinking	X	_	_	0	root	_	_
-2	From	From	X	_	_	1	flat:foreign	_	_
-3	Home	Home	X	_	_	1	flat:foreign	_	SpaceAfter=No
+1	Drinking	Drinking	X	_	Foreign=Yes	0	root	_	_
+2	From	From	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	Home	Home	X	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00934
@@ -11451,11 +11452,11 @@
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Reuters	Reuters	PROPN	_	_	0	root	_	_
-5	admits	admits	X	_	_	4	dep	_	_
-6	to	to	X	_	_	4	dep	_	_
-7	more	more	X	_	_	4	dep	_	_
-8	image	image	X	_	_	4	dep	_	_
-9	manipulation	manipulation	X	_	_	4	dep	_	SpaceAfter=No
+5	admits	admits	X	_	Foreign=Yes	4	dep	_	_
+6	to	to	X	_	Foreign=Yes	4	dep	_	_
+7	more	more	X	_	Foreign=Yes	4	dep	_	_
+8	image	image	X	_	Foreign=Yes	4	dep	_	_
+9	manipulation	manipulation	X	_	Foreign=Yes	4	dep	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
 12	Ynetnews	Ynetnews	PROPN	_	_	4	nmod	_	SpaceAfter=No
@@ -11467,12 +11468,12 @@
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Reuters	Reuters	PROPN	_	_	0	root	_	_
-5	withdraws	withdraws	X	_	_	4	dep	_	_
-6	all	all	X	_	_	4	dep	_	_
+5	withdraws	withdraws	X	_	Foreign=Yes	4	dep	_	_
+6	all	all	X	_	Foreign=Yes	4	dep	_	_
 7	photos	photo	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-8	by	by	X	_	_	4	dep	_	_
-9	Lebanese	Lebanese	X	_	_	4	dep	_	_
-10	freelance	freelance	X	_	_	4	dep	_	SpaceAfter=No
+8	by	by	X	_	Foreign=Yes	4	dep	_	_
+9	Lebanese	Lebanese	X	_	Foreign=Yes	4	dep	_	_
+10	freelance	freelance	X	_	Foreign=Yes	4	dep	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	4	punct	_	_
 13	Reuters	Reuters	PROPN	_	_	4	nmod	_	SpaceAfter=No

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = annodis.er_00001
 # text = Gutenberg
 1	Gutenberg	Gutenberg	PROPN	_	_	0	root	_	_
@@ -9811,9 +9812,9 @@
 
 # sent_id = emea-fr-dev_00001
 # text = European Medicines Agency
-1	European	European	X	_	_	0	root	_	_
-2	Medicines	Medicines	X	_	_	1	flat:foreign	_	_
-3	Agency	Agency	X	_	_	1	flat:foreign	_	_
+1	European	European	X	_	Foreign=Yes	0	root	_	_
+2	Medicines	Medicines	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	Agency	Agency	X	_	Foreign=Yes	1	flat:foreign	_	_
 
 # sent_id = emea-fr-dev_00002
 # text = EMEA / H/C/562
@@ -10895,11 +10896,11 @@
 25	pour	pour	ADP	_	_	26	case	_	_
 26	Angiox	Angiox	PROPN	_	_	13	nmod	_	_
 27	à	à	ADP	_	_	28	case	_	_
-28	The	The	X	_	_	11	obl:arg	_	_
-29	Medicines	Medicines	X	_	_	28	flat:foreign	_	_
-30	Company	Company	X	_	_	28	flat:foreign	_	_
-31	UK	UK	X	_	_	28	flat:foreign	_	_
-32	Ltd	Ltd	X	_	_	28	flat:foreign	_	SpaceAfter=No
+28	The	The	X	_	Foreign=Yes	11	obl:arg	_	_
+29	Medicines	Medicines	X	_	Foreign=Yes	28	flat:foreign	_	_
+30	Company	Company	X	_	Foreign=Yes	28	flat:foreign	_	_
+31	UK	UK	X	_	Foreign=Yes	28	flat:foreign	_	_
+32	Ltd	Ltd	X	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	11	punct	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	20	20	NUM	_	NumType=Card	11	obl:mod	_	_
@@ -12981,8 +12982,8 @@
 # sent_id = emea-fr-dev_00222
 # text = Troubles musculo squelettiques, du tissu conjonctif et des os
 1	Troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	musculo	musculo	ADJ	_	_	1	amod	_	_
-3	squelettiques	squelettique	ADJ	_	Number=Plur	2	goeswith	_	SpaceAfter=No
+2	musculo	musculo	ADJ	_	Typo=Yes	1	amod	_	CorrectForm=musculo-squelettiques
+3	squelettiques	_	X	_	_	2	goeswith	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -14204,8 +14205,8 @@
 # text = Des études in vitro ont montré que la bivalirudine inhibe à la fois la thrombine soluble (libre) et la thrombine liée aux caillots.
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	études	étude	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
-3	in	in	X	_	_	2	amod	_	ExtPos=ADJ
-4	vitro	vitro	X	_	_	3	fixed	_	_
+3	in	in	X	_	Foreign=Yes	2	amod	_	ExtPos=ADJ
+4	vitro	vitro	X	_	Foreign=Yes	3	fixed	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	que	que	SCONJ	_	_	10	mark	_	_
@@ -16075,19 +16076,19 @@
 
 # sent_id = emea-fr-dev_00397
 # text = The Medicines Company UK Ltd 115L Milton Park Abingdon Oxfordshire OX14 4SA ROYAUME-UNI
-1	The	The	X	_	_	0	root	_	_
-2	Medicines	Medicines	X	_	_	1	flat:foreign	_	_
-3	Company	Company	X	_	_	1	flat:foreign	_	_
-4	UK	UK	X	_	_	1	flat:foreign	_	_
-5	Ltd	Ltd	X	_	_	1	flat:foreign	_	_
-6	115L	115L	X	_	_	1	flat:foreign	_	_
-7	Milton	Milton	X	_	_	1	flat:foreign	_	_
-8	Park	Park	X	_	_	1	flat:foreign	_	_
-9	Abingdon	Abingdon	X	_	_	1	flat:foreign	_	_
-10	Oxfordshire	Oxfordshire	X	_	_	1	flat:foreign	_	_
-11	OX14	OX14	X	_	_	1	flat:foreign	_	_
-12	4SA	4SA	X	_	_	1	flat:foreign	_	_
-13	ROYAUME-UNI	Royaume-Uni	X	_	_	1	flat:foreign	_	_
+1	The	The	X	_	Foreign=Yes	0	root	_	_
+2	Medicines	Medicines	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	Company	Company	X	_	Foreign=Yes	1	flat:foreign	_	_
+4	UK	UK	X	_	Foreign=Yes	1	flat:foreign	_	_
+5	Ltd	Ltd	X	_	Foreign=Yes	1	flat:foreign	_	_
+6	115L	115L	X	_	Foreign=Yes	1	flat:foreign	_	_
+7	Milton	Milton	X	_	Foreign=Yes	1	flat:foreign	_	_
+8	Park	Park	X	_	Foreign=Yes	1	flat:foreign	_	_
+9	Abingdon	Abingdon	X	_	Foreign=Yes	1	flat:foreign	_	_
+10	Oxfordshire	Oxfordshire	X	_	Foreign=Yes	1	flat:foreign	_	_
+11	OX14	OX14	X	_	Foreign=Yes	1	flat:foreign	_	_
+12	4SA	4SA	X	_	Foreign=Yes	1	flat:foreign	_	_
+13	ROYAUME-UNI	Royaume-Uni	X	_	Foreign=Yes	1	flat:foreign	_	_
 
 # sent_id = emea-fr-dev_00400
 # text = DATE DE MISE A JOUR DU TEXTE
@@ -18103,19 +18104,19 @@
 
 # sent_id = emea-fr-dev_00571
 # text = The Medicines Company UK Limited 115L Milton Park Abingdon Oxfordshire OX14 4SA ROYAUME-UNI
-1	The	The	X	_	_	0	root	_	_
-2	Medicines	Medicines	X	_	_	1	flat:foreign	_	_
-3	Company	Company	X	_	_	1	flat:foreign	_	_
-4	UK	UK	X	_	_	1	flat:foreign	_	_
-5	Limited	Limited	X	_	_	1	flat:foreign	_	_
-6	115L	115L	X	_	_	1	flat:foreign	_	_
-7	Milton	Milton	X	_	_	1	flat:foreign	_	_
-8	Park	Park	X	_	_	1	flat:foreign	_	_
-9	Abingdon	Abingdon	X	_	_	1	flat:foreign	_	_
-10	Oxfordshire	Oxfordshire	X	_	_	1	flat:foreign	_	_
-11	OX14	OX14	X	_	_	1	flat:foreign	_	_
-12	4SA	4SA	X	_	_	1	flat:foreign	_	_
-13	ROYAUME-UNI	Royaume-Uni	X	_	_	1	flat:foreign	_	_
+1	The	The	X	_	Foreign=Yes	0	root	_	_
+2	Medicines	Medicines	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	Company	Company	X	_	Foreign=Yes	1	flat:foreign	_	_
+4	UK	UK	X	_	Foreign=Yes	1	flat:foreign	_	_
+5	Limited	Limited	X	_	Foreign=Yes	1	flat:foreign	_	_
+6	115L	115L	X	_	Foreign=Yes	1	flat:foreign	_	_
+7	Milton	Milton	X	_	Foreign=Yes	1	flat:foreign	_	_
+8	Park	Park	X	_	Foreign=Yes	1	flat:foreign	_	_
+9	Abingdon	Abingdon	X	_	Foreign=Yes	1	flat:foreign	_	_
+10	Oxfordshire	Oxfordshire	X	_	Foreign=Yes	1	flat:foreign	_	_
+11	OX14	OX14	X	_	Foreign=Yes	1	flat:foreign	_	_
+12	4SA	4SA	X	_	Foreign=Yes	1	flat:foreign	_	_
+13	ROYAUME-UNI	Royaume-Uni	X	_	Foreign=Yes	1	flat:foreign	_	_
 
 # sent_id = emea-fr-dev_00572
 # text = Fabricant
@@ -19044,7 +19045,7 @@
 21	à	à	ADP	_	_	22	case	_	_
 22	Novartis	Novartis	PROPN	_	_	5	obl:arg	_	_
 23	Europharm	Europharm	PROPN	_	_	22	flat:name	_	_
-24	Limited	Limited	X	_	_	22	dep	_	SpaceAfter=No
+24	Limited	Limited	X	_	Foreign=Yes	22	dep	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	5	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	15	15	NUM	_	NumType=Card	5	obl:mod	_	_
@@ -34410,8 +34411,8 @@
 38	ONG	ONG	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
 39	locales	local	ADJ	_	Gender=Fem|Number=Plur	38	amod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	12	punct	_	_
-41	a	a	X	_	_	12	advmod	_	ExtPos=ADV
-42	fortiori	fortiori	X	_	_	41	fixed	_	_
+41	a	a	X	_	Foreign=Yes	12	advmod	_	ExtPos=ADV
+42	fortiori	fortiori	X	_	Foreign=Yes	41	fixed	_	_
 43	lorsque	lorsque	SCONJ	_	_	45	mark	_	_
 44	l'on	il	PRON	_	Number=Sing	45	nsubj	_	wordform=on
 45	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
@@ -35903,8 +35904,8 @@
 1	Non	non	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	9	punct	_	_
 3	Madame	monsieur	NOUN	_	Gender=Fem|Number=Sing	9	vocative	_	_
-4	van	van	X	_	_	3	dep	_	_
-5	der	der	X	_	_	3	dep	_	_
+4	van	van	X	_	Foreign=Yes	3	dep	_	_
+5	der	der	X	_	Foreign=Yes	3	dep	_	_
 6	Laan	Laan	PROPN	_	_	3	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	vous	il	PRON	_	Number=Plur|Person=2	9	nsubj	_	_
@@ -36654,7 +36655,7 @@
 
 # sent_id = Europar.550_00487
 # text = Eh bien, un célèbre retraité américain, l'astronaute John Glenn, est parti dans l'espace à l'âge de 69 ans.
-1	Eh	eh	INTJ	_	_	15	discourse	_	ExtPos=I
+1	Eh	eh	INTJ	_	_	15	discourse	_	ExtPos=INTJ
 2	bien	bien	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	15	punct	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -40299,11 +40300,11 @@
 # text = L'association Citizens for a Free Kuwait, organisée par le gouvernement du Koweit exilé avait commandé cette campagne à la compagnie de relations publiques Hill & Knowlton (pour la somme de 10 millions de dollars [1]).
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	association	association	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
-3	Citizens	Citizens	X	_	_	2	dep	_	_
-4	for	for	X	_	_	2	dep	_	_
-5	a	a	X	_	_	2	dep	_	_
-6	Free	Free	X	_	_	2	dep	_	_
-7	Kuwait	Kuwait	X	_	_	2	dep	_	SpaceAfter=No
+3	Citizens	Citizens	X	_	Foreign=Yes	2	dep	_	_
+4	for	for	X	_	Foreign=Yes	2	dep	_	_
+5	a	a	X	_	Foreign=Yes	2	dep	_	_
+6	Free	Free	X	_	Foreign=Yes	2	dep	_	_
+7	Kuwait	Kuwait	X	_	Foreign=Yes	2	dep	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	organisée	organiser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 10	par	par	ADP	_	_	12	case	_	_
@@ -40454,17 +40455,17 @@
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	en	en	X	_	_	0	root	_	SpaceAfter=No
+4	en	en	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
 6	Phillip	Phillip	PROPN	_	Gender=Masc|Number=Sing	4	dep	_	_
 7	Knightley	Knightley	PROPN	_	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
-9	The	The	X	_	_	4	dep	_	_
-10	disinformation	disinformation	X	_	_	9	flat:foreign	_	_
-11	campaign	campaign	X	_	_	9	flat:foreign	_	SpaceAfter=No
+9	The	The	X	_	Foreign=Yes	4	dep	_	_
+10	disinformation	disinformation	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	campaign	campaign	X	_	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	4	punct	_	_
-13	The	The	X	_	_	4	dep	_	_
-14	Guardian	Guardian	X	_	_	13	flat:foreign	_	SpaceAfter=No
+13	The	The	X	_	Foreign=Yes	4	dep	_	_
+14	Guardian	Guardian	X	_	Foreign=Yes	13	flat:foreign	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
 16	October	October	NOUN	_	_	4	dep	_	_
 17	4	4	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
@@ -40492,8 +40493,8 @@
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	site	site	NOUN	_	Gender=Masc|Number=Sing	10	obl:agent	_	_
 14	internet	internet	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
-15	Stop	Stop	X	_	_	13	nmod	_	_
-16	USA	USA	X	_	_	15	flat:foreign	_	_
+15	Stop	Stop	X	_	Foreign=Yes	13	nmod	_	_
+16	USA	USA	X	_	Foreign=Yes	15	flat:foreign	_	_
 
 # sent_id = frwiki_50.1000_00113
 # text = - (fr) L'Humanité, 11 mars 1991 [1]
@@ -40537,17 +40538,17 @@
 # text = - (en) Ameen Izzadeen, Lies, damn lies and war, Daily Mirror of Sri Lanka, 2001 (no more precise date provided), accessed 27 Feb 2006..
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	en	en	X	_	_	0	root	_	SpaceAfter=No
+3	en	en	X	_	Foreign=Yes	0	root	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	Ameen	Ameen	PROPN	_	_	3	dep	_	_
 6	Izzadeen	Izzadeen	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	Lies	Lies	X	_	_	3	dep	_	SpaceAfter=No
+8	Lies	Lies	X	_	Foreign=Yes	3	dep	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	damn	damn	X	_	_	8	flat:foreign	_	_
-11	lies	lies	X	_	_	8	flat:foreign	_	_
-12	and	and	X	_	_	8	flat:foreign	_	_
-13	war	war	X	_	_	8	flat:foreign	_	SpaceAfter=No
+10	damn	damn	X	_	Foreign=Yes	8	flat:foreign	_	_
+11	lies	lies	X	_	Foreign=Yes	8	flat:foreign	_	_
+12	and	and	X	_	Foreign=Yes	8	flat:foreign	_	_
+13	war	war	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	Daily	Daily	PROPN	_	_	3	dep	_	_
 16	Mirror	Mirror	PROPN	_	_	15	nmod	_	_
@@ -40557,14 +40558,14 @@
 20	,	,	PUNCT	_	_	3	punct	_	_
 21	2001	2001	NUM	_	NumType=Card	3	dep	_	_
 22	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-23	no	no	X	_	_	3	dep	_	_
-24	more	more	X	_	_	23	flat:foreign	_	_
-25	precise	precise	X	_	_	23	flat:foreign	_	_
-26	date	date	X	_	_	23	flat:foreign	_	_
-27	provided	provided	X	_	_	23	flat:foreign	_	SpaceAfter=No
+23	no	no	X	_	Foreign=Yes	3	dep	_	_
+24	more	more	X	_	Foreign=Yes	23	flat:foreign	_	_
+25	precise	precise	X	_	Foreign=Yes	23	flat:foreign	_	_
+26	date	date	X	_	Foreign=Yes	23	flat:foreign	_	_
+27	provided	provided	X	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	3	punct	_	_
-30	accessed	accessed	X	_	_	32	dep	_	_
+30	accessed	accessed	X	_	Foreign=Yes	32	dep	_	_
 31	27	27	NUM	_	NumType=Card	32	nummod	_	_
 32	Feb	Feb	NOUN	_	_	3	dep	_	_
 33	2006	2006	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
@@ -41258,7 +41259,7 @@
 # text = - ^ The Economist, 18 février 1989.
 1	-	-	PUNCT	_	_	4	punct	_	_
 2	^	^	PUNCT	_	_	4	punct	_	_
-3	The	The	X	_	_	4	dep	_	_
+3	The	The	X	_	Foreign=Yes	4	dep	_	_
 4	Economist	Economist	PROPN	_	_	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	18	18	NUM	_	NumType=Card	4	nmod	_	_
@@ -41839,9 +41840,9 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	Loudun	Loudun	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-7	The	The	X	_	_	10	dep	_	_
-8	devils	devils	X	_	_	10	dep	_	_
-9	of	of	X	_	_	10	dep	_	_
+7	The	The	X	_	Foreign=Yes	10	dep	_	_
+8	devils	devils	X	_	Foreign=Yes	10	dep	_	_
+9	of	of	X	_	Foreign=Yes	10	dep	_	_
 10	Loudun	Loudun	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	3	punct	_	_
 12	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -41892,8 +41893,8 @@
 2	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	Diables	diable	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 4	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-5	The	The	X	_	_	3	appos	_	_
-6	devils	devils	X	_	_	5	flat:foreign	_	SpaceAfter=No
+5	The	The	X	_	Foreign=Yes	3	appos	_	_
+6	devils	devils	X	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
 7	)	)	PUNCT	_	_	3	punct	_	_
 8	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
 9	1971	1971	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
@@ -41929,9 +41930,9 @@
 # sent_id = frwiki_50.1000_00191
 # text = - The devils of Loudun, de Krzysztof Penderecki
 1	-	-	PUNCT	_	_	5	punct	_	_
-2	The	The	X	_	_	5	dep	_	_
-3	devils	devils	X	_	_	5	dep	_	_
-4	of	of	X	_	_	5	dep	_	_
+2	The	The	X	_	Foreign=Yes	5	dep	_	_
+3	devils	devils	X	_	Foreign=Yes	5	dep	_	_
+4	of	of	X	_	Foreign=Yes	5	dep	_	_
 5	Loudun	Loudun	PROPN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	de	de	ADP	_	_	8	case	_	_
@@ -46171,7 +46172,7 @@
 4	confiée	confier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	à	à	ADP	_	_	6	case	_	_
 6	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
-7	Van	Van	X	_	_	6	dep	_	_
+7	Van	Van	X	_	Foreign=Yes	6	dep	_	_
 8	Ruymbeke	Ruymbeke	PROPN	_	_	6	flat:name	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	à	à	ADP	_	_	11	case	_	_
@@ -46314,7 +46315,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	juge	juge	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
 14	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	13	flat:name	_	_
-15	Van	Van	X	_	_	13	dep	_	_
+15	Van	Van	X	_	Foreign=Yes	13	dep	_	_
 16	Ruymbeke	Ruymbeke	PROPN	_	_	13	flat:name	_	_
 17	que	que	SCONJ	_	_	24	mark	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
@@ -46663,8 +46664,8 @@
 20	Christine	Christine	PROPN	_	Gender=Fem|Number=Sing	18	obl:agent	_	_
 21	Deviers-Joncour	Deviers-Joncour	PROPN	_	_	20	flat:name	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	14	punct	_	_
-23	a	a	X	_	_	27	advmod	_	ExtPos=ADV
-24	fortiori	fortiori	X	_	_	23	fixed	_	_
+23	a	a	X	_	Foreign=Yes	27	advmod	_	ExtPos=ADV
+24	fortiori	fortiori	X	_	Foreign=Yes	23	fixed	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes	27	det	_	_
 27	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
@@ -47076,7 +47077,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3	3	expl:subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-4	van	van	X	_	_	3	dep	_	_
+4	van	van	X	_	Foreign=Yes	3	dep	_	_
 5	Ruymbeke	Ruymbeke	PROPN	_	_	3	flat:name	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
 7	reprendra	reprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl:cleft	_	_
@@ -48034,7 +48035,7 @@
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	instruction	instruction	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	8	flat:name	_	_
-12	Van	Van	X	_	_	11	dep	_	_
+12	Van	Van	X	_	Foreign=Yes	11	dep	_	_
 13	Ruymbeke	Ruymbeke	PROPN	_	_	11	flat:name	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	Françoise	Françoise	PROPN	_	Gender=Fem|Number=Sing	11	conj	_	_
@@ -48166,7 +48167,7 @@
 1	-	-	PUNCT	_	_	9	punct	_	_
 2	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	juges	juge	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
-4	Van	Van	X	_	_	3	dep	_	_
+4	Van	Van	X	_	Foreign=Yes	3	dep	_	_
 5	Ruymbeke	Ruymbeke	PROPN	_	_	4	flat:name	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	Simeoni	Simeoni	PROPN	_	_	4	conj	_	_
@@ -48581,7 +48582,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	juge	juge	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 9	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	8	flat:name	_	_
-10	Van	Van	X	_	_	8	dep	_	_
+10	Van	Van	X	_	Foreign=Yes	8	dep	_	_
 11	Ruymbeke	Ruymbeke	PROPN	_	_	8	flat:name	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 13	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -48716,7 +48717,7 @@
 42	de	de	ADP	_	_	44	case	_	_
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	juge	juge	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
-45	Van	Van	X	_	_	44	dep	_	_
+45	Van	Van	X	_	Foreign=Yes	44	dep	_	_
 46	Ruymbeke	Ruymbeke	PROPN	_	_	44	flat:name	_	_
 47	dans	dans	ADP	_	_	49	case	_	_
 48	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
@@ -49128,7 +49129,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	juge	juge	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
 19	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	18	flat:name	_	_
-20	Van	Van	X	_	_	18	dep	_	_
+20	Van	Van	X	_	Foreign=Yes	18	dep	_	_
 21	Ruymbeke	Ruymbeke	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -49328,7 +49329,7 @@
 11	2002	2002	NUM	_	NumType=Card	10	nmod	_	_
 12	par	par	ADP	_	_	13	case	_	_
 13	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	7	obl:agent	_	_
-14	Van	Van	X	_	_	13	dep	_	_
+14	Van	Van	X	_	Foreign=Yes	13	dep	_	_
 15	Ruymbeke	Ruymbeke	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	7	punct	_	_
 17	introduite	introduire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
@@ -56094,7 +56095,7 @@
 
 # sent_id = frwiki_50.1000_00853
 # text = Puis, les sommes étaient retirées par des proches de Safa et apportées à l'association France Orient, où elles étaient réceptionnées par J.-C. Marchianni ou sa secrétaire.
-1	Puis	puis	ADV	_	_	6	advmod	_	SpaceAfter=No
+1	Puis	puis	CCONJ	_	_	6	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	sommes	somme	NOUN	_	Number=Plur	6	nsubj:pass	_	_
@@ -56301,7 +56302,7 @@
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	article	article	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
-4	The	The	X	_	_	5	dep	_	_
+4	The	The	X	_	Foreign=Yes	5	dep	_	_
 5	Observer	Observer	PROPN	_	_	2	nmod	_	_
 6	retrace	retracer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
@@ -57299,21 +57300,21 @@
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Smoke	Smoke	PROPN	_	_	0	root	_	_
-5	and	and	X	_	_	4	dep	_	_
+5	and	and	X	_	Foreign=Yes	4	dep	_	_
 6	Mirrors	Mirrors	PROPN	_	_	4	flat:name	_	_
 7	:	:	PUNCT	_	_	4	punct	_	_
-8	Reuters	Reuters	X	_	_	4	dep	_	_
-9	Dismisses	Dismisses	X	_	_	8	flat:foreign	_	_
-10	Photog	Photog	X	_	_	8	flat:foreign	_	_
-11	Over	Over	X	_	_	8	flat:foreign	_	_
-12	Doctored	Doctored	X	_	_	8	flat:foreign	_	_
-13	Beirut	Beirut	X	_	_	8	flat:foreign	_	_
-14	Picture	Picture	X	_	_	8	flat:foreign	_	SpaceAfter=No
+8	Reuters	Reuters	X	_	Foreign=Yes	4	dep	_	_
+9	Dismisses	Dismisses	X	_	Foreign=Yes	8	flat:foreign	_	_
+10	Photog	Photog	X	_	Foreign=Yes	8	flat:foreign	_	_
+11	Over	Over	X	_	Foreign=Yes	8	flat:foreign	_	_
+12	Doctored	Doctored	X	_	Foreign=Yes	8	flat:foreign	_	_
+13	Beirut	Beirut	X	_	Foreign=Yes	8	flat:foreign	_	_
+14	Picture	Picture	X	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	4	punct	_	_
-17	Editor	Editor	X	_	_	4	dep	_	_
-18	and	and	X	_	_	17	flat:foreign	_	_
-19	Publisher	Publisher	X	_	_	17	flat:foreign	_	SpaceAfter=No
+17	Editor	Editor	X	_	Foreign=Yes	4	dep	_	_
+18	and	and	X	_	Foreign=Yes	17	flat:foreign	_	_
+19	Publisher	Publisher	X	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	4	punct	_	_
 21	August	August	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 22	6	6	NUM	_	NumType=Card	21	nummod	_	SpaceAfter=No
@@ -57334,9 +57335,9 @@
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	^	^	PUNCT	_	_	3	punct	_	_
 3	Reuters	Reuters	PROPN	_	_	0	root	_	_
-4	Doctoring	Doctoring	X	_	_	3	dep	_	_
+4	Doctoring	Doctoring	X	_	Foreign=Yes	3	dep	_	_
 5	Photos	photo	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-6	from	from	X	_	_	5	dep	_	_
+6	from	from	X	_	Foreign=Yes	5	dep	_	_
 7	Beirut	Beirut	PROPN	_	_	5	nmod	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -57364,18 +57365,18 @@
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	^	^	PUNCT	_	_	3	punct	_	_
 3	Reuters	Reuters	PROPN	_	_	0	root	_	_
-4	calls	calls	X	_	_	3	dep	_	_
-5	the	the	X	_	_	3	dep	_	_
-6	doctor	doctor	X	_	_	3	dep	_	SpaceAfter=No
+4	calls	calls	X	_	Foreign=Yes	3	dep	_	_
+5	the	the	X	_	Foreign=Yes	3	dep	_	_
+6	doctor	doctor	X	_	Foreign=Yes	3	dep	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	take	take	X	_	_	3	dep	_	_
+8	take	take	X	_	Foreign=Yes	3	dep	_	_
 9	2	2	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00926
 # text = Power Line.
-1	Power	Power	X	_	_	0	root	_	_
-2	Line	Line	X	_	_	1	flat:foreign	_	SpaceAfter=No
+1	Power	Power	X	_	Foreign=Yes	0	root	_	_
+2	Line	Line	X	_	Foreign=Yes	1	flat:foreign	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00927
@@ -57394,7 +57395,7 @@
 1	-	-	PUNCT	_	_	3	punct	_	_
 2	^	^	PUNCT	_	_	3	punct	_	_
 3	Extreme	extreme	NOUN	_	_	0	root	_	_
-4	Makeover	Makeover	X	_	_	3	dep	_	SpaceAfter=No
+4	Makeover	Makeover	X	_	Foreign=Yes	3	dep	_	SpaceAfter=No
 5	-	-	PUNCT	_	_	3	punct	_	_
 6	Beirut	Beirut	PROPN	_	_	3	nmod	_	_
 7	Edition	édition	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -57444,11 +57445,11 @@
 2	^	^	PUNCT	_	_	4	punct	_	_
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Reuters	Reuters	PROPN	_	_	0	root	_	_
-5	drops	drops	X	_	_	4	dep	_	_
-6	freelance	freelance	X	_	_	4	dep	_	_
-7	Lebanese	Lebanese	X	_	_	4	dep	_	_
-8	photographer	photographer	X	_	_	4	dep	_	_
-9	over	over	X	_	_	4	dep	_	_
+5	drops	drops	X	_	Foreign=Yes	4	dep	_	_
+6	freelance	freelance	X	_	Foreign=Yes	4	dep	_	_
+7	Lebanese	Lebanese	X	_	Foreign=Yes	4	dep	_	_
+8	photographer	photographer	X	_	Foreign=Yes	4	dep	_	_
+9	over	over	X	_	Foreign=Yes	4	dep	_	_
 10	image	image	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	4	punct	_	_
@@ -57533,15 +57534,15 @@
 3	en	en	NOUN	_	_	0	root	_	SpaceAfter=No
 4	)	)	PUNCT	_	_	3	punct	_	_
 5	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
-6	Digital	Digital	X	_	_	3	dep	_	_
-7	Tampering	Tampering	X	_	_	6	flat:foreign	_	_
-8	in	in	X	_	_	6	flat:foreign	_	_
-9	the	the	X	_	_	6	flat:foreign	_	_
-10	Media	Media	X	_	_	6	flat:foreign	_	SpaceAfter=No
+6	Digital	Digital	X	_	Foreign=Yes	3	dep	_	_
+7	Tampering	Tampering	X	_	Foreign=Yes	6	flat:foreign	_	_
+8	in	in	X	_	Foreign=Yes	6	flat:foreign	_	_
+9	the	the	X	_	Foreign=Yes	6	flat:foreign	_	_
+10	Media	Media	X	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
-12	Politics	Politics	X	_	_	3	dep	_	_
-13	and	and	X	_	_	12	flat:foreign	_	_
-14	Law	Law	X	_	_	12	flat:foreign	_	SpaceAfter=No
+12	Politics	Politics	X	_	Foreign=Yes	3	dep	_	_
+13	and	and	X	_	Foreign=Yes	12	flat:foreign	_	_
+14	Law	Law	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -57582,9 +57583,9 @@
 5	Opinion	opinion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	:	:	PUNCT	_	_	5	punct	_	_
 7	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-8	Institutional	Institutional	X	_	_	11	dep	_	_
-9	Failure	Failure	X	_	_	11	dep	_	_
-10	at	at	X	_	_	11	dep	_	_
+8	Institutional	Institutional	X	_	Foreign=Yes	11	dep	_	_
+9	Failure	Failure	X	_	Foreign=Yes	11	dep	_	_
+10	at	at	X	_	Foreign=Yes	11	dep	_	_
 11	Reuters	Reuters	PROPN	_	_	5	nmod	_	SpaceAfter=No
 12	"	"	PUNCT	_	_	11	punct	_	_
 13	par	par	ADP	_	_	14	case	_	_
@@ -57592,7 +57593,7 @@
 15	Lifson	Lifson	PROPN	_	_	14	flat:name	_	_
 16	pour	pour	ADP	_	_	17	case	_	_
 17	Yahoo!	Yahoo!	PROPN	_	_	5	nmod	_	_
-18	News	News	X	_	_	17	dep	_	SpaceAfter=No
+18	News	News	X	_	Foreign=Yes	17	dep	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	_
 20	7	7	NUM	_	NumType=Card	5	nmod	_	_
 21	août	août	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
@@ -57608,7 +57609,7 @@
 6	Reuters	Reuters	PROPN	_	_	3	nmod	_	_
 7	'	'	PUNCT	_	_	6	punct	_	SpaceAfter=No
 8	Image	image	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9	Problem	Problem	X	_	_	6	dep	_	SpaceAfter=No
+9	Problem	Problem	X	_	Foreign=Yes	6	dep	_	SpaceAfter=No
 10	"	"	PUNCT	_	_	6	punct	_	_
 11	par	par	ADP	_	_	12	case	_	_
 12	Brendan	Brendan	PROPN	_	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -58313,8 +58314,8 @@
 13	exception	exception	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Chartered	Chartered	X	_	_	13	nmod	_	_
-17	Bank	Bank	X	_	_	16	flat:foreign	_	_
+16	Chartered	Chartered	X	_	Foreign=Yes	13	nmod	_	_
+17	Bank	Bank	X	_	Foreign=Yes	16	flat:foreign	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	nsubj:pass	_	_
 19	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
 20	inculpée	inculper	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
