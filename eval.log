@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_French-Sequoia:
-commit 64deab70d9d848e29ab85e71800b1e4c680079fb
+commit e176f89df9749caf5c035dfa3ef1cba8392295b7
+Merge: b6ae26d b74a6a1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:12:43 2021 +0200
 Size: counted 70548 of 70548 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.51258665841624.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 44606 out of 70548 total words have one or more features.
+Features: 44785 out of 70548 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
