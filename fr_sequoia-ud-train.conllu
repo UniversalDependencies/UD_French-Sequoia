@@ -1980,8 +1980,8 @@
 68	de	de	ADP	_	_	70	case	_	_
 69	trente	trente	NUM	_	NumType=Card	70	nummod	_	_
 70	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	65	nmod	_	_
-71	de	de	ADP	_	_	70	amod	_	ExtPos=ADJ
-72	long	long	ADJ	_	Gender=Masc|Number=Sing	71	fixed	_	SpaceAfter=No
+71	de	de	ADP	_	_	72	case	_	_
+72	long	long	ADJ	_	Gender=Masc|Number=Sing	70	nmod	_	SpaceAfter=No
 73	,	,	PUNCT	_	_	65	punct	_	_
 74	destinés	destiner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	65	acl	_	_
 75	à	à	ADP	_	_	77	case	_	_
