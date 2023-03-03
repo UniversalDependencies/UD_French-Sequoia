@@ -8482,8 +8482,8 @@
 8	environ	environ	ADV	_	_	10	advmod	_	_
 9	110	110	NUM	_	NumType=Card	10	nummod	_	_
 10	km	km	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-11	de	de	ADP	_	_	10	acl	_	ExtPos=ADJ
-12	large	large	ADJ	_	Number=Sing	11	fixed	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	large	large	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	comprenant	comprendre	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Lorraine	Lorraine	PROPN	_	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
