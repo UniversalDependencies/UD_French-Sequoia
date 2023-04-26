@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = annodis.er_00014
 # text = L'association a changé les décors et avec l'aide de plusieurs bénévoles, établi différents tableaux sur le thème de "Cinq siècles d'activité économique de la région d'Ancerville".
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
@@ -633,7 +634,7 @@
 13	acheter	acheter	VERB	_	VerbForm=Inf	7	advcl	_	Subject=Instantiated
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	matières	matière	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
-16	premières	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Plur	15	amod	_	_
+16	premières	premier	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	15	amod	_	_
 17	nécessaires	nécessaire	ADJ	_	Number=Plur	15	amod	_	_
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
@@ -656,7 +657,7 @@
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	14	14	NUM	_	NumType=Card	33	obl:mod	_	_
 37	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
-38	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	37	amod	_	SpaceAfter=No
+38	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	37	amod	_	SpaceAfter=No
 39	"	"	PUNCT	_	_	33	punct	_	_
 40	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	parataxis:insert	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
@@ -687,7 +688,7 @@
 15	près	près	ADV	_	_	13	nmod	_	ExtPos=PRON
 16	de	de	ADP	_	_	18	case	_	_
 17	deux	deux	NUM	_	NumType=Card	18	nummod	_	_
-18	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	15	obl:arg	_	_
+18	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	15	obl:arg	_	_
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	euros	euro	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 21	en	en	ADP	_	_	22	case	_	_
@@ -1236,7 +1237,7 @@
 # text = Dans un premier temps, le président nancéien invita Pablo à cesser sa carrière pour intégrer le staff technique.
 1	Dans	dans	ADP	_	_	4	case	_	_
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	4	amod	_	_
+3	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -1259,7 +1260,7 @@
 # text = Dans un premier temps, les occupants de la voiture doublée ont porté secours aux victimes.
 1	Dans	dans	ADP	_	_	4	case	_	_
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	4	amod	_	_
+3	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	_
 4	temps	temps	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -2210,7 +2211,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	processus	processus	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	de	de	ADP	_	_	8	case	_	_
-7	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	8	amod	_	_
+7	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
 8	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -2755,7 +2756,7 @@
 # sent_id = emea-fr-test_00033
 # text = La première étude a porté sur près de 8 000 femmes âgées souffrant d'ostéoporose et a tenu compte du nombre de fractures de la colonne vertébrale et de la hanche intervenues sur une période de trois ans.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	3	amod	_	_
+2	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	étude	étude	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	porté	porter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -2798,7 +2799,7 @@
 # sent_id = emea-fr-test_00034
 # text = La deuxième étude a impliqué 2 127 hommes et femmes souffrant d'ostéoporose, âgés de plus de 50 ans, qui s'étaient récemment fracturé la hanche, et s'est intéressée au nombre de fractures sur une période de cinq ans au maximum.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	deuxième	deuxième	ADJ	_	NumType=Ord|Number=Sing	3	amod	_	_
+2	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	3	amod	_	_
 3	étude	étude	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	impliqué	impliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -3157,7 +3158,7 @@
 39	,	,	PUNCT	_	_	43	punct	_	_
 40	avant	avant	ADP	_	_	43	case	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-42	1ère	1er	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	43	amod	_	_
+42	1ère	1er	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	43	amod	_	_
 43	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	_
 44	d'	de	ADP	_	_	45	case	_	SpaceAfter=No
 45	Aclasta	Aclasta	PROPN	_	_	43	nmod	_	SpaceAfter=No
@@ -3176,7 +3177,7 @@
 8	dans	dans	ADP	_	_	12	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 10	trois	trois	NUM	_	NumType=Card	12	nummod	_	_
-11	premiers	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Plur	12	amod	_	_
+11	premiers	premier	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	12	amod	_	_
 12	jours	jour	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	_
 13	suivant	suivre	VERB	_	Tense=Pres|VerbForm=Part	12	acl	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
@@ -3835,7 +3836,7 @@
 27	de	de	ADP	_	_	31	case	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 29	trois	trois	NUM	_	NumType=Card	31	nummod	_	_
-30	premiers	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Plur	31	amod	_	_
+30	premiers	premier	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	31	amod	_	_
 31	jours	jour	NOUN	_	Gender=Masc|Number=Plur	26	obl:arg	_	_
 32	suivant	suivre	VERB	_	Tense=Pres|VerbForm=Part	31	acl	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
@@ -3947,7 +3948,7 @@
 34	recommandée	recommander	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 35	avant	avant	ADP	_	_	38	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-37	1ère	1er	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	38	amod	_	_
+37	1ère	1er	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	38	amod	_	_
 38	administration	administration	NOUN	_	Gender=Fem|Number=Sing	34	obl:mod	_	_
 39	d'	de	ADP	_	_	40	case	_	SpaceAfter=No
 40	Aclasta	Aclasta	PROPN	_	_	38	nmod	_	SpaceAfter=No
@@ -4900,7 +4901,7 @@
 # sent_id = Europar.550_00290
 # text = Le deuxième point consiste à reconfirmer et à consacrer un autre principe important, celui de l'équilibre des forces, un principe qui concerne précisément le rôle et le rapport des membres de l'Union, un principe qui s'exprime de la manière dont s'expriment tous les États membres au sein de toutes -je répète, toutes- les institutions de l'Union européenne.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	deuxième	deuxième	ADJ	_	NumType=Ord|Number=Sing	3	amod	_	_
+2	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	3	amod	_	_
 3	point	point	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	consiste	consister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	6	mark	_	_
@@ -5038,7 +5039,7 @@
 # sent_id = Europar.550_00318
 # text = Le deuxième point est la création d'un ministère public européen.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	deuxième	deuxième	ADJ	_	NumType=Ord|Number=Sing	3	amod	_	_
+2	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	3	amod	_	_
 3	point	point	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -5268,7 +5269,7 @@
 # sent_id = Europar.550_00450
 # text = En premier lieu, la régionalisation et la différentiation régionale sont utiles pour une lutte efficace contre l'ESB.
 1	En	en	ADP	_	_	3	case	_	_
-2	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	3	amod	_	_
+2	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -5716,7 +5717,7 @@
 # text = Catégories : Première Guerre mondiale.
 1	Catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 2	:	:	PUNCT	_	_	4	punct	_	_
-3	Première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	4	amod	_	_
+3	Première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
 4	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
 5	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
@@ -6060,7 +6061,7 @@
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	armée	armée	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 17	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-18	2ème	2ème	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	19	amod	_	_
+18	2ème	2ème	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
 19	Bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
@@ -6254,14 +6255,14 @@
 4	vente	vente	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	2,8	2,8	NUM	_	NumType=Card	7	nummod	_	_
-7	milliards	milliard	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	4	nmod	_	_
+7	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	4	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	plus	plus	ADV	_	_	22	nsubj:pass	_	ExtPos=PRON
 12	de	de	ADP	_	_	14	case	_	_
 13	500	500	NUM	_	NumType=Card	14	nummod	_	_
-14	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	11	obl:arg	_	_
+14	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	11	obl:arg	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 17	de	de	ADP	_	_	18	case	_	_
@@ -6392,7 +6393,7 @@
 10	demander	demander	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising
 11	que	que	SCONJ	_	_	25	mark	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	25	nsubj:pass	_	_
+13	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	25	nsubj:pass	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 16	saisies	saisir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
@@ -6657,7 +6658,7 @@
 3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	dep	_	_
 4	2006	2006	NUM	_	NumType=Card	3	nmod	_	_
 5	:	:	PUNCT	_	_	7	punct	_	_
-6	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	7	amod	_	_
+6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
 7	jour	jour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -6926,7 +6927,7 @@
 3	été	être	AUX	_	Tense=Past|VerbForm=Part	6	cop	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	7	7	NUM	_	NumType=Card	6	nummod	_	_
-6	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	0	root	_	_
+6	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	0	root	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
@@ -7199,7 +7200,7 @@
 # sent_id = Europar.550_00053
 # text = La première lecture de la directive sur le droit d'auteur a été particulièrement aberrante et, de plus, on est en train de modifier l'équilibre dans un mauvais sens du point de vue européen.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	3	amod	_	_
+2	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	lecture	lecture	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -7667,7 +7668,7 @@
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	5	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	5	amod	_	_
+4	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
 5	point	point	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	j'	il	PRON	_	Number=Sing|Person=1	8	nsubj	_	SpaceAfter=No
@@ -7793,7 +7794,7 @@
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	c'est-à-dire	c'est-à-dire	ADV	_	_	16	advmod	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	deuxième	deuxième	ADJ	_	NumType=Ord|Number=Sing	16	amod	_	_
+15	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	16	amod	_	_
 16	acte	acte	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
@@ -7803,7 +7804,7 @@
 22	même	même	ADV	_	_	28	mark	_	ExtPos=SCONJ|Idiom=Yes
 23	si	si	SCONJ	_	_	22	fixed	_	InIdiom=Yes
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-25	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	26	amod	_	_
+25	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	amod	_	_
 26	acte	acte	NOUN	_	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
 27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:pass	_	_
 28	refusé	refuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	advcl	_	SpaceAfter=No
@@ -8229,7 +8230,7 @@
 17	en	en	ADP	_	_	18	case	_	_
 18	1450	1450	NUM	_	NumType=Card	16	obl:mod	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	21	amod	_	_
+20	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	21	amod	_	_
 21	forge	forge	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
 22	à	à	ADP	_	_	23	case	_	_
 23	Saint-Dizier	Saint-Dizier	PROPN	_	Gender=Masc|Number=Sing	16	obl:mod	_	SpaceAfter=No
@@ -8518,7 +8519,7 @@
 12	c'	ce	PRON	_	Number=Sing|Person=3	16	nsubj	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	16	amod	_	_
+15	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
 16	établissement	établissement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	France	France	PROPN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -9579,7 +9580,7 @@
 66	intramusculaire	intramusculaire	ADJ	_	Number=Sing	65	amod	_	_
 67	avant	avant	ADP	_	_	70	case	_	_
 68	leur	son	DET	_	Number=Sing|Poss=Yes	70	det	_	_
-69	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	70	amod	_	_
+69	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	70	amod	_	_
 70	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	46	obl:mod	_	SpaceAfter=No
 71	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -9968,7 +9969,7 @@
 23	ceci	ceci	PRON	_	Number=Sing|PronType=Dem	3	conj	_	_
 24	dès	dès	ADP	_	_	27	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-26	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	27	amod	_	_
+26	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	27	amod	_	_
 27	année	année	NOUN	_	Gender=Fem|Number=Sing	23	orphan	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
@@ -10457,7 +10458,7 @@
 # text = Jugement en première instance
 1	Jugement	jugement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	en	en	ADP	_	_	4	case	_	_
-3	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	4	amod	_	_
+3	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
 4	instance	instance	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 
 # sent_id = frwiki_50.1000_00275
@@ -10699,7 +10700,7 @@
 3	policiers	policier	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
-6	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	8	nsubj	_	_
+6	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	8	nsubj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	qu'	que	SCONJ	_	_	34	mark	_	SpaceAfter=No
@@ -10806,14 +10807,14 @@
 23	enquête	enquête	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	599	599	NUM	_	NumType=Card	26	nummod	_	_
-26	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	17	obl:arg	_	_
+26	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	17	obl:arg	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	près	près	ADV	_	_	26	appos	_	ExtPos=PRON
 31	de	de	ADP	_	_	33	case	_	_
 32	500	500	NUM	_	NumType=Card	33	nummod	_	_
-33	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	30	obl:arg	_	_
+33	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	30	obl:arg	_	_
 34	d'	de	ADP	_	_	35	case	_	SpaceAfter=No
 35	euros	euro	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
@@ -10847,7 +10848,7 @@
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	27	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-26	quatrième	quatrième	ADJ	_	NumType=Ord|Number=Sing	27	amod	_	_
+26	quatrième	quatrième	ADJ	_	Number=Sing|NumType=Ord	27	amod	_	_
 27	étage	étage	NOUN	_	Gender=Masc|Number=Sing	23	obl:arg	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	son	son	DET	_	Number=Sing|Poss=Yes	30	det	_	_
@@ -10883,7 +10884,7 @@
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	24	nmod	_	SpaceAfter=No
+27	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	24	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = frwiki_50.1000_00493
@@ -10929,7 +10930,7 @@
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	5	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	deuxième	deuxième	ADJ	_	NumType=Ord|Number=Sing	5	amod	_	_
+4	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	5	amod	_	_
 5	étage	étage	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
@@ -10938,7 +10939,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	cinquième	cinquième	ADJ	_	NumType=Ord|Number=Sing	9	obl:arg	_	_
+12	cinquième	cinquième	ADJ	_	Number=Sing|NumType=Ord	9	obl:arg	_	_
 13	par	par	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	escalier	escalier	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
@@ -11219,7 +11220,7 @@
 11	prêt	prêt	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	1	1	NUM	_	NumType=Card	14	nummod	_	_
-14	million	million	NOUN	_	Gender=Masc|NumType=Card|Number=Sing	11	nmod	_	_
+14	million	million	NOUN	_	Gender=Masc|Number=Sing|NumType=Card	11	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	francs	franc	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
 17	destiné	destiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_

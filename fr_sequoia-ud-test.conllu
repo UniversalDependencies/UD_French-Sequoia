@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00011
 # text = cela signifie que leur consommation énergétique, qui représente actuellement 10% de la consommation énergétique moyenne de l'UE, enregistrera une forte augmentation à mesure qu'ils exigeront des commodités élémentaires comme l'eau chaude et, peut-être même, l'air conditionné, des moyens de transport et la modernisation de leurs industries.
 1	cela	cela	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
@@ -331,7 +332,7 @@
 3	cours	cours	NOUN	_	Gender=Masc	19	obl:mod	_	_
 4	de	de	ADP	_	_	7	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	dernière	dernier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	7	amod	_	_
+6	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
 7	période	période	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	programmation	programmation	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -1793,7 +1794,7 @@
 # sent_id = Europar.550_00368
 # text = En dernier lieu, l'organisation du travail.
 1	En	en	ADP	_	_	3	case	_	_
-2	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	3	amod	_	_
+2	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -1948,7 +1949,7 @@
 29	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
 30	effectivement	effectivement	ADV	_	_	33	advmod	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-32	second	second	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	33	amod	_	_
+32	second	second	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	33	amod	_	_
 33	pilier	pilier	NOUN	_	Gender=Masc|Number=Sing	20	advcl	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
@@ -2329,7 +2330,7 @@
 9	astronaute	astronaute	NOUN	_	Number=Sing	8	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-12	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	13	amod	_	_
+12	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
 13	astronaute	astronaute	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
 14	retraité	retraité	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 15	de	de	ADP	_	_	17	case	_	_
@@ -2349,7 +2350,7 @@
 7	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
 8	de	de	ADP	_	_	11	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	neuvième	neuvième	ADJ	_	NumType=Ord|Number=Sing	11	amod	_	_
+10	neuvième	neuvième	ADJ	_	Number=Sing|NumType=Ord	11	amod	_	_
 11	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 12	entre	entre	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -3567,7 +3568,7 @@
 31	créanciers	créancier	NOUN	_	Gender=Masc|Number=Plur	28	obl:arg	_	_
 32	en	en	ADP	_	_	33	case	_	_
 33	juin	juin	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	_
-34	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	33	amod	_	SpaceAfter=No
+34	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	33	amod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = annodis.er_00276
@@ -3596,7 +3597,7 @@
 # sent_id = annodis.er_00282
 # text = Ce dernier vient de répondre aux maires de la vallée et au député Claude Jacquot, qui lui avaient fait collectivement un courrier pour, de nouveau, attirer son attention sur ce dossier.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	3	nsubj	_	_
+2	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
 3	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
 5	répondre	répondre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
@@ -4329,7 +4330,7 @@
 12	et	et	CCONJ	_	_	23	cc	_	_
 13	après	après	ADP	_	_	16	case	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	16	amod	_	_
+15	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
 16	proposition	proposition	NOUN	_	Gender=Fem|Number=Sing	23	obl:mod	_	_
 17	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -4467,7 +4468,7 @@
 2	état	état	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:caus	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	ces	ce	DET	_	Number=Plur|PronType=Dem	5	det	_	_
-5	dernières	dernier	ADJ	_	Gender=Fem|NumType=Ord|Number=Plur	2	nmod	_	_
+5	dernières	dernier	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	2	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 7	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:caus	_	_
 8	dépêcher	dépêcher	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
@@ -4533,7 +4534,7 @@
 25	à	à	ADP	_	_	26	mark	_	_
 26	impressionner	impressionner	VERB	_	VerbForm=Inf	24	xcomp	_	Subject=SubjRaising
 27	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
-28	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	26	obj	_	SpaceAfter=No
+28	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	26	obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00501
@@ -4928,7 +4929,7 @@
 
 # sent_id = emea-fr-dev_00064
 # text = Dernière mise à jour du présent résumé :
-1	Dernière	dernier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	2	amod	_	_
+1	Dernière	dernier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	2	amod	_	_
 2	mise	mise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	à	à	ADP	_	_	4	case	_	_
 4	jour	jour	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -5096,7 +5097,7 @@
 8	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	5	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	second	second	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	12	amod	_	_
+11	second	second	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
 12	bolus	bolus	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	0,3	0,3	NUM	_	NumType=Card	15	nummod	_	_
@@ -7758,7 +7759,7 @@
 34	dans	dans	ADP	_	_	38	case	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 36	10	10	NUM	_	NumType=Card	38	nummod	_	_
-37	premiers	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Plur	38	amod	_	_
+37	premiers	premier	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	38	amod	_	_
 38	jours	jour	NOUN	_	Gender=Masc|Number=Plur	29	obl:mod	_	_
 39	suivant	suivre	VERB	_	Tense=Pres|VerbForm=Part	38	acl	_	_
 40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
@@ -7865,7 +7866,7 @@
 30	militaire	militaire	ADJ	_	Number=Sing	29	amod	_	_
 31	durant	durant	ADP	_	_	34	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-33	Première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	34	amod	_	_
+33	Première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	34	amod	_	_
 34	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 35	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	15	punct	_	_
@@ -8347,7 +8348,7 @@
 # sent_id = frwiki_50.1000_00156
 # text = Le premier retour de familles (adultes, femmes, enfants) a lieu par la "traversée du Beach" (navette fluviale qui effectue les liaisons Brazzaville-Kinshasa), et comprend environ 1500 personnes, sous le contrôle du HCR.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	premier	premier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	3	amod	_	_
+2	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	retour	retour	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	familles	famille	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
@@ -8467,7 +8468,7 @@
 # sent_id = frwiki_50.1000_00181
 # text = Ce dernier avait publié un pamphlet violent contre Richelieu et s'opposait fermement à la destruction des murailles de la ville.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	4	nsubj	_	_
+2	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	4	nsubj	_	_
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:tense	_	_
 4	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -8942,7 +8943,7 @@
 34	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	_
 35	sous	sous	ADP	_	_	38	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-37	Troisième	troisième	ADJ	_	NumType=Ord|Number=Sing	38	amod	_	_
+37	Troisième	troisième	ADJ	_	Number=Sing|NumType=Ord	38	amod	_	_
 38	République	république	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
 39	d'	de	ADP	_	_	41	case	_	SpaceAfter=No
 40	autre	autre	ADJ	_	Number=Sing	41	amod	_	_
@@ -9170,7 +9171,7 @@
 17	signé	signer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 18	pour	pour	ADP	_	_	20	case	_	_
 19	2,8	2,8	NUM	_	NumType=Card	20	nummod	_	_
-20	milliards	milliard	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	17	obl:mod	_	_
+20	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	17	obl:mod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
 23	US	US	ADJ	_	_	22	amod	_	SpaceAfter=No
@@ -9509,7 +9510,7 @@
 37	plusieurs	plusieurs	DET	_	Number=Plur	38	det	_	_
 38	dizaines	dizaine	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
 39	de	de	ADP	_	_	40	case	_	_
-40	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	38	nmod	_	_
+40	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	38	nmod	_	_
 41	d'	de	ADP	_	_	42	case	_	SpaceAfter=No
 42	euros	euro	NOUN	_	Gender=Masc|Number=Plur	40	nmod	_	_
 43	qui	qui	PRON	_	PronType=Rel	44	nsubj	_	_
@@ -9535,7 +9536,7 @@
 5	et	et	CCONJ	_	_	9	cc	_	_
 6	pour	pour	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	quatrième	quatrième	ADJ	_	NumType=Ord|Number=Sing	9	amod	_	_
+8	quatrième	quatrième	ADJ	_	Number=Sing|NumType=Ord	9	amod	_	_
 9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
 10	depuis	depuis	ADP	_	_	11	case	_	_
 11	2001	2001	NUM	_	NumType=Card	9	nmod	_	SpaceAfter=No
@@ -9655,7 +9656,7 @@
 12	à	à	ADP	_	_	13	case	_	_
 13	Zurich	Zurich	PROPN	_	_	11	obl:mod	_	_
 14	1,2	1,2	NUM	_	NumType=Card	15	nummod	_	_
-15	milliard	milliard	NOUN	_	Gender=Masc|NumType=Card|Number=Sing	11	obj	_	_
+15	milliard	milliard	NOUN	_	Gender=Masc|Number=Sing|NumType=Card	11	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	francs	franc	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
 18	suisses	suisse	ADJ	_	Number=Plur	17	amod	_	_
@@ -10214,7 +10215,7 @@
 16	près	près	ADV	_	_	15	obj	_	ExtPos=PRON
 17	de	de	ADP	_	_	19	case	_	_
 18	40	40	NUM	_	NumType=Card	19	nummod	_	_
-19	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	16	obl:arg	_	_
+19	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	16	obl:arg	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	francs	franc	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 22	en	en	ADP	_	_	24	case	_	_
@@ -10692,7 +10693,7 @@
 4	lycées	lycée	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 5	depuis	depuis	ADP	_	_	8	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-7	premières	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Plur	8	amod	_	_
+7	premières	premier	ADJ	_	Gender=Fem|Number=Plur|NumType=Ord	8	amod	_	_
 8	lois	loi	NOUN	_	Gender=Fem|Number=Plur	1	obl:mod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	décentralisation	décentralisation	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
@@ -10720,7 +10721,7 @@
 32	1997	1997	NUM	_	NumType=Card	30	conj	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	30	punct	_	_
 34	24	24	NUM	_	NumType=Card	35	nummod	_	_
-35	milliards	milliard	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	27	obj	_	_
+35	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	27	obj	_	_
 36	de	de	ADP	_	_	37	case	_	_
 37	francs	franc	NOUN	_	Gender=Masc|Number=Plur	35	nmod	_	_
 38	de	de	ADP	_	_	39	case	_	_
@@ -10828,7 +10829,7 @@
 9	plus	plus	ADV	_	_	17	nsubj:pass	_	ExtPos=PRON
 10	de	de	ADP	_	_	12	case	_	_
 11	150	150	NUM	_	NumType=Card	12	nummod	_	_
-12	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	9	obl:arg	_	_
+12	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	9	obl:arg	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	francs	franc	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
@@ -10939,7 +10940,7 @@
 28	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	27	flat:name	_	_
 29	pour	pour	ADP	_	_	31	case	_	_
 30	plusieurs	plusieurs	DET	_	Number=Plur	31	det	_	_
-31	millions	million	NOUN	_	Gender=Masc|NumType=Card|Number=Plur	23	obl:mod	_	_
+31	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	23	obl:mod	_	_
 32	de	de	ADP	_	_	33	case	_	_
 33	francs	franc	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
@@ -10984,7 +10985,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	procès	procès	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	en	en	ADP	_	_	5	case	_	_
-4	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	5	amod	_	_
+4	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
 5	instance	instance	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	s'	se	PRON	_	Person=3|Reflex=Yes	8	expl:pass	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
@@ -11223,7 +11224,7 @@
 
 # sent_id = frwiki_50.1000_00858
 # text = Dernier élément non négligeable et pourtant souvent "oublié par la presse".
-1	Dernier	dernier	ADJ	_	Gender=Masc|NumType=Ord|Number=Sing	2	amod	_	_
+1	Dernier	dernier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
 2	élément	élément	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	non	non	ADV	_	Polarity=Neg	4	advmod	_	_
 4	négligeable	négligeable	ADJ	_	Number=Sing	2	amod	_	_
@@ -11404,7 +11405,7 @@
 # text = Sur la première, des fumées ont été rajoutées par ordinateur sur une photo représentant un quartier de Beyrouth ayant subi une attaque aérienne.
 1	Sur	sur	ADP	_	_	3	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	première	premier	ADJ	_	Gender=Fem|NumType=Ord|Number=Sing	9	obl:mod	_	SpaceAfter=No
+3	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	9	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	fumées	fumée	NOUN	_	Gender=Fem|Number=Plur	9	nsubj:pass	_	_
@@ -11488,7 +11489,7 @@
 1	Page	page	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	accédé	accéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	2006-08-07	2006-08-07	NOUN	_	Gender=Masc|NumType=Card|Number=Sing	2	obl:mod	_	SpaceAfter=No
+4	2006-08-07	2006-08-07	NOUN	_	Gender=Masc|Number=Sing|NumType=Card	2	obl:mod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00942
@@ -11716,7 +11717,7 @@
 
 # sent_id = frwiki_50.1000_00995
 # text = Quatrième République.
-1	Quatrième	quatrième	ADJ	_	NumType=Ord|Number=Sing	2	amod	_	_
+1	Quatrième	quatrième	ADJ	_	Number=Sing|NumType=Ord	2	amod	_	_
 2	République	république	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
