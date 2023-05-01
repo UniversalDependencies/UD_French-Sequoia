@@ -1417,7 +1417,7 @@
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	formes	forme	NOUN	_	Gender=Fem|Number=Plur	21	obl:mod	_	_
 26	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
-27	vous	vous	PRON	_	Number=Plur|Person=2	28	iobj	_	_
+27	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	28	iobj	_	_
 28	conviendraient	convenir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	25	punct	_	_
 30-31	aux	_	_	_	_	_	_	_	_
@@ -3048,7 +3048,7 @@
 
 # sent_id = annodis.er_00103
 # text = S'apercevant que son mari avait soudainement perdu connaissance, l'épouse, passagère avant, a tenté de garder le véhicule en ligne droite en se saisissant du volant.
-1	S'	se	PRON	_	Person=3|PronType=Prs|Reflex=Yes	2	expl:pv	_	SpaceAfter=No
+1	S'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	2	expl:pv	_	SpaceAfter=No
 2	apercevant	apercevoir	VERB	_	Tense=Pres|VerbForm=Part	18	advcl	_	_
 3	que	que	SCONJ	_	_	8	mark	_	_
 4	son	son	DET	_	Number=Sing|Poss=Yes	5	det	_	_

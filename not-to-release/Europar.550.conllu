@@ -8651,7 +8651,7 @@
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	formes	forme	NOUN	_	Gender=Fem|Number=Plur	21	obl:mod	_	_
 26	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
-27	vous	vous	PRON	_	Number=Plur|Person=2	28	iobj	_	_
+27	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	28	iobj	_	_
 28	conviendraient	convenir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	25	punct	_	_
 30-31	aux	_	_	_	_	_	_	_	_
