@@ -4647,12 +4647,12 @@
 18	en	en	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	_
 19	être	être	VERB	_	VerbForm=Inf	17	ccomp	_	Subject=Generic
 20	autrement	autrement	ADV	_	_	19	advmod	_	_
-21	étant	être	VERB	_	Tense=Pres|VerbForm=Part	26	mark	_	ExtPos=ADP|Idiom=Yes
-22	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	fixed	_	InIdiom=Yes
+21	étant	être	AUX	_	Tense=Pres|VerbForm=Part	22	aux:pass	_	_
+22	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
 23	que	que	SCONJ	_	_	26	mark	_	_
 24	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
 25	Lamy	Lamy	PROPN	_	_	24	nmod	_	_
-26	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+26	connaît	connaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	csubj:pass	_	_
 27	bien	bien	ADV	_	_	26	advmod	_	_
 28	ces	ce	DET	_	Number=Plur|PronType=Dem	29	det	_	_
 29	sujets	sujet	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
@@ -13391,14 +13391,14 @@
 5	cependant	cependant	ADV	_	_	7	advmod	_	_
 6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 7	suffisante	suffisant	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	15	punct	_	_
-9	étant	être	VERB	_	Tense=Pres|VerbForm=Part	15	mark	_	ExtPos=ADP|Idiom=Yes
-10	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	fixed	_	InIdiom=Yes
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	étant	être	AUX	_	Tense=Pres|VerbForm=Part	10	aux:pass	_	_
+10	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
 11	que	que	SCONJ	_	_	15	mark	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	avions	avion	NOUN	_	Gender=Masc|Number=Plur	15	nsubj:pass	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
-15	produits	produire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+15	produits	produire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	csubj:pass	_	_
 16	sur	sur	ADP	_	_	18	case	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	marché	marché	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
@@ -13513,8 +13513,8 @@
 
 # sent_id = Europar.550_00415
 # text = Étant donné que la durée de vie des avions est approximativement de trente ans, l'effet de ces améliorations techniques se fait attendre longtemps.
-1	Étant	être	VERB	_	Tense=Pres|VerbForm=Part	15	mark	_	ExtPos=ADP|Idiom=Yes
-2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	fixed	_	InIdiom=Yes
+1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux:pass	_	_
+2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	_
 3	que	que	SCONJ	_	_	15	mark	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	durée	durée	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
@@ -13528,7 +13528,7 @@
 12	approximativement	approximativement	ADV	_	_	15	advmod	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	trente	trente	NUM	_	NumType=Card	15	nummod	_	_
-15	ans	an	NOUN	_	Gender=Masc|Number=Plur	25	advcl	_	SpaceAfter=No
+15	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	csubj:pass	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	effet	effet	NOUN	_	Gender=Masc|Number=Sing	25	nsubj:caus	_	_
