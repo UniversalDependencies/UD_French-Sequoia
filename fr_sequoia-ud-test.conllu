@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00011
 # text = cela signifie que leur consommation énergétique, qui représente actuellement 10% de la consommation énergétique moyenne de l'UE, enregistrera une forte augmentation à mesure qu'ils exigeront des commodités élémentaires comme l'eau chaude et, peut-être même, l'air conditionné, des moyens de transport et la modernisation de leurs industries.
-1	cela	cela	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+1	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	22	mark	_	_
 4	leur	son	DET	_	Number=Sing|Poss=Yes	5	det	_	_
@@ -116,7 +116,7 @@
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	manière	manière	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	_
 28	dont	dont	PRON	_	PronType=Rel	30	obl:mod	_	_
-29	cela	cela	PRON	_	Number=Sing|PronType=Dem	30	nsubj	_	_
+29	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	30	nsubj	_	_
 30	affectera	affecter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	acl:relcl	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	opinion	opinion	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
@@ -531,7 +531,7 @@
 
 # sent_id = Europar.550_00108
 # text = Personne n'aide cette femme à sortir de prison.
-1	Personne	personne	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	3	nsubj	_	_
+1	Personne	personne	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	nsubj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	advmod	_	SpaceAfter=No
 3	aide	aider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
@@ -586,7 +586,7 @@
 15	devons	devoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 16	également	également	ADV	_	_	17	advmod	_	_
 17	obliger	obliger	VERB	_	VerbForm=Inf	15	xcomp	_	Subject=SubjRaising
-18	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	17	obj	_	_
+18	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	17	obj	_	_
 19	à	à	ADP	_	_	20	case	_	_
 20	qui	qui	PRON	_	PronType=Rel	23	obl:arg	_	_
 21	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
@@ -746,7 +746,7 @@
 18	qualifiée	qualifier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
 19	pour	pour	ADP	_	_	21	case	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	obl:mod	_	_
+21	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	obl:mod	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	ces	ce	DET	_	Number=Plur|PronType=Dem	24	det	_	_
 24	sujets	sujet	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
@@ -872,7 +872,7 @@
 39	plus	plus	ADV	_	_	40	advmod	_	_
 40	ambitieuse	ambitieux	ADJ	_	Gender=Fem|Number=Sing	35	acl:relcl	_	_
 41	que	que	SCONJ	_	_	42	case	_	_
-42	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	40	dep	_	_
+42	celles	celui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	40	dep	_	_
 43-44	du	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -1193,7 +1193,7 @@
 1	J'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 2	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	5	mark	_	_
-4	cela	cela	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	_
+4	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 5	incitera	inciter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
@@ -1398,7 +1398,7 @@
 6	très	très	ADV	_	_	7	advmod	_	_
 7	bienvenu	bienvenu	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
 8	si	si	SCONJ	_	_	21	mark	_	_
-9	vous-même	vous-même	PRON	_	PronType=Prs	21	nsubj	_	SpaceAfter=No
+9	vous-même	vous-même	PRON	_	Number=Plur|Person=2|PronType=Prs|Reflex=Yes	21	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	en	en	ADP	_	_	14	case	_	ExtPos=ADP|Idiom=Yes
 12	tant	tant	ADV	_	_	11	fixed	_	InIdiom=Yes
@@ -1483,7 +1483,7 @@
 
 # sent_id = Europar.550_00314
 # text = Ceci présente l'avantage qu'un solde résultant des comptes peut être reporté sur l'année suivante.
-1	Ceci	ceci	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	avantage	avantage	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -1607,7 +1607,7 @@
 46	son	son	DET	_	Number=Sing|Poss=Yes	47	det	_	_
 47	attention	attention	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	_
 48	sur	sur	ADP	_	_	49	case	_	_
-49	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	45	obl:arg	_	_
+49	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	45	obl:arg	_	_
 50	que	que	SCONJ	_	_	53	mark	_	_
 51	sur	sur	ADP	_	_	53	case	_	_
 52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
@@ -1945,7 +1945,7 @@
 25	,	,	PUNCT	_	_	33	punct	_	_
 26	pour	pour	ADP	_	_	33	mark	_	_
 27	que	que	SCONJ	_	_	33	mark	_	_
-28	celles-ci	celui-ci	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	33	nsubj	_	_
+28	celles-ci	celui-ci	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	33	nsubj	_	_
 29	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
 30	effectivement	effectivement	ADV	_	_	33	advmod	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
@@ -2181,7 +2181,7 @@
 1	Je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	6	mark	_	_
-4	cela	cela	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	_
+4	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	important	important	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
 7	pour	pour	ADP	_	_	8	mark	_	_
@@ -2603,7 +2603,7 @@
 13	assassins	assassin	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
 14	mais	mais	CCONJ	_	_	16	cc	_	_
 15	également	également	ADV	_	_	16	advmod	_	_
-16	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	13	conj	_	_
+16	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	13	conj	_	_
 17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 18	les	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	19	obj	_	_
 19	soutiennent	soutenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
@@ -3428,7 +3428,7 @@
 8	comme	comme	SCONJ	_	_	10	mark	_	_
 9	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
 10	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
-11	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+11	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nsubj	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -3590,7 +3590,7 @@
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	échec	échec	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 17	que	que	PRON	_	PronType=Rel	19	obj	_	_
-18	l'on	on	PRON	_	Number=Sing|PronType=Ind	19	nsubj	_	wordform=on
+18	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	19	nsubj	_	wordform=on
 19	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -4224,7 +4224,7 @@
 30	potager	potager	NOUN	_	Gender=Masc|Number=Sing	28	conj	_	_
 31	:	:	PUNCT	_	_	34	punct	_	_
 32	"	"	PUNCT	_	_	34	punct	_	SpaceAfter=No
-33	Cela	cela	PRON	_	Number=Sing|PronType=Dem	34	nsubj	_	_
+33	Cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	34	nsubj	_	_
 34	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
 35	d'	de	ADP	_	_	36	mark	_	SpaceAfter=No
 36	échanger	échanger	VERB	_	VerbForm=Inf	34	ccomp	_	SpaceAfter=No|Subject=Generic
@@ -4749,7 +4749,7 @@
 2	bloque	bloquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	spécifiquement	spécifiquement	ADV	_	_	2	advmod	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	2	obj	_	_
+5	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	2	obj	_	_
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -4767,7 +4767,7 @@
 
 # sent_id = emea-fr-dev_00037
 # text = Ceci peut contribuer à maintenir le flux sanguin vers le coeur chez les patients atteints d'angor ou d'une crise cardiaque et à améliorer l'efficacité de leur ICP.
-1	Ceci	ceci	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	contribuer	contribuer	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
 4	à	à	ADP	_	_	5	mark	_	_
@@ -6174,7 +6174,7 @@
 26	%	%	NOUN	_	Gender=Masc	19	conj	_	_
 27	dans	dans	ADP	_	_	29	case	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	autre	autre	PRON	_	Number=Sing|PronType=Ind	26	orphan	_	SpaceAfter=No
+29	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	26	orphan	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	contre	contre	ADP	_	_	33	case	_	_
 32	75	75	NUM	_	NumType=Card	33	nummod	_	SpaceAfter=No
@@ -6643,7 +6643,7 @@
 64	vertébrales	vertébral	ADJ	_	Gender=Fem|Number=Plur	63	amod	_	_
 65	légères	léger	ADJ	_	Gender=Fem|Number=Plur	63	amod	_	_
 66	ou	ou	CCONJ	_	_	67	cc	_	_
-67	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	63	conj	_	_
+67	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	63	conj	_	_
 68	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	67	amod	_	_
 69	prévalentes	prévalent	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
 70	;	;	PUNCT	_	_	69	punct	_	_
@@ -7104,7 +7104,7 @@
 36	non	non	ADV	_	Polarity=Neg	37	advmod	_	_
 37	inférieur	inférieur	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 38	à	à	ADP	_	_	39	case	_	_
-39	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	37	obl:arg	_	_
+39	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	obl:arg	_	_
 40	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	acl	_	_
 41	après	après	ADP	_	_	43	case	_	_
 42	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
@@ -7847,7 +7847,7 @@
 12	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-15	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	0	root	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -7996,7 +7996,7 @@
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	députés	député	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
-19	toutes	tout	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	20	nsubj	_	_
+19	toutes	tout	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	20	nsubj	_	_
 20	demandant	demander	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	réhabilitation	réhabilitation	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
@@ -8314,7 +8314,7 @@
 5	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	être	être	AUX	_	VerbForm=Inf	8	cop	_	Subject=SubjRaising
-8	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	6	xcomp	_	_
+8	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	6	xcomp	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -8415,7 +8415,7 @@
 1	On	on	PRON	_	Number=Sing|Person=3|PronType=Ind	2	nsubj	_	_
 2	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	entre	entre	ADP	_	_	2	advmod	_	ExtPos=ADV|Idiom=Yes
-4	autre	autre	PRON	_	Number=Sing|PronType=Ind	3	fixed	_	InIdiom=Yes
+4	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	3	fixed	_	InIdiom=Yes
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	métis	métis	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
@@ -9307,7 +9307,7 @@
 37	de	de	ADP	_	_	38	case	_	_
 38	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	obl:arg	_	_
 39	que	que	PRON	_	PronType=Rel	41	obj	_	_
-40	l'on	on	PRON	_	Number=Sing|PronType=Ind	41	nsubj	_	wordform=on
+40	l'on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	41	nsubj	_	wordform=on
 41	versait	verser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl:relcl	_	_
 42	à	à	ADP	_	_	43	case	_	_
 43	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	41	obl:arg	_	_
@@ -10109,7 +10109,7 @@
 21	Méry	Méry	PROPN	_	_	20	flat:name	_	_
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
-24	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	18	acl	_	_
+24	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	acl	_	_
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
@@ -11648,7 +11648,7 @@
 7	trafic	trafic	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 8	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+10	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	0	root	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_

@@ -686,7 +686,7 @@
 
 # sent_id = emea-fr-test_00029
 # text = Cela aboutit à une réduction de la perte osseuse en cas d'ostéoporose et de l'activité pathologique en cas de maladie de Paget.
-1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	aboutit	aboutir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -775,7 +775,7 @@
 18	été	être	AUX	_	Tense=Past|VerbForm=Part	19	aux:pass	_	_
 19	comparés	comparer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 20	à	à	ADP	_	_	21	case	_	_
-21	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	19	obl:arg	_	_
+21	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	19	obl:arg	_	_
 22	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
@@ -1177,7 +1177,7 @@
 19	anti-ostéoporotiques	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	12	punct	_	_
 21	avec	avec	ADP	_	_	22	case	_	_
-22	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	2	nmod	_	_
+22	celles	celui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	2	nmod	_	_
 23	sous	sous	ADP	_	_	24	case	_	_
 24	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
@@ -1326,7 +1326,7 @@
 26	%	%	NOUN	_	Gender=Masc	19	conj	_	_
 27	dans	dans	ADP	_	_	29	case	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	autre	autre	PRON	_	Number=Sing|PronType=Ind	26	orphan	_	SpaceAfter=No
+29	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	26	orphan	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	contre	contre	ADP	_	_	33	case	_	_
 32	75	75	NUM	_	NumType=Card	33	nummod	_	SpaceAfter=No
@@ -1473,7 +1473,7 @@
 27	ou	ou	CCONJ	_	_	30	cc	_	_
 28	à	à	ADP	_	_	30	case	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
-30	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	20	conj	_	_
+30	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	conj	_	_
 31-32	des	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	34	case	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
@@ -2404,7 +2404,7 @@
 
 # sent_id = emea-fr-test_00092
 # text = Cela est particulièrement important pour les patients âgés et les patients qui reçoivent un traitement diurétique.
-1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
+1	Cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	particulièrement	particulièrement	ADV	_	_	4	advmod	_	_
 4	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -2782,7 +2782,7 @@
 6	ou	ou	CCONJ	_	_	9	cc	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
-9	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	4	conj	_	_
+9	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	conj	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -2907,7 +2907,7 @@
 
 # sent_id = emea-fr-test_00112
 # text = Cela est particulièrement important pour les patients âgés et pour les patients recevant un traitement diurétique.
-1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
+1	Cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	particulièrement	particulièrement	ADV	_	_	4	advmod	_	_
 4	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -3061,7 +3061,7 @@
 4	élevé	élevé	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-7	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
+7	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	0	root	_	_
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -3394,7 +3394,7 @@
 
 # sent_id = emea-fr-test_00129
 # text = Plusieurs présentaient des signes d'infection localisée, y compris une ostéomyélite.
-1	Plusieurs	plusieurs	PRON	_	Number=Plur|PronType=Ind	2	nsubj	_	_
+1	Plusieurs	plusieurs	PRON	_	Number=Plur|Person=3|PronType=Ind	2	nsubj	_	_
 2	présentaient	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	signes	signe	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -5625,7 +5625,7 @@
 64	vertébrales	vertébral	ADJ	_	Gender=Fem|Number=Plur	63	amod	_	_
 65	légères	léger	ADJ	_	Gender=Fem|Number=Plur	63	amod	_	_
 66	ou	ou	CCONJ	_	_	67	cc	_	_
-67	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	63	conj	_	_
+67	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	63	conj	_	_
 68	modérée	modéré	ADJ	_	Gender=Fem|Number=Sing	67	amod	_	_
 69	prévalentes	prévalent	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
 70	;	;	PUNCT	_	_	69	punct	_	_
@@ -5810,7 +5810,7 @@
 20	ans	an	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
-23	ceci	ceci	PRON	_	Number=Sing|PronType=Dem	3	conj	_	_
+23	ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	3	conj	_	_
 24	dès	dès	ADP	_	_	27	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	27	amod	_	_
@@ -7322,7 +7322,7 @@
 
 # sent_id = emea-fr-test_00270
 # text = Ceci correspond à une réduction de 28% de la mortalité, toutes causes confondues (p = 0,01).
-1	Ceci	ceci	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -7543,7 +7543,7 @@
 28	façon	façon	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
 29	similaire	similaire	ADJ	_	Number=Sing	28	amod	_	_
 30	à	à	ADP	_	_	31	case	_	_
-31	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	29	obl:arg	_	_
+31	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	29	obl:arg	_	_
 32	observée	observer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	acl	_	_
 33	dans	dans	ADP	_	_	35	case	_	_
 34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
@@ -7647,7 +7647,7 @@
 36	non	non	ADV	_	Polarity=Neg	37	advmod	_	_
 37	inférieur	inférieur	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 38	à	à	ADP	_	_	39	case	_	_
-39	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	37	obl:arg	_	_
+39	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	obl:arg	_	_
 40	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	39	acl	_	_
 41	après	après	ADP	_	_	43	case	_	_
 42	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
@@ -7958,7 +7958,7 @@
 
 # sent_id = emea-fr-test_00288
 # text = Ceci correspond à une réduction du risque de rechute de 96% pour les patients traités par Aclasta comparativement aux patients traités par risedronate.
-1	Ceci	ceci	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8939,7 +8939,7 @@
 18	ou	ou	CCONJ	_	_	21	cc	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	conj	_	_
+21	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	conj	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	25	case	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
@@ -8959,7 +8959,7 @@
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-8	cela	cela	PRON	_	Number=Sing|PronType=Dem	9	nsubj	_	_
+8	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
 9	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:insert	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	taux	taux	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
@@ -9284,7 +9284,7 @@
 27	votre	son	DET	_	Number=Sing|Poss=Yes	28	det	_	_
 28	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 29	:	:	PUNCT	_	_	30	punct	_	_
-30	ceci	ceci	PRON	_	Number=Sing|PronType=Dem	1	obl:mod	_	_
+30	ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	1	obl:mod	_	_
 31	afin	afin	ADV	_	_	30	advmod	_	_
 32	d'	de	ADP	_	_	33	mark	_	SpaceAfter=No
 33	éviter	éviter	VERB	_	VerbForm=Inf	31	ccomp	_	Subject=Generic
@@ -10646,7 +10646,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
-7	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	nmod	_	_
+7	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nmod	_	_
 8	des	de	ADP	_	_	10	case	_	_
 9	ces	ce	DET	_	Number=Plur|PronType=Dem	10	det	_	_
 10	effets	effet	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
@@ -10664,7 +10664,7 @@
 1	Si	si	SCONJ	_	_	3	mark	_	_
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	ressentez	ressentir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	24	advcl	_	_
-4	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	obj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -11175,7 +11175,7 @@
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	Aclasta	Aclasta	PROPN	_	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
-15	cela	cela	PRON	_	Number=Sing|PronType=Dem	18	nsubj	_	_
+15	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	18	nsubj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 17	particulièrement	particulièrement	ADV	_	_	18	advmod	_	_
 18	important	important	ADJ	_	Gender=Masc|Number=Sing	3	parataxis	_	_

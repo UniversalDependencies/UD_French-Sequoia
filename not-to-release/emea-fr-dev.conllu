@@ -750,7 +750,7 @@
 2	bloque	bloquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	spécifiquement	spécifiquement	ADV	_	_	2	advmod	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	2	obj	_	_
+5	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	2	obj	_	_
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -768,7 +768,7 @@
 
 # sent_id = emea-fr-dev_00035
 # text = Celle-ci se trouve au centre des processus complexes de la coagulation sanguine.
-1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	_
 3	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
@@ -812,7 +812,7 @@
 
 # sent_id = emea-fr-dev_00037
 # text = Ceci peut contribuer à maintenir le flux sanguin vers le coeur chez les patients atteints d'angor ou d'une crise cardiaque et à améliorer l'efficacité de leur ICP.
-1	Ceci	ceci	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+1	Ceci	ceci	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	contribuer	contribuer	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
 4	à	à	ADP	_	_	5	mark	_	_
@@ -1380,7 +1380,7 @@
 26	ou	ou	CCONJ	_	_	29	cc	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	19	conj	_	_
+29	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	conj	_	_
 30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	33	case	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
@@ -2171,7 +2171,7 @@
 22	12	12	NUM	_	NumType=Card	20	obl:arg	_	_
 23	heures	heure	NOUN	_	Gender=Fem|Number=Plur	18	obl:mod	_	_
 24	si	si	SCONJ	_	_	27	mark	_	_
-25	cela	cela	PRON	_	Number=Sing|PronType=Dem	27	nsubj:pass	_	_
+25	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	27	nsubj:pass	_	_
 26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	expl:pass	_	_
 27	justifie	justifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
 28	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
@@ -2363,7 +2363,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	ICP	ICP	NOUN	_	Number=Sing	5	obl:mod	_	_
 13	si	si	SCONJ	_	_	16	mark	_	_
-14	cela	cela	PRON	_	Number=Sing|PronType=Dem	16	nsubj:pass	_	_
+14	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj:pass	_	_
 15	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	expl:pass	_	_
 16	justifie	justifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 17	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
@@ -3182,7 +3182,7 @@
 8	ou	ou	CCONJ	_	_	11	cc	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	conj	_	_
+11	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	conj	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -4350,7 +4350,7 @@
 12	recueillies	recueillir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 13	séparément	séparément	ADV	_	_	12	advmod	_	_
 14	de	de	ADP	_	_	15	case	_	_
-15	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	13	obl:arg	_	_
+15	celles	celui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	13	obl:arg	_	_
 16	concernant	concerner	VERB	_	Tense=Pres|VerbForm=Part	15	acl	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	événements	événement	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
@@ -4751,7 +4751,7 @@
 12	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	8	ccomp	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	nmod	_	_
+15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nmod	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -5315,7 +5315,7 @@
 13	recueillies	recueillir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 14	séparément	séparément	ADV	_	_	13	advmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
-16	celles	celui	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	14	obl:arg	_	_
+16	celles	celui	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Dem	14	obl:arg	_	_
 17	concernant	concerner	VERB	_	Tense=Pres|VerbForm=Part	16	acl	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	événements	événement	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	_
@@ -5336,7 +5336,7 @@
 10	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	6	ccomp	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	nmod	_	_
+13	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	nmod	_	_
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -6689,7 +6689,7 @@
 44	angiographie	angiographie	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
 45	ou	ou	CCONJ	_	_	49	cc	_	_
 46	si	si	SCONJ	_	_	49	mark	_	_
-47	cela	cela	PRON	_	Number=Sing|PronType=Dem	49	nsubj:pass	_	_
+47	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	49	nsubj:pass	_	_
 48	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	49	expl:pass	_	_
 49	justifie	justifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	conj	_	_
 50	d'	de	ADP	_	_	52	case	_	SpaceAfter=No
@@ -7098,7 +7098,7 @@
 12	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	8	ccomp	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	nmod	_	_
+15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nmod	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -8076,7 +8076,7 @@
 4	exposition	exposition	NOUN	_	Gender=Fem|Number=Sing	33	obl:mod	_	_
 5	comparable	comparable	ADJ	_	Number=Sing	4	amod	_	_
 6	à	à	ADP	_	_	7	case	_	_
-7	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	5	obl:arg	_	_
+7	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obl:arg	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 9	prévaut	prévaloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 10	lors	lors	ADV	_	_	9	advmod	_	ExtPos=ADV
@@ -8233,7 +8233,7 @@
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	parce	parce	SCONJ	_	_	21	mark	_	ExtPos=SCONJ|Idiom=Yes
 19	que	que	SCONJ	_	_	18	fixed	_	InIdiom=Yes
-20	cela	cela	PRON	_	Number=Sing|PronType=Dem	21	nsubj	_	_
+20	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	21	nsubj	_	_
 21	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 22	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	23	expl:pv	_	_
 23	traduire	traduire	VERB	_	VerbForm=Inf	21	xcomp	_	Subject=SubjRaising
@@ -9733,7 +9733,7 @@
 1	-	-	PUNCT	_	_	24	punct	_	_
 2	Si	si	SCONJ	_	_	9	mark	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -9955,7 +9955,7 @@
 12	ou	ou	CCONJ	_	_	15	cc	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	conj	_	_
+15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	conj	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	19	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -10590,7 +10590,7 @@
 1	Si	si	SCONJ	_	_	7	mark	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	7	punct	_	_
 3	après	après	ADP	_	_	4	case	_	_
-4	cela	cela	PRON	_	Number=Sing|PronType=Dem	7	obl:mod	_	SpaceAfter=No
+4	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	7	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
 7	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
@@ -10868,7 +10868,7 @@
 6	effets	effet	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 7	indésirables	indésirable	ADJ	_	Number=Plur	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
-9	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	10	nsubj	_	_
+9	ceux-ci	celui-ci	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	10	nsubj	_	_
 10	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	nécessiter	nécessiter	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
@@ -10956,7 +10956,7 @@
 1	Si	si	SCONJ	_	_	3	mark	_	_
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	obj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -11189,7 +11189,7 @@
 1	Si	si	SCONJ	_	_	3	mark	_	_
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+4	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	obj	_	_
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
