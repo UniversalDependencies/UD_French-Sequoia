@@ -1795,7 +1795,7 @@
 14	dans	dans	ADP	_	_	17	case	_	_
 15	toute	tout	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	Union	Union	PROPN	_	Number=Sing	13	obl:mod	_	_
+17	Union	union	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
 18	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 19	pour	pour	ADP	_	_	20	case	_	_
 20	Aclasta	Aclasta	PROPN	_	_	7	nmod	_	_
@@ -3928,7 +3928,7 @@
 9	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
 10	administration	administration	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
-12	:	:	PUNCT	_	_	13	punct	_	_
+12	:	:	PUNCT	_	_	11	punct	_	_
 13	fièvre	fièvre	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 15	17,1	17,1	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
@@ -6497,7 +6497,7 @@
 46	étude	étude	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
 47	dans	dans	ADP	_	_	49	case	_	_
 48	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	49	det	_	_
-49	sous-groupes	sous-groupe	NOUN	_	Number=Plur	37	obl:mod	_	_
+49	sous-groupes	sous-groupe	NOUN	_	Gender=Masc|Number=Plur	37	obl:mod	_	_
 50	incluant	inclure	VERB	_	Tense=Pres|VerbForm=Part	49	acl	_	_
 51	517	517	NUM	_	NumType=Card	54	nummod	_	_
 52	à	à	ADP	_	_	53	dep:comp	_	_
@@ -8421,7 +8421,7 @@
 9	2,5	2,5	NUM	_	NumType=Card	7	nmod	_	_
 10	l	l	NOUN	_	_	0	root	_	SpaceAfter=No
 11	/	/	ADP	_	_	12	case	_	SpaceAfter=No
-12	h	h	NOUN	_	_	10	nmod	_	SpaceAfter=No
+12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
@@ -9019,7 +9019,7 @@
 2	si	si	SCONJ	_	_	5	mark	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj:pass	_	_
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-5	traité(e)	traité(e)	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	traité(e)	traiter	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	par	par	ADP	_	_	7	case	_	_
 7	Zometa	Zometa	PROPN	_	_	5	obl:mod	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
@@ -9204,7 +9204,7 @@
 15	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 16	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
 17	sans	sans	ADP	_	_	18	case	_	_
-18	ordonnance	ordonnance	NOUN	_	Number=Sing	16	obl:mod	_	SpaceAfter=No
+18	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	3	punct	_	_
 20	parlez	parler	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 21	-en	en	PRON	_	Person=3|PronType=Prs	20	iobj	_	_
@@ -9770,7 +9770,7 @@
 21	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	22	nsubj	_	_
 22	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	_	_
 23	être	être	AUX	_	VerbForm=Inf	24	aux:pass	_	Subject=SubjRaising
-24	traité(e)	traité(e)	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	22	xcomp	_	_
+24	traité(e)	traiter	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	22	xcomp	_	_
 25	de	de	ADP	_	ExtPos=ADV	24	advmod	_	Idiom=Yes
 26	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	25	fixed	_	InIdiom=Yes|SpaceAfter=No
 27	.	.	PUNCT	_	_	8	punct	_	_
@@ -9855,7 +9855,7 @@
 11	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
 12	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 13	être	être	AUX	_	VerbForm=Inf	14	aux:pass	_	Subject=SubjRaising
-14	traité(e)	traité(e)	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+14	traité(e)	traiter	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	_
 15	par	par	ADP	_	_	16	case	_	_
 16	Aclasta	Aclasta	PROPN	_	_	14	obl:mod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
@@ -10145,7 +10145,7 @@
 32	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	conj	_	_
 33	en	en	PRON	_	Person=3|PronType=Prs	34	iobj	_	_
 34	faire	faire	VERB	_	VerbForm=Inf	32	xcomp	_	Subject=SubjRaising
-35	part	part	NOUN	_	Number=Sing	34	obj	_	_
+35	part	part	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
 36	à	à	ADP	_	_	38	case	_	_
 37	votre	son	DET	_	Number=Sing|Poss=Yes	38	det	_	_
 38	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	34	obl:arg	_	SpaceAfter=No
@@ -10383,7 +10383,7 @@
 70-71	des	_	_	_	_	_	_	_	_
 70	de	de	ADP	_	_	72	case	_	_
 71	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	72	det	_	_
-72	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	69	nmod	_	SpaceAfter=No
+72	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	69	nmod	_	SpaceAfter=No
 73	,	,	PUNCT	_	_	74	punct	_	_
 74	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 75	thoracique	thoracique	ADJ	_	Number=Sing	74	amod	_	SpaceAfter=No
@@ -10509,14 +10509,14 @@
 22-23	aux	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-24	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+24	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 25	ou	ou	CCONJ	_	_	27	cc	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	sensibilité	sensibilité	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
-30	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
+30	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
 31	à	à	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	lumière	lumière	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
@@ -10937,7 +10937,7 @@
 3	autres	autre	ADJ	_	Number=Plur	4	amod	_	_
 4	composants	composant	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-6	:	:	PUNCT	_	_	7	punct	_	_
+6	:	:	PUNCT	_	_	5	punct	_	_
 7	mannitol	mannitol	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	citrate	citrate	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_

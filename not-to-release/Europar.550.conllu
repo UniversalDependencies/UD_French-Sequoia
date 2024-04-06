@@ -474,7 +474,7 @@
 17	UE	UE	PROPN	_	Number=Sing	12	nmod	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
-20	fins	fin	NOUN	_	Number=Plur	12	nmod	_	_
+20	fins	fin	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
 22	éclairage	éclairage	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	7	punct	_	_
@@ -521,12 +521,12 @@
 9	électricité	électricité	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
-12	fins	fin	NOUN	_	Number=Plur	7	nmod	_	_
+12	fins	fin	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	éclairage	éclairage	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	aide	aide	NOUN	_	Number=Sing	2	obl:mod	_	_
+17	aide	aide	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	tubes	tube	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 20	fluorescents	fluorescent	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
@@ -715,7 +715,7 @@
 11	septentrionales	septentrional	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	Union	Union	PROPN	_	Number=Sing	10	nmod	_	SpaceAfter=No
+14	Union	union	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	nord	nord	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
@@ -861,7 +861,7 @@
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	que	que	SCONJ	_	_	43	mark	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	Union	Union	PROPN	_	Number=Sing	43	nsubj	_	_
+18	Union	union	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	_
 19	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
@@ -881,10 +881,10 @@
 34	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	aux:tense	_	_
 35	fondé	fonder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
-37	Communautés	communauté	NOUN	_	Number=Plur	35	obj	_	SpaceAfter=No
+37	Communautés	communauté	NOUN	_	Gender=Fem|Number=Plur	35	obj	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	devenues	devenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	37	acl	_	_
-40	Union	Union	PROPN	_	_	39	xcomp	_	SpaceAfter=No
+40	Union	union	NOUN	_	Gender=Fem|Number=Sing	39	xcomp	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	24	punct	_	_
 42	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	association	association	NOUN	_	Gender=Fem|Number=Sing	10	ccomp	_	_
@@ -1123,7 +1123,7 @@
 3	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-6	oeil	oeil	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
+6	oeil	œil	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	amendement	amendement	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 9-10	du	_	_	_	_	_	_	_	_
@@ -1494,7 +1494,7 @@
 24	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	et	et	CCONJ	_	_	37	cc	_	_
 26	que	que	SCONJ	_	_	37	mark	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	37	punct	_	_
+27	,	,	PUNCT	_	_	26	punct	_	_
 28	jusqu'	jusque	ADP	_	_	30	case	_	SpaceAfter=No
 29	à	à	ADP	_	_	30	case	_	_
 30	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	_
@@ -1916,7 +1916,7 @@
 41	environnement	environnement	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
 42	à	à	ADP	_	_	44	case	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
-44	aide	aide	NOUN	_	Number=Sing	26	obl:mod	_	_
+44	aide	aide	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
 45	d'	de	ADP	_	_	47	case	_	SpaceAfter=No
 46	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	réglementation	réglementation	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	_
@@ -2590,7 +2590,7 @@
 6	innovatrices	innovateur	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	part	part	NOUN	_	Number=Sing	5	nmod	_	_
+9	part	part	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	petits	petit	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 12	promoteurs	promoteur	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
@@ -3045,7 +3045,7 @@
 8	appels	appel	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	aide	aide	NOUN	_	Number=Sing	8	nmod	_	_
+11	aide	aide	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -3313,7 +3313,7 @@
 4	appels	appel	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-7	aide	aide	NOUN	_	Number=Sing	4	nmod	_	_
+7	aide	aide	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 8	et	et	CCONJ	_	_	15	cc	_	_
 9	aucun	aucun	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	15	nsubj	_	_
 10	de	de	ADP	_	_	12	case	_	_
@@ -3426,7 +3426,7 @@
 22	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
 23	venus	venir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
 24	en	en	ADP	_	_	25	case	_	_
-25	aide	aide	NOUN	_	Number=Sing	23	obl:arg	_	_
+25	aide	aide	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	_
 26	à	à	ADP	_	_	29	mark	_	_
 27	ne	ne	ADV	_	Polarity=Neg	29	advmod	_	_
 28	pas	pas	ADV	_	Polarity=Neg	29	advmod	_	_
@@ -3584,7 +3584,7 @@
 12	viennent	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 13	volontairement	volontairement	ADV	_	_	12	advmod	_	_
 14	en	en	ADP	_	_	15	case	_	_
-15	aide	aide	NOUN	_	Number=Sing	12	obl:arg	_	_
+15	aide	aide	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -3856,9 +3856,9 @@
 13	ONU	O.N.U.	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	membre	membre	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
-16	à	à	ADP	_	_	17	case	_	_
-17	part	part	NOUN	_	Number=Sing	15	nmod	_	_
-18	entière	entier	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+16	à	à	ADP	_	ExtPos=ADJ	15	dep	_	Idiom=Yes
+17	part	part	NOUN	_	Gender=Fem|Number=Sing	16	fixed	_	InIdiom=Yes
+18	entière	entier	ADJ	_	Gender=Fem|Number=Sing	16	fixed	_	InIdiom=Yes
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -4493,7 +4493,7 @@
 45	sein	sein	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
 46	de	de	ADP	_	_	48	case	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
-48	Union	Union	PROPN	_	Number=Sing	45	nmod	_	_
+48	Union	union	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	_
 49	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	_
 50	?	?	PUNCT	_	_	1	punct	_	_
 
@@ -4826,7 +4826,7 @@
 28	sein	sein	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
-31	Union	Union	PROPN	_	Number=Sing	28	nmod	_	_
+31	Union	union	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 32	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -5453,11 +5453,11 @@
 28	identité	identité	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
-31	Union	Union	PROPN	_	Number=Sing	28	nmod	_	_
+31	Union	union	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 32	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	Union	Union	PROPN	_	Gender=Fem|Number=Sing	31	appos	_	_
+35	Union	union	NOUN	_	Gender=Fem|Number=Sing	31	appos	_	_
 36	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 37	qui	qui	PRON	_	PronType=Rel	40	nsubj	_	_
 38	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
@@ -5490,7 +5490,7 @@
 # sent_id = Europar.550_00182
 # text = L'Union européenne sera lieu de droits ou ne sera pas.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Union	Union	PROPN	_	Number=Sing	5	nsubj	_	_
+2	Union	union	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
 5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -5577,7 +5577,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	fait	fait	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	que	que	SCONJ	_	_	30	mark	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	30	punct	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
 21	souvent	souvent	ADV	_	_	30	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -6316,7 +6316,7 @@
 # text = D'autre part, nous ne souscrivions pas à l'idée du Parlement en ce qui concerne la limite d'âge pour la prise des empreintes digitales.
 1	D'	de	ADP	_	_	3	case	_	SpaceAfter=No
 2	autre	autre	ADJ	_	Number=Sing	3	amod	_	_
-3	part	part	NOUN	_	Number=Sing	7	obl:mod	_	SpaceAfter=No
+3	part	part	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
@@ -7007,7 +7007,7 @@
 19	de	de	ADP	_	_	20	mark	_	_
 20	venir	venir	VERB	_	VerbForm=Inf	18	acl	_	Subject=Generic
 21	en	en	ADP	_	_	22	case	_	_
-22	aide	aide	NOUN	_	Number=Sing	20	obl:arg	_	_
+22	aide	aide	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	_
 23	à	à	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Mongolie	Mongolie	PROPN	_	Gender=Fem|Number=Sing	20	obl:arg	_	SpaceAfter=No
@@ -7662,7 +7662,7 @@
 4	donc	donc	ADV	_	_	3	advmod	_	_
 5	à	à	ADP	_	_	6	mark	_	_
 6	mettre	mettre	VERB	_	VerbForm=Inf	3	ccomp	_	Subject=Generic
-7	fin	fin	NOUN	_	Number=Sing	6	obj	_	_
+7	fin	fin	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
 10	situation	situation	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
@@ -7921,7 +7921,7 @@
 17	sein	sein	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
-20	Union	Union	PROPN	_	Number=Sing	17	nmod	_	_
+20	Union	union	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 21	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
 23	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -8054,7 +8054,7 @@
 49	européen	européen	ADJ	_	Gender=Masc|Number=Sing	48	amod	_	_
 50	dévolu	dévolu	ADJ	_	Gender=Masc|Number=Sing	48	amod	_	_
 51	en	en	ADP	_	_	52	case	_	_
-52	fin	fin	NOUN	_	Number=Sing	50	obl:mod	_	_
+52	fin	fin	NOUN	_	Gender=Fem|Number=Sing	50	obl:mod	_	_
 53	de	de	ADP	_	_	54	case	_	_
 54	compte	compte	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	_
 55-56	aux	_	_	_	_	_	_	_	_
@@ -8154,7 +8154,7 @@
 26	droit	droit	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	Union	Union	PROPN	_	Number=Sing	26	nmod	_	_
+29	Union	union	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 30	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
 31	sur	sur	ADP	_	_	33	case	_	_
 32	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
@@ -8254,7 +8254,7 @@
 45	de	de	ADP	_	_	48	case	_	_
 46	toute	tout	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
-48	Union	Union	PROPN	_	Number=Sing	44	nmod	_	_
+48	Union	union	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	_
 49	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -9022,14 +9022,14 @@
 33	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
-36	Union	Union	PROPN	_	Number=Sing	33	nmod	_	_
+36	Union	union	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
 37	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = Europar.550_00283
 # text = L'Union européenne est appelée, à travers les procédures de la Conférence intergouvernementale, à répondre aux grands défis qui marquent le passage du XXe au XXIe siècle, des défis majeurs que nous connaissons tous, qui influent chaque jour sur le cours de l'Union, des défis, surtout, qui soulèvent une question de fond : dans quelle mesure sommes-nous prêts, en tant qu'institution, en tant qu'Union européenne, à y faire face ?
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Union	Union	PROPN	_	Number=Sing	5	nsubj:pass	_	_
+2	Union	union	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	appelée	appeler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -9081,7 +9081,7 @@
 48	cours	cours	NOUN	_	Gender=Masc|Number=Sing	43	obl:arg	_	_
 49	de	de	ADP	_	_	51	case	_	_
 50	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
-51	Union	Union	PROPN	_	Number=Sing	48	nmod	_	SpaceAfter=No
+51	Union	union	NOUN	_	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	54	punct	_	_
 53	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	54	det	_	_
 54	défis	défi	NOUN	_	Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
@@ -9110,7 +9110,7 @@
 77	en	en	ADP	_	ExtPos=ADP	80	case	_	Idiom=Yes
 78	tant	tant	ADV	_	_	77	fixed	_	InIdiom=Yes
 79	qu'	que	SCONJ	_	_	77	fixed	_	InIdiom=Yes|SpaceAfter=No
-80	Union	Union	PROPN	_	_	70	obl:mod	_	_
+80	Union	union	NOUN	_	Gender=Fem|Number=Sing	70	obl:mod	_	_
 81	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	80	amod	_	SpaceAfter=No
 82	,	,	PUNCT	_	_	80	punct	_	_
 83	à	à	ADP	_	_	85	mark	_	_
@@ -9144,7 +9144,7 @@
 7	dire	dire	VERB	_	VerbForm=Inf	4	dislocated	_	Subject=Generic
 8	que	que	SCONJ	_	_	25	mark	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	Union	Union	PROPN	_	Number=Sing	25	nsubj	_	_
+10	Union	union	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
 11	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	telle	tel	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
@@ -9231,7 +9231,7 @@
 12	institutionnelle	institutionnel	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	Union	Union	PROPN	_	Number=Sing	11	nmod	_	SpaceAfter=No
+15	Union	union	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Europar.550_00288
@@ -9243,7 +9243,7 @@
 5	insistance	insistance	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
 6	:	:	PUNCT	_	_	15	punct	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
-8	Union	Union	PROPN	_	Number=Sing	15	nsubj	_	_
+8	Union	union	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 9	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 11	à	à	ADP	_	_	13	case	_	_
@@ -9338,7 +9338,7 @@
 35	membres	membre	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
-38	Union	Union	PROPN	_	Number=Sing	35	nmod	_	SpaceAfter=No
+38	Union	union	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	41	punct	_	_
 40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	principe	principe	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
@@ -9371,7 +9371,7 @@
 67	institutions	institution	NOUN	_	Gender=Fem|Number=Plur	57	nmod	_	_
 68	de	de	ADP	_	_	70	case	_	_
 69	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	70	det	_	SpaceAfter=No
-70	Union	Union	PROPN	_	Number=Sing	67	nmod	_	_
+70	Union	union	NOUN	_	Gender=Fem|Number=Sing	67	nmod	_	_
 71	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	70	amod	_	SpaceAfter=No
 72	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -9390,7 +9390,7 @@
 11	collègues	collègue	NOUN	_	Number=Plur	6	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	Union	Union	PROPN	_	Number=Sing	18	nsubj	_	_
+14	Union	union	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 15	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 16	en	en	PRON	_	Person=3|PronType=Prs	18	expl:comp	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
@@ -9458,7 +9458,7 @@
 18	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
 19	insiste	insister	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	parataxis:insert	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
-21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
 22	générale	général	ADJ	_	Gender=Fem|Number=Sing	19	obl:arg	_	SpaceAfter=No
 23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	-	-	PUNCT	_	_	19	punct	_	_
@@ -9472,7 +9472,7 @@
 31	qui	qui	PRON	_	PronType=Rel	32	nsubj	_	_
 32	composent	composer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	Union	Union	PROPN	_	Number=Sing	32	obj	_	_
+34	Union	union	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
 35	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -9527,7 +9527,7 @@
 32	fonctionnement	fonctionnement	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 33	de	de	ADP	_	_	35	case	_	_
 34	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
-35	Union	Union	PROPN	_	Number=Sing	32	nmod	_	_
+35	Union	union	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 36	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
 38	directement	directement	ADV	_	_	39	advmod	_	_
@@ -9593,7 +9593,7 @@
 45	parlerons	parler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	42	advcl	_	_
 46	d'	de	ADP	_	_	48	case	_	SpaceAfter=No
 47	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	Union	Union	PROPN	_	Gender=Fem|Number=Sing	45	obl:arg	_	_
+48	Union	union	NOUN	_	Gender=Fem|Number=Sing	45	obl:arg	_	_
 49	de	de	ADP	_	_	57	case	_	_
 50	18	18	NUM	_	NumType=Card	57	nummod	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	52	punct	_	_
@@ -9784,7 +9784,7 @@
 62	sein	sein	NOUN	_	Gender=Masc|Number=Sing	59	nmod	_	_
 63	de	de	ADP	_	_	65	case	_	_
 64	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	65	det	_	SpaceAfter=No
-65	Union	Union	PROPN	_	Number=Sing	62	nmod	_	SpaceAfter=No
+65	Union	union	NOUN	_	Gender=Fem|Number=Sing	62	nmod	_	SpaceAfter=No
 66	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00301
@@ -10111,7 +10111,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	part	part	NOUN	_	Number=Sing	3	obl:mod	_	SpaceAfter=No
+7	part	part	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -10176,7 +10176,7 @@
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	fixed	_	InIdiom=Yes|Subject=Generic
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	part	part	NOUN	_	Number=Sing	22	nmod	_	_
+20	part	part	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 23	politique	politique	ADJ	_	Number=Sing	22	amod	_	_
@@ -10728,7 +10728,7 @@
 5	800 000	800 000	NUM	_	NumType=Card	6	nummod	_	_
 6	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
-8	aide	aide	NOUN	_	Number=Sing	6	nmod	_	_
+8	aide	aide	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	urgence	urgence	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	promises	promettre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
@@ -10925,7 +10925,7 @@
 23	,	,	PUNCT	_	_	46	punct	_	_
 24	pour	pour	ADP	_	_	46	mark	_	_
 25	que	que	SCONJ	_	_	46	mark	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	46	punct	_	_
+26	,	,	PUNCT	_	_	25	punct	_	_
 27	dans	dans	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	46	obl:mod	_	_
@@ -11211,7 +11211,7 @@
 23	évident	évident	ADJ	_	Gender=Masc|Number=Sing	5	advcl	_	_
 24	que	que	SCONJ	_	_	35	mark	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	Union	Union	PROPN	_	Number=Sing	35	nsubj	_	_
+26	Union	union	NOUN	_	Gender=Fem|Number=Sing	35	nsubj	_	_
 27	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -11371,7 +11371,7 @@
 # sent_id = Europar.550_00348
 # text = En fin de compte, il n'y a que très peu d'argent nouveau.
 1	En	en	ADP	_	_	2	case	_	_
-2	fin	fin	NOUN	_	Number=Sing	9	obl:mod	_	_
+2	fin	fin	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	compte	compte	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -11715,7 +11715,7 @@
 3	malheureusement	malheureusement	ADV	_	_	2	advmod	_	_
 4	constater	constater	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
 5	que	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	22	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	si	si	SCONJ	_	_	9	mark	_	_
 8	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 9	aligne	aligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
@@ -12164,7 +12164,7 @@
 # text = Si vous avez tant besoin de couper l'herbe sous le pied de quelqu'un, je vous proposerais de vous en prendre à M. Solana.
 1	Si	si	SCONJ	_	_	3	mark	_	_
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
-3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 4	tant	tant	ADV	_	_	3	advmod	_	_
 5	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	de	de	ADP	_	_	7	mark	_	_
@@ -12175,20 +12175,19 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	pied	pied	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	quelqu'	quelque	DET	_	Definite=Ind|ExtPos=PRON|Number=Sing|PronType=Art	12	nmod	_	Idiom=Yes|SpaceAfter=No
-15	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	fixed	_	InIdiom=Yes|SpaceAfter=No
-16	,	,	PUNCT	_	_	3	punct	_	_
-17	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
-18	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	19	iobj	_	_
-19	proposerais	proposer	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	de	de	ADP	_	_	23	mark	_	_
-21	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs|Reflex=Yes	23	expl:pv	_	_
-22	en	en	PRON	_	Person=3|PronType=Prs	23	expl:comp	_	_
-23	prendre	prendre	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=OblRaising
-24	à	à	ADP	_	_	25	case	_	_
-25	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	23	obl:arg	_	_
-26	Solana	Solana	PROPN	_	_	25	nmod	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	19	punct	_	_
+14	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	3	punct	_	_
+16	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	18	iobj	_	_
+18	proposerais	proposer	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	de	de	ADP	_	_	22	mark	_	_
+20	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+21	en	en	PRON	_	Person=3|PronType=Prs	22	expl:comp	_	_
+22	prendre	prendre	VERB	_	VerbForm=Inf	18	xcomp	_	Subject=OblRaising
+23	à	à	ADP	_	_	24	case	_	_
+24	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	22	obl:arg	_	_
+25	Solana	Solana	PROPN	_	_	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = Europar.550_00373
 # text = Selon moi il a joué à tort un rôle de premier plan dans les Balkans.
@@ -12324,7 +12323,7 @@
 11	,	,	PUNCT	_	_	26	punct	_	_
 12	même	même	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 13	si	si	SCONJ	_	_	12	fixed	_	InIdiom=Yes|SpaceAfter=No
-14	,	,	PUNCT	_	_	26	punct	_	_
+14	,	,	PUNCT	_	_	12	punct	_	_
 15	suite	suite	NOUN	_	ExtPos=ADP|Gender=Fem|Number=Sing	18	case	_	Idiom=Yes
 16	à	à	ADP	_	_	15	fixed	_	InIdiom=Yes
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -12922,7 +12921,7 @@
 13	à	à	ADP	_	_	14	mark	_	_
 14	dire	dire	VERB	_	VerbForm=Inf	12	ccomp	_	Subject=Generic
 15	que	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	25	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	sans	sans	ADP	_	_	18	mark	_	_
 18	écarter	écarter	VERB	_	VerbForm=Inf	25	advcl	_	Subject=Instantiated
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
@@ -14256,7 +14255,7 @@
 5	à	à	ADP	_	_	6	mark	_	_
 6	souhaiter	souhaiter	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=OblRaising
 7	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	16	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	votes	vote	NOUN	_	Gender=Masc|Number=Plur	16	advcl	_	_
 10	ou	ou	CCONJ	_	_	11	cc	_	_
 11	non	non	ADV	_	Polarity=Neg	9	conj	_	SpaceAfter=No
@@ -15031,7 +15030,7 @@
 3	dès	dès	ADP	_	ExtPos=ADV	2	advmod	_	Idiom=Yes
 4	lors	lors	ADV	_	_	3	fixed	_	InIdiom=Yes
 5	que	que	SCONJ	_	_	29	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	29	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	si	si	SCONJ	_	_	15	mark	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	élections	élection	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
@@ -15095,7 +15094,7 @@
 20	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	16	obl:arg	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	6	punct	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-23	aide	aide	NOUN	_	Number=Sing	35	nsubj	_	_
+23	aide	aide	NOUN	_	Gender=Fem|Number=Sing	35	nsubj	_	_
 24	prévue	prévoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	_
 25	en	en	ADP	_	_	26	case	_	_
 26	vertu	vertu	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	_
@@ -15295,7 +15294,7 @@
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	7	mark	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	Union	Union	PROPN	_	Number=Sing	7	nsubj	_	_
+5	Union	union	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 6	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	gère	gérer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -15326,7 +15325,7 @@
 15	principales	principal	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	Union	Union	PROPN	_	Number=Sing	14	nmod	_	_
+18	Union	union	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 19	et	et	CCONJ	_	_	35	cc	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	35	punct	_	_
 21	si	si	SCONJ	_	_	24	mark	_	_
@@ -15366,7 +15365,7 @@
 10	spatial	spatial	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	Union	Union	PROPN	_	Number=Sing	9	nmod	_	_
+13	Union	union	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 14	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 15	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	_
 16	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
@@ -15399,7 +15398,7 @@
 9	satellites	satellite	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	Union	Union	PROPN	_	Number=Sing	9	nmod	_	_
+12	Union	union	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	faible	faible	ADJ	_	Number=Sing	15	amod	_	_
 15	coût	coût	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -15422,7 +15421,7 @@
 5	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	rappeler	rappeler	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 7	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	19	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	manière	manière	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
@@ -15467,7 +15466,7 @@
 15	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	espace	espace	NOUN	_	Number=Sing	15	obl:arg	_	_
+18	espace	espace	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	âge	âge	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
@@ -15511,7 +15510,7 @@
 14	retraité	retraité	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	Union	Union	PROPN	_	Number=Sing	13	nmod	_	_
+17	Union	union	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 18	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -15588,7 +15587,7 @@
 11	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
 13	de	de	ADP	_	_	16	case	_	_
-14	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 15	notre	son	DET	_	Number=Sing|Poss=Yes	16	det	_	_
 16	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 17	commun	commun	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
@@ -15728,7 +15727,7 @@
 32	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
 33	dire	dire	VERB	_	VerbForm=Inf	32	xcomp	_	Subject=SubjRaising
 34	que	que	SCONJ	_	_	71	mark	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	71	punct	_	_
+35	,	,	PUNCT	_	_	34	punct	_	_
 36	avec	avec	ADP	_	_	37	case	_	_
 37	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	71	obl:mod	_	_
 38	Podestá	Podestá	PROPN	_	_	37	nmod	_	SpaceAfter=No
@@ -15898,7 +15897,7 @@
 19	pays	pays	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
-22	Union	Union	PROPN	_	Number=Sing	19	nmod	_	_
+22	Union	union	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 23	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
 25	participé	participer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
@@ -15929,7 +15928,7 @@
 50	jury	jury	NOUN	_	Gender=Masc|Number=Sing	46	obl:agent	_	_
 51	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux:tense	_	_
 52	été	être	AUX	_	Tense=Past|VerbForm=Part	55	cop	_	_
-53	"	"	PUNCT	_	_	55	punct	_	SpaceAfter=No
+53	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
 54	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
 55	unité	unité	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
 56	dans	dans	ADP	_	_	58	case	_	_
@@ -16130,7 +16129,7 @@
 6	close	clore	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	12	12	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
-9	h	h	NOUN	_	_	6	obl:mod	_	SpaceAfter=No
+9	h	h	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	SpaceAfter=No
 10	30	30	NUM	_	NumType=Card	9	nmod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	6	punct	_	_
 
@@ -16209,7 +16208,7 @@
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pv	_	_
 12	déroulent	dérouler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	rencontres	rencontre	NOUN	_	Number=Plur	12	nsubj	_	_
+14	rencontres	rencontre	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	Euro	euro	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	_
@@ -16505,7 +16504,7 @@
 45	même	même	ADV	_	_	48	advmod	_	_
 46	dans	dans	ADP	_	_	48	case	_	_
 47	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
-48	Union	Union	PROPN	_	Number=Sing	43	obl:mod	_	_
+48	Union	union	NOUN	_	Gender=Fem|Number=Sing	43	obl:mod	_	_
 49	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
 50	-	-	PUNCT	_	_	43	punct	_	_
 51	ici	ici	ADV	_	_	43	advmod	_	SpaceAfter=No
@@ -17005,7 +17004,7 @@
 36	n'	ne	ADV	_	Polarity=Neg	37	advmod	_	SpaceAfter=No
 37	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 38	pas	pas	ADV	_	Polarity=Neg	37	advmod	_	_
-39	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	41	det	_	SpaceAfter=No
+39	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
 40	autre	autre	ADJ	_	Number=Sing	41	amod	_	_
 41	choix	choix	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	20	punct	_	_
