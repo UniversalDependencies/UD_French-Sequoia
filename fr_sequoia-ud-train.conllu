@@ -28641,7 +28641,7 @@
 13	ONU	O.N.U.	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	membre	membre	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
-16	à	à	ADP	_	ExtPos=ADJ	15	dep	_	Idiom=Yes
+16	à	à	ADP	_	ExtPos=ADJ	15	amod	_	Idiom=Yes
 17	part	part	NOUN	_	Gender=Fem|Number=Sing	16	fixed	_	InIdiom=Yes
 18	entière	entier	ADJ	_	Gender=Fem|Number=Sing	16	fixed	_	InIdiom=Yes
 19-20	du	_	_	_	_	_	_	_	_
@@ -47074,7 +47074,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-4	van	Van	PROPN	_	Foreign=Yes	3	flat:name	_	Lang=en
+4	van	Van	PROPN	_	_	3	flat:name	_	_
 5	Ruymbeke	Ruymbeke	PROPN	_	_	3	flat:name	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
 7	reprendra	reprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl:cleft	_	_
@@ -49934,7 +49934,7 @@
 # sent_id = frwiki_50.1000_00548
 # text = ISBN 2 914571 14 3
 1	ISBN	ISBN	NOUN	_	_	0	root	_	_
-2	2 914571 14 3	2 914571 14 3	NOUN	_	_	1	nmod	_	_
+2	2 914571 14 3	2 914571 14 3	NUM	_	_	1	nmod	_	_
 
 # sent_id = frwiki_50.1000_00549
 # text = - Hervé Gattegno, L'affaire Dumas, Stock (septembre 2000).
@@ -51471,7 +51471,7 @@
 # text = MR : 260 000.
 1	MR	MR	PROPN	_	_	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
-3	260 000	260 000	NOUN	_	_	1	nmod	_	SpaceAfter=No
+3	260 000	260 000	NUM	_	_	1	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00634
@@ -57313,7 +57313,7 @@
 18	and	and	X	_	Foreign=Yes	17	flat:foreign	_	Lang=en
 19	Publisher	Publisher	X	_	Foreign=Yes	17	flat:foreign	_	Lang=en|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	August	August	NOUN	_	Foreign=Yes	17	parataxis	_	Lang=en
+21	August	August	X	_	Foreign=Yes	17	parataxis	_	_
 22	6	6	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	2006	2006	NUM	_	NumType=Card	21	parataxis	_	SpaceAfter=No

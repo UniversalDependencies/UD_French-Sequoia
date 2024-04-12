@@ -3856,7 +3856,7 @@
 13	ONU	O.N.U.	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	membre	membre	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
-16	à	à	ADP	_	ExtPos=ADJ	15	dep	_	Idiom=Yes
+16	à	à	ADP	_	ExtPos=ADJ	15	amod	_	Idiom=Yes
 17	part	part	NOUN	_	Gender=Fem|Number=Sing	16	fixed	_	InIdiom=Yes
 18	entière	entier	ADJ	_	Gender=Fem|Number=Sing	16	fixed	_	InIdiom=Yes
 19-20	du	_	_	_	_	_	_	_	_

@@ -5933,9 +5933,9 @@
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	30	obl:arg	_	_
 37	entre	entre	ADP	_	_	41	case	_	_
-38	4 000	4 000	DET	_	_	41	det	_	_
+38	4 000	4 000	NUM	_	_	41	nummod	_	_
 39	et	et	CCONJ	_	_	40	cc	_	_
-40	7 000	7 000	DET	_	_	38	conj	_	_
+40	7 000	7 000	NUM	_	_	38	conj	_	_
 41	francs	franc	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	4	punct	_	_

@@ -3122,9 +3122,9 @@
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	30	obl:arg	_	_
 37	entre	entre	ADP	_	_	41	case	_	_
-38	4 000	4 000	DET	_	_	41	det	_	_
+38	4 000	4 000	NUM	_	_	41	nummod	_	_
 39	et	et	CCONJ	_	_	40	cc	_	_
-40	7 000	7 000	DET	_	_	38	conj	_	_
+40	7 000	7 000	NUM	_	_	38	conj	_	_
 41	francs	franc	NOUN	_	Gender=Masc|Number=Plur	36	nmod	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	4	punct	_	_
@@ -11370,7 +11370,7 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	Renaud	Renaud	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
-4	van	Van	PROPN	_	Foreign=Yes	3	flat:name	_	Lang=en
+4	van	Van	PROPN	_	_	3	flat:name	_	_
 5	Ruymbeke	Ruymbeke	PROPN	_	_	3	flat:name	_	_
 6	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
 7	reprendra	reprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl:cleft	_	_
@@ -15205,7 +15205,7 @@
 # sent_id = frwiki_50.1000_00548
 # text = ISBN 2 914571 14 3
 1	ISBN	ISBN	NOUN	_	_	0	root	_	_
-2	2 914571 14 3	2 914571 14 3	NOUN	_	_	1	nmod	_	_
+2	2 914571 14 3	2 914571 14 3	NUM	_	_	1	nmod	_	_
 
 # sent_id = frwiki_50.1000_00549
 # text = - Hervé Gattegno, L'affaire Dumas, Stock (septembre 2000).
@@ -15489,12 +15489,12 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	tarifs	tarif	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	_
 8	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
-9	100 000	100 000	DET	_	_	10	det	_	_
+9	100 000	100 000	NUM	_	_	10	nummod	_	_
 10	francs	franc	NOUN	_	Gender=Masc|Number=Plur	7	appos	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	page	page	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	15 000	15 000	NOUN	_	NumType=Card	10	appos	_	SpaceAfter=No
+14	15 000	15 000	NUM	_	NumType=Card	10	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	-	-	PUNCT	_	_	10	punct	_	_
 17	demandés	demander	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
@@ -17467,14 +17467,14 @@
 # text = RH : 190 500 ;
 1	RH	RH	PROPN	_	_	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
-3	190 500	190 500	NOUN	_	NumType=Card	1	nmod	_	_
+3	190 500	190 500	NUM	_	NumType=Card	1	nmod	_	_
 4	;	;	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00633
 # text = MR : 260 000.
 1	MR	MR	PROPN	_	_	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
-3	260 000	260 000	NOUN	_	_	1	nmod	_	SpaceAfter=No
+3	260 000	260 000	NUM	_	_	1	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00634
@@ -25288,7 +25288,7 @@
 18	and	and	X	_	Foreign=Yes	17	flat:foreign	_	Lang=en
 19	Publisher	Publisher	X	_	Foreign=Yes	17	flat:foreign	_	Lang=en|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	August	August	NOUN	_	Foreign=Yes	17	parataxis	_	Lang=en
+21	August	August	X	_	Foreign=Yes	17	parataxis	_	_
 22	6	6	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	2006	2006	NUM	_	NumType=Card	21	parataxis	_	SpaceAfter=No
