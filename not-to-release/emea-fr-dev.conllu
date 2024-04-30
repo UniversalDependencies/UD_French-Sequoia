@@ -233,7 +233,7 @@
 8	adultes	adulte	ADJ	_	Number=Plur	7	amod	_	_
 9	souffrant	souffrir	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
 10	de	de	ADP	_	_	12	case	_	_
-11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
 13	coronaire	coronaire	ADJ	_	Number=Sing	12	amod	_	_
 14	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
@@ -275,7 +275,7 @@
 48	cardiaque	cardiaque	ADJ	_	Number=Sing	47	amod	_	SpaceAfter=No
 49	)	)	PUNCT	_	_	47	punct	_	_
 50	sans	sans	ADP	_	_	52	case	_	_
-51	"	"	PUNCT	_	_	50	punct	_	SpaceAfter=No
+51	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
 52	sus-décalage	sus-décalage	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 53-54	du	_	_	_	_	_	_	_	_
 53	de	de	ADP	_	_	55	case	_	_
@@ -10588,7 +10588,7 @@
 # sent_id = emea-fr-dev_00514
 # text = Si, après cela, vous devez bénéficier d'une intervention coronaire percutanée (ICP), il vous sera administré :
 1	Si	si	SCONJ	_	_	7	mark	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	7	punct	_	_
 3	après	après	ADP	_	_	4	case	_	_
 4	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	7	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_

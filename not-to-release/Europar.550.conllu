@@ -1494,7 +1494,7 @@
 24	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	et	et	CCONJ	_	_	37	cc	_	_
 26	que	que	SCONJ	_	_	37	mark	_	SpaceAfter=No
-27	,	,	PUNCT	_	_	26	punct	_	_
+27	,	,	PUNCT	_	_	37	punct	_	_
 28	jusqu'	jusque	ADP	_	_	30	case	_	SpaceAfter=No
 29	à	à	ADP	_	_	30	case	_	_
 30	preuve	preuve	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	_
@@ -5577,7 +5577,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	fait	fait	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	que	que	SCONJ	_	_	30	mark	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	19	punct	_	_
+20	,	,	PUNCT	_	_	30	punct	_	_
 21	souvent	souvent	ADV	_	_	30	advmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -9458,7 +9458,7 @@
 18	j'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	SpaceAfter=No
 19	insiste	insister	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	parataxis:insert	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
-21	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	générale	général	ADJ	_	Gender=Fem|Number=Sing	19	obl:arg	_	SpaceAfter=No
 23	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	-	-	PUNCT	_	_	19	punct	_	_
@@ -10925,7 +10925,7 @@
 23	,	,	PUNCT	_	_	46	punct	_	_
 24	pour	pour	ADP	_	_	46	mark	_	_
 25	que	que	SCONJ	_	_	46	mark	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	25	punct	_	_
+26	,	,	PUNCT	_	_	46	punct	_	_
 27	dans	dans	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	46	obl:mod	_	_
@@ -11715,7 +11715,7 @@
 3	malheureusement	malheureusement	ADV	_	_	2	advmod	_	_
 4	constater	constater	VERB	_	VerbForm=Inf	2	xcomp	_	Subject=SubjRaising
 5	que	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	22	punct	_	_
 7	si	si	SCONJ	_	_	9	mark	_	_
 8	on	on	PRON	_	Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 9	aligne	aligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
@@ -12323,7 +12323,7 @@
 11	,	,	PUNCT	_	_	26	punct	_	_
 12	même	même	ADV	_	ExtPos=SCONJ	26	mark	_	Idiom=Yes
 13	si	si	SCONJ	_	_	12	fixed	_	InIdiom=Yes|SpaceAfter=No
-14	,	,	PUNCT	_	_	12	punct	_	_
+14	,	,	PUNCT	_	_	26	punct	_	_
 15	suite	suite	NOUN	_	ExtPos=ADP|Gender=Fem|Number=Sing	18	case	_	Idiom=Yes
 16	à	à	ADP	_	_	15	fixed	_	InIdiom=Yes
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -12921,7 +12921,7 @@
 13	à	à	ADP	_	_	14	mark	_	_
 14	dire	dire	VERB	_	VerbForm=Inf	12	ccomp	_	Subject=Generic
 15	que	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	15	punct	_	_
+16	,	,	PUNCT	_	_	25	punct	_	_
 17	sans	sans	ADP	_	_	18	mark	_	_
 18	écarter	écarter	VERB	_	VerbForm=Inf	25	advcl	_	Subject=Instantiated
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
@@ -14255,7 +14255,7 @@
 5	à	à	ADP	_	_	6	mark	_	_
 6	souhaiter	souhaiter	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=OblRaising
 7	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	16	punct	_	_
 9	votes	vote	NOUN	_	Gender=Masc|Number=Plur	16	advcl	_	_
 10	ou	ou	CCONJ	_	_	11	cc	_	_
 11	non	non	ADV	_	Polarity=Neg	9	conj	_	SpaceAfter=No
@@ -15030,7 +15030,7 @@
 3	dès	dès	ADP	_	ExtPos=ADV	2	advmod	_	Idiom=Yes
 4	lors	lors	ADV	_	_	3	fixed	_	InIdiom=Yes
 5	que	que	SCONJ	_	_	29	mark	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	29	punct	_	_
 7	si	si	SCONJ	_	_	15	mark	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	élections	élection	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
@@ -15421,7 +15421,7 @@
 5	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	rappeler	rappeler	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=SubjRaising
 7	que	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	19	punct	_	_
 9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	manière	manière	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
@@ -15587,7 +15587,7 @@
 11	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
 12	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
 13	de	de	ADP	_	_	16	case	_	_
-14	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 15	notre	son	DET	_	Number=Sing|Poss=Yes	16	det	_	_
 16	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 17	commun	commun	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
@@ -15727,7 +15727,7 @@
 32	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
 33	dire	dire	VERB	_	VerbForm=Inf	32	xcomp	_	Subject=SubjRaising
 34	que	que	SCONJ	_	_	71	mark	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	34	punct	_	_
+35	,	,	PUNCT	_	_	71	punct	_	_
 36	avec	avec	ADP	_	_	37	case	_	_
 37	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	71	obl:mod	_	_
 38	Podestá	Podestá	PROPN	_	_	37	nmod	_	SpaceAfter=No
@@ -15928,7 +15928,7 @@
 50	jury	jury	NOUN	_	Gender=Masc|Number=Sing	46	obl:agent	_	_
 51	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux:tense	_	_
 52	été	être	AUX	_	Tense=Past|VerbForm=Part	55	cop	_	_
-53	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
+53	"	"	PUNCT	_	_	55	punct	_	SpaceAfter=No
 54	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
 55	unité	unité	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
 56	dans	dans	ADP	_	_	58	case	_	_
