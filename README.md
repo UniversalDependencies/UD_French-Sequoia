@@ -42,6 +42,9 @@ The Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-
 **(Bonfante & al. 2018)** Guillaume Bonfante, Bruno Guillaume, Guy Perrier. [Application of Graph Rewriting to Natural Language Processing](https://hal.inria.fr/hal-01814386). ISTE Wiley, 1, pp.272, 2018, Logic, Linguistics and Computer Science Set.
 
 # Changelog
+* 2024-05-15 v2.14
+  * Add missing features (mainly Gender)
+  * More consistant annotations of idioms wrt other French treebanks
 * 2023-05-15 v2.12
   * The treebank is now maintained in SUD and converted to UD. See https://github.com/surfacesyntacticud/SUD_French-Sequoia
 * 2020-11-14 v2.7
