@@ -406,7 +406,7 @@
 5	délivré	délivrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	que	que	ADV	_	_	8	advmod	_	_
 7	sur	sur	ADP	_	_	8	case	_	_
-8	ordonnance	ordonnance	NOUN	_	Number=Sing	5	obl:mod	_	SpaceAfter=No
+8	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-dev_00019
@@ -1611,7 +1611,7 @@
 20	dans	dans	ADP	_	_	23	case	_	_
 21	toute	tout	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-23	Union	Union	PROPN	_	Number=Sing	19	obl:mod	_	_
+23	Union	union	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
 24	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	pour	pour	ADP	_	_	26	case	_	_
 26	Angiox	Angiox	PROPN	_	_	13	nmod	_	_
@@ -2065,7 +2065,7 @@
 18	0,1	0,1	NUM	_	NumType=Card	19	nummod	_	_
 19	mg	mg	NOUN	_	Gender=Masc	15	nmod	_	SpaceAfter=No
 20	/	/	ADP	_	_	21	case	_	SpaceAfter=No
-21	kg	kg	NOUN	_	_	19	nmod	_	_
+21	kg	kg	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 22	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
 23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -2076,7 +2076,7 @@
 29	/	/	ADP	_	_	30	case	_	SpaceAfter=No
 30	kg	kg	NOUN	_	Gender=Masc	28	nmod	_	SpaceAfter=No
 31	/	/	ADP	_	_	32	case	_	SpaceAfter=No
-32	h	h	NOUN	_	Gender=Masc	28	nmod	_	SpaceAfter=No
+32	h	h	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = emea-fr-dev_00105
@@ -2099,9 +2099,9 @@
 16	0,25	0,25	NUM	_	NumType=Card	17	nummod	_	_
 17	mg	mg	NOUN	_	Gender=Masc	14	nmod	_	SpaceAfter=No
 18	/	/	ADP	_	_	19	case	_	SpaceAfter=No
-19	kg	kg	NOUN	_	_	17	nmod	_	SpaceAfter=No
+19	kg	kg	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 20	/	/	ADP	_	_	21	case	_	SpaceAfter=No
-21	h	h	NOUN	_	_	17	nmod	_	_
+21	h	h	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 22	pendant	pendant	ADP	_	_	24	case	_	_
 23	72	72	NUM	_	NumType=Card	24	nummod	_	_
 24	heures	heure	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	SpaceAfter=No
@@ -2125,7 +2125,7 @@
 14	0,5	0,5	NUM	_	NumType=Card	15	nummod	_	_
 15	mg	mg	NOUN	_	Gender=Masc	11	nmod	_	SpaceAfter=No
 16	/	/	ADP	_	_	17	case	_	SpaceAfter=No
-17	kg	kg	NOUN	_	_	15	nmod	_	_
+17	kg	kg	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	être	être	AUX	_	VerbForm=Inf	20	aux:pass	_	Subject=SubjRaising
 20	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
@@ -2137,9 +2137,9 @@
 26	1,75	1,75	NUM	_	NumType=Card	27	nummod	_	_
 27	mg	mg	NOUN	_	Gender=Masc	24	obl:arg	_	SpaceAfter=No
 28	/	/	ADP	_	_	29	case	_	SpaceAfter=No
-29	kg	kg	NOUN	_	_	27	nmod	_	SpaceAfter=No
+29	kg	kg	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 30	/	/	ADP	_	_	31	case	_	SpaceAfter=No
-31	h	h	NOUN	_	_	27	nmod	_	_
+31	h	h	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 32	durant	durant	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	SpaceAfter=No
@@ -2159,9 +2159,9 @@
 10	0,25	0,25	NUM	_	NumType=Card	11	nummod	_	_
 11	mg	mg	NOUN	_	Gender=Masc	8	obl:arg	_	SpaceAfter=No
 12	/	/	ADP	_	_	13	case	_	SpaceAfter=No
-13	kg	kg	NOUN	_	_	11	nmod	_	SpaceAfter=No
+13	kg	kg	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 14	/	/	ADP	_	_	15	case	_	SpaceAfter=No
-15	h	h	NOUN	_	_	11	nmod	_	_
+15	h	h	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 16	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	être	être	AUX	_	VerbForm=Inf	18	aux:pass	_	Subject=SubjRaising
 18	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_
@@ -2222,7 +2222,7 @@
 10	0.5	0.5	NUM	_	NumType=Card	11	nummod	_	_
 11	mg	mg	NOUN	_	Gender=Masc	7	nmod	_	SpaceAfter=No
 12	/	/	ADP	_	_	13	case	_	SpaceAfter=No
-13	kg	kg	NOUN	_	_	11	nmod	_	_
+13	kg	kg	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	être	être	AUX	_	VerbForm=Inf	16	aux:pass	_	Subject=SubjRaising
 16	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
@@ -2234,9 +2234,9 @@
 22	1.75	1.75	NUM	_	NumType=Card	23	nummod	_	_
 23	mg	mg	NOUN	_	Gender=Masc	20	nmod	_	SpaceAfter=No
 24	/	/	ADP	_	_	25	case	_	SpaceAfter=No
-25	kg	kg	NOUN	_	_	23	nmod	_	SpaceAfter=No
+25	kg	kg	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 26	/	/	ADP	_	_	27	case	_	SpaceAfter=No
-27	h	h	NOUN	_	_	23	nmod	_	_
+27	h	h	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 28	durant	durant	ADP	_	_	30	case	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
 30	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
@@ -2317,7 +2317,7 @@
 20	0,75	0,75	NUM	_	NumType=Card	21	nummod	_	_
 21	mg	mg	NOUN	_	Gender=Masc	17	nmod	_	SpaceAfter=No
 22	/	/	ADP	_	_	23	case	_	SpaceAfter=No
-23	kg	kg	NOUN	_	_	21	nmod	_	_
+23	kg	kg	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	poids	poids	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 26	corporel	corporel	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
@@ -2333,7 +2333,7 @@
 36	1,75	1,75	NUM	_	NumType=Card	37	nummod	_	_
 37	mg	mg	NOUN	_	Gender=Masc	34	nmod	_	SpaceAfter=No
 38	/	/	ADP	_	_	39	case	_	SpaceAfter=No
-39	kg	kg	NOUN	_	_	37	nmod	_	SpaceAfter=No
+39	kg	kg	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
 40	/	/	ADP	_	_	41	case	_	SpaceAfter=No
 41	heure	heure	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
 42	pendant	pendant	ADP	_	_	47	case	_	_
@@ -2547,7 +2547,7 @@
 14	0,3	0,3	NUM	_	NumType=Card	15	nummod	_	_
 15	mg	mg	NOUN	_	Gender=Masc	12	nmod	_	SpaceAfter=No
 16	/	/	ADP	_	_	17	case	_	SpaceAfter=No
-17	kg	kg	NOUN	_	_	15	nmod	_	_
+17	kg	kg	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	être	être	AUX	_	VerbForm=Inf	20	aux:pass	_	Subject=SubjRaising
 20	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	SpaceAfter=No
@@ -2589,18 +2589,18 @@
 
 # sent_id = emea-fr-dev_00123
 # text = Une fois que la valeur ACT est supérieure à 225 secondes, des contrôles supplémentaires ne sont pas nécessaires, à condition que la dose de perfusion de 1,75 mg/kg soit donnée correctement.
-1	Une	un	DET	_	Definite=Ind|ExtPos=ADP|Gender=Fem|Number=Sing|PronType=Art	8	mark	_	Idiom=Yes
-2	fois	fois	NOUN	_	Gender=Fem	1	fixed	_	InIdiom=Yes
+1	Une	un	DET	_	Definite=Ind|ExtPos=ADV|Gender=Fem|Number=Sing|PronType=Art	19	advmod	_	Idiom=Yes
+2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	InIdiom=Yes
 3	que	que	SCONJ	_	_	8	mark	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 6	ACT	ACT	NOUN	_	_	5	nmod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	supérieure	supérieur	ADJ	_	Gender=Fem|Number=Sing	19	advcl	_	_
+8	supérieure	supérieur	ADJ	_	Gender=Fem|Number=Sing	1	ccomp	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	225	225	NUM	_	NumType=Card	11	nummod	_	_
 11	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	8	obl:arg	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	8	punct	_	_
+12	,	,	PUNCT	_	_	1	punct	_	_
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	contrôles	contrôle	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
 15	supplémentaires	supplémentaire	ADJ	_	Number=Plur	14	amod	_	_
@@ -2620,7 +2620,7 @@
 29	1,75	1,75	NUM	_	NumType=Card	30	nummod	_	_
 30	mg	mg	NOUN	_	Gender=Masc	25	nmod	_	SpaceAfter=No
 31	/	/	ADP	_	_	32	case	_	SpaceAfter=No
-32	kg	kg	NOUN	_	_	30	nmod	_	_
+32	kg	kg	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 33	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
 34	donnée	donner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	22	acl	_	_
 35	correctement	correctement	ADV	_	_	34	advmod	_	SpaceAfter=No
@@ -2683,16 +2683,16 @@
 22	0.1	0.1	NUM	_	NumType=Card	23	nummod	_	_
 23	mg	mg	NOUN	_	Gender=Masc	20	nmod	_	SpaceAfter=No
 24	/	/	ADP	_	_	25	case	_	SpaceAfter=No
-25	kg	kg	NOUN	_	_	23	nmod	_	_
+25	kg	kg	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 26	;	;	PUNCT	_	_	27	punct	_	_
 27	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	0.25	0.25	NUM	_	NumType=Card	30	nummod	_	_
 30	mg	mg	NOUN	_	Gender=Masc	27	nmod	_	SpaceAfter=No
 31	/	/	ADP	_	_	32	case	_	SpaceAfter=No
-32	kg	kg	NOUN	_	_	30	nmod	_	SpaceAfter=No
+32	kg	kg	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 33	/	/	ADP	_	_	34	case	_	SpaceAfter=No
-34	h	h	NOUN	_	_	30	nmod	_	SpaceAfter=No
+34	h	h	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -2741,9 +2741,9 @@
 41	1.4	1.4	NUM	_	NumType=Card	42	nummod	_	_
 42	mg	mg	NOUN	_	Gender=Masc	39	obl:arg	_	SpaceAfter=No
 43	/	/	ADP	_	_	44	case	_	SpaceAfter=No
-44	kg	kg	NOUN	_	_	42	nmod	_	SpaceAfter=No
+44	kg	kg	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	SpaceAfter=No
 45	/	/	ADP	_	_	46	case	_	SpaceAfter=No
-46	h	h	NOUN	_	_	42	nmod	_	SpaceAfter=No
+46	h	h	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	37	punct	_	_
 
 # sent_id = emea-fr-dev_00128
@@ -2818,7 +2818,7 @@
 14	0,3	0,3	NUM	_	NumType=Card	15	nummod	_	_
 15	mg	mg	NOUN	_	Gender=Masc	12	nmod	_	SpaceAfter=No
 16	/	/	ADP	_	_	17	case	_	SpaceAfter=No
-17	kg	kg	NOUN	_	_	15	nmod	_	_
+17	kg	kg	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	être	être	AUX	_	VerbForm=Inf	20	aux:pass	_	Subject=SubjRaising
 20	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	xcomp	_	_
@@ -5231,7 +5231,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	hémorragie	hémorragie	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	trouble	trouble	NOUN	_	Number=Sing	1	nmod	_	_
+7	trouble	trouble	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	anomalie	anomalie	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 10	vasculaires	vasculaire	ADJ	_	Number=Plur	7	amod	_	_
@@ -5859,7 +5859,7 @@
 28	7,5	7,5	NUM	_	NumType=Card	29	nummod	_	_
 29	mg	mg	NOUN	_	Gender=Masc	25	obl:arg	_	SpaceAfter=No
 30	/	/	ADP	_	_	31	case	_	SpaceAfter=No
-31	kg	kg	NOUN	_	_	29	nmod	_	SpaceAfter=No
+31	kg	kg	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	25	punct	_	_
 33	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux:tense	_	_
 34	également	également	ADV	_	_	36	advmod	_	_
@@ -6456,7 +6456,7 @@
 9	mesurable	mesurable	ADJ	_	Number=Sing	8	amod	_	_
 10	en	en	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	espace	espace	NOUN	_	Number=Sing	9	obl:mod	_	_
+12	espace	espace	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
@@ -6672,7 +6672,7 @@
 27	0.1	0.1	NUM	_	NumType=Card	28	nummod	_	_
 28	mg	mg	NOUN	_	Gender=Masc	18	nmod	_	SpaceAfter=No
 29	/	/	ADP	_	_	30	case	_	SpaceAfter=No
-30	kg	kg	NOUN	_	_	28	nmod	_	_
+30	kg	kg	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 31	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	_
 32	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
@@ -6681,9 +6681,9 @@
 36	0.25	0.25	NUM	_	NumType=Card	37	nummod	_	_
 37	mg	mg	NOUN	_	Gender=Masc	34	nmod	_	SpaceAfter=No
 38	/	/	ADP	_	_	39	case	_	SpaceAfter=No
-39	kg	kg	NOUN	_	_	37	nmod	_	SpaceAfter=No
+39	kg	kg	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
 40	/	/	ADP	_	_	41	case	_	SpaceAfter=No
-41	h	h	NOUN	_	_	37	nmod	_	_
+41	h	h	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	_
 42	durant	durant	ADP	_	_	44	case	_	_
 43	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	angiographie	angiographie	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
@@ -6718,7 +6718,7 @@
 14	0,5	0,5	NUM	_	NumType=Card	15	nummod	_	_
 15	mg	mg	NOUN	_	Gender=Masc	11	nmod	_	SpaceAfter=No
 16	/	/	ADP	_	_	17	case	_	SpaceAfter=No
-17	kg	kg	NOUN	_	_	15	nmod	_	_
+17	kg	kg	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
 19	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 20	et	et	CCONJ	_	_	24	cc	_	_
@@ -6730,9 +6730,9 @@
 26	1,75	1,75	NUM	_	NumType=Card	27	nummod	_	_
 27	mg	mg	NOUN	_	Gender=Masc	24	obl:arg	_	SpaceAfter=No
 28	/	/	ADP	_	_	29	case	_	SpaceAfter=No
-29	kg	kg	NOUN	_	_	27	nmod	_	SpaceAfter=No
+29	kg	kg	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 30	/	/	ADP	_	_	31	case	_	SpaceAfter=No
-31	h	h	NOUN	_	_	27	nmod	_	_
+31	h	h	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 32	durant	durant	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	SpaceAfter=No
@@ -6864,7 +6864,7 @@
 23	dans	dans	ADP	_	_	26	case	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 25	72	72	NUM	_	NumType=Card	26	nummod	_	_
-26	h	h	NOUN	_	Number=Plur	20	obl:mod	_	SpaceAfter=No
+26	h	h	NOUN	_	Gender=Fem|Number=Plur	20	obl:mod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	6	punct	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	répartition	répartition	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
@@ -6922,7 +6922,7 @@
 40	dans	dans	ADP	_	_	43	case	_	_
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
 42	72	72	NUM	_	NumType=Card	43	nummod	_	_
-43	h	h	NOUN	_	Number=Plur	37	obl:mod	_	SpaceAfter=No
+43	h	h	NOUN	_	Gender=Fem|Number=Plur	37	obl:mod	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-dev_00317
@@ -7368,9 +7368,9 @@
 17	2,5	2,5	NUM	_	NumType=Card	18	nummod	_	_
 18	mg	mg	NOUN	_	Gender=Masc	13	nmod	_	SpaceAfter=No
 19	/	/	ADP	_	_	20	case	_	SpaceAfter=No
-20	kg	kg	NOUN	_	_	18	nmod	_	SpaceAfter=No
+20	kg	kg	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 21	/	/	ADP	_	_	22	case	_	SpaceAfter=No
-22	h	h	NOUN	_	_	18	nmod	_	_
+22	h	h	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	12,4	12,4	NUM	_	NumType=Card	26	nummod	_	_
@@ -7416,7 +7416,7 @@
 12	0,1	0,1	NUM	_	NumType=Card	13	nummod	_	_
 13	litre	litre	NOUN	_	Number=Sing	0	root	_	SpaceAfter=No
 14	/	/	ADP	_	_	15	case	_	SpaceAfter=No
-15	kg	kg	NOUN	_	_	13	nmod	_	SpaceAfter=No
+15	kg	kg	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = emea-fr-dev_00333
@@ -7635,7 +7635,7 @@
 11	/	/	ADP	_	_	12	case	_	SpaceAfter=No
 12	min	min	NOUN	_	Gender=Masc	10	nmod	_	SpaceAfter=No
 13	/	/	ADP	_	_	14	case	_	SpaceAfter=No
-14	kg	kg	NOUN	_	_	10	nmod	_	SpaceAfter=No
+14	kg	kg	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-dev_00343
@@ -7919,7 +7919,7 @@
 13	en	en	ADP	_	_	14	case	_	_
 14	mg	mg	NOUN	_	Gender=Masc	6	obl:mod	_	SpaceAfter=No
 15	/	/	ADP	_	_	16	case	_	SpaceAfter=No
-16	kg	kg	NOUN	_	_	14	nmod	_	SpaceAfter=No
+16	kg	kg	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00357
@@ -8168,7 +8168,7 @@
 13	dans	dans	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	tests	test	NOUN	_	Gender=Masc|Number=Plur	9	obl:mod	_	_
-16	standards	standard	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+16	standards	standard	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = emea-fr-dev_00364
@@ -8317,7 +8317,7 @@
 14	entre	entre	ADP	_	_	16	case	_	_
 15	2	2	NUM	_	NumType=Card	16	nummod	_	_
 16	°C	°C	NOUN	_	_	10	obl:mod	_	SpaceAfter=No
-17	-	-	CCONJ	_	_	19	cc	_	_
+17	-	-	SYM	_	ExtPos=CCONJ	19	cc	_	_
 18	8	8	NUM	_	NumType=Card	19	nummod	_	_
 19	°C	°C	NOUN	_	_	16	conj	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	_
@@ -8403,7 +8403,7 @@
 34	entre	entre	ADP	_	_	36	case	_	_
 35	2	2	NUM	_	NumType=Card	36	nummod	_	_
 36	°C	°C	NOUN	_	_	31	obl:mod	_	SpaceAfter=No
-37	-	-	CCONJ	_	_	39	cc	_	_
+37	-	-	SYM	_	ExtPos=CCONJ	39	cc	_	_
 38	8	8	NUM	_	NumType=Card	39	nummod	_	_
 39	°C	°C	NOUN	_	_	36	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
@@ -10126,7 +10126,7 @@
 20	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	_
 21	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	20	acl	_	_
 22	sans	sans	ADP	_	_	23	case	_	_
-23	ordonnance	ordonnance	NOUN	_	Number=Sing	21	obl:mod	_	SpaceAfter=No
+23	ordonnance	ordonnance	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-dev_00488
@@ -10521,7 +10521,7 @@
 5	0,1	0,1	NUM	_	NumType=Card	6	nummod	_	_
 6	mg	mg	NOUN	_	Gender=Masc	2	nmod	_	SpaceAfter=No
 7	/	/	ADP	_	_	8	case	_	SpaceAfter=No
-8	kg	kg	NOUN	_	_	6	nmod	_	_
+8	kg	kg	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -10530,9 +10530,9 @@
 14	0,25	0,25	NUM	_	NumType=Card	15	nummod	_	_
 15	mg	mg	NOUN	_	Gender=Masc	12	nmod	_	SpaceAfter=No
 16	/	/	ADP	_	_	17	case	_	SpaceAfter=No
-17	kg	kg	NOUN	_	_	15	nmod	_	SpaceAfter=No
+17	kg	kg	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 18	/	/	ADP	_	_	19	case	_	SpaceAfter=No
-19	h	h	NOUN	_	_	15	nmod	_	SpaceAfter=No
+19	h	h	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-dev_00512
@@ -10541,7 +10541,7 @@
 2	0.1	0.1	NUM	_	NumType=Card	3	nummod	_	_
 3	mg	mg	NOUN	_	Gender=Masc	6	nsubj	_	SpaceAfter=No
 4	/	/	ADP	_	_	5	case	_	SpaceAfter=No
-5	kg	kg	NOUN	_	_	3	nmod	_	_
+5	kg	kg	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	dixième	dixième	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
@@ -10565,9 +10565,9 @@
 1	0.25	0.25	NUM	_	NumType=Card	2	nummod	_	_
 2	mg	mg	NOUN	_	Gender=Masc	7	nsubj	_	SpaceAfter=No
 3	/	/	ADP	_	_	4	case	_	SpaceAfter=No
-4	kg	kg	NOUN	_	_	2	nmod	_	SpaceAfter=No
+4	kg	kg	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 5	/	/	ADP	_	_	6	case	_	SpaceAfter=No
-6	h	h	NOUN	_	_	2	nmod	_	_
+6	h	h	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 7	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	quart	quart	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
@@ -10620,7 +10620,7 @@
 6	0,5	0,5	NUM	_	NumType=Card	7	nummod	_	_
 7	mg	mg	NOUN	_	Gender=Masc	3	nmod	_	SpaceAfter=No
 8	/	/	ADP	_	_	9	case	_	SpaceAfter=No
-9	kg	kg	NOUN	_	_	7	nmod	_	_
+9	kg	kg	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	et	et	CCONJ	_	_	14	cc	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
@@ -10630,9 +10630,9 @@
 16	1,75	1,75	NUM	_	NumType=Card	17	nummod	_	_
 17	mg	mg	NOUN	_	Gender=Masc	14	obl:arg	_	SpaceAfter=No
 18	/	/	ADP	_	_	19	case	_	SpaceAfter=No
-19	kg	kg	NOUN	_	_	17	nmod	_	SpaceAfter=No
+19	kg	kg	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 20	/	/	ADP	_	_	21	case	_	SpaceAfter=No
-21	h	h	NOUN	_	_	17	nmod	_	SpaceAfter=No
+21	h	h	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00516
@@ -10650,9 +10650,9 @@
 11	0,25	0,25	NUM	_	NumType=Card	12	nummod	_	_
 12	mg	mg	NOUN	_	Gender=Masc	9	obl:arg	_	SpaceAfter=No
 13	/	/	ADP	_	_	14	case	_	SpaceAfter=No
-14	kg	kg	NOUN	_	_	12	nmod	_	SpaceAfter=No
+14	kg	kg	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 15	/	/	ADP	_	_	16	case	_	SpaceAfter=No
-16	h	h	NOUN	_	_	12	nmod	_	SpaceAfter=No
+16	h	h	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = emea-fr-dev_00517
@@ -10686,7 +10686,7 @@
 6	0,75	0,75	NUM	_	NumType=Card	7	nummod	_	_
 7	mg	mg	NOUN	_	Gender=Masc	3	nmod	_	SpaceAfter=No
 8	/	/	ADP	_	_	9	case	_	SpaceAfter=No
-9	kg	kg	NOUN	_	_	7	nmod	_	SpaceAfter=No
+9	kg	kg	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 12	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
@@ -10703,7 +10703,7 @@
 23	1,75	1,75	NUM	_	NumType=Card	24	nummod	_	_
 24	mg	mg	NOUN	_	Gender=Masc	14	nmod	_	SpaceAfter=No
 25	/	/	ADP	_	_	26	case	_	SpaceAfter=No
-26	kg	kg	NOUN	_	_	24	nmod	_	SpaceAfter=No
+26	kg	kg	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
 27	/	/	ADP	_	_	28	case	_	SpaceAfter=No
 28	heure	heure	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 29	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
