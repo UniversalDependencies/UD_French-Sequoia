@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_French-Sequoia:
-commit a75a7c7d373fd575fa53ee90ed8733a02481b756
-Merge: 0fa57cb 7764095
+commit 23c9eca0e0bbc9ff96aba18261b4fa85bbfc0654
+Merge: c81cd89 2fea74c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 70546 of 70546 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.51252995862744.
+Size: counted 70545 of 70545 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.51250160813024.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 45409 out of 70546 total words have one or more features.
+Features: 45505 out of 70545 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        791
-Udapi: found 791 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 70546 words.
+               TOTAL        785
+Udapi: found 785 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 70545 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-Sequoia/fr_sequoia-ud-dev.conllu
 *** PASSED ***
@@ -34,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.616157464678002) = 0.15798909350718
+(weight=0.256410256410256) * (score{size}=0.616155412600587) = 0.157988567333484
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.887874578289343) = 0.273192177935183
+(weight=0.307692307692308) * (score{udapi}=0.888723509816429) = 0.273453387635824
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.719520923311426) * (availability=1) * (validity=1) = 0.719520923311426
+(TOTAL score=0.719781606838372) * (availability=1) * (validity=1) = 0.719781606838372
 STARS = 3.5
-UD_French-Sequoia	0.719520923311426	3.5
+UD_French-Sequoia	0.719781606838372	3.5
