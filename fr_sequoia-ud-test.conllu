@@ -493,7 +493,7 @@
 2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
 3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	6	det	_	_
+5	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	6	det	_	_
 6	motif	motif	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	pour	pour	ADP	_	_	11	mark	_	_
 8	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
@@ -1251,7 +1251,7 @@
 8	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 9	dispose	disposer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
-11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	12	det	_	_
+11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
 12	fusée	fusée	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	longue	long	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
@@ -1305,7 +1305,7 @@
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	dont	dont	PRON	_	PronType=Rel	19	nmod	_	_
 17	quelque	quelque	ADV	_	_	19	advmod	_	_
-18	500 000	500 000	DET	_	_	19	det	_	_
+18	500 000	500 000	NUM	_	_	19	nummod	_	_
 19	enfants	enfant	NOUN	_	Number=Plur	10	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
@@ -2458,7 +2458,7 @@
 12	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
 13	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	25	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	80 000	80 000	DET	_	_	16	det	_	_
+15	80 000	80 000	NUM	_	_	16	nummod	_	_
 16	jeunes	jeune	NOUN	_	Number=Plur	25	nsubj	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -6501,7 +6501,7 @@
 
 # sent_id = emea-fr-test_00176
 # text = Aucun cas d'hypocalcémie symptomatique n'a été observé.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 4	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -6601,7 +6601,7 @@
 25	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	22	obl:mod	_	_
 26	ménopausées	ménopausé	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
 27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-28	7 736	7 736	DET	_	_	29	det	_	_
+28	7 736	7 736	NUM	_	_	29	nummod	_	_
 29	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	25	appos	_	_
 30	âgées	âgé	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
 31	de	de	ADP	_	_	35	case	_	_
@@ -8290,7 +8290,7 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	reste	reste	NOUN	_	Gender=Masc|Number=Sing	30	nsubj:pass	_	_
 25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-26	67 025	67 025	DET	_	_	27	det	_	_
+26	67 025	67 025	NUM	_	_	27	nummod	_	_
 27	francs	franc	NOUN	_	Gender=Masc|Number=Plur	24	appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
@@ -8825,7 +8825,7 @@
 22	avec	avec	ADP	_	_	23	case	_	_
 23	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
-25	2 000	2 000	DET	_	_	26	det	_	_
+25	2 000	2 000	NUM	_	_	26	nummod	_	_
 26	euros	euro	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
 28	amende	amende	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -10353,7 +10353,7 @@
 25	femme	femme	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 26	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 27	remettre	remettre	VERB	_	VerbForm=Inf	26	xcomp	_	Subject=SubjRaising
-28	50 000	50 000	DET	_	_	29	det	_	_
+28	50 000	50 000	NUM	_	_	29	nummod	_	_
 29	francs	franc	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_

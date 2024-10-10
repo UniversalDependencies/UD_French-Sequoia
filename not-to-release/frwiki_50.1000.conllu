@@ -1323,7 +1323,7 @@
 21	en	en	ADP	_	_	22	case	_	_
 22	présence	présence	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 23	de	de	ADP	_	_	25	case	_	_
-24	5 000	5 000	DET	_	_	25	det	_	_
+24	5 000	5 000	NUM	_	_	25	nummod	_	_
 25	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	5	punct	_	_
 27	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
@@ -3177,7 +3177,7 @@
 42	n'	ne	ADV	_	Polarity=Neg	43	advmod	_	SpaceAfter=No
 43	excédait	excéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 44	jamais	jamais	ADV	_	Polarity=Neg	43	advmod	_	_
-45	10 000	10 000	DET	_	_	47	det	_	_
+45	10 000	10 000	NUM	_	_	47	nummod	_	_
 46	US	US	ADJ	_	_	47	amod	_	_
 47	$	$	NOUN	_	Gender=Masc	43	obj	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	43	punct	_	_
@@ -3678,7 +3678,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	somme	somme	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	111 547	111 547	DET	_	_	11	det	_	_
+10	111 547	111 547	NUM	_	_	11	nummod	_	_
 11	francs	franc	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -3714,7 +3714,7 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	reste	reste	NOUN	_	Gender=Masc|Number=Sing	30	nsubj:pass	_	_
 25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-26	67 025	67 025	DET	_	_	27	det	_	_
+26	67 025	67 025	NUM	_	_	27	nummod	_	_
 27	francs	franc	NOUN	_	Gender=Masc|Number=Plur	24	appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
@@ -6682,7 +6682,7 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	prison	prison	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	15 000	15 000	DET	_	_	11	det	_	_
+10	15 000	15 000	NUM	_	_	11	nummod	_	_
 11	euros	euro	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	amende	amende	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -6959,7 +6959,7 @@
 22	avec	avec	ADP	_	_	23	case	_	_
 23	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
-25	2 000	2 000	DET	_	_	26	det	_	_
+25	2 000	2 000	NUM	_	_	26	nummod	_	_
 26	euros	euro	NOUN	_	Gender=Masc|Number=Plur	19	conj	_	_
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
 28	amende	amende	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
@@ -7045,7 +7045,7 @@
 18	avec	avec	ADP	_	_	19	case	_	_
 19	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
-21	2 000	2 000	DET	_	_	22	det	_	_
+21	2 000	2 000	NUM	_	_	22	nummod	_	_
 22	euros	euro	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 24	amende	amende	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
@@ -7407,7 +7407,7 @@
 49	à	à	ADP	_	_	51	case	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	total	total	NOUN	_	Gender=Masc|Number=Sing	48	obl:mod	_	_
-52	25 000	25 000	DET	_	_	53	det	_	_
+52	25 000	25 000	NUM	_	_	53	nummod	_	_
 53	fiches	fiche	NOUN	_	Gender=Fem|Number=Plur	48	obj	_	_
 54	sur	sur	ADP	_	_	56	case	_	_
 55	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	56	det	_	_
@@ -8351,7 +8351,7 @@
 
 # sent_id = frwiki_50.1000_00306
 # text = Aucune poursuite judiciaire ne sera intentée contre lui, mais c'est au niveau politique que se situe ici la crise.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	poursuite	poursuite	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	judiciaire	judiciaire	ADJ	_	Number=Sing	2	amod	_	_
 4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -10951,7 +10951,7 @@
 13	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	parler	parler	VERB	_	VerbForm=Inf	13	ccomp	_	Subject=Generic
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
-16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	17	det	_	_
+16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	17	det	_	_
 17	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	22	case	_	_
@@ -16630,7 +16630,7 @@
 21	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	_
 22	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	20	acl	_	_
 23	à	à	ADP	_	_	25	case	_	_
-24	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	25	det	_	_
+24	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	25	det	_	_
 25	prestation	prestation	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -17259,7 +17259,7 @@
 16	ne	ne	ADV	_	Polarity=Neg	17	advmod	_	_
 17	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	15	acl	_	_
 18	à	à	ADP	_	_	20	case	_	_
-19	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	20	det	_	_
+19	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	20	det	_	_
 20	travail	travail	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	_
 21	effectif	effectif	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
@@ -17861,7 +17861,7 @@
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	prix	prix	NOUN	_	Gender=Masc	37	obl:mod	_	_
 52	de	de	ADP	_	_	54	case	_	_
-53	108 000	108 000	DET	_	_	54	det	_	_
+53	108 000	108 000	NUM	_	_	54	nummod	_	_
 54	francs	franc	NOUN	_	Gender=Masc|Number=Plur	51	nmod	_	_
 55	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	page	page	NOUN	_	Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
@@ -18204,7 +18204,7 @@
 25	femme	femme	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 26	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 27	remettre	remettre	VERB	_	VerbForm=Inf	26	xcomp	_	Subject=SubjRaising
-28	50 000	50 000	DET	_	_	29	det	_	_
+28	50 000	50 000	NUM	_	_	29	nummod	_	_
 29	francs	franc	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -18258,7 +18258,7 @@
 19	apprête	apprêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	à	à	ADP	_	_	21	mark	_	_
 21	remettre	remettre	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=SubjRaising
-22	46 000	46 000	DET	_	_	23	det	_	_
+22	46 000	46 000	NUM	_	_	23	nummod	_	_
 23	francs	franc	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
 24	dans	dans	ADP	_	_	26	case	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -19368,7 +19368,7 @@
 12	avec	avec	ADP	_	_	13	case	_	_
 13	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
-15	50 000	50 000	DET	_	_	16	det	_	_
+15	50 000	50 000	NUM	_	_	16	nummod	_	_
 16	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	amende	amende	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -19602,7 +19602,7 @@
 
 # sent_id = frwiki_50.1000_00701
 # text = Aucun financement politique occulte n'a pu être mis en évidence.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	financement	financement	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	politique	politique	ADJ	_	Number=Sing	2	amod	_	_
 4	occulte	occulte	ADJ	_	Number=Sing	2	amod	_	_
@@ -20861,7 +20861,7 @@
 
 # sent_id = frwiki_50.1000_00749
 # text = Aucun lien n'a pu être établi entre ces espèces et l'argent de la corruption des marchés d'Île-de-France.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	lien	lien	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
@@ -21274,7 +21274,7 @@
 12	avec	avec	ADP	_	_	13	case	_	_
 13	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
-15	80 000	80 000	DET	_	_	16	det	_	_
+15	80 000	80 000	NUM	_	_	16	nummod	_	_
 16	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	amende	amende	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
@@ -21352,7 +21352,7 @@
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	amende	amende	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
 27	de	de	ADP	_	_	29	case	_	_
-28	50 000	50 000	DET	_	_	29	det	_	_
+28	50 000	50 000	NUM	_	_	29	nummod	_	_
 29	euros	euro	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -21551,7 +21551,7 @@
 31	avec	avec	ADP	_	_	32	case	_	_
 32	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
-34	10 000	10 000	DET	_	_	35	det	_	_
+34	10 000	10 000	NUM	_	_	35	nummod	_	_
 35	euros	euro	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
 36	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
 37	amende	amende	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
@@ -23735,7 +23735,7 @@
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
 27	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	_	_
 28	à	à	ADP	_	_	30	case	_	_
-29	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	30	det	_	_
+29	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	30	det	_	_
 30	moment	moment	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	_
 31	paiement	paiement	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
 32	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
@@ -24657,7 +24657,7 @@
 11	à	à	ADP	_	_	12	mark	_	_
 12	payer	payer	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising
 13	environ	environ	ADV	_	_	15	advmod	_	_
-14	17 600	17 600	DET	_	_	15	det	_	_
+14	17 600	17 600	NUM	_	_	15	nummod	_	_
 15	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	dommages-intérêts	dommages-intérêts	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
@@ -26626,7 +26626,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	Grasset	Grasset	PROPN	_	_	7	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
-23	1 500	1 500	DET	_	_	24	det	_	_
+23	1 500	1 500	NUM	_	_	24	nummod	_	_
 24	p.	page	NOUN	_	Gender=Fem|Number=Plur	21	parataxis	_	_
 25	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	24	parataxis	_	_
 26	1997	1997	NUM	_	NumType=Card	25	parataxis	_	SpaceAfter=No

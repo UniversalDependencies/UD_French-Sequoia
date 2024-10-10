@@ -1799,7 +1799,7 @@
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
 19	chez	chez	ADP	_	_	21	case	_	_
-20	13 819	13 819	DET	_	_	21	det	_	_
+20	13 819	13 819	NUM	_	_	21	nummod	_	_
 21	patients	patient	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
 22	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	acl	_	_
 23	de	de	ADP	_	_	24	case	_	_
@@ -2170,7 +2170,7 @@
 24	sur	sur	ADP	_	_	25	case	_	_
 25	plus	plus	ADV	_	ExtPos=PRON	23	obl:arg	_	_
 26	de	de	ADP	_	_	28	case	_	_
-27	6 000	6 000	DET	_	_	28	det	_	_
+27	6 000	6 000	NUM	_	_	28	nummod	_	_
 28	patients	patient	NOUN	_	Gender=Masc|Number=Plur	25	obl:arg	_	_
 29	subissant	subir	VERB	_	Tense=Pres|VerbForm=Part	28	acl	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -2763,7 +2763,7 @@
 6	sur	sur	ADP	_	_	7	case	_	_
 7	près	près	ADV	_	ExtPos=PRON	5	obl:arg	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	8 000	8 000	DET	_	_	10	det	_	_
+9	8 000	8 000	NUM	_	_	10	nummod	_	_
 10	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	7	obl:arg	_	_
 11	âgées	âgé	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	souffrant	souffrir	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
@@ -2803,7 +2803,7 @@
 3	étude	étude	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	impliqué	impliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	2 127	2 127	DET	_	_	7	det	_	_
+6	2 127	2 127	NUM	_	_	7	nummod	_	_
 7	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
@@ -3143,9 +3143,9 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	charge	charge	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 26	de	de	ADP	_	_	30	case	_	_
-27	50 000	50 000	DET	_	_	30	det	_	_
-28	à	à	ADP	_	_	29	dep:comp	_	_
-29	125 000	125 000	DET	_	_	27	obl:arg	_	_
+27	50 000	50 000	NUM	_	_	30	nummod	_	_
+28	à	à	ADP	_	_	29	case	_	_
+29	125 000	125 000	NUM	_	_	27	obl:arg	_	_
 30	UI	UI	NOUN	_	_	23	nmod	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
@@ -3204,7 +3204,7 @@
 
 # sent_id = emea-fr-test_00103
 # text = Aucun ajustement de la dose n'est nécessaire puisque la biodisponibilité, la distribution et l'élimination ont été similaires chez les patients âgés et chez les patients plus jeunes.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3931,9 +3931,9 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	charge	charge	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19	de	de	ADP	_	_	23	case	_	_
-20	50 000	50 000	DET	_	_	23	det	_	_
-21	à	à	ADP	_	_	22	dep:comp	_	_
-22	125 000	125 000	DET	_	_	20	dep	_	_
+20	50 000	50 000	NUM	_	_	23	nummod	_	_
+21	à	à	ADP	_	_	22	case	_	_
+22	125 000	125 000	NUM	_	_	20	nmod	_	_
 23	UI	UI	NOUN	_	_	18	nmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
@@ -8709,7 +8709,7 @@
 3	elles	eux	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
 5	trouvaient	trouver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-6	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	7	det	_	_
+6	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	7	det	_	_
 7	trace	trace	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	de	de	ADP	_	_	11	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -9565,9 +9565,9 @@
 51	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
 52	D	D	NOUN	_	_	51	nmod	_	_
 53	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
-54	50 000	50 000	DET	_	_	57	det	_	_
-55	à	à	ADP	_	_	56	dep:comp	_	_
-56	125 000	125 000	DET	_	_	54	obl:arg	_	_
+54	50 000	50 000	NUM	_	_	57	nummod	_	_
+55	à	à	ADP	_	_	56	case	_	_
+56	125 000	125 000	NUM	_	_	54	obl:arg	_	_
 57	unités	unité	NOUN	_	Gender=Fem|Number=Plur	49	appos	_	_
 58	internationales	international	ADJ	_	Gender=Fem|Number=Plur	57	amod	_	SpaceAfter=No
 59	)	)	PUNCT	_	_	57	punct	_	_
@@ -9670,7 +9670,7 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	:	:	PUNCT	_	_	16	punct	_	_
-11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	12	det	_	_
+11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
 12	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 13	spécifique	spécifique	ADJ	_	Number=Sing	12	amod	_	_
 14	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	SpaceAfter=No
@@ -10301,7 +10301,7 @@
 42	n'	ne	ADV	_	Polarity=Neg	43	advmod	_	SpaceAfter=No
 43	excédait	excéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 44	jamais	jamais	ADV	_	Polarity=Neg	43	advmod	_	_
-45	10 000	10 000	DET	_	_	47	det	_	_
+45	10 000	10 000	NUM	_	_	47	nummod	_	_
 46	US	US	ADJ	_	_	47	amod	_	_
 47	$	$	NOUN	_	Gender=Masc	43	obj	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	43	punct	_	_
@@ -11274,7 +11274,7 @@
 
 # sent_id = frwiki_50.1000_00701
 # text = Aucun financement politique occulte n'a pu être mis en évidence.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	financement	financement	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	politique	politique	ADJ	_	Number=Sing	2	amod	_	_
 4	occulte	occulte	ADJ	_	Number=Sing	2	amod	_	_
