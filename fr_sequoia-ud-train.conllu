@@ -2941,7 +2941,7 @@
 4	récompense	récompense	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 5	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
 6	sans	sans	ADP	_	_	8	case	_	_
-7	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	8	det	_	_
+7	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	8	det	_	_
 8	doute	doute	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	applaudissements	applaudissement	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -2995,8 +2995,8 @@
 1	Julien	Julien	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Georges	Georges	PROPN	_	Gender=Masc|Number=Sing	1	flat:name	_	_
 3	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	:	:	PUNCT	_	_	5	punct	_	_
-5	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	8	punct	_	_
+5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 8	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
@@ -4376,8 +4376,8 @@
 14	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 15	assez	assez	ADV	_	_	16	advmod	_	_
 16	mitigé	mitigé	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-17	:	:	PUNCT	_	_	18	punct	_	_
-18	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	21	punct	_	_
+18	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 19	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	nsubj	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
 21	montré	montrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	parataxis	_	_
@@ -5495,8 +5495,8 @@
 1	Lionel	Lionel	PROPN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Jospin	Jospin	PROPN	_	_	1	flat:name	_	_
 3	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	:	:	PUNCT	_	_	5	punct	_	_
-5	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	10	punct	_	_
+5	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 6	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	_
 7	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	10	iobj	_	SpaceAfter=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
@@ -8755,8 +8755,8 @@
 13	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	SpaceAfter=No
 14	autres	autre	ADJ	_	Number=Plur	15	amod	_	_
 15	possibilités	possibilité	NOUN	_	Gender=Fem|Number=Plur	12	obj	_	_
-16	:	:	PUNCT	_	_	17	punct	_	_
-17	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	36	punct	_	_
+17	"	"	PUNCT	_	_	36	punct	_	SpaceAfter=No
 18	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Mans	Mans	PROPN	_	Gender=Masc|Number=Sing	36	nsubj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -8901,15 +8901,15 @@
 6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	10	det	_	_
+9	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	10	det	_	_
 10	garantie	garantie	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
 11	concernant	concerner	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	place	place	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	titulaire	titulaire	NOUN	_	Number=Sing	13	nmod	_	_
-16	:	:	PUNCT	_	_	17	punct	_	_
-17	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+16	:	:	PUNCT	_	_	20	punct	_	_
+17	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
 18	Je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
 19	ne	ne	ADV	_	Polarity=Neg	20	advmod	_	_
 20	revendique	revendiquer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
@@ -10305,7 +10305,7 @@
 5	chez	chez	ADP	_	_	6	case	_	_
 6	plus	plus	ADV	_	ExtPos=PRON	4	obl:mod	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	20 000	20 000	DET	_	_	9	det	_	_
+8	20 000	20 000	NUM	_	_	9	nummod	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -10327,7 +10327,7 @@
 13	sur	sur	ADP	_	_	14	case	_	_
 14	près	près	ADV	_	ExtPos=PRON	12	obl:arg	_	_
 15	de	de	ADP	_	_	17	case	_	_
-16	14 000	14 000	DET	_	_	17	det	_	_
+16	14 000	14 000	NUM	_	_	17	nummod	_	_
 17	patients	patient	NOUN	_	Gender=Masc|Number=Plur	14	obl:arg	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
@@ -10408,7 +10408,7 @@
 16	chez	chez	ADP	_	_	17	case	_	_
 17	plus	plus	ADV	_	ExtPos=PRON	15	obl:mod	_	_
 18	de	de	ADP	_	_	20	case	_	_
-19	6 000	6 000	DET	_	_	20	det	_	_
+19	6 000	6 000	NUM	_	_	20	nummod	_	_
 20	patients	patient	NOUN	_	Gender=Masc|Number=Plur	17	obl:arg	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -11697,7 +11697,7 @@
 
 # sent_id = emea-fr-dev_00136
 # text = Aucune adaptation de la dose n'est nécessaire.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	adaptation	adaptation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -14468,7 +14468,7 @@
 58	chez	chez	ADP	_	_	59	case	_	_
 59	plus	plus	ADV	_	ExtPos=PRON	14	obl:mod	_	_
 60	de	de	ADP	_	_	62	case	_	_
-61	13 819	13 819	DET	_	_	62	det	_	_
+61	13 819	13 819	NUM	_	_	62	nummod	_	_
 62	patients	patient	NOUN	_	Gender=Masc|Number=Plur	59	obl:arg	_	_
 63	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	62	acl	_	_
 64	d'	de	ADP	_	_	66	case	_	SpaceAfter=No
@@ -15411,7 +15411,7 @@
 32	,	,	PUNCT	_	_	6	punct	_	_
 33	n'	ne	ADV	_	Polarity=Neg	34	advmod	_	SpaceAfter=No
 34	indiquent	indiquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-35	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	36	det	_	_
+35	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	36	det	_	_
 36	risque	risque	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
 37	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
 38	pour	pour	ADP	_	_	40	case	_	_
@@ -15593,7 +15593,7 @@
 13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	_
 14	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
-16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	17	det	_	_
+16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	17	det	_	_
 17	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
 18	concernant	concerner	VERB	_	Tense=Pres|VerbForm=Part	17	acl	_	_
 19	son	son	DET	_	Number=Sing|Poss=Yes	20	det	_	_
@@ -17537,8 +17537,8 @@
 3	cas	cas	NOUN	_	Gender=Masc	1	nmod	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	omission	omission	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	d'	de	ADP	_	_	7	dep:comp	_	SpaceAfter=No
-7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	dep	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	nmod	_	Scrap=Yes
 8	ou	ou	CCONJ	_	_	11	cc	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	plusieurs	plusieurs	DET	_	Number=Plur	11	det	_	_
@@ -19606,7 +19606,7 @@
 
 # sent_id = emea-fr-test_00099
 # text = Aucun ajustement de la dose n'est nécessaire chez les patients dont la clairance de la créatinine est 35 ml/min.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -19638,7 +19638,7 @@
 
 # sent_id = emea-fr-test_00101
 # text = Aucun ajustement de la dose n'est nécessaire (voir rubrique 5.2).
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -20208,7 +20208,7 @@
 
 # sent_id = emea-fr-test_00135
 # text = Aucune étude spécifique d'interaction médicamenteuse n'a été conduite avec l'acide zolédronique.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	spécifique	spécifique	ADJ	_	Number=Sing	2	amod	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
@@ -21315,7 +21315,7 @@
 31	0,7	0,7	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 32	%	%	NOUN	_	Gender=Masc	10	parataxis:insert	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	33	punct	_	_
+34	,	,	PUNCT	_	_	32	punct	_	_
 35	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux:tense	_	_
 36	été	être	AUX	_	Tense=Past|VerbForm=Part	37	aux:pass	_	_
 37	observées	observer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -21513,7 +21513,7 @@
 8	clinique	clinique	ADJ	_	Number=Sing	7	amod	_	_
 9	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 10	chez	chez	ADP	_	_	12	case	_	_
-11	7 736	7 736	DET	_	_	12	det	_	_
+11	7 736	7 736	NUM	_	_	12	nummod	_	_
 12	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	3	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -21550,7 +21550,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-5	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	6	det	_	_
+5	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	6	det	_	_
 6	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	intoxication	intoxication	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -21686,7 +21686,7 @@
 
 # sent_id = emea-fr-test_00205
 # text = Aucune réduction progressive des marqueurs de remodellage osseux n'a été observée en cas d'administration annuelle répétée.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	des	_	_	_	_	_	_	_	_
@@ -21731,7 +21731,7 @@
 18	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
 19	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
 20	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-21	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	22	det	_	_
+21	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	22	det	_	_
 22	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
 23	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 24	concomitant	concomitant	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
@@ -21800,17 +21800,17 @@
 3	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	1 000	1 000	DET	_	_	9	det	_	_
-7	à	à	ADP	_	_	8	dep:comp	_	_
-8	1 500	1 500	DET	_	_	6	dep	_	_
+6	1 000	1 000	NUM	_	_	9	nummod	_	_
+7	à	à	ADP	_	_	8	case	_	_
+8	1 500	1 500	NUM	_	_	6	nmod	_	_
 9	mg	mg	NOUN	_	Gender=Masc	5	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	élément	élément	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 13	et	et	CCONJ	_	_	17	cc	_	_
 14	400	400	NUM	_	NumType=Card	17	nummod	_	_
-15	à	à	ADP	_	_	16	dep:comp	_	_
-16	1 200	1 200	DET	_	_	14	dep	_	_
+15	à	à	ADP	_	_	16	case	_	_
+16	1 200	1 200	NUM	_	_	14	nmod	_	_
 17	UI	UI	NOUN	_	_	9	conj	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
@@ -22382,8 +22382,8 @@
 49	sous-groupes	sous-groupe	NOUN	_	Gender=Masc|Number=Plur	37	obl:mod	_	_
 50	incluant	inclure	VERB	_	Tense=Pres|VerbForm=Part	49	acl	_	_
 51	517	517	NUM	_	NumType=Card	54	nummod	_	_
-52	à	à	ADP	_	_	53	dep:comp	_	_
-53	1 246	1 246	DET	_	_	51	dep	_	_
+52	à	à	ADP	_	_	53	case	_	_
+53	1 246	1 246	NUM	_	_	51	nmod	_	_
 54	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	50	obj	_	SpaceAfter=No
 55	.	.	PUNCT	_	_	37	punct	_	_
 
@@ -22674,7 +22674,7 @@
 21	été	être	AUX	_	Tense=Past|VerbForm=Part	22	aux:pass	_	_
 22	évaluée	évaluer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 23	chez	chez	ADP	_	_	25	case	_	_
-24	2 127	2 127	DET	_	_	25	det	_	_
+24	2 127	2 127	NUM	_	_	25	nummod	_	_
 25	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	22	obl:mod	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	_
@@ -22811,9 +22811,9 @@
 18	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19	D	D	NOUN	_	_	18	nmod	_	_
 20	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-21	50 000	50 000	DET	_	_	24	det	_	_
-22	à	à	ADP	_	_	23	dep:comp	_	_
-23	125 000	125 000	DET	_	_	21	dep	_	_
+21	50 000	50 000	NUM	_	_	24	nummod	_	_
+22	à	à	ADP	_	_	23	case	_	_
+23	125 000	125 000	NUM	_	_	21	nmod	_	_
 24	UI	UI	NOUN	_	_	14	appos	_	_
 25	par	par	ADP	_	_	26	case	_	_
 26	voie	voie	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
@@ -22844,16 +22844,16 @@
 3	patients	patient	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	1 000	1 000	DET	_	_	9	det	_	_
-7	à	à	ADP	_	_	8	dep:comp	_	_
-8	1 500	1 500	DET	_	_	6	dep	_	_
+6	1 000	1 000	NUM	_	_	9	nummod	_	_
+7	à	à	ADP	_	_	8	case	_	_
+8	1 500	1 500	NUM	_	_	6	nmod	_	_
 9	mg	mg	NOUN	_	Gender=Masc	5	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	calcium-élément	calcium-élément	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	et	et	CCONJ	_	_	16	cc	_	_
 13	800	800	NUM	_	NumType=Card	16	nummod	_	_
-14	à	à	ADP	_	_	15	dep:comp	_	_
-15	1 200	1 200	DET	_	_	13	dep	_	_
+14	à	à	ADP	_	_	15	case	_	_
+15	1 200	1 200	NUM	_	_	13	nmod	_	_
 16	UI	UI	NOUN	_	_	9	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -23457,7 +23457,7 @@
 
 # sent_id = emea-fr-test_00295
 # text = Aucune accumulation de la substance active n'a été observée dans le plasma après l'administration de doses multiples tous les 28 jours.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	accumulation	accumulation	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -23744,7 +23744,7 @@
 6	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	10	det	_	_
+9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	10	det	_	_
 10	symptôme	symptôme	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
@@ -24738,7 +24738,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	cas	cas	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	9	det	_	_
+8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	9	det	_	_
 9	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 10	spécifique	spécifique	ADJ	_	Number=Sing	9	amod	_	_
 11	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
@@ -27610,7 +27610,7 @@
 30	-	-	PUNCT	_	_	31	punct	_	_
 31	deviendrait	devenir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 32	sans	sans	ADP	_	_	34	case	_	_
-33	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	34	det	_	_
+33	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	34	det	_	_
 34	raison	raison	NOUN	_	Gender=Fem|Number=Sing	31	obl:mod	_	_
 35	onéreuse	onéreux	ADJ	_	Gender=Fem|Number=Sing	31	xcomp	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
@@ -28146,7 +28146,7 @@
 10	serbe	serbe	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	sans	sans	ADP	_	_	14	case	_	_
-13	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	14	det	_	_
+13	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	14	det	_	_
 14	raison	raison	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 15	!	!	PUNCT	_	_	2	punct	_	_
 
@@ -28158,7 +28158,7 @@
 4	été	être	AUX	_	Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	impliqués	impliquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
-7	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	8	det	_	_
+7	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	8	det	_	_
 8	action	action	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 9	terroriste	terroriste	ADJ	_	Number=Sing	8	amod	_	_
 10	ou	ou	CCONJ	_	_	11	cc	_	_
@@ -28917,7 +28917,7 @@
 7	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 8	cherchera	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
 9	en	en	ADP	_	_	11	case	_	_
-10	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	11	det	_	_
+10	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	11	det	_	_
 11	cas	cas	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 12	à	à	ADP	_	_	13	mark	_	_
 13	utiliser	utiliser	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
@@ -29563,7 +29563,7 @@
 24	,	,	PUNCT	_	_	30	punct	_	_
 25	mais	mais	CCONJ	_	_	30	cc	_	_
 26	en	en	ADP	_	_	28	case	_	_
-27	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	28	det	_	_
+27	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	28	det	_	_
 28	cas	cas	NOUN	_	Gender=Masc|Number=Sing	30	orphan	_	_
 29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	proposition	proposition	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
@@ -30877,7 +30877,7 @@
 24	n'	ne	ADV	_	Polarity=Neg	25	advmod	_	SpaceAfter=No
 25	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
 26	peut-être	peut-être	ADV	_	_	25	advmod	_	_
-27	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	28	det	_	_
+27	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	28	det	_	_
 28	matière	matière	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 29	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
@@ -31053,7 +31053,7 @@
 19	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 20	ne	ne	ADV	_	Polarity=Neg	21	advmod	_	_
 21	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
-22	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	23	det	_	_
+22	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	23	det	_	_
 23	capacité	capacité	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	production	production	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
@@ -31463,7 +31463,7 @@
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 6	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
-7	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	8	det	_	_
+7	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	8	det	_	_
 8	mécanisme	mécanisme	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	en	en	ADP	_	_	11	case	_	_
@@ -33357,7 +33357,7 @@
 41	n'	ne	ADV	_	Polarity=Neg	42	advmod	_	SpaceAfter=No
 42	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
 43	plus	plus	ADV	_	Polarity=Neg	42	advmod	_	_
-44	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	45	det	_	_
+44	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	45	det	_	_
 45	signification	signification	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	21	punct	_	_
 
@@ -36039,7 +36039,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	déposé	déposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	7	det	_	_
+6	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	7	det	_	_
 7	amendement	amendement	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -38459,7 +38459,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	7	det	_	_
+6	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	7	det	_	_
 7	indication	indication	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
@@ -39406,7 +39406,7 @@
 21	en	en	ADP	_	_	22	case	_	_
 22	présence	présence	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 23	de	de	ADP	_	_	25	case	_	_
-24	5 000	5 000	DET	_	_	25	det	_	_
+24	5 000	5 000	NUM	_	_	25	nummod	_	_
 25	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	5	punct	_	_
 27	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	aux:pass	_	_
@@ -41152,7 +41152,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	somme	somme	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 9	de	de	ADP	_	_	11	case	_	_
-10	111 547	111 547	DET	_	_	11	det	_	_
+10	111 547	111 547	NUM	_	_	11	nummod	_	_
 11	francs	franc	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -43400,7 +43400,7 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	prison	prison	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
-10	15 000	15 000	DET	_	_	11	det	_	_
+10	15 000	15 000	NUM	_	_	11	nummod	_	_
 11	euros	euro	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	amende	amende	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -43668,7 +43668,7 @@
 18	avec	avec	ADP	_	_	19	case	_	_
 19	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
-21	2 000	2 000	DET	_	_	22	det	_	_
+21	2 000	2 000	NUM	_	_	22	nummod	_	_
 22	euros	euro	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 24	amende	amende	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
@@ -44026,7 +44026,7 @@
 49	à	à	ADP	_	_	51	case	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	total	total	NOUN	_	Gender=Masc|Number=Sing	48	obl:mod	_	_
-52	25 000	25 000	DET	_	_	53	det	_	_
+52	25 000	25 000	NUM	_	_	53	nummod	_	_
 53	fiches	fiche	NOUN	_	Gender=Fem|Number=Plur	48	obj	_	_
 54	sur	sur	ADP	_	_	56	case	_	_
 55	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	56	det	_	_
@@ -44667,7 +44667,7 @@
 
 # sent_id = frwiki_50.1000_00306
 # text = Aucune poursuite judiciaire ne sera intentée contre lui, mais c'est au niveau politique que se situe ici la crise.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	poursuite	poursuite	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	judiciaire	judiciaire	ADJ	_	Number=Sing	2	amod	_	_
 4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -46695,7 +46695,7 @@
 13	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	parler	parler	VERB	_	VerbForm=Inf	13	ccomp	_	Subject=Generic
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
-16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	17	det	_	_
+16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	17	det	_	_
 17	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	22	case	_	_
@@ -50821,7 +50821,7 @@
 21	ne	ne	ADV	_	Polarity=Neg	22	advmod	_	_
 22	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	20	acl	_	_
 23	à	à	ADP	_	_	25	case	_	_
-24	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	25	det	_	_
+24	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	25	det	_	_
 25	prestation	prestation	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -51285,7 +51285,7 @@
 16	ne	ne	ADV	_	Polarity=Neg	17	advmod	_	_
 17	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	15	acl	_	_
 18	à	à	ADP	_	_	20	case	_	_
-19	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	20	det	_	_
+19	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	20	det	_	_
 20	travail	travail	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	_
 21	effectif	effectif	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
@@ -51762,7 +51762,7 @@
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	prix	prix	NOUN	_	Gender=Masc	37	obl:mod	_	_
 52	de	de	ADP	_	_	54	case	_	_
-53	108 000	108 000	DET	_	_	54	det	_	_
+53	108 000	108 000	NUM	_	_	54	nummod	_	_
 54	francs	franc	NOUN	_	Gender=Masc|Number=Plur	51	nmod	_	_
 55	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	page	page	NOUN	_	Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
@@ -52046,7 +52046,7 @@
 19	apprête	apprêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	à	à	ADP	_	_	21	mark	_	_
 21	remettre	remettre	VERB	_	VerbForm=Inf	19	xcomp	_	Subject=SubjRaising
-22	46 000	46 000	DET	_	_	23	det	_	_
+22	46 000	46 000	NUM	_	_	23	nummod	_	_
 23	francs	franc	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
 24	dans	dans	ADP	_	_	26	case	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -52885,7 +52885,7 @@
 12	avec	avec	ADP	_	_	13	case	_	_
 13	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
-15	50 000	50 000	DET	_	_	16	det	_	_
+15	50 000	50 000	NUM	_	_	16	nummod	_	_
 16	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	amende	amende	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -53846,7 +53846,7 @@
 
 # sent_id = frwiki_50.1000_00749
 # text = Aucun lien n'a pu être établi entre ces espèces et l'argent de la corruption des marchés d'Île-de-France.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	lien	lien	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
@@ -54117,7 +54117,7 @@
 12	avec	avec	ADP	_	_	13	case	_	_
 13	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
-15	80 000	80 000	DET	_	_	16	det	_	_
+15	80 000	80 000	NUM	_	_	16	nummod	_	_
 16	euros	euro	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	amende	amende	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
@@ -54195,7 +54195,7 @@
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	amende	amende	NOUN	_	Gender=Fem|Number=Sing	19	conj	_	_
 27	de	de	ADP	_	_	29	case	_	_
-28	50 000	50 000	DET	_	_	29	det	_	_
+28	50 000	50 000	NUM	_	_	29	nummod	_	_
 29	euros	euro	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -54360,7 +54360,7 @@
 31	avec	avec	ADP	_	_	32	case	_	_
 32	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
-34	10 000	10 000	DET	_	_	35	det	_	_
+34	10 000	10 000	NUM	_	_	35	nummod	_	_
 35	euros	euro	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
 36	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
 37	amende	amende	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
@@ -56218,7 +56218,7 @@
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
 27	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	ccomp	_	_
 28	à	à	ADP	_	_	30	case	_	_
-29	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	30	det	_	_
+29	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	30	det	_	_
 30	moment	moment	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	_
 31	paiement	paiement	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
 32	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
@@ -56884,7 +56884,7 @@
 11	à	à	ADP	_	_	12	mark	_	_
 12	payer	payer	VERB	_	VerbForm=Inf	9	xcomp	_	Subject=SubjRaising
 13	environ	environ	ADV	_	_	15	advmod	_	_
-14	17 600	17 600	DET	_	_	15	det	_	_
+14	17 600	17 600	NUM	_	_	15	nummod	_	_
 15	euros	euro	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	dommages-intérêts	dommages-intérêts	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
@@ -58384,7 +58384,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	Grasset	Grasset	PROPN	_	_	7	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
-23	1 500	1 500	DET	_	_	24	det	_	_
+23	1 500	1 500	NUM	_	_	24	nummod	_	_
 24	p.	page	NOUN	_	Gender=Fem|Number=Plur	21	parataxis	_	_
 25	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	24	parataxis	_	_
 26	1997	1997	NUM	_	NumType=Card	25	parataxis	_	SpaceAfter=No

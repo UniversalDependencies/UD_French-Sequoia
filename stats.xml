@@ -20,10 +20,10 @@
     <tag name="ADV">2637</tag><!-- ne, pas, plus, moins, très, également, aussi, bien, non, alors -->
     <tag name="AUX">2319</tag><!-- être, avoir, faire, voir -->
     <tag name="CCONJ">1638</tag><!-- et, ou, mais, puis, car, ni, soit, or, +/-, tantôt -->
-    <tag name="DET">10442</tag><!-- le, un, son, ce, plusieurs, quelque, aucun, tout, certain, chaque -->
+    <tag name="DET">10397</tag><!-- le, un, son, ce, plusieurs, quelque, aucun, tout, certain, chaque -->
     <tag name="INTJ">3</tag><!-- hélas, eh -->
     <tag name="NOUN">15219</tag><!-- patient, affaire, %, monsieur, an, commission, président, effet, traitement, bivalirudine -->
-    <tag name="NUM">1732</tag><!-- deux, 5, trois, 2, 2006, 10, 1, 30, 3, 4 -->
+    <tag name="NUM">1777</tag><!-- deux, 5, trois, 2, 2006, 10, 1, 30, 3, 4 -->
     <tag name="PRON">2808</tag><!-- lui, qui, soi, moi, nous, ce, vous, eux, que, y -->
     <tag name="PROPN">3261</tag><!-- Aclasta, Angiox, Paris, Jacques, France, Chirac, RPR, Taïwan, Michel, Paget -->
     <tag name="PUNCT">7864</tag><!-- ,, ., ", (, ), -, :, ;, ?, [ -->
@@ -61,13 +61,13 @@
     <feat name="Person" value="2" upos="AUX,PRON,VERB">266</feat><!-- vous, avez, veuillez, êtes, devez, demandez, pouvez, remarquez, -vous, allaitez -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">4947</feat><!-- est, a, il, ont, se, sont, s', elle, était, ce -->
     <feat name="Person[psor]" value="1" upos="PRON">1</feat><!-- nôtres -->
-    <feat name="Polarity" value="Neg" upos="ADV,DET">803</feat><!-- pas, n', ne, non, aucune, aucun, plus, jamais, guère, que -->
+    <feat name="Polarity" value="Neg" upos="ADV">765</feat><!-- pas, n', ne, non, plus, jamais, guère, que -->
     <feat name="Poss" value="Yes" upos="DET,PRON">532</feat><!-- son, ses, votre, sa, leur, leurs, notre, nos, mon, mes -->
     <feat name="PronType" value="Art" upos="DET">9264</feat><!-- le, les, la, l', une, un, des, de, d', quelques -->
     <feat name="PronType" value="Dem" upos="DET,PRON">706</feat><!-- ce, cette, ces, c', cela, cet, ceci, ceux, -ce, celle-ci -->
     <feat name="PronType" value="Ind" upos="PRON">138</feat><!-- on, un, l'on, une, tout, autre, certains, chacun, tous, chacune -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">72</feat><!-- comment, pourquoi, quel, Qu', Que, où, combien, quelles, qui, quoi -->
-    <feat name="PronType" value="Neg" upos="PRON">16</feat><!-- rien, aucun, personne, Nul -->
+    <feat name="PronType" value="Neg" upos="DET,PRON">54</feat><!-- aucun, aucune, rien, personne, Nul -->
     <feat name="PronType" value="Prs" upos="PRON">1764</feat><!-- il, nous, se, je, s', vous, elle, ils, y, j' -->
     <feat name="PronType" value="Rel" upos="PRON">603</feat><!-- qui, dont, que, où, qu', laquelle, lequel, lesquelles, lesquels, Quiconque -->
     <feat name="Reflex" value="Yes" upos="PRON">349</feat><!-- se, s', me, nous, vous, m', lui-même, elle-même, -vous, eux-mêmes -->
@@ -94,16 +94,16 @@
     <dep name="aux:caus">34</dep>
     <dep name="aux:pass">759</dep>
     <dep name="aux:tense">948</dep>
-    <dep name="case">10341</dep>
+    <dep name="case">10351</dep>
     <dep name="cc">1652</dep>
     <dep name="ccomp">465</dep>
     <dep name="conj">2072</dep>
     <dep name="cop">575</dep>
     <dep name="csubj">62</dep>
     <dep name="csubj:pass">4</dep>
-    <dep name="dep">80</dep>
-    <dep name="dep:comp">15</dep>
-    <dep name="det">10374</dep>
+    <dep name="dep">72</dep>
+    <dep name="dep:comp">5</dep>
+    <dep name="det">10338</dep>
     <dep name="discourse">3</dep>
     <dep name="dislocated">17</dep>
     <dep name="expl:comp">44</dep>
@@ -117,12 +117,12 @@
     <dep name="iobj">135</dep>
     <dep name="iobj:agent">1</dep>
     <dep name="mark">1462</dep>
-    <dep name="nmod">7436</dep>
+    <dep name="nmod">7444</dep>
     <dep name="nsubj">2855</dep>
     <dep name="nsubj:caus">16</dep>
     <dep name="nsubj:outer">3</dep>
     <dep name="nsubj:pass">619</dep>
-    <dep name="nummod">878</dep>
+    <dep name="nummod">914</dep>
     <dep name="obj">2207</dep>
     <dep name="obj:agent">12</dep>
     <dep name="obj:lvc">2</dep>

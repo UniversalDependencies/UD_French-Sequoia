@@ -2070,7 +2070,7 @@
 30	-	-	PUNCT	_	_	31	punct	_	_
 31	deviendrait	devenir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 32	sans	sans	ADP	_	_	34	case	_	_
-33	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	34	det	_	_
+33	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	34	det	_	_
 34	raison	raison	NOUN	_	Gender=Fem|Number=Sing	31	obl:mod	_	_
 35	onéreuse	onéreux	ADJ	_	Gender=Fem|Number=Sing	31	xcomp	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
@@ -3134,7 +3134,7 @@
 10	serbe	serbe	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	sans	sans	ADP	_	_	14	case	_	_
-13	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	14	det	_	_
+13	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	14	det	_	_
 14	raison	raison	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 15	!	!	PUNCT	_	_	2	punct	_	_
 
@@ -3144,7 +3144,7 @@
 2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
 3	y	y	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	6	det	_	_
+5	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	6	det	_	_
 6	motif	motif	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	pour	pour	ADP	_	_	11	mark	_	_
 8	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
@@ -3161,7 +3161,7 @@
 4	été	être	AUX	_	Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	impliqués	impliquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
-7	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	8	det	_	_
+7	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	8	det	_	_
 8	action	action	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 9	terroriste	terroriste	ADJ	_	Number=Sing	8	amod	_	_
 10	ou	ou	CCONJ	_	_	11	cc	_	_
@@ -4421,7 +4421,7 @@
 7	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 8	cherchera	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
 9	en	en	ADP	_	_	11	case	_	_
-10	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	11	det	_	_
+10	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	11	det	_	_
 11	cas	cas	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
 12	à	à	ADP	_	_	13	mark	_	_
 13	utiliser	utiliser	VERB	_	VerbForm=Inf	8	xcomp	_	Subject=SubjRaising
@@ -5290,7 +5290,7 @@
 24	,	,	PUNCT	_	_	30	punct	_	_
 25	mais	mais	CCONJ	_	_	30	cc	_	_
 26	en	en	ADP	_	_	28	case	_	_
-27	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	28	det	_	_
+27	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	28	det	_	_
 28	cas	cas	NOUN	_	Gender=Masc|Number=Sing	30	orphan	_	_
 29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	proposition	proposition	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
@@ -7070,7 +7070,7 @@
 24	n'	ne	ADV	_	Polarity=Neg	25	advmod	_	SpaceAfter=No
 25	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
 26	peut-être	peut-être	ADV	_	_	25	advmod	_	_
-27	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	28	det	_	_
+27	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	28	det	_	_
 28	matière	matière	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 29	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
@@ -7271,7 +7271,7 @@
 8	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 9	dispose	disposer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
-11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	12	det	_	_
+11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
 12	fusée	fusée	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	longue	long	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
@@ -7305,7 +7305,7 @@
 19	Irak	Irak	PROPN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 20	ne	ne	ADV	_	Polarity=Neg	21	advmod	_	_
 21	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
-22	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	23	det	_	_
+22	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	23	det	_	_
 23	capacité	capacité	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	production	production	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
@@ -7519,7 +7519,7 @@
 15	,	,	PUNCT	_	_	19	punct	_	_
 16	dont	dont	PRON	_	PronType=Rel	19	nmod	_	_
 17	quelque	quelque	ADV	_	_	19	advmod	_	_
-18	500 000	500 000	DET	_	_	19	det	_	_
+18	500 000	500 000	NUM	_	_	19	nummod	_	_
 19	enfants	enfant	NOUN	_	Number=Plur	10	acl:relcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
 21	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
@@ -8007,7 +8007,7 @@
 4	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 6	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
-7	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	8	det	_	_
+7	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	8	det	_	_
 8	mécanisme	mécanisme	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	en	en	ADP	_	_	11	case	_	_
@@ -10643,7 +10643,7 @@
 41	n'	ne	ADV	_	Polarity=Neg	42	advmod	_	SpaceAfter=No
 42	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
 43	plus	plus	ADV	_	Polarity=Neg	42	advmod	_	_
-44	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	45	det	_	_
+44	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	45	det	_	_
 45	signification	signification	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	21	punct	_	_
 
@@ -14357,7 +14357,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	déposé	déposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	7	det	_	_
+6	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	7	det	_	_
 7	amendement	amendement	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -15889,7 +15889,7 @@
 12	quelques	quelque	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
 13	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	25	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	80 000	80 000	DET	_	_	16	det	_	_
+15	80 000	80 000	NUM	_	_	16	nummod	_	_
 16	jeunes	jeune	NOUN	_	Number=Plur	25	nsubj	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -17745,7 +17745,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	7	det	_	_
+6	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	7	det	_	_
 7	indication	indication	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_

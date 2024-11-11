@@ -395,9 +395,9 @@
 51	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
 52	D	D	NOUN	_	_	51	nmod	_	_
 53	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
-54	50 000	50 000	DET	_	_	57	det	_	_
-55	à	à	ADP	_	_	56	dep:comp	_	_
-56	125 000	125 000	DET	_	_	54	obl:arg	_	_
+54	50 000	50 000	NUM	_	_	57	nummod	_	_
+55	à	à	ADP	_	_	56	case	_	_
+56	125 000	125 000	NUM	_	_	54	obl:arg	_	_
 57	unités	unité	NOUN	_	Gender=Fem|Number=Plur	49	appos	_	_
 58	internationales	international	ADJ	_	Gender=Fem|Number=Plur	57	amod	_	SpaceAfter=No
 59	)	)	PUNCT	_	_	57	punct	_	_
@@ -803,7 +803,7 @@
 6	sur	sur	ADP	_	_	7	case	_	_
 7	près	près	ADV	_	ExtPos=PRON	5	obl:arg	_	_
 8	de	de	ADP	_	_	10	case	_	_
-9	8 000	8 000	DET	_	_	10	det	_	_
+9	8 000	8 000	NUM	_	_	10	nummod	_	_
 10	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	7	obl:arg	_	_
 11	âgées	âgé	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	souffrant	souffrir	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
@@ -843,7 +843,7 @@
 3	étude	étude	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	impliqué	impliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	2 127	2 127	DET	_	_	7	det	_	_
+6	2 127	2 127	NUM	_	_	7	nummod	_	_
 7	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
@@ -2263,7 +2263,7 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	:	:	PUNCT	_	_	16	punct	_	_
-11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	12	det	_	_
+11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
 12	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 13	spécifique	spécifique	ADJ	_	Number=Sing	12	amod	_	_
 14	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	SpaceAfter=No
@@ -2534,9 +2534,9 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	charge	charge	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 26	de	de	ADP	_	_	30	case	_	_
-27	50 000	50 000	DET	_	_	30	det	_	_
-28	à	à	ADP	_	_	29	dep:comp	_	_
-29	125 000	125 000	DET	_	_	27	obl:arg	_	_
+27	50 000	50 000	NUM	_	_	30	nummod	_	_
+28	à	à	ADP	_	_	29	case	_	_
+29	125 000	125 000	NUM	_	_	27	obl:arg	_	_
 30	UI	UI	NOUN	_	_	23	nmod	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
@@ -2643,7 +2643,7 @@
 
 # sent_id = emea-fr-test_00099
 # text = Aucun ajustement de la dose n'est nécessaire chez les patients dont la clairance de la créatinine est 35 ml/min.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -2675,7 +2675,7 @@
 
 # sent_id = emea-fr-test_00101
 # text = Aucun ajustement de la dose n'est nécessaire (voir rubrique 5.2).
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -2701,7 +2701,7 @@
 
 # sent_id = emea-fr-test_00103
 # text = Aucun ajustement de la dose n'est nécessaire puisque la biodisponibilité, la distribution et l'élimination ont été similaires chez les patients âgés et chez les patients plus jeunes.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	ajustement	ajustement	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -3591,7 +3591,7 @@
 
 # sent_id = emea-fr-test_00135
 # text = Aucune étude spécifique d'interaction médicamenteuse n'a été conduite avec l'acide zolédronique.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	spécifique	spécifique	ADJ	_	Number=Sing	2	amod	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
@@ -4771,7 +4771,7 @@
 
 # sent_id = emea-fr-test_00176
 # text = Aucun cas d'hypocalcémie symptomatique n'a été observé.
-1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 4	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -5060,7 +5060,7 @@
 31	0,7	0,7	NUM	_	NumType=Card	32	nummod	_	SpaceAfter=No
 32	%	%	NOUN	_	Gender=Masc	10	parataxis:insert	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
-34	,	,	PUNCT	_	_	33	punct	_	_
+34	,	,	PUNCT	_	_	32	punct	_	_
 35	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux:tense	_	_
 36	été	être	AUX	_	Tense=Past|VerbForm=Part	37	aux:pass	_	_
 37	observées	observer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5265,7 +5265,7 @@
 8	clinique	clinique	ADJ	_	Number=Sing	7	amod	_	_
 9	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 10	chez	chez	ADP	_	_	12	case	_	_
-11	7 736	7 736	DET	_	_	12	det	_	_
+11	7 736	7 736	NUM	_	_	12	nummod	_	_
 12	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	3	punct	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -5316,7 +5316,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-5	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	6	det	_	_
+5	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	6	det	_	_
 6	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	intoxication	intoxication	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -5517,7 +5517,7 @@
 
 # sent_id = emea-fr-test_00205
 # text = Aucune réduction progressive des marqueurs de remodellage osseux n'a été observée en cas d'administration annuelle répétée.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 3	progressive	progressif	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4-5	des	_	_	_	_	_	_	_	_
@@ -5583,7 +5583,7 @@
 25	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	22	obl:mod	_	_
 26	ménopausées	ménopausé	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
 27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-28	7 736	7 736	DET	_	_	29	det	_	_
+28	7 736	7 736	NUM	_	_	29	nummod	_	_
 29	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	25	appos	_	_
 30	âgées	âgé	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	_
 31	de	de	ADP	_	_	35	case	_	_
@@ -5690,7 +5690,7 @@
 18	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
 19	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
 20	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-21	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	22	det	_	_
+21	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	22	det	_	_
 22	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
 23	anti-ostéoporotique	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 24	concomitant	concomitant	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
@@ -5759,17 +5759,17 @@
 3	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	1 000	1 000	DET	_	_	9	det	_	_
-7	à	à	ADP	_	_	8	dep:comp	_	_
-8	1 500	1 500	DET	_	_	6	dep	_	_
+6	1 000	1 000	NUM	_	_	9	nummod	_	_
+7	à	à	ADP	_	_	8	case	_	_
+8	1 500	1 500	NUM	_	_	6	nmod	_	_
 9	mg	mg	NOUN	_	Gender=Masc	5	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	élément	élément	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 13	et	et	CCONJ	_	_	17	cc	_	_
 14	400	400	NUM	_	NumType=Card	17	nummod	_	_
-15	à	à	ADP	_	_	16	dep:comp	_	_
-16	1 200	1 200	DET	_	_	14	dep	_	_
+15	à	à	ADP	_	_	16	case	_	_
+16	1 200	1 200	NUM	_	_	14	nmod	_	_
 17	UI	UI	NOUN	_	_	9	conj	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
@@ -6500,8 +6500,8 @@
 49	sous-groupes	sous-groupe	NOUN	_	Gender=Masc|Number=Plur	37	obl:mod	_	_
 50	incluant	inclure	VERB	_	Tense=Pres|VerbForm=Part	49	acl	_	_
 51	517	517	NUM	_	NumType=Card	54	nummod	_	_
-52	à	à	ADP	_	_	53	dep:comp	_	_
-53	1 246	1 246	DET	_	_	51	dep	_	_
+52	à	à	ADP	_	_	53	case	_	_
+53	1 246	1 246	NUM	_	_	51	nmod	_	_
 54	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	50	obj	_	SpaceAfter=No
 55	.	.	PUNCT	_	_	37	punct	_	_
 
@@ -6923,7 +6923,7 @@
 21	été	être	AUX	_	Tense=Past|VerbForm=Part	22	aux:pass	_	_
 22	évaluée	évaluer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 23	chez	chez	ADP	_	_	25	case	_	_
-24	2 127	2 127	DET	_	_	25	det	_	_
+24	2 127	2 127	NUM	_	_	25	nummod	_	_
 25	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	22	obl:mod	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	25	conj	_	_
@@ -7060,9 +7060,9 @@
 18	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19	D	D	NOUN	_	_	18	nmod	_	_
 20	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-21	50 000	50 000	DET	_	_	24	det	_	_
-22	à	à	ADP	_	_	23	dep:comp	_	_
-23	125 000	125 000	DET	_	_	21	dep	_	_
+21	50 000	50 000	NUM	_	_	24	nummod	_	_
+22	à	à	ADP	_	_	23	case	_	_
+23	125 000	125 000	NUM	_	_	21	nmod	_	_
 24	UI	UI	NOUN	_	_	14	appos	_	_
 25	par	par	ADP	_	_	26	case	_	_
 26	voie	voie	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
@@ -7093,16 +7093,16 @@
 3	patients	patient	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	1 000	1 000	DET	_	_	9	det	_	_
-7	à	à	ADP	_	_	8	dep:comp	_	_
-8	1 500	1 500	DET	_	_	6	dep	_	_
+6	1 000	1 000	NUM	_	_	9	nummod	_	_
+7	à	à	ADP	_	_	8	case	_	_
+8	1 500	1 500	NUM	_	_	6	nmod	_	_
 9	mg	mg	NOUN	_	Gender=Masc	5	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	calcium-élément	calcium-élément	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	et	et	CCONJ	_	_	16	cc	_	_
 13	800	800	NUM	_	NumType=Card	16	nummod	_	_
-14	à	à	ADP	_	_	15	dep:comp	_	_
-15	1 200	1 200	DET	_	_	13	dep	_	_
+14	à	à	ADP	_	_	15	case	_	_
+15	1 200	1 200	NUM	_	_	13	nmod	_	_
 16	UI	UI	NOUN	_	_	9	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -8264,7 +8264,7 @@
 
 # sent_id = emea-fr-test_00295
 # text = Aucune accumulation de la substance active n'a été observée dans le plasma après l'administration de doses multiples tous les 28 jours.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	accumulation	accumulation	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8629,7 +8629,7 @@
 6	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	4	obl:agent	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	10	det	_	_
+9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	10	det	_	_
 10	symptôme	symptôme	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
@@ -9928,7 +9928,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	cas	cas	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	9	det	_	_
+8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	9	det	_	_
 9	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 10	spécifique	spécifique	ADJ	_	Number=Sing	9	amod	_	_
 11	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
@@ -11519,9 +11519,9 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	charge	charge	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19	de	de	ADP	_	_	23	case	_	_
-20	50 000	50 000	DET	_	_	23	det	_	_
-21	à	à	ADP	_	_	22	dep:comp	_	_
-22	125 000	125 000	DET	_	_	20	dep	_	_
+20	50 000	50 000	NUM	_	_	23	nummod	_	_
+21	à	à	ADP	_	_	22	case	_	_
+22	125 000	125 000	NUM	_	_	20	nmod	_	_
 23	UI	UI	NOUN	_	_	18	nmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_

@@ -864,7 +864,7 @@
 5	chez	chez	ADP	_	_	6	case	_	_
 6	plus	plus	ADV	_	ExtPos=PRON	4	obl:mod	_	_
 7	de	de	ADP	_	_	9	case	_	_
-8	20 000	20 000	DET	_	_	9	det	_	_
+8	20 000	20 000	NUM	_	_	9	nummod	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -886,7 +886,7 @@
 13	sur	sur	ADP	_	_	14	case	_	_
 14	près	près	ADV	_	ExtPos=PRON	12	obl:arg	_	_
 15	de	de	ADP	_	_	17	case	_	_
-16	14 000	14 000	DET	_	_	17	det	_	_
+16	14 000	14 000	NUM	_	_	17	nummod	_	_
 17	patients	patient	NOUN	_	Gender=Masc|Number=Plur	14	obl:arg	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
@@ -985,7 +985,7 @@
 16	chez	chez	ADP	_	_	17	case	_	_
 17	plus	plus	ADV	_	ExtPos=PRON	15	obl:mod	_	_
 18	de	de	ADP	_	_	20	case	_	_
-19	6 000	6 000	DET	_	_	20	det	_	_
+19	6 000	6 000	NUM	_	_	20	nummod	_	_
 20	patients	patient	NOUN	_	Gender=Masc|Number=Plur	17	obl:arg	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -2960,7 +2960,7 @@
 
 # sent_id = emea-fr-dev_00136
 # text = Aucune adaptation de la dose n'est nécessaire.
-1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	2	det	_	_
+1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	adaptation	adaptation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -4168,7 +4168,7 @@
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	bivalirudine	bivalirudine	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
 19	chez	chez	ADP	_	_	21	case	_	_
-20	13 819	13 819	DET	_	_	21	det	_	_
+20	13 819	13 819	NUM	_	_	21	nummod	_	_
 21	patients	patient	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
 22	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	21	acl	_	_
 23	de	de	ADP	_	_	24	case	_	_
@@ -6623,7 +6623,7 @@
 58	chez	chez	ADP	_	_	59	case	_	_
 59	plus	plus	ADV	_	ExtPos=PRON	14	obl:mod	_	_
 60	de	de	ADP	_	_	62	case	_	_
-61	13 819	13 819	DET	_	_	62	det	_	_
+61	13 819	13 819	NUM	_	_	62	nummod	_	_
 62	patients	patient	NOUN	_	Gender=Masc|Number=Plur	59	obl:arg	_	_
 63	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	62	acl	_	_
 64	d'	de	ADP	_	_	66	case	_	SpaceAfter=No
@@ -7252,7 +7252,7 @@
 24	sur	sur	ADP	_	_	25	case	_	_
 25	plus	plus	ADV	_	ExtPos=PRON	23	obl:arg	_	_
 26	de	de	ADP	_	_	28	case	_	_
-27	6 000	6 000	DET	_	_	28	det	_	_
+27	6 000	6 000	NUM	_	_	28	nummod	_	_
 28	patients	patient	NOUN	_	Gender=Masc|Number=Plur	25	obl:arg	_	_
 29	subissant	subir	VERB	_	Tense=Pres|VerbForm=Part	28	acl	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -7958,7 +7958,7 @@
 32	,	,	PUNCT	_	_	6	punct	_	_
 33	n'	ne	ADV	_	Polarity=Neg	34	advmod	_	SpaceAfter=No
 34	indiquent	indiquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-35	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg	36	det	_	_
+35	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	36	det	_	_
 36	risque	risque	NOUN	_	Gender=Masc|Number=Sing	34	obj	_	_
 37	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	36	amod	_	_
 38	pour	pour	ADP	_	_	40	case	_	_
@@ -8140,7 +8140,7 @@
 13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	_
 14	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
-16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|Polarity=Neg	17	det	_	_
+16	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	17	det	_	_
 17	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
 18	concernant	concerner	VERB	_	Tense=Pres|VerbForm=Part	17	acl	_	_
 19	son	son	DET	_	Number=Sing|Poss=Yes	20	det	_	_
@@ -10788,8 +10788,8 @@
 3	cas	cas	NOUN	_	Gender=Masc	1	nmod	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	omission	omission	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-6	d'	de	ADP	_	_	7	dep:comp	_	SpaceAfter=No
-7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	dep	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	nmod	_	Scrap=Yes
 8	ou	ou	CCONJ	_	_	11	cc	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	plusieurs	plusieurs	DET	_	Number=Plur	11	det	_	_
