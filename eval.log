@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_French-Sequoia:
-commit 23c9eca0e0bbc9ff96aba18261b4fa85bbfc0654
-Merge: c81cd89 2fea74c
+commit 5375a0e53b0a31c7131d52d94217839e5005bb2e
+Merge: 15ee151 1c0d032
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 70545 of 70545 words (nodes).
 Size: min(0, log((N/1000)**2)) = 8.51250160813024.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        785
-Udapi: found 785 bugs.
+               TOTAL        747
+Udapi: found 747 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 70545 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fr --max-err=10 UD_French-Sequoia/fr_sequoia-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.616155412600587) = 0.157988567333484
 (weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.888723509816429) = 0.273453387635824
+(weight=0.307692307692308) * (score{udapi}=0.894110142462258) = 0.27511081306531
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.719781606838372) * (availability=1) * (validity=1) = 0.719781606838372
+(TOTAL score=0.721439032267858) * (availability=1) * (validity=1) = 0.721439032267858
 STARS = 3.5
-UD_French-Sequoia	0.719781606838372	3.5
+UD_French-Sequoia	0.721439032267858	3.5
