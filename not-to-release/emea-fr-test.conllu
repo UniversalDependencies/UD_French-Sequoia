@@ -76,7 +76,7 @@
 3	cas	cas	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 4	Aclasta	Aclasta	PROPN	_	_	7	nsubj:pass	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	SpaceAfter=No
-6	-il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
+6	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 7	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 8	?	?	PUNCT	_	_	7	punct	_	_
 
@@ -116,7 +116,7 @@
 
 # sent_id = emea-fr-test_00009
 # text = Il est administré aux patients qui présentent un risque de fracture (cassure des os), notamment chez les patients s'étant récemment fracturé la hanche à la suite d'un faible traumatisme, comme une chute ;
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	administré	administrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4-5	aux	_	_	_	_	_	_	_	_
@@ -152,7 +152,7 @@
 32	suite	suite	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
 33	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-35	faible	faible	ADJ	_	Number=Sing	36	amod	_	_
+35	faible	faible	ADJ	_	Number=Sing	36	amod	_	Gender[ctxt]=Masc
 36	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	40	punct	_	_
 38	comme	comme	ADP	_	_	40	case	_	_
@@ -187,7 +187,7 @@
 1	Comment	comment	ADV	_	PronType=Int	5	advmod	_	_
 2	Aclasta	Aclasta	PROPN	_	_	5	nsubj:pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	SpaceAfter=No
-4	-il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
+4	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 5	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -315,7 +315,7 @@
 
 # sent_id = emea-fr-test_00018
 # text = Il est également recommandé que tous les patients traités par Aclasta reçoivent un supplément approprié de vitamine D et de calcium.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	également	également	ADV	_	_	4	advmod	_	_
 4	recommandé	recommander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -389,7 +389,7 @@
 45	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 46	recevoir	recevoir	VERB	_	VerbForm=Inf	45	xcomp	_	Subject=SubjRaising
 47	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-48	large	large	ADJ	_	Number=Sing	49	amod	_	_
+48	large	large	ADJ	_	Number=Sing	49	amod	_	Gender[ctxt]=Fem
 49	dose	dose	NOUN	_	Gender=Fem|Number=Sing	46	obj	_	_
 50	de	de	ADP	_	_	51	case	_	_
 51	vitamine	vitamine	NOUN	_	Gender=Fem|Number=Sing	49	nmod	_	_
@@ -407,7 +407,7 @@
 63	ou	ou	CCONJ	_	_	65	cc	_	_
 64	par	par	ADP	_	_	65	case	_	_
 65	injection	injection	NOUN	_	Gender=Fem|Number=Sing	61	conj	_	_
-66	intramusculaire	intramusculaire	ADJ	_	Number=Sing	65	amod	_	_
+66	intramusculaire	intramusculaire	ADJ	_	Number=Sing	65	amod	_	Gender[ctxt]=Fem
 67	avant	avant	ADP	_	_	70	case	_	_
 68	leur	son	DET	_	Number=Sing|Poss=Yes	70	det	_	_
 69	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	70	amod	_	_
@@ -422,20 +422,20 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	effets	effet	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	SpaceAfter=No
+6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	tels	tel	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 9	que	que	SCONJ	_	_	10	case	_	_
 10	fièvre	fièvre	NOUN	_	Gender=Fem|Number=Sing	8	dep	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
-13	musculaires	musculaire	ADJ	_	Number=Plur	12	amod	_	SpaceAfter=No
+13	musculaires	musculaire	ADJ	_	Number=Plur	12	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	symptômes	symptôme	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 16	pseudo-grippaux	pseudo-grippal	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	_
-19	articulaires	articulaire	ADJ	_	Number=Plur	18	amod	_	_
+19	articulaires	articulaire	ADJ	_	Number=Plur	18	amod	_	Gender[ctxt]=Fem
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	céphalées	céphalée	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
@@ -461,7 +461,7 @@
 42	ibuprofène	ibuprofène	NOUN	_	Gender=Masc|Number=Sing	38	conj	_	_
 43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
 44	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	38	appos	_	_
-45	anti-inflammatoires	anti-inflammatoire	ADJ	_	Number=Plur	44	amod	_	SpaceAfter=No
+45	anti-inflammatoires	anti-inflammatoire	ADJ	_	Gender=Masc|Number=Plur	44	amod	_	SpaceAfter=No
 46	)	)	PUNCT	_	_	44	punct	_	_
 47	peu	peu	ADV	_	_	50	advmod	_	_
 48	après	après	ADP	_	_	50	case	_	_
@@ -488,11 +488,11 @@
 13	présentent	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
-16	graves	grave	ADJ	_	Number=Plur	15	amod	_	_
+16	graves	grave	ADJ	_	Number=Plur	15	amod	_	Gender[ctxt]=Masc
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	reins	reins	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	reins	rein	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-test_00022
@@ -514,7 +514,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	que	que	ADV	_	_	5	advmod	_	_
+18	que	que	ADV	_	Polarity=Neg	5	advmod	_	_
 19	par	par	ADP	_	_	21	case	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent	_	_
@@ -532,7 +532,7 @@
 1	Comment	comment	ADV	_	PronType=Int	3	advmod	_	_
 2	Aclasta	Aclasta	PROPN	_	_	3	nsubj	_	_
 3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+4	-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 5	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00024
@@ -569,10 +569,10 @@
 3	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	progressivement	progressivement	ADV	_	_	3	advmod	_	_
 5	plus	plus	ADV	_	_	6	advmod	_	_
-6	minces	mince	ADJ	_	Number=Plur	3	xcomp	_	_
+6	minces	mince	ADJ	_	Number=Plur	3	xcomp	_	Gender[ctxt]=Masc
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	plus	plus	ADV	_	_	9	advmod	_	_
-9	fragiles	fragile	ADJ	_	Number=Plur	6	conj	_	_
+9	fragiles	fragile	ADJ	_	Number=Plur	6	conj	_	Gender[ctxt]=Masc
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pass	_	_
 12	cassent	casser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -628,14 +628,14 @@
 13	osseuse	osseux	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	trop	trop	ADV	_	_	16	advmod	_	_
-16	rapide	rapide	ADJ	_	Number=Sing	0	root	_	_
+16	rapide	rapide	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Fem
 17	et	et	CCONJ	_	_	23	cc	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	os	os	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 20	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 22	plus	plus	ADV	_	_	23	advmod	_	_
-23	fragile	fragile	ADJ	_	Number=Sing	16	conj	_	_
+23	fragile	fragile	ADJ	_	Number=Sing	16	conj	_	Gender[ctxt]=Masc
 24	que	que	SCONJ	_	_	26	case	_	_
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	os	os	NOUN	_	Gender=Masc|Number=Sing	23	dep	_	_
@@ -673,7 +673,7 @@
 26	organisme	organisme	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 27	qui	qui	PRON	_	PronType=Rel	29	nsubj	_	_
 28	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-29	responsables	responsable	ADJ	_	Number=Plur	23	acl:relcl	_	_
+29	responsables	responsable	ADJ	_	Number=Plur	23	acl:relcl	_	Gender[ctxt]=Fem
 30	de	de	ADP	_	_	32	case	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	résorption	résorption	NOUN	_	Gender=Fem|Number=Sing	29	obl:arg	_	_
@@ -681,7 +681,7 @@
 33	de	de	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
-36	osseux	osseux	ADJ	_	Gender=Masc	35	amod	_	SpaceAfter=No
+36	osseux	osseux	ADJ	_	Gender=Masc	35	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 37	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = emea-fr-test_00029
@@ -703,7 +703,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	activité	activité	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
-18	pathologique	pathologique	ADJ	_	Number=Sing	17	amod	_	_
+18	pathologique	pathologique	ADJ	_	Number=Sing	17	amod	_	Gender[ctxt]=Fem
 19	en	en	ADP	_	_	20	case	_	_
 20	cas	cas	NOUN	_	Gender=Masc	17	nmod	_	_
 21	de	de	ADP	_	_	22	case	_	_
@@ -729,7 +729,7 @@
 2	Aclasta	Aclasta	PROPN	_	_	3	nsubj	_	_
 3	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	même	même	ADJ	_	Number=Sing	6	amod	_	_
+5	même	même	ADJ	_	Number=Sing	6	amod	_	Gender[ctxt]=Masc
 6	principe	principe	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 7	actif	actif	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	que	que	SCONJ	_	_	9	case	_	_
@@ -839,7 +839,7 @@
 # sent_id = emea-fr-test_00034
 # text = La deuxième étude a impliqué 2 127 hommes et femmes souffrant d'ostéoporose, âgés de plus de 50 ans, qui s'étaient récemment fracturé la hanche, et s'est intéressée au nombre de fractures sur une période de cinq ans au maximum.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	3	amod	_	_
+2	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	3	amod	_	Gender[ctxt]=Fem
 3	étude	étude	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	impliqué	impliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -903,7 +903,7 @@
 11	à	à	ADP	_	_	12	mark	_	_
 12	prendre	prendre	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 13	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	SpaceAfter=No
-14	autres	autre	ADJ	_	Number=Plur	15	amod	_	_
+14	autres	autre	ADJ	_	Number=Plur	15	amod	_	Gender[ctxt]=Masc
 15	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
 16	pour	pour	ADP	_	_	18	case	_	_
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
@@ -912,7 +912,7 @@
 20	mais	mais	CCONJ	_	_	24	cc	_	_
 21	pas	pas	ADV	_	Polarity=Neg	24	advmod	_	_
 22	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	SpaceAfter=No
-23	autres	autre	ADJ	_	Number=Plur	24	amod	_	_
+23	autres	autre	ADJ	_	Number=Plur	24	amod	_	Gender[ctxt]=Masc
 24	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -948,7 +948,7 @@
 26	,	,	PUNCT	_	_	32	punct	_	_
 27	dans	dans	ADP	_	_	28	case	_	_
 28	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	32	obl:mod	_	_
-29	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
+29	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:tense	_	_
 31	été	être	AUX	_	Tense=Past|VerbForm=Part	32	aux:pass	_	_
 32	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	25	acl:relcl	_	_
@@ -957,7 +957,7 @@
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	risédronate	risédronate	NOUN	_	Gender=Masc|Number=Sing	32	obl:arg	_	_
 36	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
-37	autre	autre	ADJ	_	Number=Sing	38	amod	_	_
+37	autre	autre	ADJ	_	Number=Sing	38	amod	_	Gender[ctxt]=Masc
 38	bisphosphonate	bisphosphonate	NOUN	_	Gender=Masc|Number=Sing	35	appos	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	38	punct	_	_
 40	sur	sur	ADP	_	_	42	case	_	_
@@ -1132,7 +1132,7 @@
 28	exclusion	exclusion	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 29	de	de	ADP	_	_	32	case	_	_
 30	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-31	autre	autre	ADJ	_	Number=Sing	32	amod	_	_
+31	autre	autre	ADJ	_	Number=Sing	32	amod	_	Gender[ctxt]=Masc
 32	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
 33	anti-ostéoporosique	anti-ostéoporosique	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	28	punct	_	_
@@ -1172,7 +1172,7 @@
 14	non	non	ADV	_	Polarity=Neg	12	conj	_	_
 15	à	à	ADP	_	_	18	case	_	_
 16	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	SpaceAfter=No
-17	autres	autre	ADJ	_	Number=Plur	18	amod	_	_
+17	autres	autre	ADJ	_	Number=Plur	18	amod	_	Gender[ctxt]=Masc
 18	traitements	traitement	NOUN	_	Gender=Masc|Number=Plur	12	obl:arg	_	_
 19	anti-ostéoporotiques	anti-ostéoporotique	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	12	punct	_	_
@@ -1288,7 +1288,7 @@
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 11	été	être	AUX	_	Tense=Past|VerbForm=Part	13	cop	_	_
 12	plus	plus	ADV	_	_	13	advmod	_	_
-13	efficace	efficace	ADJ	_	Number=Sing	0	root	_	_
+13	efficace	efficace	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 14	que	que	SCONJ	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	risédronate	risédronate	NOUN	_	Gender=Masc|Number=Sing	13	dep	_	SpaceAfter=No
@@ -1364,7 +1364,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	effets	effet	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	_
+6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Masc
 7	associés	associer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	Aclasta	Aclasta	PROPN	_	_	7	obl:arg	_	_
@@ -1381,7 +1381,7 @@
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
 22	et	et	CCONJ	_	_	24	cc	_	_
-23	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+23	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
 24	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 25	moins	moins	ADV	_	_	26	advmod	_	_
 26	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	24	xcomp	_	_
@@ -1397,7 +1397,7 @@
 # text = L'effet indésirable le plus fréquent sous Aclasta (observé chez plus d'un patient sur 10) est la fièvre.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
-3	indésirable	indésirable	ADJ	_	Number=Sing	2	amod	_	_
+3	indésirable	indésirable	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Masc
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	plus	plus	ADV	_	_	6	advmod	_	_
 6	fréquent	fréquent	ADJ	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -1428,7 +1428,7 @@
 6	tous	tout	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	effets	effet	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-9	indésirables	indésirable	ADJ	_	Number=Plur	8	amod	_	_
+9	indésirables	indésirable	ADJ	_	Number=Plur	8	amod	_	Gender[ctxt]=Masc
 10	observés	observer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
 11	lors	lors	ADV	_	ExtPos=ADV	10	advmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -1453,7 +1453,7 @@
 7	chez	chez	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	_
-10	susceptibles	susceptible	ADJ	_	Number=Plur	9	amod	_	_
+10	susceptibles	susceptible	ADJ	_	Number=Plur	9	amod	_	Gender[ctxt]=Masc
 11	de	de	ADP	_	_	12	mark	_	_
 12	présenter	présenter	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -1468,7 +1468,7 @@
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	à	à	ADP	_	_	26	case	_	_
 24	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	26	det	_	SpaceAfter=No
-25	autres	autre	ADJ	_	Number=Plur	26	amod	_	_
+25	autres	autre	ADJ	_	Number=Plur	26	amod	_	Gender[ctxt]=Masc
 26	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	20	conj	_	_
 27	ou	ou	CCONJ	_	_	30	cc	_	_
 28	à	à	ADP	_	_	30	case	_	_
@@ -1477,7 +1477,7 @@
 31-32	des	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	34	case	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
-33	autres	autre	ADJ	_	Number=Plur	34	amod	_	_
+33	autres	autre	ADJ	_	Number=Plur	34	amod	_	Gender[ctxt]=Masc
 34	composants	composant	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1501,7 +1501,7 @@
 16	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	sanguin	sanguin	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	trop	trop	ADV	_	_	19	advmod	_	_
-19	faible	faible	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
+19	faible	faible	ADJ	_	Number=Sing	14	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 20	)	)	PUNCT	_	_	14	punct	_	_
 21	ni	ni	CCONJ	_	_	24	cc	_	_
 22	chez	chez	ADP	_	_	24	case	_	_
@@ -1539,7 +1539,7 @@
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	reins	reins	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
+25	reins	rein	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	28	det	_	_
 28	réactions	réaction	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	_
@@ -1562,7 +1562,7 @@
 42	de	de	ADP	_	_	44	case	_	_
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
-45	osseux	osseux	ADJ	_	Gender=Masc	44	amod	_	SpaceAfter=No
+45	osseux	osseux	ADJ	_	Gender=Masc	44	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 46	)	)	PUNCT	_	_	41	punct	_	_
 47	de	de	ADP	_	_	49	case	_	_
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
@@ -1574,7 +1574,7 @@
 1	Pourquoi	pourquoi	ADV	_	PronType=Int	6	advmod	_	_
 2	Aclasta	Aclasta	PROPN	_	_	6	nsubj:pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
-4	-t-il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
+4	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
 6	approuvé	approuver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 7	?	?	PUNCT	_	_	6	punct	_	_
@@ -1607,7 +1607,7 @@
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	risques	risque	NOUN	_	Gender=Masc|Number=Plur	20	obl:arg	_	_
 24	qu'	que	PRON	_	PronType=Rel	26	obj	_	SpaceAfter=No
-25	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 26	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
 27	dans	dans	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -1632,7 +1632,7 @@
 47	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	53	punct	_	_
 49	y	y	PRON	_	ExtPos=ADV|Person=3|PronType=Prs	53	advmod	_	Idiom=Yes
-50	compris	compris	ADJ	_	Gender=Masc	49	fixed	_	InIdiom=Yes
+50	compris	compris	ADJ	_	Gender=Masc	49	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 51	chez	chez	ADP	_	_	53	case	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
 53	patients	patient	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
@@ -1647,7 +1647,7 @@
 62	suite	suite	NOUN	_	Gender=Fem|Number=Sing	57	obl:mod	_	_
 63	d'	de	ADP	_	_	66	case	_	SpaceAfter=No
 64	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
-65	faible	faible	ADJ	_	Number=Sing	66	amod	_	_
+65	faible	faible	ADJ	_	Number=Sing	66	amod	_	Gender[ctxt]=Masc
 66	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	62	nmod	_	SpaceAfter=No
 67	,	,	PUNCT	_	_	72	punct	_	_
 68	ainsi	ainsi	ADV	_	ExtPos=CCONJ	72	cc	_	Idiom=Yes
@@ -1739,7 +1739,7 @@
 # text = Des kits similaires seront fournis aux patients afin de préciser les effets indésirables du médicament et les cas dans lesquels ils doivent contacter leur médecin.
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	kits	kit	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
-3	similaires	similaire	ADJ	_	Number=Plur	2	amod	_	_
+3	similaires	similaire	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Masc
 4	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	_	_
 5	fournis	fournir	VERB	_	Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6-7	aux	_	_	_	_	_	_	_	_
@@ -1751,7 +1751,7 @@
 11	préciser	préciser	VERB	_	VerbForm=Inf	9	ccomp	_	Subject=Generic
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	effets	effet	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
-14	indésirables	indésirable	ADJ	_	Number=Plur	13	amod	_	_
+14	indésirables	indésirable	ADJ	_	Number=Plur	13	amod	_	Gender[ctxt]=Masc
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -1761,7 +1761,7 @@
 20	cas	cas	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
 21	dans	dans	ADP	_	_	22	case	_	_
 22	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	24	obl:mod	_	_
-23	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+23	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
 24	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
 25	contacter	contacter	VERB	_	VerbForm=Inf	24	xcomp	_	Subject=SubjRaising
 26	leur	son	DET	_	Number=Sing|Poss=Yes	27	det	_	_
@@ -1770,7 +1770,7 @@
 
 # sent_id = emea-fr-test_00060
 # text = Autres informations relatives à Aclasta :
-1	Autres	autre	ADJ	_	Number=Plur	2	amod	_	_
+1	Autres	autre	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Fem
 2	informations	information	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 3	relatives	relatif	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4	à	à	ADP	_	_	5	case	_	_
@@ -1791,7 +1791,7 @@
 10	sur	sur	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	marché	marché	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-13	valide	valide	ADJ	_	Number=Sing	7	amod	_	_
+13	valide	valide	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 14	dans	dans	ADP	_	_	17	case	_	_
 15	toute	tout	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
@@ -1881,7 +1881,7 @@
 4	flacon	flacon	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	conditionnement	conditionnement	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-7	unitaire	unitaire	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
+7	unitaire	unitaire	ADJ	_	Number=Sing	6	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 8	)	)	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00071
@@ -1896,7 +1896,7 @@
 8	UTILISATION	utilisation	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9	SURE	sûr	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	ET	et	CCONJ	_	_	11	cc	_	_
-11	EFFICACE	efficace	ADJ	_	Number=Sing	9	conj	_	_
+11	EFFICACE	efficace	ADJ	_	Number=Sing	9	conj	_	Gender[ctxt]=Fem
 12-13	DU	_	_	_	_	_	_	_	_
 12	DE	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -1984,7 +1984,7 @@
 69	de	de	ADP	_	_	70	case	_	_
 70	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	68	nmod	_	_
 71	récente	récent	ADJ	_	Gender=Fem|Number=Sing	68	amod	_	_
-72	secondaire	secondaire	ADJ	_	Number=Sing	68	amod	_	_
+72	secondaire	secondaire	ADJ	_	Number=Sing	68	amod	_	Gender[ctxt]=Fem
 73	à	à	ADP	_	_	75	case	_	_
 74	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	75	det	_	_
 75	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	72	obl:arg	_	_
@@ -2039,7 +2039,7 @@
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	acide	acide	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-14	anhydre	anhydre	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	anhydre	anhydre	ADJ	_	Number=Sing	12	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
 17	à	à	ADP	_	_	19	case	_	_
@@ -2063,7 +2063,7 @@
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	acide	acide	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-11	anhydre	anhydre	ADJ	_	Number=Sing	9	amod	_	_
+11	anhydre	anhydre	ADJ	_	Number=Sing	9	amod	_	Gender[ctxt]=Masc
 12	correspondant	correspondre	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	0,0533	0,0533	NUM	_	NumType=Card	15	nummod	_	_
@@ -2077,9 +2077,9 @@
 # sent_id = emea-fr-test_00079
 # text = Solution limpide et incolore.
 1	Solution	solution	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	limpide	limpide	ADJ	_	Number=Sing	1	amod	_	_
+2	limpide	limpide	ADJ	_	Number=Sing	1	amod	_	Gender[ctxt]=Fem
 3	et	et	CCONJ	_	_	4	cc	_	_
-4	incolore	incolore	ADJ	_	Number=Sing	2	conj	_	SpaceAfter=No
+4	incolore	incolore	ADJ	_	Number=Sing	2	conj	_	Gender[ctxt]=Fem|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-test_00080
@@ -2112,7 +2112,7 @@
 26	de	de	ADP	_	_	27	case	_	_
 27	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 28	récente	récent	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
-29	secondaire	secondaire	ADJ	_	Number=Sing	25	amod	_	_
+29	secondaire	secondaire	ADJ	_	Number=Sing	25	amod	_	Gender[ctxt]=Fem
 30	à	à	ADP	_	_	32	case	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	29	obl:arg	_	_
@@ -2176,13 +2176,13 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	récente	récent	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-11	secondaire	secondaire	ADJ	_	Number=Sing	7	amod	_	_
+11	secondaire	secondaire	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 12	à	à	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
 15	modéré	modéré	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	3	punct	_	_
-17	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
+17	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
 19	recommandé	recommander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 20	de	de	ADP	_	_	21	mark	_	_
@@ -2240,7 +2240,7 @@
 3	recommandée	recommander	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	unique	unique	ADJ	_	Number=Sing	7	amod	_	_
+6	unique	unique	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 7	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 8	intraveineuse	intraveineux	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -2265,10 +2265,10 @@
 10	:	:	PUNCT	_	_	16	punct	_	_
 11	aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	12	det	_	_
 12	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
-13	spécifique	spécifique	ADJ	_	Number=Sing	12	amod	_	_
+13	spécifique	spécifique	ADJ	_	Number=Sing	12	amod	_	Gender[ctxt]=Fem
 14	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
-16	disponible	disponible	ADJ	_	Number=Sing	1	parataxis	_	_
+16	disponible	disponible	ADJ	_	Number=Sing	1	parataxis	_	Gender[ctxt]=Fem
 17	concernant	concernant	ADP	_	_	19	case	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
@@ -2277,7 +2277,7 @@
 
 # sent_id = emea-fr-test_00087
 # text = Il a été observé une période de rémission prolongée chez les patients répondeurs au traitement de la maladie de Paget après une unique administration d'Aclasta (voir rubrique 5.1).
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	été	être	AUX	_	Tense=Past|VerbForm=Part	4	aux:pass	_	_
 4	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -2301,7 +2301,7 @@
 21	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 22	après	après	ADP	_	_	25	case	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	unique	unique	ADJ	_	Number=Sing	25	amod	_	_
+24	unique	unique	ADJ	_	Number=Sing	25	amod	_	Gender[ctxt]=Fem
 25	administration	administration	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 26	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
 27	Aclasta	Aclasta	PROPN	_	_	25	nmod	_	_
@@ -2419,7 +2419,7 @@
 13	reçoivent	recevoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
-16	diurétique	diurétique	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+16	diurétique	diurétique	ADJ	_	Number=Sing	15	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00093
@@ -2457,7 +2457,7 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	6	punct	_	_
-14	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	_
+14	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
 16	fortement	fortement	ADV	_	_	17	advmod	_	_
 17	conseillé	conseiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -2518,13 +2518,13 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	récente	récent	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-11	secondaire	secondaire	ADJ	_	Number=Sing	7	amod	_	_
+11	secondaire	secondaire	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 12	à	à	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
 15	modéré	modéré	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	3	punct	_	_
-17	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
+17	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
 19	recommandé	recommander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 20	d'	de	ADP	_	_	21	mark	_	SpaceAfter=No
@@ -2545,7 +2545,7 @@
 35	voie	voie	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	_
 36	orale	oral	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 37	ou	ou	CCONJ	_	_	38	cc	_	_
-38	intramusculaire	intramusculaire	ADJ	_	Number=Sing	36	conj	_	SpaceAfter=No
+38	intramusculaire	intramusculaire	ADJ	_	Number=Sing	36	conj	_	Gender[ctxt]=Fem|SpaceAfter=No
 39	,	,	PUNCT	_	_	43	punct	_	_
 40	avant	avant	ADP	_	_	43	case	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
@@ -2563,7 +2563,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	effets	effet	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	_
+6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Masc
 7	survenant	survenir	VERB	_	Tense=Pres|VerbForm=Part	5	acl	_	_
 8	dans	dans	ADP	_	_	12	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
@@ -2619,14 +2619,14 @@
 11	patients	patient	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	_
 12	dont	dont	PRON	_	PronType=Rel	14	nmod	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	clairance	clairance	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+14	clairance	clairance	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	créatinine	créatinine	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
-19	<	<	ADP	_	_	21	case	_	_
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	<	<	SYM	_	ExtPos=VERB	11	acl:relcl	_	_
 20	35	35	NUM	_	NumType=Card	21	nummod	_	_
-21	ml	ml	NOUN	_	Gender=Masc	11	acl:relcl	_	SpaceAfter=No
+21	ml	ml	NOUN	_	Gender=Masc	19	obj	_	SpaceAfter=No
 22	/	/	ADP	_	_	23	case	_	SpaceAfter=No
 23	min	min	NOUN	_	Gender=Masc	21	nmod	_	_
 24	en	en	ADP	_	_	25	case	_	_
@@ -2634,7 +2634,7 @@
 26	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
-29	clinique	clinique	ADJ	_	Number=Sing	28	amod	_	_
+29	clinique	clinique	ADJ	_	Number=Sing	28	amod	_	Gender[ctxt]=Fem
 30	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 31	dans	dans	ADP	_	_	33	case	_	_
 32	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
@@ -2650,7 +2650,7 @@
 5	dose	dose	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	nécessaire	nécessaire	ADJ	_	Number=Sing	0	root	_	_
+8	nécessaire	nécessaire	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 9	chez	chez	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	patients	patient	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	_
@@ -2671,7 +2671,7 @@
 # text = Patients insuffisants hépatiques
 1	Patients	patient	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	insuffisants	insuffisant	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
-3	hépatiques	hépatique	ADJ	_	Number=Plur	2	amod	_	_
+3	hépatiques	hépatique	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Masc
 
 # sent_id = emea-fr-test_00101
 # text = Aucun ajustement de la dose n'est nécessaire (voir rubrique 5.2).
@@ -2682,7 +2682,7 @@
 5	dose	dose	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	nécessaire	nécessaire	ADJ	_	Number=Sing	0	root	_	_
+8	nécessaire	nécessaire	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	voir	voir	VERB	_	VerbForm=Inf	8	parataxis:insert	_	Subject=Generic
 11	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
@@ -2708,7 +2708,7 @@
 5	dose	dose	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	nécessaire	nécessaire	ADJ	_	Number=Sing	0	root	_	_
+8	nécessaire	nécessaire	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 9	puisque	puisque	SCONJ	_	_	20	mark	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	biodisponibilité	biodisponibilité	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
@@ -2720,7 +2720,7 @@
 17	élimination	élimination	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
 18	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
 19	été	être	AUX	_	Tense=Past|VerbForm=Part	20	cop	_	_
-20	similaires	similaire	ADJ	_	Number=Plur	8	advcl	_	_
+20	similaires	similaire	ADJ	_	Number=Plur	8	advcl	_	Gender[ctxt]=Fem
 21	chez	chez	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	patients	patient	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
@@ -2730,7 +2730,7 @@
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	patients	patient	NOUN	_	Gender=Masc|Number=Plur	23	conj	_	_
 29	plus	plus	ADV	_	_	30	advmod	_	_
-30	jeunes	jeune	ADJ	_	Number=Plur	28	amod	_	SpaceAfter=No
+30	jeunes	jeune	ADJ	_	Number=Plur	28	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 31	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = emea-fr-test_00104
@@ -2790,7 +2790,7 @@
 13	ou	ou	CCONJ	_	_	17	cc	_	_
 14	à	à	ADP	_	_	17	case	_	_
 15	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	SpaceAfter=No
-16	autres	autre	ADJ	_	Number=Plur	17	amod	_	_
+16	autres	autre	ADJ	_	Number=Plur	17	amod	_	Gender[ctxt]=Masc
 17	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -2867,24 +2867,24 @@
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	9	obl:agent	_	_
 12	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	sévère	sévère	ADJ	_	Number=Sing	11	amod	_	_
-14	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-15	clairance	clairance	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+13	sévère	sévère	ADJ	_	Number=Sing	11	amod	_	Gender[ctxt]=Fem
+14	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+15	clairance	clairance	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	créatinine	créatinine	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-19	<	<	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	11	parataxis	_	_
+19	<	<	SYM	_	ExtPos=ADP	21	case	_	_
 20	35	35	NUM	_	NumType=Card	21	nummod	_	_
-21	ml	ml	NOUN	_	Gender=Masc	19	obj	_	SpaceAfter=No
+21	ml	ml	NOUN	_	Gender=Masc	11	parataxis	_	SpaceAfter=No
 22	/	/	ADP	_	_	23	case	_	SpaceAfter=No
 23	min	min	NOUN	_	Gender=Masc	21	nmod	_	SpaceAfter=No
-24	)	)	PUNCT	_	_	19	punct	_	_
+24	)	)	PUNCT	_	_	21	punct	_	_
 25	en	en	ADP	_	_	26	case	_	_
 26	raison	raison	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 27	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-30	clinique	clinique	ADJ	_	Number=Sing	29	amod	_	_
+30	clinique	clinique	ADJ	_	Number=Sing	29	amod	_	Gender[ctxt]=Fem
 31	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
 32	dans	dans	ADP	_	_	34	case	_	_
 33	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	34	det	_	_
@@ -2922,7 +2922,7 @@
 13	recevant	recevoir	VERB	_	Tense=Pres|VerbForm=Part	12	acl	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
-16	diurétique	diurétique	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+16	diurétique	diurétique	ADJ	_	Number=Sing	15	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00113
@@ -2941,7 +2941,7 @@
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
-15	susceptibles	susceptible	ADJ	_	Number=Plur	14	amod	_	_
+15	susceptibles	susceptible	ADJ	_	Number=Plur	14	amod	_	Gender[ctxt]=Masc
 16	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
 17	affecter	affecter	VERB	_	VerbForm=Inf	15	xcomp	_	Subject=SubjRaising
 18	de	de	ADP	_	_	19	case	_	_
@@ -2957,7 +2957,7 @@
 28	aminosides	aminoside	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	_
 29	ou	ou	CCONJ	_	_	30	cc	_	_
 30	diurétiques	diurétique	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
-31	susceptibles	susceptible	ADJ	_	Number=Plur	28	amod	_	_
+31	susceptibles	susceptible	ADJ	_	Number=Plur	28	amod	_	Gender[ctxt]=Masc
 32	de	de	ADP	_	_	33	mark	_	_
 33	provoquer	provoquer	VERB	_	VerbForm=Inf	31	xcomp	_	Subject=SubjRaising
 34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
@@ -3006,7 +3006,7 @@
 # sent_id = emea-fr-test_00115
 # text = Les autres troubles du métabolisme des minéraux doivent également être traités de manière efficace (par ex. hypoparathyroïdie, malabsorption intestinale du calcium).
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-2	autres	autre	ADJ	_	Number=Plur	3	amod	_	_
+2	autres	autre	ADJ	_	Number=Plur	3	amod	_	Gender[ctxt]=Masc
 3	troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -3022,7 +3022,7 @@
 13	traités	traiter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
-16	efficace	efficace	ADJ	_	Number=Sing	15	amod	_	_
+16	efficace	efficace	ADJ	_	Number=Sing	15	amod	_	Gender[ctxt]=Fem
 17	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 18	par	par	ADP	_	_	19	case	_	_
 19	ex.	ex.	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
@@ -3041,7 +3041,7 @@
 # text = Une surveillance clinique de ces patients devra être envisagée par le prescripteur.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	clinique	clinique	ADJ	_	Number=Sing	2	amod	_	_
+3	clinique	clinique	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Fem
 4	de	de	ADP	_	_	6	case	_	_
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	_
 6	patients	patient	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
@@ -3057,7 +3057,7 @@
 # text = Un remodelage osseux élevé est l'une des caractéristiques de la maladie de Paget.
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
-3	osseux	osseux	ADJ	_	Gender=Masc	2	amod	_	_
+3	osseux	osseux	ADJ	_	Gender=Masc	2	amod	_	Number[ctxt]=Sing
 4	élevé	élevé	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -3083,7 +3083,7 @@
 5	délai	délai	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	action	action	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	rapide	rapide	ADJ	_	Number=Sing	5	amod	_	_
+8	rapide	rapide	ADJ	_	Number=Sing	5	amod	_	Gender[ctxt]=Masc
 9	de	de	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	acide	acide	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -3091,14 +3091,14 @@
 13	sur	sur	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-16	osseux	osseux	ADJ	_	Gender=Masc	15	amod	_	SpaceAfter=No
+16	osseux	osseux	ADJ	_	Gender=Masc	15	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
-20	transitoire	transitoire	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+20	transitoire	transitoire	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	parfois	parfois	ADV	_	_	23	advmod	_	_
-23	symptomatique	symptomatique	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+23	symptomatique	symptomatique	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	expl:pv	_	_
@@ -3140,7 +3140,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	6	punct	_	_
-13	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
+13	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 15	fortement	fortement	ADV	_	_	16	advmod	_	_
 16	conseillé	conseiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -3208,7 +3208,7 @@
 16	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
-19	clinique	clinique	ADJ	_	Number=Sing	18	amod	_	_
+19	clinique	clinique	ADJ	_	Number=Sing	18	amod	_	Gender[ctxt]=Fem
 20	appropriée	approprié	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 21	pendant	pendant	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -3219,7 +3219,7 @@
 
 # sent_id = emea-fr-test_00121
 # text = Il est recommandé de mesurer la calcémie avant la perfusion d'Aclasta chez les patients atteints de la maldie osseuse de Paget.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	recommandé	recommander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
@@ -3249,12 +3249,12 @@
 2	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	17	nsubj:pass	_	_
 3	osseuses	osseux	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	articulaires	articulaire	ADJ	_	Number=Plur	3	conj	_	_
+5	articulaires	articulaire	ADJ	_	Number=Plur	3	conj	_	Gender[ctxt]=Fem
 6	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes
 7	/	/	SYM	_	_	6	fixed	_	InIdiom=Yes
 8	ou	ou	CCONJ	_	_	6	fixed	_	InIdiom=Yes
-9	musculaires	musculaire	ADJ	_	Number=Plur	3	conj	_	_
-10	sévères	sévère	ADJ	_	Number=Plur	2	amod	_	_
+9	musculaires	musculaire	ADJ	_	Number=Plur	3	conj	_	Gender[ctxt]=Fem
+10	sévères	sévère	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Fem
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	parfois	parfois	ADV	_	_	13	advmod	_	_
 13	invalidantes	invalidant	ADJ	_	Gender=Fem|Number=Plur	10	conj	_	_
@@ -3271,7 +3271,7 @@
 24	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	21	obl:mod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
 26	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	28	case	_	Idiom=Yes
-27	compris	compris	ADJ	_	Gender=Masc	26	fixed	_	InIdiom=Yes
+27	compris	compris	ADJ	_	Gender=Masc	26	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 28	Aclasta	Aclasta	PROPN	_	_	24	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -3280,7 +3280,7 @@
 1	Aclasta	Aclasta	PROPN	_	_	2	nsubj	_	_
 2	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	même	même	ADJ	_	Number=Sing	5	amod	_	_
+4	même	même	ADJ	_	Number=Sing	5	amod	_	Gender[ctxt]=Fem
 5	substance	substance	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 6	active	actif	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	qu'	que	SCONJ	_	_	9	case	_	SpaceAfter=No
@@ -3347,7 +3347,7 @@
 22	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	27	case	_	Idiom=Yes
-25	compris	compris	ADJ	_	Gender=Masc	24	fixed	_	InIdiom=Yes
+25	compris	compris	ADJ	_	Gender=Masc	24	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	acide	acide	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 28	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
@@ -3384,12 +3384,12 @@
 10	à	à	ADP	_	_	12	case	_	_
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
 12	interventions	intervention	NOUN	_	Gender=Fem|Number=Plur	9	obl:arg	_	_
-13	dentaires	dentaire	ADJ	_	Number=Plur	12	amod	_	_
+13	dentaires	dentaire	ADJ	_	Number=Plur	12	amod	_	Gender[ctxt]=Fem
 14	telles	tel	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
 15	qu'	que	SCONJ	_	_	17	case	_	SpaceAfter=No
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	extraction	extraction	NOUN	_	Gender=Fem|Number=Sing	14	dep	_	_
-18	dentaire	dentaire	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
+18	dentaire	dentaire	ADJ	_	Number=Sing	17	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 19	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = emea-fr-test_00129
@@ -3403,7 +3403,7 @@
 7	localisée	localisé	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	12	case	_	Idiom=Yes
-10	compris	compris	ADJ	_	Gender=Masc	9	fixed	_	InIdiom=Yes
+10	compris	compris	ADJ	_	Gender=Masc	9	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	ostéomyélite	ostéomyélite	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -3412,11 +3412,11 @@
 # text = Un examen dentaire avec des soins dentaires préventifs appropriés devra être pris en considération avant l'instauration d'un traitement par bisphosphonates chez des patients présentant des facteurs de risque associés (par exemple : cancer, chimiothérapie, corticoïdes ou mauvaise hygiène buccale).
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	examen	examen	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
-3	dentaire	dentaire	ADJ	_	Number=Sing	2	amod	_	_
+3	dentaire	dentaire	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Masc
 4	avec	avec	ADP	_	_	6	case	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	soins	soin	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-7	dentaires	dentaire	ADJ	_	Number=Plur	6	amod	_	_
+7	dentaires	dentaire	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Masc
 8	préventifs	préventif	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 9	appropriés	approprié	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 10	devra	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -3481,7 +3481,7 @@
 17	possible	possible	NOUN	_	Number=Sing	14	nmod	_	_
 18	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
-20	dentaire	dentaire	ADJ	_	Number=Sing	19	amod	_	_
+20	dentaire	dentaire	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem
 21	invasive	invasif	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -3509,7 +3509,7 @@
 19	,	,	PUNCT	_	_	3	punct	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	chirurgie	chirurgie	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
-22	dentaire	dentaire	ADJ	_	Number=Sing	21	amod	_	_
+22	dentaire	dentaire	ADJ	_	Number=Sing	21	amod	_	Gender[ctxt]=Fem
 23	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 24	aggraver	aggraver	VERB	_	VerbForm=Inf	23	xcomp	_	Subject=SubjRaising
 25	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
@@ -3524,16 +3524,16 @@
 4	nécessitant	nécessiter	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	interventions	intervention	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
-7	dentaires	dentaire	ADJ	_	Number=Plur	6	amod	_	SpaceAfter=No
+7	dentaires	dentaire	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl:subj	_	_
+9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl:subj	_	_
 10	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
 11	y	y	PRON	_	Person=3|PronType=Prs	12	expl:comp	_	_
 12	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 14	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
 15	donnée	donnée	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
-16	disponible	disponible	ADJ	_	Number=Sing	15	amod	_	_
+16	disponible	disponible	ADJ	_	Number=Sing	15	amod	_	Gender[ctxt]=Fem
 17	suggérant	suggérer	VERB	_	Tense=Pres|VerbForm=Part	15	acl	_	_
 18	que	que	SCONJ	_	_	26	mark	_	_
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
@@ -3558,7 +3558,7 @@
 # text = L'appréciation clinique du médecin traitant devrait orienter la prise en charge de chaque patient en se basant sur l'évaluation individuelle du rapport bénéfice/risque.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	appréciation	appréciation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	clinique	clinique	ADJ	_	Number=Sing	2	amod	_	_
+3	clinique	clinique	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Fem
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -3593,7 +3593,7 @@
 # text = Aucune étude spécifique d'interaction médicamenteuse n'a été conduite avec l'acide zolédronique.
 1	Aucune	aucun	DET	_	Gender=Fem|Number=Sing|PronType=Neg	2	det	_	_
 2	étude	étude	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
-3	spécifique	spécifique	ADJ	_	Number=Sing	2	amod	_	_
+3	spécifique	spécifique	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Fem
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	interaction	interaction	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	médicamenteuse	médicamenteux	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
@@ -3655,7 +3655,7 @@
 9	à	à	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	protéines	protéine	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	_
-12	plasmatiques	plasmatique	ADJ	_	Number=Plur	11	amod	_	_
+12	plasmatiques	plasmatique	ADJ	_	Number=Plur	11	amod	_	Gender[ctxt]=Fem
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	liaison	liaison	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
 15	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
@@ -3681,11 +3681,11 @@
 9	à	à	ADP	_	_	11	case	_	_
 10	forte	fort	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 11	liaison	liaison	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-12	protéique	protéique	ADJ	_	Number=Sing	11	amod	_	_
+12	protéique	protéique	ADJ	_	Number=Sing	11	amod	_	Gender[ctxt]=Fem
 13	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 14	donc	donc	ADV	_	_	16	advmod	_	_
 15	peu	peu	ADV	_	_	16	advmod	_	_
-16	probables	probable	ADJ	_	Number=Plur	0	root	_	SpaceAfter=No
+16	probables	probable	ADJ	_	Number=Plur	0	root	_	Gender[ctxt]=Fem|SpaceAfter=No
 17	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = emea-fr-test_00139
@@ -3716,7 +3716,7 @@
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
-15	susceptibles	susceptible	ADJ	_	Number=Plur	14	amod	_	_
+15	susceptibles	susceptible	ADJ	_	Number=Plur	14	amod	_	Gender[ctxt]=Masc
 16	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
 17	affecter	affecter	VERB	_	VerbForm=Inf	15	xcomp	_	Subject=SubjRaising
 18	de	de	ADP	_	_	19	case	_	_
@@ -3731,7 +3731,7 @@
 27	aminosides	aminoside	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	_
 28	ou	ou	CCONJ	_	_	29	cc	_	_
 29	diurétiques	diurétique	NOUN	_	Gender=Masc|Number=Plur	27	conj	_	_
-30	susceptibles	susceptible	ADJ	_	Number=Plur	27	amod	_	_
+30	susceptibles	susceptible	ADJ	_	Number=Plur	27	amod	_	Gender[ctxt]=Masc
 31	de	de	ADP	_	_	32	mark	_	_
 32	provoquer	provoquer	VERB	_	VerbForm=Inf	30	xcomp	_	Subject=SubjRaising
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
@@ -3747,7 +3747,7 @@
 
 # sent_id = emea-fr-test_00142
 # text = Il n'existe pas de données suffisamment pertinentes concernant l'utilisation de l'acide zolédronique chez la femme enceinte.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	advmod	_	SpaceAfter=No
 3	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
@@ -3908,9 +3908,9 @@
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 28	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	33	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
-30	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	28	conj	_	_
+30	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	28	conj	_	Gender[ctxt]=Fem
 31	et	et	CCONJ	_	_	32	cc	_	_
-32	troisième	troisième	ADJ	_	Number=Sing|NumType=Ord	28	conj	_	_
+32	troisième	troisième	ADJ	_	Number=Sing|NumType=Ord	28	conj	_	Gender[ctxt]=Fem
 33	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
 34	respectivement	respectivement	ADV	_	_	33	advmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	19	punct	_	_
@@ -4045,9 +4045,9 @@
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 24	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	24	conj	_	_
+26	deuxième	deuxième	ADJ	_	Number=Sing|NumType=Ord	24	conj	_	Gender[ctxt]=Fem
 27	et	et	CCONJ	_	_	28	cc	_	_
-28	troisième	troisième	ADJ	_	Number=Sing|NumType=Ord	24	conj	_	_
+28	troisième	troisième	ADJ	_	Number=Sing|NumType=Ord	24	conj	_	Gender[ctxt]=Fem
 29	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	dans	dans	ADP	_	_	33	case	_	_
@@ -4060,7 +4060,7 @@
 38	où	où	PRON	_	PronType=Rel	46	obl:mod	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	46	nsubj:pass	_	_
-41	symptomatique	symptomatique	ADJ	_	Number=Sing	40	amod	_	_
+41	symptomatique	symptomatique	ADJ	_	Number=Sing	40	amod	_	Gender[ctxt]=Masc
 42	décrit	décrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	40	acl	_	_
 43	ci-dessous	ci-dessous	ADV	_	_	42	advmod	_	_
 44	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	46	aux:tense	_	_
@@ -4135,7 +4135,7 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	fibrillations	fibrillation	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
-22	auriculaires	auriculaire	ADJ	_	Number=Plur	21	amod	_	_
+22	auriculaires	auriculaire	ADJ	_	Number=Plur	21	amod	_	Gender[ctxt]=Fem
 23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
 24	été	être	AUX	_	Tense=Past|VerbForm=Part	27	cop	_	_
 25	de	de	ADP	_	_	27	case	_	_
@@ -4176,12 +4176,12 @@
 2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	fibrillations	fibrillation	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-5	auriculaires	auriculaire	ADJ	_	Number=Plur	4	amod	_	_
+5	auriculaires	auriculaire	ADJ	_	Number=Plur	4	amod	_	Gender[ctxt]=Fem
 6	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|Typo=Yes|VerbForm=Part|Voice=Pass	4	acl	_	CorrectForm=classées|CorrectGender=Fem|CorrectNumber=Plur
 7	comme	comme	ADP	_	_	8	case	_	_
 8	évènements	évènement	NOUN	_	Gender=Masc|Number=Plur	6	xcomp	_	_
-9	indésirables	indésirable	ADJ	_	Number=Plur	8	amod	_	_
-10	graves	grave	ADJ	_	Number=Plur	8	amod	_	_
+9	indésirables	indésirable	ADJ	_	Number=Plur	8	amod	_	Gender[ctxt]=Masc
+10	graves	grave	ADJ	_	Number=Plur	8	amod	_	Gender[ctxt]=Masc
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	1,3	1,3	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
@@ -4228,7 +4228,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	fibrillations	fibrillation	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-12	auriculaires	auriculaire	ADJ	_	Number=Plur	11	amod	_	_
+12	auriculaires	auriculaire	ADJ	_	Number=Plur	11	amod	_	Gender[ctxt]=Fem
 13	n'	ne	ADV	_	Polarity=Neg	16	advmod	_	SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 15	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	_
@@ -4258,10 +4258,10 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	fibrillations	fibrillation	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
-21	auriculaires	auriculaire	ADJ	_	Number=Plur	20	amod	_	_
+21	auriculaires	auriculaire	ADJ	_	Number=Plur	20	amod	_	Gender[ctxt]=Fem
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
 23	été	être	AUX	_	Tense=Past|VerbForm=Part	24	cop	_	_
-24	comparable	comparable	ADJ	_	Number=Sing	0	root	_	_
+24	comparable	comparable	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Fem
 25	entre	entre	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	24	obl:arg	_	_
@@ -4289,12 +4289,12 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	fibrillations	fibrillation	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-7	auriculaires	auriculaire	ADJ	_	Number=Plur	6	amod	_	_
+7	auriculaires	auriculaire	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Fem
 8	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
 9	comme	comme	ADP	_	_	10	case	_	_
 10	événement	événement	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
-11	indésirable	indésirable	ADJ	_	Number=Sing	10	amod	_	_
-12	grave	grave	ADJ	_	Number=Sing	10	amod	_	_
+11	indésirable	indésirable	ADJ	_	Number=Sing	10	amod	_	Gender[ctxt]=Masc
+12	grave	grave	ADJ	_	Number=Sing	10	amod	_	Gender[ctxt]=Masc
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	1,3	1,3	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
@@ -4317,7 +4317,7 @@
 # text = Les effets indésirables très fréquents (1/10), fréquents (1/100, < 1/10), peu fréquents (1/1000, < 1/100) et rares (1/10 000, < 1/1 000) sont présentés dans le Tableau 1.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	effets	effet	NOUN	_	Gender=Masc|Number=Plur	39	nsubj:pass	_	_
-3	indésirables	indésirable	ADJ	_	Number=Plur	2	amod	_	_
+3	indésirables	indésirable	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Masc
 4	très	très	ADV	_	_	5	advmod	_	_
 5	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -4328,7 +4328,7 @@
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	1/100	1/100	NUM	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
-14	<	<	ADP	_	_	15	case	_	_
+14	<	<	SYM	_	ExtPos=ADP	15	case	_	_
 15	1/10	1/10	NUM	_	NumType=Card	12	conj	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
@@ -4337,17 +4337,17 @@
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 21	1/1000	1/1000	NUM	_	NumType=Card	19	parataxis:insert	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
-23	<	<	ADP	_	_	24	case	_	_
+23	<	<	SYM	_	ExtPos=ADP	24	case	_	_
 24	1/100	1/100	NUM	_	NumType=Card	21	conj	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	24	punct	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
-27	rares	rare	ADJ	_	Number=Plur	5	conj	_	_
+27	rares	rare	ADJ	_	Number=Plur	5	conj	_	Gender[ctxt]=Masc
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	1	1	NUM	_	NumType=Card	27	parataxis:insert	_	SpaceAfter=No
 30	/	/	SYM	_	_	29	advmod	_	SpaceAfter=No
 31	10 000	10 000	NUM	_	NumType=Card	30	obj	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
-33	<	<	ADP	_	_	34	case	_	_
+33	<	<	SYM	_	ExtPos=ADP	34	case	_	_
 34	1	1	NUM	_	NumType=Card	29	conj	_	SpaceAfter=No
 35	/	/	SYM	_	_	34	advmod	_	SpaceAfter=No
 36	1 000	1 000	NUM	_	NumType=Card	35	obj	_	SpaceAfter=No
@@ -4374,7 +4374,7 @@
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	effets	effet	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:pass	_	_
-12	indésirables	indésirable	ADJ	_	Number=Plur	11	amod	_	_
+12	indésirables	indésirable	ADJ	_	Number=Plur	11	amod	_	Gender[ctxt]=Masc
 13	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
 14	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 15	suivant	suivant	ADP	_	_	17	case	_	_
@@ -4395,7 +4395,7 @@
 6	oesophagite	oesophagite	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	2	obl:mod	_	_
-9	dentaires	dentaire	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+9	dentaires	dentaire	ADJ	_	Number=Plur	8	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-test_00162
@@ -4450,11 +4450,11 @@
 
 # sent_id = emea-fr-test_00166
 # text = Il n'est pas possible d'estimer leur fréquence ou d'établir une relation avec l'exposition au médicament.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
-5	possible	possible	ADJ	_	Number=Sing	0	root	_	_
+5	possible	possible	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 6	d'	de	ADP	_	_	7	mark	_	SpaceAfter=No
 7	estimer	estimer	VERB	_	VerbForm=Inf	5	csubj	_	Subject=Generic
 8	leur	son	DET	_	Number=Sing|Poss=Yes	9	det	_	_
@@ -4524,7 +4524,7 @@
 32	et	et	CCONJ	_	_	37	cc	_	_
 33	dans	dans	ADP	_	_	36	case	_	_
 34	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	36	det	_	_
-35	rares	rare	ADJ	_	Number=Plur	36	amod	_	_
+35	rares	rare	ADJ	_	Number=Plur	36	amod	_	Gender[ctxt]=Masc
 36	cas	cas	NOUN	_	Gender=Masc|Number=Plur	37	orphan	_	_
 37	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	20	conj	_	_
 38	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
@@ -4561,7 +4561,7 @@
 26	facteurs	facteur	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	risque	risque	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
-29	supplémentaires	supplémentaire	ADJ	_	Number=Plur	26	amod	_	_
+29	supplémentaires	supplémentaire	ADJ	_	Number=Plur	26	amod	_	Gender[ctxt]=Masc
 30	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
 31	par	par	ADP	_	_	32	case	_	_
 32	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
@@ -4574,7 +4574,7 @@
 39	concomitants	concomitant	ADJ	_	Gender=Masc|Number=Plur	37	amod	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	déshydratation	déshydratation	NOUN	_	Gender=Fem|Number=Sing	34	conj	_	_
-42	sévère	sévère	ADJ	_	Number=Sing	41	amod	_	SpaceAfter=No
+42	sévère	sévère	ADJ	_	Number=Sing	41	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	_
 44	etc.	etc.	ADV	_	_	34	conj	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
@@ -4632,7 +4632,7 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	études	étude	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-7	cliniques	clinique	ADJ	_	Number=Plur	6	amod	_	_
+7	cliniques	clinique	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Fem
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -4661,7 +4661,7 @@
 33	insuffisance	insuffisance	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
 34	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
 35	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
-36	comparables	comparable	ADJ	_	Number=Plur	0	root	_	_
+36	comparables	comparable	ADJ	_	Number=Plur	0	root	_	Gender[ctxt]=Fem
 37	dans	dans	ADP	_	_	40	case	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
 39	deux	deux	NUM	_	NumType=Card	40	nummod	_	_
@@ -4685,7 +4685,7 @@
 # text = Une augmentation transitoire de la créatininémie a été observée sur 10 jours chez 1,8% des patientes traitées par Aclasta versus 0,8% des patientes traitées par le placebo.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
-3	transitoire	transitoire	ADJ	_	Number=Sing	2	amod	_	_
+3	transitoire	transitoire	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Fem
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	créatininémie	créatininémie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -4732,7 +4732,7 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	études	étude	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-7	cliniques	clinique	ADJ	_	Number=Plur	6	amod	_	_
+7	cliniques	clinique	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Fem
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	ostéoporose	ostéoporose	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -4748,7 +4748,7 @@
 19	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	diminution	diminution	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
-22	notable	notable	ADJ	_	Number=Sing	21	amod	_	_
+22	notable	notable	ADJ	_	Number=Sing	21	amod	_	Gender[ctxt]=Fem
 23	de	de	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	calcémie	calcémie	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -4775,7 +4775,7 @@
 2	cas	cas	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 4	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	symptomatique	symptomatique	ADJ	_	Number=Sing	4	amod	_	_
+5	symptomatique	symptomatique	ADJ	_	Number=Sing	4	amod	_	Gender[ctxt]=Fem
 6	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
@@ -4803,7 +4803,7 @@
 16	,	,	PUNCT	_	_	3	punct	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
-19	symptomatique	symptomatique	ADJ	_	Number=Sing	18	amod	_	_
+19	symptomatique	symptomatique	ADJ	_	Number=Sing	18	amod	_	Gender[ctxt]=Fem
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
 21	été	être	AUX	_	Tense=Past|VerbForm=Part	22	aux:pass	_	_
 22	observée	observer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -4827,22 +4827,22 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	paramètres	paramètre	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-8	biologiques	biologique	ADJ	_	Number=Plur	7	amod	_	_
+8	biologiques	biologique	ADJ	_	Number=Plur	7	amod	_	Gender[ctxt]=Masc
 9	issue	issu	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 10	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-12	vaste	vaste	ADJ	_	Number=Sing	13	amod	_	_
+12	vaste	vaste	ADJ	_	Number=Sing	13	amod	_	Gender[ctxt]=Fem
 13	étude	étude	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
-14	clinique	clinique	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
+14	clinique	clinique	ADJ	_	Number=Sing	13	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
-16	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
+16	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
 18	été	être	AUX	_	Tense=Past|VerbForm=Part	19	aux:pass	_	_
 19	observé	observer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
 21	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	transitoires	transitoire	ADJ	_	Number=Plur	21	amod	_	_
+23	transitoires	transitoire	ADJ	_	Number=Plur	21	amod	_	Gender[ctxt]=Fem
 24	et	et	CCONJ	_	_	25	cc	_	_
 25	asymptomatiques	asymptomatique	ADJ	_	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
@@ -4942,7 +4942,7 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
 36	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
-37	cliniques	clinique	ADJ	_	Number=Plur	36	amod	_	_
+37	cliniques	clinique	ADJ	_	Number=Plur	36	amod	_	Gender[ctxt]=Fem
 38	après	après	ADP	_	_	39	case	_	_
 39	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	_
 40	de	de	ADP	_	_	41	case	_	_
@@ -5010,7 +5010,7 @@
 36	mesuré	mesurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	façon	façon	NOUN	_	Gender=Fem|Number=Sing	36	obl:mod	_	_
-39	systématique	systématique	ADJ	_	Number=Sing	38	amod	_	_
+39	systématique	systématique	ADJ	_	Number=Sing	38	amod	_	Gender[ctxt]=Fem
 40	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 41	voir	voir	VERB	_	VerbForm=Inf	12	parataxis:insert	_	Subject=Generic
 42	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
@@ -5031,7 +5031,7 @@
 3	cours	cours	NOUN	_	Gender=Masc	37	obl:mod	_	_
 4	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	vaste	vaste	ADJ	_	Number=Sing	7	amod	_	_
+6	vaste	vaste	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 7	étude	étude	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
@@ -5121,7 +5121,7 @@
 1	Beaucoup	beaucoup	ADV	_	_	5	nsubj	_	_
 2	d'	de	ADP	_	ExtPos=ADP	4	case	_	Idiom=Yes|SpaceAfter=No
 3	entre	entre	ADP	_	_	2	fixed	_	InIdiom=Yes
-4	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
 5	présentaient	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	signes	signe	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
@@ -5129,7 +5129,7 @@
 9	infection	infection	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	locale	local	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	14	case	_	Idiom=Yes
-12	compris	compris	ADJ	_	Gender=Masc	11	fixed	_	InIdiom=Yes
+12	compris	compris	ADJ	_	Gender=Masc	11	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	ostéomyélite	ostéomyélite	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -5154,12 +5154,12 @@
 15	subi	subir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	extraction	extraction	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
-18	dentaire	dentaire	ADJ	_	Number=Sing	17	amod	_	_
+18	dentaire	dentaire	ADJ	_	Number=Sing	17	amod	_	Gender[ctxt]=Fem
 19	ou	ou	CCONJ	_	_	22	cc	_	_
 20	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	SpaceAfter=No
-21	autres	autre	ADJ	_	Number=Plur	22	amod	_	_
+21	autres	autre	ADJ	_	Number=Plur	22	amod	_	Gender[ctxt]=Fem
 22	chirurgies	chirurgie	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
-23	dentaires	dentaire	ADJ	_	Number=Plur	22	amod	_	SpaceAfter=No
+23	dentaires	dentaire	ADJ	_	Number=Plur	22	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00188
@@ -5171,7 +5171,7 @@
 5	mâchoire	mâchoire	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
-8	multiples	multiple	ADJ	_	Number=Plur	9	amod	_	_
+8	multiples	multiple	ADJ	_	Number=Plur	9	amod	_	Gender[ctxt]=Masc
 9	facteurs	facteur	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	risque	risque	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -5231,14 +5231,14 @@
 7	être	être	AUX	_	VerbForm=Inf	8	aux:pass	_	Subject=SubjRaising
 8	établie	établir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	xcomp	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
-10	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl:subj	_	_
+10	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl:subj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 12	prudent	prudent	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 13	d'	de	ADP	_	_	14	mark	_	SpaceAfter=No
 14	éviter	éviter	VERB	_	VerbForm=Inf	12	csubj	_	Subject=Generic
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	chirurgie	chirurgie	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
-17	dentaire	dentaire	ADJ	_	Number=Sing	16	amod	_	_
+17	dentaire	dentaire	ADJ	_	Number=Sing	16	amod	_	Gender[ctxt]=Fem
 18	dont	dont	PRON	_	PronType=Rel	20	nmod	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	guérison	guérison	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
@@ -5260,9 +5260,9 @@
 3	cours	cours	NOUN	_	Gender=Masc	21	obl:mod	_	_
 4	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	vaste	vaste	ADJ	_	Number=Sing	7	amod	_	_
+6	vaste	vaste	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 7	étude	étude	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-8	clinique	clinique	ADJ	_	Number=Sing	7	amod	_	_
+8	clinique	clinique	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 9	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 10	chez	chez	ADP	_	_	12	case	_	_
 11	7 736	7 736	NUM	_	_	12	nummod	_	_
@@ -5303,7 +5303,7 @@
 7	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	cop	_	_
-10	favorable	favorable	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
+10	favorable	favorable	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Fem|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-test_00192
@@ -5418,7 +5418,7 @@
 
 # sent_id = emea-fr-test_00199
 # text = il agit principalement sur l'os.
-1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	principalement	principalement	ADV	_	_	2	advmod	_	_
 4	sur	sur	ADP	_	_	6	case	_	_
@@ -5459,7 +5459,7 @@
 8	vitesse	vitesse	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	renouvellement	renouvellement	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-11	osseux	osseux	ADJ	_	Gender=Masc	10	amod	_	SpaceAfter=No
+11	osseux	osseux	ADJ	_	Gender=Masc	10	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	à	à	ADP	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
 14	partir	partir	VERB	_	VerbForm=Inf	13	fixed	_	InIdiom=Yes|Subject=Generic
@@ -5502,7 +5502,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
-5	osseux	osseux	ADJ	_	Gender=Masc	4	amod	_	_
+5	osseux	osseux	ADJ	_	Gender=Masc	4	amod	_	Number[ctxt]=Plur
 6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	expl:pass	_	_
 7	stabilisent	stabiliser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
@@ -5526,7 +5526,7 @@
 6	marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	remodellage	remodellage	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	osseux	osseux	ADJ	_	Gender=Masc	8	amod	_	_
+9	osseux	osseux	ADJ	_	Gender=Masc	8	amod	_	Number[ctxt]=Sing
 10	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 12	été	être	AUX	_	Tense=Past|VerbForm=Part	13	aux:pass	_	_
@@ -5542,7 +5542,7 @@
 # sent_id = emea-fr-test_00206
 # text = Efficacité clinique dans le traitement de l'ostéoporose post-ménopausique (PFT)
 1	Efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	_
+2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	Gender[ctxt]=Fem
 3	dans	dans	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -5721,7 +5721,7 @@
 47	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	49	amod	_	_
 48	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
 49	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	44	conj	_	_
-50	cliniques	clinique	ADJ	_	Number=Plur	49	amod	_	SpaceAfter=No
+50	cliniques	clinique	ADJ	_	Number=Plur	49	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 51	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = emea-fr-test_00210
@@ -5748,7 +5748,7 @@
 20	mais	mais	CCONJ	_	_	21	cc	_	_
 21	excluaient	exclure	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-23	autres	autre	ADJ	_	Number=Plur	24	amod	_	_
+23	autres	autre	ADJ	_	Number=Plur	24	amod	_	Gender[ctxt]=Masc
 24	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -5925,9 +5925,9 @@
 33	sous	sous	ADP	_	_	34	case	_	_
 34	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 35	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-36	p	p	NOUN	_	_	37	nsubj	_	_
-37	<	<	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	27	parataxis:insert	_	_
-38	0,0001	0,0001	NUM	_	NumType=Card	37	obj	_	SpaceAfter=No
+36	p	p	NOUN	_	_	38	nsubj	_	_
+37	<	<	SYM	_	ExtPos=ADP	38	case	_	_
+38	0,0001	0,0001	NUM	_	NumType=Card	27	parataxis:insert	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -6061,14 +6061,14 @@
 3	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
-6	cliniques	clinique	ADJ	_	Number=Plur	5	amod	_	_
+6	cliniques	clinique	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Fem
 
 # sent_id = emea-fr-test_00225
 # text = Toutes les fractures cliniques ont été vérifiées par radiographie.
 1	Toutes	tout	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
-4	cliniques	clinique	ADJ	_	Number=Plur	3	amod	_	_
+4	cliniques	clinique	ADJ	_	Number=Plur	3	amod	_	Gender[ctxt]=Fem
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 6	été	être	AUX	_	Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	vérifiées	vérifier	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -6109,7 +6109,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-11	cliniques	clinique	ADJ	_	Number=Plur	10	amod	_	_
+11	cliniques	clinique	ADJ	_	Number=Plur	10	amod	_	Gender[ctxt]=Fem
 12	sur	sur	ADP	_	_	14	case	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	période	période	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
@@ -6158,15 +6158,15 @@
 2	2	2	NUM	_	NumType=Card	6	nmod	_	SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 4	Y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	6	case	_	Idiom=Yes
-5	compris	compris	ADJ	_	Gender=Masc	4	fixed	_	InIdiom=Yes
+5	compris	compris	ADJ	_	Gender=Masc	4	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 6	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-7	cliniques	clinique	ADJ	_	Number=Plur	6	amod	_	_
+7	cliniques	clinique	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Fem
 8	dorsales	dorsal	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
-11	cliniques	clinique	ADJ	_	Number=Plur	10	amod	_	_
+11	cliniques	clinique	ADJ	_	Number=Plur	10	amod	_	Gender[ctxt]=Fem
 12	vertébrales	vertébral	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
-13	lombaires	lombaire	ADJ	_	Number=Plur	10	amod	_	_
+13	lombaires	lombaire	ADJ	_	Number=Plur	10	amod	_	Gender[ctxt]=Fem
 
 # sent_id = emea-fr-test_00232
 # text = Effet sur la densité minérale osseuse (DMO)
@@ -6199,7 +6199,7 @@
 13	à	à	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-16	lombaire	lombaire	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+16	lombaire	lombaire	ADJ	_	Number=Sing	15	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -6260,7 +6260,7 @@
 27	à	à	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
-30	lombaire	lombaire	ADJ	_	Number=Sing	29	amod	_	SpaceAfter=No
+30	lombaire	lombaire	ADJ	_	Number=Sing	29	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 31	,	,	PUNCT	_	_	34	punct	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	6,0	6,0	NUM	_	NumType=Card	34	nummod	_	SpaceAfter=No
@@ -6304,7 +6304,7 @@
 5	administration	administration	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 6	de	de	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	troisième	troisième	ADJ	_	Number=Sing|NumType=Ord	9	amod	_	_
+8	troisième	troisième	ADJ	_	Number=Sing|NumType=Ord	9	amod	_	Gender[ctxt]=Fem
 9	dose	dose	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10	annuelle	annuel	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
@@ -6321,7 +6321,7 @@
 21	de	de	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	crête	crête	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
-24	iliaque	iliaque	ADJ	_	Number=Sing	23	amod	_	_
+24	iliaque	iliaque	ADJ	_	Number=Sing	23	amod	_	Gender[ctxt]=Fem
 25	chez	chez	ADP	_	_	27	case	_	_
 26	152	152	NUM	_	NumType=Card	27	nummod	_	_
 27	patientes	patient	NOUN	_	Gender=Fem|Number=Plur	17	obl:mod	_	_
@@ -6359,7 +6359,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	remodellage	remodellage	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-14	osseux	osseux	ADJ	_	Gender=Masc	13	amod	_	SpaceAfter=No
+14	osseux	osseux	ADJ	_	Gender=Masc	13	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00238
@@ -6371,7 +6371,7 @@
 5	par	par	ADP	_	_	6	case	_	_
 6	Aclasta	Aclasta	PROPN	_	_	4	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
-8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
+8	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
 9	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
@@ -6382,7 +6382,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
 18	fibrose	fibrose	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
-19	médullaire	médullaire	ADJ	_	Number=Sing	18	amod	_	_
+19	médullaire	médullaire	ADJ	_	Number=Sing	18	amod	_	Gender[ctxt]=Fem
 20	ou	ou	CCONJ	_	_	22	cc	_	_
 21	de	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
 22	formation	formation	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
@@ -6408,7 +6408,7 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	volume	volume	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-15	osseux	osseux	ADJ	_	Gender=Masc	14	amod	_	_
+15	osseux	osseux	ADJ	_	Gender=Masc	14	amod	_	Number[ctxt]=Sing
 16	trabéculaire	trabéculaire	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -6442,14 +6442,14 @@
 1	Marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	renouvellement	renouvellement	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-4	osseux	osseux	ADJ	_	Gender=Masc	3	amod	_	_
+4	osseux	osseux	ADJ	_	Gender=Masc	3	amod	_	Number[ctxt]=Sing
 
 # sent_id = emea-fr-test_00241
 # text = Les phosphatases alcalines spécifiques osseuses (PASO), les taux sériques du propeptide N-terminal du collagène de type I (P1NP) et les taux sériques de bêta-C-télopeptides (-CTx) ont été évalués à intervalles réguliers au cours de l'étude dans des sous-groupes incluant 517 à 1 246 patientes.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	phosphatases	phosphatase	NOUN	_	Gender=Fem|Number=Plur	37	nsubj:pass	_	_
 3	alcalines	alcalin	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-4	spécifiques	spécifique	ADJ	_	Number=Plur	2	amod	_	_
+4	spécifiques	spécifique	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Fem
 5	osseuses	osseux	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	PASO	PASO	NOUN	_	_	2	appos	_	SpaceAfter=No
@@ -6462,14 +6462,14 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	propeptide	propeptide	NOUN	_	Number=Sing	11	nmod	_	_
-16	N-terminal	N-terminal	ADJ	_	_	15	amod	_	_
+16	N-terminal	N-terminal	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	collagène	collagène	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	type	type	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-22	I	I	ADJ	_	_	21	amod	_	_
+22	I	I	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	P1NP	P1NP	NOUN	_	_	15	appos	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	24	punct	_	_
@@ -6654,7 +6654,7 @@
 7	marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	osseux	osseux	ADJ	_	Gender=Masc	9	amod	_	_
+10	osseux	osseux	ADJ	_	Gender=Masc	9	amod	_	Number[ctxt]=Sing
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pv	_	_
 12	situaient	situer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
@@ -6684,7 +6684,7 @@
 7	entraîné	entraîner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	réduction	réduction	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
-10	supplémentaire	supplémentaire	ADJ	_	Number=Sing	9	amod	_	_
+10	supplémentaire	supplémentaire	ADJ	_	Number=Sing	9	amod	_	Gender[ctxt]=Fem
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -6693,7 +6693,7 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
-17	osseux	osseux	ADJ	_	Gender=Masc	16	amod	_	SpaceAfter=No
+17	osseux	osseux	ADJ	_	Gender=Masc	16	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00247
@@ -6743,7 +6743,7 @@
 7	perte	perte	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	taille	taille	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-10	moindre	moindre	ADJ	_	Number=Sing	9	amod	_	_
+10	moindre	moindre	ADJ	_	Number=Sing	9	amod	_	Gender[ctxt]=Fem
 11	de	de	ADP	_	_	13	case	_	_
 12	2,5	2,5	NUM	_	NumType=Card	13	nummod	_	_
 13	mm	mm	NOUN	_	Gender=Masc	10	obl:arg	_	_
@@ -6768,10 +6768,10 @@
 31	mm	mm	NOUN	_	Gender=Masc	5	obl:mod	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	31	punct	_	_
 33	[	[	PUNCT	_	_	34	punct	_	SpaceAfter=No
-34	p	p	NOUN	_	_	35	nsubj	_	_
-35	<	<	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
-36	0,0001	0,0001	NUM	_	NumType=Card	35	obj	_	SpaceAfter=No
-37	]	]	PUNCT	_	_	35	punct	_	SpaceAfter=No
+34	p	p	NOUN	_	_	36	nsubj	_	_
+35	<	<	SYM	_	ExtPos=ADP	36	case	_	_
+36	0,0001	0,0001	NUM	_	NumType=Card	22	conj	_	SpaceAfter=No
+37	]	]	PUNCT	_	_	36	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00250
@@ -6859,20 +6859,20 @@
 34	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 35	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
 36	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-37	p	p	NOUN	_	_	38	nsubj	_	_
-38	<	<	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	4	parataxis:insert	_	_
-39	0,01	0,01	NUM	_	NumType=Card	38	obj	_	_
+37	p	p	NOUN	_	_	39	nsubj	_	_
+38	<	<	SYM	_	ExtPos=ADP	39	case	_	_
+39	0,01	0,01	NUM	_	NumType=Card	4	parataxis:insert	_	_
 40	pour	pour	ADP	_	_	43	case	_	_
 41	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	_
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
-43	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	38	obl:mod	_	SpaceAfter=No
+43	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	39	nmod	_	SpaceAfter=No
 44	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00253
 # text = Efficacité clinique dans le traitement de l'ostéoporose chez les patients à risque élevé de fractures après une fracture de hanche récente (RFT)
 1	Efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	_
+2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	Gender[ctxt]=Fem
 3	dans	dans	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -6905,7 +6905,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-6	cliniques	clinique	ADJ	_	Number=Plur	5	amod	_	SpaceAfter=No
+6	cliniques	clinique	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	incluant	inclure	VERB	_	Tense=Pres|VerbForm=Part	5	acl	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -6946,7 +6946,7 @@
 44	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	42	nmod	_	_
 45	récente	récent	ADJ	_	Gender=Fem|Number=Sing	42	amod	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	45	punct	_	_
-47	secondaire	secondaire	ADJ	_	Number=Sing	42	amod	_	_
+47	secondaire	secondaire	ADJ	_	Number=Sing	42	amod	_	Gender[ctxt]=Fem
 48	à	à	ADP	_	_	50	case	_	_
 49	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	47	obl:arg	_	_
@@ -7034,7 +7034,7 @@
 21	aient	avoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
 22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
-24	clinique	clinique	ADJ	_	Number=Sing	23	amod	_	_
+24	clinique	clinique	ADJ	_	Number=Sing	23	amod	_	Gender[ctxt]=Fem
 25	confirmée	confirmer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	23	acl	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -7117,7 +7117,7 @@
 2	%	%	NOUN	_	Gender=Masc	7	nsubj	_	_
 3	d'	de	ADP	_	ExtPos=ADP	5	case	_	Idiom=Yes|SpaceAfter=No
 4	entre	entre	ADP	_	_	3	fixed	_	InIdiom=Yes
-5	eux	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	leur	son	DET	_	Number=Sing|Poss=Yes	9	det	_	_
@@ -7164,7 +7164,7 @@
 9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
-12	cliniques	clinique	ADJ	_	Number=Plur	11	amod	_	_
+12	cliniques	clinique	ADJ	_	Number=Plur	11	amod	_	Gender[ctxt]=Fem
 13	pendant	pendant	ADP	_	_	16	case	_	_
 14	toute	tout	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -7184,7 +7184,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-8	cliniques	clinique	ADJ	_	Number=Plur	7	amod	_	_
+8	cliniques	clinique	ADJ	_	Number=Plur	7	amod	_	Gender[ctxt]=Fem
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
@@ -7197,13 +7197,13 @@
 # text = Toute fracture clinique
 1	Toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-3	clinique	clinique	ADJ	_	Number=Sing	2	amod	_	_
+3	clinique	clinique	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Fem
 
 # sent_id = emea-fr-test_00264
 # text = Fracture vertébrale clinique
 1	Fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	vertébrale	vertébral	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-3	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	_
+3	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	Gender[ctxt]=Fem
 
 # sent_id = emea-fr-test_00265
 # text = Fracture non vertébrale
@@ -7241,14 +7241,14 @@
 # sent_id = emea-fr-test_00267
 # text = Y compris fractures cliniques vertébrales, dorsales et lombaires
 1	Y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	3	case	_	Idiom=Yes
-2	compris	compris	ADJ	_	Gender=Masc	1	fixed	_	InIdiom=Yes
+2	compris	compris	ADJ	_	Gender=Masc	1	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 3	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-4	cliniques	clinique	ADJ	_	Number=Plur	3	amod	_	_
+4	cliniques	clinique	ADJ	_	Number=Plur	3	amod	_	Gender[ctxt]=Fem
 5	vertébrales	vertébral	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	dorsales	dorsal	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
-9	lombaires	lombaire	ADJ	_	Number=Plur	5	conj	_	_
+9	lombaires	lombaire	ADJ	_	Number=Plur	5	conj	_	Gender[ctxt]=Fem
 
 # sent_id = emea-fr-test_00268
 # text = Cette étude n'était pas conçue pour montrer une différence significative sur les fractures de hanche mais une réduction sur les nouvelles fractures de hanche a été observée.
@@ -7339,7 +7339,7 @@
 15	confondues	confondre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	advcl	_	_
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	p	p	NOUN	_	_	18	nsubj	_	_
-18	=	=	VERB	_	Mood=Ind|Person=3|VerbForm=Fin	2	parataxis:insert	_	_
+18	=	=	SYM	_	ExtPos=VERB	2	parataxis:insert	_	_
 19	0,01	0,01	NUM	_	NumType=Card	18	obj	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
@@ -7360,7 +7360,7 @@
 12	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	cop	_	_
-15	comparable	comparable	ADJ	_	Number=Sing	0	root	_	_
+15	comparable	comparable	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Fem
 16	entre	entre	ADP	_	_	17	case	_	_
 17	Aclasta	Aclasta	PROPN	_	_	15	obl:mod	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -7475,7 +7475,7 @@
 # sent_id = emea-fr-test_00275
 # text = Efficacité clinique chez les hommes
 1	Efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	_
+2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	Gender[ctxt]=Fem
 3	chez	chez	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -7541,7 +7541,7 @@
 26	Aclasta	Aclasta	PROPN	_	_	24	obl:mod	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	façon	façon	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
-29	similaire	similaire	ADJ	_	Number=Sing	28	amod	_	_
+29	similaire	similaire	ADJ	_	Number=Sing	28	amod	_	Gender[ctxt]=Fem
 30	à	à	ADP	_	_	31	case	_	_
 31	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	29	obl:arg	_	_
 32	observée	observer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	31	acl	_	_
@@ -7570,7 +7570,7 @@
 11	sur	sur	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
-14	cliniques	clinique	ADJ	_	Number=Plur	13	amod	_	_
+14	cliniques	clinique	ADJ	_	Number=Plur	13	amod	_	Gender[ctxt]=Fem
 15	chez	chez	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
@@ -7584,7 +7584,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	fractures	fracture	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-6	cliniques	clinique	ADJ	_	Number=Plur	5	amod	_	_
+6	cliniques	clinique	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Fem
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 8	été	être	AUX	_	Tense=Past|VerbForm=Part	11	cop	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -7610,7 +7610,7 @@
 # text = Dans une autre étude réalisée chez les hommes (Etude CZOL446M2308), à 24 mois, le pourcentage d'augmentation de la DMO au rachis lombaire après une perfusion annuelle d'Aclasta était non inférieur à celui observé après une prise hebdomadaire d'alendronate.
 1	Dans	dans	ADP	_	_	4	case	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-3	autre	autre	ADJ	_	Number=Sing	4	amod	_	_
+3	autre	autre	ADJ	_	Number=Sing	4	amod	_	Gender[ctxt]=Fem
 4	étude	étude	NOUN	_	Gender=Fem|Number=Sing	37	obl:mod	_	_
 5	réalisée	réaliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
 6	chez	chez	ADP	_	_	8	case	_	_
@@ -7636,7 +7636,7 @@
 25	à	à	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	rachis	rachis	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
-28	lombaire	lombaire	ADJ	_	Number=Sing	27	amod	_	_
+28	lombaire	lombaire	ADJ	_	Number=Sing	27	amod	_	Gender[ctxt]=Masc
 29	après	après	ADP	_	_	31	case	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -7652,7 +7652,7 @@
 41	après	après	ADP	_	_	43	case	_	_
 42	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	prise	prise	NOUN	_	Gender=Fem|Number=Sing	40	obl:mod	_	_
-44	hebdomadaire	hebdomadaire	ADJ	_	Number=Sing	43	amod	_	_
+44	hebdomadaire	hebdomadaire	ADJ	_	Number=Sing	43	amod	_	Gender[ctxt]=Fem
 45	d'	de	ADP	_	_	46	case	_	SpaceAfter=No
 46	alendronate	alendronate	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	37	punct	_	_
@@ -7660,7 +7660,7 @@
 # sent_id = emea-fr-test_00281
 # text = Efficacité clinique dans le traitement de la maladie de Paget
 1	Efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	_
+2	clinique	clinique	ADJ	_	Number=Sing	1	amod	_	Gender[ctxt]=Fem
 3	dans	dans	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -7821,13 +7821,13 @@
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	risédronate	risédronate	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
 51	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-52	p	p	NOUN	_	_	53	nsubj	_	_
-53	<	<	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:insert	_	_
-54	0,001	0,001	NUM	_	NumType=Card	53	obj	_	_
+52	p	p	NOUN	_	_	54	nsubj	_	_
+53	<	<	SYM	_	ExtPos=ADP	54	case	_	_
+54	0,001	0,001	NUM	_	NumType=Card	7	parataxis:insert	_	_
 55	pour	pour	ADP	_	_	58	case	_	_
 56	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	58	amod	_	_
 57	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	58	det	_	_
-58	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	53	obl:mod	_	SpaceAfter=No
+58	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	54	nmod	_	SpaceAfter=No
 59	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -7895,7 +7895,7 @@
 15	mois	mois	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 17	été	être	AUX	_	Tense=Past|VerbForm=Part	18	cop	_	_
-18	éligibles	éligible	ADJ	_	Number=Plur	0	root	_	_
+18	éligibles	éligible	ADJ	_	Number=Plur	0	root	_	Gender[ctxt]=Masc
 19	pour	pour	ADP	_	_	20	mark	_	_
 20	entrer	entrer	VERB	_	VerbForm=Inf	18	ccomp	_	_
 21	dans	dans	ADP	_	_	23	case	_	_
@@ -7921,7 +7921,7 @@
 11	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	réponse	réponse	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
-14	thérapeutique	thérapeutique	ADJ	_	Number=Sing	13	amod	_	_
+14	thérapeutique	thérapeutique	ADJ	_	Number=Sing	13	amod	_	Gender[ctxt]=Fem
 15	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
 16	après	après	ADP	_	_	18	case	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -7952,7 +7952,7 @@
 42	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
 43	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	réponse	réponse	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	_
-45	thérapeutique	thérapeutique	ADJ	_	Number=Sing	44	amod	_	_
+45	thérapeutique	thérapeutique	ADJ	_	Number=Sing	44	amod	_	Gender[ctxt]=Fem
 46	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	44	acl	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -8044,7 +8044,7 @@
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-24	osseux	osseux	ADJ	_	Gender=Masc	23	amod	_	_
+24	osseux	osseux	ADJ	_	Gender=Masc	23	amod	_	Number[ctxt]=Sing
 25	et	et	CCONJ	_	_	27	cc	_	_
 26	sans	sans	ADP	_	_	27	case	_	_
 27	signe	signe	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
@@ -8067,24 +8067,24 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	osseux	osseux	ADJ	_	Gender=Masc	10	amod	_	_
+11	osseux	osseux	ADJ	_	Gender=Masc	10	amod	_	Number[ctxt]=Sing
 12	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
 15	par	par	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	12	obl:agent	_	_
-18	biochimiques	biochimique	ADJ	_	Number=Plur	17	amod	_	_
-19	osseux	osseux	ADJ	_	Gender=Masc	17	amod	_	SpaceAfter=No
+18	biochimiques	biochimique	ADJ	_	Number=Plur	17	amod	_	Gender[ctxt]=Masc
+19	osseux	osseux	ADJ	_	Gender=Masc	17	amod	_	Number[ctxt]=Plur|SpaceAfter=No
 20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00292
 # text = Des perfusions uniques et multiples de 5 et 15 minutes avec 2, 4, 8 et 16 mg d'acide zolédronique chez 64 patients ont généré les données pharmacocinétiques suivantes, qui se sont révélées indépendantes de la dose.
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	perfusions	perfusion	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
-3	uniques	unique	ADJ	_	Number=Plur	2	amod	_	_
+3	uniques	unique	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Fem
 4	et	et	CCONJ	_	_	5	cc	_	_
-5	multiples	multiple	ADJ	_	Number=Plur	3	conj	_	_
+5	multiples	multiple	ADJ	_	Number=Plur	3	conj	_	Gender[ctxt]=Fem
 6	de	de	ADP	_	_	10	case	_	_
 7	5	5	NUM	_	NumType=Card	10	nummod	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
@@ -8109,7 +8109,7 @@
 27	généré	générer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	données	donnée	NOUN	_	Gender=Fem|Number=Plur	27	obj	_	_
-30	pharmacocinétiques	pharmacocinétique	ADJ	_	Number=Plur	29	amod	_	_
+30	pharmacocinétiques	pharmacocinétique	ADJ	_	Number=Plur	29	amod	_	Gender[ctxt]=Fem
 31	suivantes	suivant	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	36	punct	_	_
 33	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	_
@@ -8136,7 +8136,7 @@
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	concentrations	concentration	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
-13	plasmatiques	plasmatique	ADJ	_	Number=Plur	12	amod	_	_
+13	plasmatiques	plasmatique	ADJ	_	Number=Plur	12	amod	_	Gender[ctxt]=Fem
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	substance	substance	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -8161,7 +8161,7 @@
 35	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	diminution	diminution	NOUN	_	Gender=Fem|Number=Sing	34	obl:agent	_	_
-38	rapide	rapide	ADJ	_	Number=Sing	37	amod	_	_
+38	rapide	rapide	ADJ	_	Number=Sing	37	amod	_	Gender[ctxt]=Fem
 39	inférieure	inférieur	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	10	10	NUM	_	NumType=Card	42	nummod	_	SpaceAfter=No
@@ -8194,7 +8194,7 @@
 66	de	de	ADP	_	_	67	case	_	_
 67	concentrations	concentration	NOUN	_	Gender=Fem|Number=Plur	65	obl:arg	_	_
 68	très	très	ADV	_	_	69	advmod	_	_
-69	faibles	faible	ADJ	_	Number=Plur	67	amod	_	_
+69	faibles	faible	ADJ	_	Number=Plur	67	amod	_	Gender[ctxt]=Fem
 70	ne	ne	ADV	_	Polarity=Neg	71	advmod	_	_
 71	dépassant	dépasser	VERB	_	Tense=Pres|VerbForm=Part	67	acl	_	_
 72	pas	pas	ADV	_	Polarity=Neg	71	advmod	_	_
@@ -8225,7 +8225,7 @@
 14	:	:	PUNCT	_	_	15	punct	_	_
 15	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
 16	biphasique	biphasique	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-17	rapide	rapide	ADJ	_	Number=Sing	15	amod	_	_
+17	rapide	rapide	ADJ	_	Number=Sing	15	amod	_	Gender[ctxt]=Fem
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	circulation	circulation	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
@@ -8282,7 +8282,7 @@
 16	administration	administration	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	doses	dose	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
-19	multiples	multiple	ADJ	_	Number=Plur	18	amod	_	_
+19	multiples	multiple	ADJ	_	Number=Plur	18	amod	_	Gender[ctxt]=Fem
 20	tous	tout	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 22	28	28	NUM	_	NumType=Card	23	nummod	_	_
@@ -8295,7 +8295,7 @@
 2	phases	phase	NOUN	_	Gender=Fem|Number=Plur	16	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	distribution	distribution	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	précoce	précoce	ADJ	_	Number=Sing	4	amod	_	_
+5	précoce	précoce	ADJ	_	Number=Sing	4	amod	_	Gender[ctxt]=Fem
 6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	et	et	CCONJ	_	_	11	cc	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -8310,7 +8310,7 @@
 17	vraisemblablement	vraisemblablement	ADV	_	_	16	advmod	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	absorption	absorption	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
-20	rapide	rapide	ADJ	_	Number=Sing	19	amod	_	_
+20	rapide	rapide	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem
 21	dans	dans	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	os	os	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
@@ -8381,12 +8381,12 @@
 32	à	à	ADP	_	_	34	case	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	30	obl:arg	_	_
-35	osseux	osseux	ADJ	_	Gender=Masc	34	amod	_	SpaceAfter=No
+35	osseux	osseux	ADJ	_	Gender=Masc	34	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 36	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00299
 # text = Il est ensuite libéré très lentement du tissu osseux dans la circulation systémique et éliminé par voie rénale.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 3	ensuite	ensuite	ADV	_	_	4	advmod	_	_
 4	libéré	libérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -8396,7 +8396,7 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
-10	osseux	osseux	ADJ	_	Gender=Masc	9	amod	_	_
+10	osseux	osseux	ADJ	_	Gender=Masc	9	amod	_	Number[ctxt]=Sing
 11	dans	dans	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	circulation	circulation	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
@@ -8423,7 +8423,7 @@
 11	/	/	ADP	_	_	12	case	_	SpaceAfter=No
 12	h	h	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
-14	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 16	indépendante	indépendant	ADJ	_	Gender=Fem|Number=Sing	10	parataxis	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -8468,7 +8468,7 @@
 8	QUEL	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	9	det	_	_
 9	CAS	cas	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
 10	EST	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	SpaceAfter=No
-11	-IL	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
+11	-IL	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	_
 12	UTILISE	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	conj	_	_
 
 # sent_id = emea-fr-test_00403
@@ -8491,7 +8491,7 @@
 
 # sent_id = emea-fr-test_00404
 # text = Il appartient à la classe de médicaments appelés bisphosphonates et il est utilisé dans le traitement de l'ostéoporose post-ménopausique, de l'ostéoporose masculine et de la maladie de Paget.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	appartient	appartenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8501,7 +8501,7 @@
 8	appelés	appeler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 9	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	8	xcomp	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
-11	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
+11	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj:pass	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
 14	dans	dans	ADP	_	_	16	case	_	_
@@ -8549,7 +8549,7 @@
 
 # sent_id = emea-fr-test_00407
 # text = Elle est fréquente chez les femmes après la ménopause mais peut également survenir chez les hommes.
-1	Elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 4	chez	chez	ADP	_	_	6	case	_	_
@@ -8611,7 +8611,7 @@
 11	os	os	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 12	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
 13	plus	plus	ADV	_	_	14	advmod	_	_
-14	fragiles	fragile	ADJ	_	Number=Plur	12	xcomp	_	_
+14	fragiles	fragile	ADJ	_	Number=Plur	12	xcomp	_	Gender[ctxt]=Masc
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	expl:pass	_	_
 17	cassent	casser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
@@ -8622,7 +8622,7 @@
 # sent_id = emea-fr-test_00410
 # text = De nombreux patients atteints d'ostéoporose n'ont aucun symptôme, mais ils présentent néanmoins un risque de fracture osseuse car l'ostéoporose a fragilisé leurs os.
 1	De	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	_
-2	nombreux	nombreux	ADJ	_	Gender=Masc	3	amod	_	_
+2	nombreux	nombreux	ADJ	_	Gender=Masc	3	amod	_	Number[ctxt]=Plur
 3	patients	patient	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 4	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
@@ -8633,7 +8633,7 @@
 10	symptôme	symptôme	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
-13	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
 14	présentent	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 15	néanmoins	néanmoins	ADV	_	_	14	advmod	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -8729,7 +8729,7 @@
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	nsubj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	_
 11	recevrez	recevoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
-12	qu'	que	ADV	_	_	15	advmod	_	SpaceAfter=No
+12	qu'	que	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	seule	seul	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 15	dose	dose	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
@@ -8747,13 +8747,13 @@
 
 # sent_id = emea-fr-test_00415
 # text = Il est normal que le tissu osseux ancien se résorbe et soit remplacé par de l'os nouveau.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	normal	normal	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	que	que	SCONJ	_	_	10	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
-7	osseux	osseux	ADJ	_	Gender=Masc	6	amod	_	_
+7	osseux	osseux	ADJ	_	Gender=Masc	6	amod	_	Number[ctxt]=Sing
 8	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 9	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	10	expl:pv	_	_
 10	résorbe	résorber	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	_
@@ -8775,7 +8775,7 @@
 4	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
-7	osseux	osseux	ADJ	_	Gender=Masc	6	amod	_	SpaceAfter=No
+7	osseux	osseux	ADJ	_	Gender=Masc	6	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00417
@@ -8788,10 +8788,10 @@
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
-9	osseux	osseux	ADJ	_	Gender=Masc	8	amod	_	_
+9	osseux	osseux	ADJ	_	Gender=Masc	8	amod	_	Number[ctxt]=Sing
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	trop	trop	ADV	_	_	12	advmod	_	_
-12	rapide	rapide	ADJ	_	Number=Sing	0	root	_	_
+12	rapide	rapide	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 13	et	et	CCONJ	_	_	18	cc	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	os	os	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -8804,10 +8804,10 @@
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	parataxis	_	_
 24	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
-25	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+25	le	le	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
 27	plus	plus	ADV	_	_	28	advmod	_	_
-28	faible	faible	ADJ	_	Number=Sing	26	xcomp	_	_
+28	faible	faible	ADJ	_	Number=Sing	26	xcomp	_	Gender[ctxt]=Masc
 29	que	que	SCONJ	_	_	31	case	_	_
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	os	os	NOUN	_	Gender=Masc|Number=Sing	28	dep	_	_
@@ -8830,7 +8830,7 @@
 12	déforment	déformer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
-15	douloureux	douloureux	ADJ	_	Gender=Masc	14	xcomp	_	_
+15	douloureux	douloureux	ADJ	_	Gender=Masc	14	xcomp	_	Number[ctxt]=Plur
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 18	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	19	expl:pass	_	_
@@ -8921,11 +8921,11 @@
 # text = - si vous êtes allergique (hypersensible) à l'acide zolédronique, à d'autres bisphosphonates ou à l'un des autres composants contenus dans Aclasta.
 1	-	-	PUNCT	_	_	5	punct	_	_
 2	si	si	SCONJ	_	_	5	mark	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
+3	vous	vous	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
-5	allergique	allergique	ADJ	_	Number=Sing	0	root	_	_
+5	allergique	allergique	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	hypersensible	hypersensible	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	hypersensible	hypersensible	ADJ	_	Number=Sing	5	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
@@ -8934,7 +8934,7 @@
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	à	à	ADP	_	_	17	case	_	_
 15	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	SpaceAfter=No
-16	autres	autre	ADJ	_	Number=Plur	17	amod	_	_
+16	autres	autre	ADJ	_	Number=Plur	17	amod	_	Gender[ctxt]=Masc
 17	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
 18	ou	ou	CCONJ	_	_	21	cc	_	_
 19	à	à	ADP	_	_	21	case	_	_
@@ -8943,7 +8943,7 @@
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	25	case	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-24	autres	autre	ADJ	_	Number=Plur	25	amod	_	_
+24	autres	autre	ADJ	_	Number=Plur	25	amod	_	Gender[ctxt]=Masc
 25	composants	composant	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 26	contenus	contenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	25	acl	_	_
 27	dans	dans	ADP	_	_	28	case	_	_
@@ -8967,7 +8967,7 @@
 13	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 14	sanguin	sanguin	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	trop	trop	ADV	_	_	16	advmod	_	_
-16	faible	faible	ADJ	_	Number=Sing	11	amod	_	SpaceAfter=No
+16	faible	faible	ADJ	_	Number=Sing	11	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 17	)	)	PUNCT	_	_	9	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -8982,7 +8982,7 @@
 7	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
 8	prévoyez	prévoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	_
 9	de	de	ADP	_	_	11	mark	_	_
-10	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	xcomp	_	_
+10	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	xcomp	_	_
 11	devenir	devenir	VERB	_	VerbForm=Inf	8	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9025,7 +9025,7 @@
 8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 9	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	même	même	ADJ	_	Number=Sing	12	amod	_	_
+11	même	même	ADJ	_	Number=Sing	12	amod	_	Gender[ctxt]=Fem
 12	substance	substance	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 13	active	actif	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14	qu'	que	SCONJ	_	_	15	case	_	SpaceAfter=No
@@ -9119,7 +9119,7 @@
 3	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	sous	sous	ADP	_	_	5	case	_	_
 5	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	16	advcl	_	_
-6	dentaire	dentaire	ADJ	_	Number=Sing	5	amod	_	_
+6	dentaire	dentaire	ADJ	_	Number=Sing	5	amod	_	Gender[ctxt]=Masc
 7	ou	ou	CCONJ	_	_	10	cc	_	_
 8	si	si	SCONJ	_	_	10	mark	_	_
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
@@ -9127,7 +9127,7 @@
 11	subir	subir	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	intervention	intervention	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
-14	dentaire	dentaire	ADJ	_	Number=Sing	13	amod	_	SpaceAfter=No
+14	dentaire	dentaire	ADJ	_	Number=Sing	13	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	informez	informer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	votre	son	DET	_	Number=Sing|Poss=Yes	18	det	_	_
@@ -9182,7 +9182,7 @@
 # text = Prise d'autres médicaments
 1	Prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
-3	autres	autre	ADJ	_	Number=Plur	4	amod	_	_
+3	autres	autre	ADJ	_	Number=Plur	4	amod	_	Gender[ctxt]=Masc
 4	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 
 # sent_id = emea-fr-test_00438
@@ -9195,11 +9195,11 @@
 6	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	conj	_	_
 7	récemment	récemment	ADV	_	_	6	advmod	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	autre	autre	ADJ	_	Number=Sing	10	amod	_	_
+9	autre	autre	ADJ	_	Number=Sing	10	amod	_	Gender[ctxt]=Masc
 10	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
 12	y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	15	case	_	Idiom=Yes
-13	compris	compris	ADJ	_	Gender=Masc	12	fixed	_	InIdiom=Yes
+13	compris	compris	ADJ	_	Gender=Masc	12	fixed	_	InIdiom=Yes|Number[ctxt]=Sing
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 16	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
@@ -9223,7 +9223,7 @@
 
 # sent_id = emea-fr-test_00439
 # text = Il est particulièrement important que votre médecin soit informé si vous prenez des médicaments connus comme étant nuisibles pour vos reins.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	particulièrement	particulièrement	ADV	_	_	4	advmod	_	_
 4	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -9240,10 +9240,10 @@
 15	connus	connaître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
 16	comme	comme	ADP	_	_	18	mark	_	_
 17	étant	être	AUX	_	Tense=Pres|VerbForm=Part	18	cop	_	_
-18	nuisibles	nuisible	ADJ	_	Number=Plur	15	advcl	_	_
+18	nuisibles	nuisible	ADJ	_	Number=Plur	15	advcl	_	Gender[ctxt]=Masc
 19	pour	pour	ADP	_	_	21	case	_	_
 20	vos	son	DET	_	Number=Plur|Poss=Yes	21	det	_	_
-21	reins	reins	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	SpaceAfter=No
+21	reins	rein	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00440
@@ -9267,7 +9267,7 @@
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 11	à	à	ADP	_	_	12	case	_	_
 12	deux	deux	NUM	_	NumType=Card	10	obl:mod	_	_
-13	verres	verres	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+13	verres	verre	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
 14	)	)	PUNCT	_	_	13	punct	_	_
 15	avant	avant	ADP	_	_	19	case	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
@@ -9355,7 +9355,7 @@
 13	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
 14	prévoyez	prévoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	conj	_	_
 15	de	de	ADP	_	_	17	mark	_	_
-16	le	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	xcomp	_	_
+16	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	xcomp	_	_
 17	devenir	devenir	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No|Subject=SubjRaising
 18	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9486,7 +9486,7 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	3	punct	_	_
-14	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
+14	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 16	recommandé	recommander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 17	qu'	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
@@ -9525,7 +9525,7 @@
 
 # sent_id = emea-fr-test_00456
 # text = Il est important de prendre une supplémentation en calcium et vitamine D (par exemple sous forme de comprimés), selon les instructions de votre médecin.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
@@ -9573,7 +9573,7 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	dose	dose	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 17	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
-18	qu'	que	ADV	_	_	14	advmod	_	SpaceAfter=No
+18	qu'	que	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
 19	après	après	ADP	_	_	21	case	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	an	an	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
@@ -9635,7 +9635,7 @@
 15	de	de	ADP	_	_	16	mark	_	_
 16	recevoir	recevoir	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-18	autre	autre	ADJ	_	Number=Sing	19	amod	_	_
+18	autre	autre	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem
 19	dose	dose	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 21	Aclasta	Aclasta	PROPN	_	_	19	nmod	_	_
@@ -9657,7 +9657,7 @@
 7	prendre	prendre	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=OblRaising
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	apport	apport	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
-10	supplémentaire	supplémentaire	ADJ	_	Number=Sing	9	amod	_	_
+10	supplémentaire	supplémentaire	ADJ	_	Number=Sing	9	amod	_	Gender[ctxt]=Masc
 11	de	de	ADP	_	_	12	case	_	_
 12	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
@@ -9691,7 +9691,7 @@
 
 # sent_id = emea-fr-test_00462
 # text = Il est important de suivre attentivement son conseil afin de prévenir une trop grande diminution de la calcémie (taux de calcium dans le sang) au cours de la période suivant la perfusion.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	mark	_	_
@@ -9790,7 +9790,7 @@
 11	Contactez	contacter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	dès	dès	ADP	_	ExtPos=ADV	11	advmod	_	Idiom=Yes
 13	que	que	SCONJ	_	_	12	fixed	_	InIdiom=Yes
-14	possible	possible	ADJ	_	Number=Sing	12	fixed	_	InIdiom=Yes
+14	possible	possible	ADJ	_	Number=Sing	12	fixed	_	Gender[ctxt]=Masc|InIdiom=Yes
 15	votre	son	DET	_	Number=Sing|Poss=Yes	16	det	_	_
 16	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
 17	ou	ou	CCONJ	_	_	19	cc	_	_
@@ -9866,7 +9866,7 @@
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 4	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	SpaceAfter=No
-5	autres	autre	ADJ	_	Number=Plur	6	amod	_	_
+5	autres	autre	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Fem
 6	questions	question	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 7	sur	sur	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -9904,10 +9904,10 @@
 8	provoquer	provoquer	VERB	_	VerbForm=Inf	7	xcomp	_	Subject=SubjRaising
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	effets	effet	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
-11	indésirables	indésirable	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+11	indésirables	indésirable	ADJ	_	Number=Plur	10	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	16	punct	_	_
 13	mais	mais	CCONJ	_	_	16	cc	_	_
-14	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+14	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
 15	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
 16	surviennent	survenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 17	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	_
@@ -9930,7 +9930,7 @@
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	9	det	_	_
 9	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
-10	spécifique	spécifique	ADJ	_	Number=Sing	9	amod	_	_
+10	spécifique	spécifique	ADJ	_	Number=Sing	9	amod	_	Gender[ctxt]=Masc
 11	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	requis	requérir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
@@ -9940,7 +9940,7 @@
 # text = Les effets indésirables liés à la première perfusion sont très fréquents (survenant chez plus de 30% des patients) mais sont moins fréquents lors des perfusions suivantes.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	effets	effet	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
-3	indésirables	indésirable	ADJ	_	Number=Plur	2	amod	_	_
+3	indésirables	indésirable	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Masc
 4	liés	lier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
 5	à	à	ADP	_	_	8	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -9981,7 +9981,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	effets	effet	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	SpaceAfter=No
+6	indésirables	indésirable	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	tels	tel	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 9	que	que	SCONJ	_	_	10	case	_	_
@@ -10058,7 +10058,7 @@
 22	réduire	réduire	VERB	_	VerbForm=Inf	20	ccomp	_	Subject=Generic
 23	ces	ce	DET	_	Number=Plur|PronType=Dem	24	det	_	_
 24	effets	effet	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
-25	indésirables	indésirable	ADJ	_	Number=Plur	24	amod	_	_
+25	indésirables	indésirable	ADJ	_	Number=Plur	24	amod	_	Gender[ctxt]=Masc
 
 # sent_id = emea-fr-test_00476
 # text = Le risque de développer ces effets indésirables diminue avec les doses suivantes d'Aclasta.
@@ -10068,7 +10068,7 @@
 4	développer	développer	VERB	_	VerbForm=Inf	2	acl	_	Subject=Generic
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	_
 6	effets	effet	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
-7	indésirables	indésirable	ADJ	_	Number=Plur	6	amod	_	_
+7	indésirables	indésirable	ADJ	_	Number=Plur	6	amod	_	Gender[ctxt]=Masc
 8	diminue	diminuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -10086,10 +10086,10 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	rythme	rythme	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	cardiaque	cardiaque	ADJ	_	Number=Sing	5	amod	_	_
+6	cardiaque	cardiaque	ADJ	_	Number=Sing	5	amod	_	Gender[ctxt]=Masc
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	fibrillation	fibrillation	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
-9	auriculaire	auriculaire	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+9	auriculaire	auriculaire	ADJ	_	Number=Sing	8	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 10	)	)	PUNCT	_	_	8	punct	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 12	été	être	AUX	_	Tense=Past|VerbForm=Part	13	aux:pass	_	_
@@ -10110,7 +10110,7 @@
 
 # sent_id = emea-fr-test_00478
 # text = Il n'est pas clairement établi à ce jour qu'Aclasta entraîne ces irrégularités du rythme cardiaque mais en cas de survenue des ces symptômes après avoir reçu Aclasta vous devez en faire part à votre médecin.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 4	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -10128,7 +10128,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	rythme	rythme	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-18	cardiaque	cardiaque	ADJ	_	Number=Sing	17	amod	_	_
+18	cardiaque	cardiaque	ADJ	_	Number=Sing	17	amod	_	Gender[ctxt]=Masc
 19	mais	mais	CCONJ	_	_	32	cc	_	_
 20	en	en	ADP	_	_	21	case	_	_
 21	cas	cas	NOUN	_	Gender=Masc	32	obl:mod	_	_
@@ -10154,7 +10154,7 @@
 # sent_id = emea-fr-test_00479
 # text = Effets indésirables très fréquents (affectant 10 patients sur 100 ou plus) :
 1	Effets	effet	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	_
+2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	Gender[ctxt]=Masc
 3	très	très	ADV	_	_	4	advmod	_	_
 4	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -10176,7 +10176,7 @@
 # sent_id = emea-fr-test_00481
 # text = Effets indésirables fréquents (affectant moins de 10 patients sur 100) :
 1	Effets	effet	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	_
+2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	Gender[ctxt]=Masc
 3	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
@@ -10263,7 +10263,7 @@
 12	liés	lier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
 13	à	à	ADP	_	_	16	case	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	faible	faible	ADJ	_	Number=Sing	16	amod	_	_
+15	faible	faible	ADJ	_	Number=Sing	16	amod	_	Gender[ctxt]=Masc
 16	taux	taux	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
@@ -10274,7 +10274,7 @@
 23	tels	tel	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
 24	que	que	SCONJ	_	_	25	case	_	_
 25	spasmes	spasme	NOUN	_	Gender=Masc|Number=Plur	23	dep	_	_
-26	musculaires	musculaire	ADJ	_	Number=Plur	25	amod	_	SpaceAfter=No
+26	musculaires	musculaire	ADJ	_	Number=Plur	25	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	engourdissements	engourdissement	NOUN	_	Gender=Masc|Number=Plur	25	conj	_	_
 29	ou	ou	CCONJ	_	_	30	cc	_	_
@@ -10292,7 +10292,7 @@
 # sent_id = emea-fr-test_00484
 # text = Effets indésirables peu fréquents (affectant moins d'un patient sur 100) :
 1	Effets	effet	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	_
+2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	Gender[ctxt]=Masc
 3	peu	peu	ADV	_	_	4	advmod	_	_
 4	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
@@ -10329,7 +10329,7 @@
 19	perte	perte	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	connaissance	connaissance	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-22	temporaire	temporaire	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+22	temporaire	temporaire	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 25-26	du	_	_	_	_	_	_	_	_
@@ -10357,10 +10357,10 @@
 46	dent	dent	NOUN	_	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
 47	,	,	PUNCT	_	_	48	punct	_	_
 48	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
-49	articulaires	articulaire	ADJ	_	Number=Plur	48	amod	_	SpaceAfter=No
+49	articulaires	articulaire	ADJ	_	Number=Plur	48	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 50	,	,	PUNCT	_	_	51	punct	_	_
 51	gonflement	gonflement	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
-52	articulaire	articulaire	ADJ	_	Number=Sing	51	amod	_	SpaceAfter=No
+52	articulaire	articulaire	ADJ	_	Number=Sing	51	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 53	,	,	PUNCT	_	_	54	punct	_	_
 54	raideurs	raideur	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
 55	,	,	PUNCT	_	_	56	punct	_	_
@@ -10369,7 +10369,7 @@
 57	de	de	ADP	_	_	59	case	_	_
 58	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	comportement	comportement	NOUN	_	Gender=Masc|Number=Sing	56	nmod	_	_
-60	alimentaire	alimentaire	ADJ	_	Number=Sing	59	amod	_	SpaceAfter=No
+60	alimentaire	alimentaire	ADJ	_	Number=Sing	59	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 61	,	,	PUNCT	_	_	62	punct	_	_
 62	rougeurs	rougeur	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
 63	,	,	PUNCT	_	_	64	punct	_	_
@@ -10386,7 +10386,7 @@
 72	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	69	nmod	_	SpaceAfter=No
 73	,	,	PUNCT	_	_	74	punct	_	_
 74	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-75	thoracique	thoracique	ADJ	_	Number=Sing	74	amod	_	SpaceAfter=No
+75	thoracique	thoracique	ADJ	_	Number=Sing	74	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 76	,	,	PUNCT	_	_	77	punct	_	_
 77	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 78	de	de	ADP	_	_	80	case	_	_
@@ -10398,7 +10398,7 @@
 84	congestives	congestif	ADJ	_	Gender=Fem|Number=Plur	83	amod	_	SpaceAfter=No
 85	,	,	PUNCT	_	_	86	punct	_	_
 86	difficultés	difficulté	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
-87	respiratoires	respiratoire	ADJ	_	Number=Plur	86	amod	_	SpaceAfter=No
+87	respiratoires	respiratoire	ADJ	_	Number=Plur	86	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 88	,	,	PUNCT	_	_	89	punct	_	_
 89	éruption	éruption	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
 90	cutanée	cutané	ADJ	_	Gender=Fem|Number=Sing	89	amod	_	SpaceAfter=No
@@ -10416,7 +10416,7 @@
 102	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	101	amod	_	SpaceAfter=No
 103	,	,	PUNCT	_	_	104	punct	_	_
 104	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-105	transitoire	transitoire	ADJ	_	Number=Sing	104	amod	_	_
+105	transitoire	transitoire	ADJ	_	Number=Sing	104	amod	_	Gender[ctxt]=Fem
 106-107	des	_	_	_	_	_	_	_	_
 106	de	de	ADP	_	_	108	case	_	_
 107	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	108	det	_	_
@@ -10437,8 +10437,8 @@
 # sent_id = emea-fr-test_00486
 # text = Effets indésirables rares (affectant moins d'un patient sur 1 000) :
 1	Effets	effet	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	_
-3	rares	rare	ADJ	_	Number=Plur	1	amod	_	_
+2	indésirables	indésirable	ADJ	_	Number=Plur	1	amod	_	Gender[ctxt]=Masc
+3	rares	rare	ADJ	_	Number=Plur	1	amod	_	Gender[ctxt]=Masc
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	affectant	affecter	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
 6	moins	moins	ADV	_	ExtPos=PRON	5	obj	_	_
@@ -10455,7 +10455,7 @@
 1	Rougeur	rougeur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
 3	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	_
-4	oculaire	oculaire	ADJ	_	Number=Sing	1	amod	_	SpaceAfter=No
+4	oculaire	oculaire	ADJ	_	Number=Sing	1	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-test_00488
@@ -10559,7 +10559,7 @@
 32	bisphosphonates	bisphosphonate	NOUN	_	Gender=Masc|Number=Plur	29	obl:mod	_	_
 33	pour	pour	ADP	_	_	36	case	_	_
 34	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	36	det	_	SpaceAfter=No
-35	autres	autre	ADJ	_	Number=Plur	36	amod	_	_
+35	autres	autre	ADJ	_	Number=Plur	36	amod	_	Gender[ctxt]=Fem
 36	maladies	maladie	NOUN	_	Gender=Fem|Number=Plur	29	obl:mod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	25	punct	_	_
 
@@ -10583,18 +10583,18 @@
 # text = Des réactions allergiques ont été rapportées, incluant de rares cas de difficultés respiratoires, d'urticaire et d'oedèmes de Quincke (tel un gonflement du visage, de la langue ou du cou).
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	réactions	réaction	NOUN	_	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
-3	allergiques	allergique	ADJ	_	Number=Plur	2	amod	_	_
+3	allergiques	allergique	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Fem
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
 6	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	incluant	inclure	VERB	_	Tense=Pres|VerbForm=Part	6	advcl	_	_
 9	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
-10	rares	rare	ADJ	_	Number=Plur	11	amod	_	_
+10	rares	rare	ADJ	_	Number=Plur	11	amod	_	Gender[ctxt]=Masc
 11	cas	cas	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	difficultés	difficulté	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-14	respiratoires	respiratoire	ADJ	_	Number=Plur	13	amod	_	SpaceAfter=No
+14	respiratoires	respiratoire	ADJ	_	Number=Plur	13	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 17	urticaire	urticaire	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
@@ -10633,9 +10633,9 @@
 6	isolés	isolé	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	réactions	réaction	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
-9	allergiques	allergique	ADJ	_	Number=Plur	8	amod	_	_
+9	allergiques	allergique	ADJ	_	Number=Plur	8	amod	_	Gender[ctxt]=Fem
 10	très	très	ADV	_	_	11	advmod	_	_
-11	sévères	sévère	ADJ	_	Number=Plur	8	amod	_	SpaceAfter=No
+11	sévères	sévère	ADJ	_	Number=Plur	8	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00494
@@ -10650,7 +10650,7 @@
 8	des	de	ADP	_	_	10	case	_	_
 9	ces	ce	DET	_	Number=Plur|PronType=Dem	10	det	_	_
 10	effets	effet	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
-11	indésirables	indésirable	ADJ	_	Number=Plur	10	amod	_	SpaceAfter=No
+11	indésirables	indésirable	ADJ	_	Number=Plur	10	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	3	punct	_	_
 13	veuillez	vouloir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	-en	en	PRON	_	Person=3|PronType=Prs	15	iobj	_	_
@@ -10671,14 +10671,14 @@
 7	effets	effet	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
 8	mentionnés	mentionner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 9	comme	comme	ADP	_	_	10	case	_	_
-10	graves	grave	ADJ	_	Number=Plur	8	obl:mod	_	_
+10	graves	grave	ADJ	_	Number=Plur	8	obl:mod	_	Gender[ctxt]=Masc
 11	ou	ou	CCONJ	_	_	14	cc	_	_
 12	si	si	SCONJ	_	_	14	mark	_	_
 13	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
 14	présentez	présenter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	conj	_	_
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
 16	effets	effet	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
-17	indésirables	indésirable	ADJ	_	Number=Plur	16	amod	_	_
+17	indésirables	indésirable	ADJ	_	Number=Plur	16	amod	_	Gender[ctxt]=Masc
 18	non	non	ADV	_	Polarity=Neg	19	advmod	_	_
 19	mentionnés	mentionner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	_	_
 20	dans	dans	ADP	_	_	22	case	_	_
@@ -10772,7 +10772,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	flacon	flacon	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 7	:	:	PUNCT	_	_	9	punct	_	_
-8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
+8	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
 9	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	utiliser	utiliser	VERB	_	VerbForm=Inf	9	ccomp	_	Subject=Generic
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -10845,7 +10845,7 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	administration	administration	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
+5	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	laisser	laisser	VERB	_	VerbForm=Inf	6	ccomp	_	Subject=Generic
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -10890,7 +10890,7 @@
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	acide	acide	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-14	anhydre	anhydre	ADJ	_	Number=Sing	12	amod	_	SpaceAfter=No
+14	anhydre	anhydre	ADJ	_	Number=Sing	12	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	appos	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
@@ -10916,7 +10916,7 @@
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	acide	acide	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-11	anhydre	anhydre	ADJ	_	Number=Sing	9	amod	_	SpaceAfter=No
+11	anhydre	anhydre	ADJ	_	Number=Sing	9	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	appos	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
@@ -10934,7 +10934,7 @@
 # text = - Les autres composants sont : mannitol, citrate de sodium et eau pour préparations injectables.
 1	-	-	PUNCT	_	_	7	punct	_	_
 2	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-3	autres	autre	ADJ	_	Number=Plur	4	amod	_	_
+3	autres	autre	ADJ	_	Number=Plur	4	amod	_	Gender[ctxt]=Masc
 4	composants	composant	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
@@ -10947,7 +10947,7 @@
 13	eau	eau	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
 14	pour	pour	ADP	_	_	15	case	_	_
 15	préparations	préparation	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
-16	injectables	injectable	ADJ	_	Number=Plur	15	amod	_	SpaceAfter=No
+16	injectables	injectable	ADJ	_	Number=Plur	15	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00509
@@ -10972,17 +10972,17 @@
 4	solution	solution	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	claire	clair	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
-7	incolore	incolore	ADJ	_	Number=Sing	5	conj	_	SpaceAfter=No
+7	incolore	incolore	ADJ	_	Number=Sing	5	conj	_	Gender[ctxt]=Fem|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00511
 # text = Il est présenté en flacon plastique contenant 100 ml de solution pour perfusion prête à l'emploi.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4	en	en	ADP	_	_	5	case	_	_
 5	flacon	flacon	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
-6	plastique	plastique	ADJ	_	Number=Sing	5	amod	_	_
+6	plastique	plastique	ADJ	_	Number=Sing	5	amod	_	Gender[ctxt]=Masc
 7	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	5	acl	_	_
 8	100	100	NUM	_	NumType=Card	9	nummod	_	_
 9	ml	ml	NOUN	_	Gender=Masc	7	obj	_	_
@@ -10998,7 +10998,7 @@
 
 # sent_id = emea-fr-test_00512
 # text = Il est fourni en boîte contenant un flacon et en conditionnement multiple composé de 5 boîtes contenant chacune 1 flacon.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	fourni	fournir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 4	en	en	ADP	_	_	5	case	_	_
@@ -11009,7 +11009,7 @@
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	conditionnement	conditionnement	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
-12	multiple	multiple	ADJ	_	Number=Sing	11	amod	_	_
+12	multiple	multiple	ADJ	_	Number=Sing	11	amod	_	Gender[ctxt]=Masc
 13	composé	composer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	5	5	NUM	_	NumType=Card	16	nummod	_	_
@@ -11081,18 +11081,18 @@
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	atteinte	atteinte	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	sévère	sévère	ADJ	_	Number=Sing	11	amod	_	_
-14	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-15	clairance	clairance	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
+13	sévère	sévère	ADJ	_	Number=Sing	11	amod	_	Gender[ctxt]=Fem
+14	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+15	clairance	clairance	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	créatinine	créatinine	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-19	<	<	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis:insert	_	_
+19	<	<	SYM	_	ExtPos=ADP	21	case	_	_
 20	35	35	NUM	_	NumType=Card	21	nummod	_	_
-21	ml	ml	NOUN	_	Gender=Masc	19	obj	_	SpaceAfter=No
+21	ml	ml	NOUN	_	Gender=Masc	11	parataxis:insert	_	SpaceAfter=No
 22	/	/	ADP	_	_	23	case	_	SpaceAfter=No
 23	min	min	NOUN	_	Gender=Masc	21	nmod	_	SpaceAfter=No
-24	)	)	PUNCT	_	_	19	punct	_	_
+24	)	)	PUNCT	_	_	21	punct	_	_
 25	en	en	ADP	_	_	26	case	_	_
 26	raison	raison	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 27	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
@@ -11100,7 +11100,7 @@
 29	manque	manque	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 30	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
 31	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-32	clinique	clinique	ADJ	_	Number=Sing	31	amod	_	_
+32	clinique	clinique	ADJ	_	Number=Sing	31	amod	_	Gender[ctxt]=Fem
 33	suffisante	suffisant	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 34	dans	dans	ADP	_	_	36	case	_	_
 35	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
@@ -11111,11 +11111,11 @@
 # text = Avant de leur administrer Aclasta, il faut mesurer les taux sériques de créatinine des patients.
 1	Avant	avant	ADP	_	_	4	mark	_	_
 2	de	de	ADP	_	_	4	mark	_	_
-3	leur	eux	PRON	_	Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
+3	leur	eux	PRON	_	Emph=No|Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
 4	administrer	administrer	VERB	_	VerbForm=Inf	8	advcl	_	Subject=Generic
 5	Aclasta	Aclasta	PROPN	_	_	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
-7	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
+7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	mesurer	mesurer	VERB	_	VerbForm=Inf	8	ccomp	_	Subject=Generic
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -11142,7 +11142,7 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	hanche	hanche	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	3	punct	_	_
-12	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
+12	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
 14	recommandé	recommander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	d'	de	ADP	_	_	16	mark	_	SpaceAfter=No
@@ -11185,7 +11185,7 @@
 22	recevant	recevoir	VERB	_	Tense=Pres|VerbForm=Part	21	acl	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
-25	diurétique	diurétique	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
+25	diurétique	diurétique	ADJ	_	Number=Sing	24	amod	_	Gender[ctxt]=Masc|SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00520
@@ -11255,7 +11255,7 @@
 # sent_id = emea-fr-test_00522
 # text = Les autres troubles des ions minéraux doivent aussi être efficacement traités (par exemple réduction de la réserve parathyroïde, malabsorption intestinale de calcium).
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-2	autres	autre	ADJ	_	Number=Plur	3	amod	_	_
+2	autres	autre	ADJ	_	Number=Plur	3	amod	_	Gender[ctxt]=Masc
 3	troubles	trouble	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -11291,7 +11291,7 @@
 4	envisager	envisager	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-7	clinique	clinique	ADJ	_	Number=Sing	6	amod	_	_
+7	clinique	clinique	ADJ	_	Number=Sing	6	amod	_	Gender[ctxt]=Fem
 8	de	de	ADP	_	_	10	case	_	_
 9	ces	ce	DET	_	Number=Plur|PronType=Dem	10	det	_	_
 10	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
@@ -11301,7 +11301,7 @@
 # text = Le remodelage osseux élevé est une caractéristique de la maladie de Paget.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
-3	osseux	osseux	ADJ	_	Gender=Masc	2	amod	_	_
+3	osseux	osseux	ADJ	_	Gender=Masc	2	amod	_	Number[ctxt]=Sing
 4	élevé	élevé	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -11323,7 +11323,7 @@
 5	délai	délai	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	action	action	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	rapide	rapide	ADJ	_	Number=Sing	7	amod	_	_
+8	rapide	rapide	ADJ	_	Number=Sing	7	amod	_	Gender[ctxt]=Fem
 9	de	de	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	acide	acide	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -11331,14 +11331,14 @@
 13	sur	sur	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	remodelage	remodelage	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-16	osseux	osseux	ADJ	_	Gender=Masc	15	amod	_	SpaceAfter=No
+16	osseux	osseux	ADJ	_	Gender=Masc	15	amod	_	Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	hypocalcémie	hypocalcémie	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
-20	transitoire	transitoire	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+20	transitoire	transitoire	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	parfois	parfois	ADV	_	_	23	advmod	_	_
-23	symptomatique	symptomatique	ADJ	_	Number=Sing	19	amod	_	SpaceAfter=No
+23	symptomatique	symptomatique	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	expl:pv	_	_
@@ -11365,7 +11365,7 @@
 # text = Un apport supplémentaire approprié en calcium et vitamine D est recommandé en association avec l'administration d'Aclasta.
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	apport	apport	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	_
-3	supplémentaire	supplémentaire	ADJ	_	Number=Sing	2	amod	_	_
+3	supplémentaire	supplémentaire	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Masc
 4	approprié	approprié	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 5	en	en	ADP	_	_	6	case	_	_
 6	calcium	calcium	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -11397,7 +11397,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	6	punct	_	_
-13	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
+13	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	expl:subj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 15	fortement	fortement	ADV	_	_	16	advmod	_	_
 16	conseillé	conseiller	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -11462,7 +11462,7 @@
 16	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
-19	clinique	clinique	ADJ	_	Number=Sing	18	amod	_	_
+19	clinique	clinique	ADJ	_	Number=Sing	18	amod	_	Gender[ctxt]=Fem
 20	appropriée	approprié	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 21	pendant	pendant	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -11531,7 +11531,7 @@
 29	voie	voie	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
 30	orale	oral	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
 31	ou	ou	CCONJ	_	_	32	cc	_	_
-32	intramusculaire	intramusculaire	ADJ	_	Number=Sing	30	conj	_	_
+32	intramusculaire	intramusculaire	ADJ	_	Number=Sing	30	conj	_	Gender[ctxt]=Fem
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
 34	recommandée	recommander	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 35	avant	avant	ADP	_	_	38	case	_	_
@@ -11570,7 +11570,7 @@
 # text = à usage unique seulement.
 1	à	à	ADP	_	_	2	case	_	_
 2	usage	usage	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-3	unique	unique	ADJ	_	Number=Sing	2	amod	_	_
+3	unique	unique	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Masc
 4	seulement	seulement	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -11589,7 +11589,7 @@
 11	intraveineuse	intraveineux	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	avec	avec	ADP	_	_	15	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	autre	autre	ADJ	_	Number=Sing	15	amod	_	_
+14	autre	autre	ADJ	_	Number=Sing	15	amod	_	Gender[ctxt]=Masc
 15	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
@@ -11640,11 +11640,11 @@
 5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
 6	réfrigérée	réfrigérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
+8	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
 9	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	attendre	attendre	VERB	_	VerbForm=Inf	9	ccomp	_	Subject=Generic
 11	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
-12	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	elle	lui	PRON	_	Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	revienne	revenir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -11652,7 +11652,7 @@
 17	ambiante	ambiant	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 18	avant	avant	ADP	_	_	21	mark	_	_
 19	de	de	ADP	_	_	21	mark	_	_
-20	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
+20	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	21	obj	_	SpaceAfter=No
 21	administrer	administrer	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No|Subject=Generic
 22	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -11667,7 +11667,7 @@
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	procédures	procédure	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
 9	médicales	médical	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
-10	standards	standard	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	standards	standard	ADJ	_	_	8	amod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00538
@@ -11805,7 +11805,7 @@
 
 # sent_id = emea-fr-test_00544
 # text = Il faut attendre que la solution réfrigérée revienne à température ambiante avant de l'administrer.
-1	Il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
+1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	attendre	attendre	VERB	_	VerbForm=Inf	2	ccomp	_	Subject=Generic
 4	que	que	SCONJ	_	_	8	mark	_	_
@@ -11818,7 +11818,7 @@
 11	ambiante	ambiant	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	avant	avant	ADP	_	_	15	mark	_	_
 13	de	de	ADP	_	_	15	mark	_	_
-14	l'	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+14	l'	lui	PRON	_	Emph=No|Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
 15	administrer	administrer	VERB	_	VerbForm=Inf	3	advcl	_	SpaceAfter=No|Subject=Generic
 16	.	.	PUNCT	_	_	2	punct	_	_
 
