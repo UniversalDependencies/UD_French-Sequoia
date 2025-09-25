@@ -3353,7 +3353,7 @@
 32	cours	cours	NOUN	_	_	37	obl:mod	_	Gender[lex]=Masc
 33-34	duquel	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	34	case	_	_
-34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	obl:arg	_	_
+34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	nmod	_	_
 35	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	nsubj	_	_
 36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:tense	_	_
 37	discuté	discuter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	29	acl:relcl	_	Tense[denom]=Past
@@ -7077,7 +7077,7 @@
 16	amende	amende	NOUN	_	Number=Sing	12	obl:arg	_	Gender[lex]=Fem
 17	à	à	ADP	_	_	19	case	_	_
 18	dix	dix	NUM	_	NumType=Card	19	nummod	_	Number[lex]=Plur
-19	mois	mois	NOUN	_	_	16	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur
+19	mois	mois	NOUN	_	_	16	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 20	de	de	ADP	_	_	21	case	_	_
 21	prison	prison	NOUN	_	Number=Sing	19	nmod	_	Gender[lex]=Fem
 22	avec	avec	ADP	_	_	23	case	_	_
@@ -10003,7 +10003,7 @@
 52	prévus	prévoir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	50	acl	_	Tense[denom]=Past
 53	à	à	ADP	_	_	55	case	_	_
 54	16	16	NUM	_	NumType=Card	55	nummod	_	Number[lex]=Plur
-55	milliards	milliard	NOUN	_	Number=Plur|NumType=Card	50	obl:arg	_	Gender[lex]=Masc
+55	milliards	milliard	NOUN	_	Number=Plur|NumType=Card	50	nmod	_	Gender[lex]=Masc
 56	de	de	ADP	_	_	57	case	_	_
 57	francs	franc	NOUN	_	Number=Plur	55	nmod	_	Gender[lex]=Masc
 58	lors	lors	ADV	_	ExtPos=ADV	55	advmod	_	_
@@ -18212,7 +18212,7 @@
 33-34	aux	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	35	case	_	_
 34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	35	det	_	_
-35	cheveux	cheveux	NOUN	_	Number=Plur	32	nmod	_	Gender[lex]=Masc
+35	cheveux	cheveu	NOUN	_	Number=Plur	32	nmod	_	Gender[lex]=Masc
 36	bruns	brun	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	_
 37	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
 38	arrivera	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	32	acl:relcl	_	_

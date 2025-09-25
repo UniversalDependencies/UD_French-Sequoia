@@ -11800,7 +11800,7 @@
 39	°C	°C	NOUN	_	_	36	nmod	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	8	8	NUM	_	NumType=Card	42	nummod	_	Number[lex]=Plur
-42	°C	°C	NOUN	_	_	39	obl:arg	_	SpaceAfter=No
+42	°C	°C	NOUN	_	_	39	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00544

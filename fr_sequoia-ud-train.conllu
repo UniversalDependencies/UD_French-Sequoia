@@ -4445,7 +4445,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	dimanche	dimanche	NOUN	_	Number=Sing	3	nmod	_	Gender[lex]=Masc
 6	à	à	ADP	_	_	7	case	_	_
-7	lundi	lundi	NOUN	_	Number=Sing	5	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+7	lundi	lundi	NOUN	_	Number=Sing	5	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	peu	peu	ADV	_	_	11	advmod	_	_
 10	après	après	ADP	_	_	11	case	_	_
@@ -6871,7 +6871,7 @@
 14	%	%	NOUN	_	_	11	obl:arg	_	Gender[lex]=Masc
 15	à	à	ADP	_	_	17	case	_	_
 16	47,5	47,5	NUM	_	NumType=Card	17	nummod	_	Number[lex]=Plur|SpaceAfter=No
-17	%	%	NOUN	_	_	14	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
+17	%	%	NOUN	_	_	14	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 18	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = annodis.er_00359
@@ -26109,7 +26109,7 @@
 39	°C	°C	NOUN	_	_	36	nmod	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	8	8	NUM	_	NumType=Card	42	nummod	_	Number[lex]=Plur
-42	°C	°C	NOUN	_	_	39	obl:arg	_	SpaceAfter=No
+42	°C	°C	NOUN	_	_	39	nmod	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00544
@@ -30041,7 +30041,7 @@
 49	Mai	Mai	NOUN	_	Number=Sing	47	nmod	_	Gender[lex]=Fem
 50	à	à	ADP	_	_	52	case	_	_
 51	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
-52	place	place	NOUN	_	Number=Sing	47	obl:arg	_	Gender[lex]=Fem
+52	place	place	NOUN	_	Number=Sing	47	nmod	_	Gender[lex]=Fem
 53	Tienanmen	Tienanmen	PROPN	_	_	52	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 54	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -40827,7 +40827,7 @@
 32	cours	cours	NOUN	_	_	37	obl:mod	_	Gender[lex]=Masc
 33-34	duquel	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	34	case	_	_
-34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	obl:arg	_	_
+34	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	nmod	_	_
 35	celui-ci	celui-ci	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	nsubj	_	_
 36	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:tense	_	_
 37	discuté	discuter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	29	acl:relcl	_	Tense[denom]=Past
@@ -43700,7 +43700,7 @@
 16	amende	amende	NOUN	_	Number=Sing	12	obl:arg	_	Gender[lex]=Fem
 17	à	à	ADP	_	_	19	case	_	_
 18	dix	dix	NUM	_	NumType=Card	19	nummod	_	Number[lex]=Plur
-19	mois	mois	NOUN	_	_	16	obl:arg	_	Gender[lex]=Masc|Number[ctxt]=Plur
+19	mois	mois	NOUN	_	_	16	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 20	de	de	ADP	_	_	21	case	_	_
 21	prison	prison	NOUN	_	Number=Sing	19	nmod	_	Gender[lex]=Fem
 22	avec	avec	ADP	_	_	23	case	_	_
@@ -46027,7 +46027,7 @@
 52	prévus	prévoir	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	50	acl	_	Tense[denom]=Past
 53	à	à	ADP	_	_	55	case	_	_
 54	16	16	NUM	_	NumType=Card	55	nummod	_	Number[lex]=Plur
-55	milliards	milliard	NOUN	_	Number=Plur|NumType=Card	50	obl:arg	_	Gender[lex]=Masc
+55	milliards	milliard	NOUN	_	Number=Plur|NumType=Card	50	nmod	_	Gender[lex]=Masc
 56	de	de	ADP	_	_	57	case	_	_
 57	francs	franc	NOUN	_	Number=Plur	55	nmod	_	Gender[lex]=Masc
 58	lors	lors	ADV	_	ExtPos=ADV	55	advmod	_	_
