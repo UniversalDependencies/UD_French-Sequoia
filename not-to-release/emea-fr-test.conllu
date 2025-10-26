@@ -63,7 +63,7 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	5	5	NUM	_	NumType=Card	16	nummod	_	Number[lex]=Plur
 16	mg	mg	NOUN	_	_	13	nmod	_	Gender[lex]=Masc
-17	/	/	ADP	_	_	19	case	_	_
+17	/	/	SYM	_	ExtPos=ADP	19	case	_	_
 18	100	100	NUM	_	NumType=Card	19	nummod	_	Number[lex]=Plur
 19	ml	ml	NOUN	_	_	16	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 20	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -142,7 +142,7 @@
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	patients	patient	NOUN	_	Number=Plur	3	obl:mod	_	Gender[lex]=Masc
 24	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	obl:mod	_	SpaceAfter=No
-25	étant	être	AUX	_	Tense=Pres|VerbForm=Part	27	aux:tense	_	_
+25	étant	être	AUX	_	VerbForm=Part	27	aux:tense	_	Tense[denom]=Pres
 26	récemment	récemment	ADV	_	_	27	advmod	_	_
 27	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	23	acl	_	Tense[denom]=Past
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -717,7 +717,7 @@
 1	Quelles	quel	DET	_	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
 2	études	étude	NOUN	_	Number=Plur	5	nsubj:pass	_	Gender[lex]=Fem
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-4	été	être	AUX	_	Tense=Past|VerbForm=Part	5	aux:pass	_	_
+4	été	être	AUX	_	VerbForm=Part	5	aux:pass	_	Tense[denom]=Past
 5	menées	mener	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 6	sur	sur	ADP	_	_	7	case	_	_
 7	Aclasta	Aclasta	PROPN	_	_	5	obl:mod	_	Gender[lex]=Unknown
@@ -741,7 +741,7 @@
 14	pour	pour	ADP	_	_	15	case	_	_
 15	Zometa	Zometa	PROPN	_	_	13	obl:mod	_	Gender[lex]=Unknown
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
-17	été	être	AUX	_	Tense=Past|VerbForm=Part	18	aux:pass	_	_
+17	été	être	AUX	_	VerbForm=Part	18	aux:pass	_	Tense[denom]=Past
 18	prises	prendre	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 19	en	en	ADP	_	_	20	case	_	_
 20	compte	compte	NOUN	_	Number=Sing	18	obl:arg	_	Gender[lex]=Masc
@@ -772,7 +772,7 @@
 15	par	par	ADP	_	_	16	case	_	_
 16	an	an	NOUN	_	Number=Sing	14	nmod	_	Gender[lex]=Masc
 17	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	19	aux:pass	_	_
+18	été	être	AUX	_	VerbForm=Part	19	aux:pass	_	Tense[denom]=Past
 19	comparés	comparer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 20	à	à	ADP	_	_	21	case	_	_
 21	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	19	obl:arg	_	_
@@ -898,7 +898,7 @@
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	patients	patient	NOUN	_	Number=Plur	10	nsubj:pass	_	Gender[lex]=Masc
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+9	été	être	AUX	_	VerbForm=Part	10	aux:pass	_	Tense[denom]=Past
 10	autorisés	autoriser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 11	à	à	ADP	_	_	12	mark	_	_
 12	prendre	prendre	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
@@ -928,7 +928,7 @@
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	Aclasta	Aclasta	PROPN	_	_	12	nsubj:pass	_	Gender[lex]=Unknown
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	12	aux:pass	_	_
+11	été	être	AUX	_	VerbForm=Part	12	aux:pass	_	Tense[denom]=Past
 12	étudié	étudier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 13	sur	sur	ADP	_	_	15	case	_	_
 14	357	357	NUM	_	NumType=Card	15	nummod	_	Number[lex]=Plur
@@ -950,7 +950,7 @@
 28	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	32	obl:mod	_	_
 29	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj:pass	_	_
 30	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:tense	_	_
-31	été	être	AUX	_	Tense=Past|VerbForm=Part	32	aux:pass	_	_
+31	été	être	AUX	_	VerbForm=Part	32	aux:pass	_	Tense[denom]=Past
 32	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	acl:relcl	_	Tense[denom]=Past
 33-34	au	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	35	case	_	_
@@ -1004,7 +1004,7 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 8	efficacité	efficacité	NOUN	_	Number=Sing	5	nmod	_	Gender[lex]=Fem
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
-10	été	être	AUX	_	Tense=Past|VerbForm=Part	12	cop	_	_
+10	été	être	AUX	_	VerbForm=Part	12	cop	_	Tense[denom]=Past
 11	de	de	ADP	_	_	12	mark	_	_
 12	mesurer	mesurer	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 13	si	si	SCONJ	_	_	34	mark	_	_
@@ -1181,7 +1181,7 @@
 23	sous	sous	ADP	_	_	24	case	_	_
 24	placebo	placebo	NOUN	_	Number=Sing	22	nmod	_	Gender[lex]=Masc
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
-26	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux:caus	_	_
+26	fait	faire	AUX	_	Gender=Masc|Number=Sing|VerbForm=Part	27	aux:caus	_	Tense[denom]=Past
 27	apparaître	apparaître	VERB	_	VerbForm=Inf	0	root	_	Subject=ObjRaising
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	réduction	réduction	NOUN	_	Number=Sing	27	obj:agent	_	Gender[lex]=Fem
@@ -1212,7 +1212,7 @@
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	femmes	femme	NOUN	_	Number=Plur	7	conj	_	Gender[lex]=Fem
 11	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	obl:mod	_	SpaceAfter=No
-12	étant	être	AUX	_	Tense=Pres|VerbForm=Part	13	aux:tense	_	_
+12	étant	être	AUX	_	VerbForm=Part	13	aux:tense	_	Tense[denom]=Pres
 13	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	acl	_	Tense[denom]=Past
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	hanche	hanche	NOUN	_	Number=Sing	13	obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -1286,7 +1286,7 @@
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	Aclasta	Aclasta	PROPN	_	_	13	nsubj	_	Gender[lex]=Unknown
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-11	été	être	AUX	_	Tense=Past|VerbForm=Part	13	cop	_	_
+11	été	être	AUX	_	VerbForm=Part	13	cop	_	Tense[denom]=Past
 12	plus	plus	ADV	_	_	13	advmod	_	_
 13	efficace	efficace	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Masc
 14	que	que	SCONJ	_	_	16	case	_	_
@@ -1306,14 +1306,14 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	patients	patient	NOUN	_	Number=Plur	6	nmod	_	Gender[lex]=Masc
-10	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	11	aux:tense	_	_
+10	ayant	avoir	AUX	_	VerbForm=Part	11	aux:tense	_	Tense[denom]=Pres
 11	répondu	répondre	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	acl	_	Tense[denom]=Past
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	traitement	traitement	NOUN	_	Number=Sing	11	obl:arg	_	Gender[lex]=Masc
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-16	été	être	AUX	_	Tense=Past|VerbForm=Part	19	cop	_	_
+16	été	être	AUX	_	VerbForm=Part	19	cop	_	Tense[denom]=Past
 17	de	de	ADP	_	_	19	case	_	_
 18	95	95	NUM	_	NumType=Card	19	nummod	_	Number[lex]=Plur|SpaceAfter=No
 19	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
@@ -1575,7 +1575,7 @@
 2	Aclasta	Aclasta	PROPN	_	_	6	nsubj:pass	_	Gender[lex]=Unknown
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
 4	-t-il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	été	être	AUX	_	VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
 6	approuvé	approuver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 7	?	?	PUNCT	_	_	6	punct	_	_
 
@@ -1631,13 +1631,13 @@
 46	de	de	ADP	_	_	47	case	_	_
 47	fracture	fracture	NOUN	_	Number=Sing	44	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 48	,	,	PUNCT	_	_	53	punct	_	_
-49	y	y	PRON	_	Person=3|PronType=Prs	53	obj	_	InIdiom=Yes
-50	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	53	cc	_	Idiom=Yes|Tense[denom]=Past
-51	chez	chez	ADP	_	_	49	case	_	_
+49	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	53	cc	_	Idiom=Yes
+50	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	49	fixed	_	InIdiom=Yes|Tense[denom]=Past
+51	chez	chez	ADP	_	_	53	case	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
 53	patients	patient	NOUN	_	Number=Plur	35	conj	_	Gender[lex]=Masc
 54	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	57	obl:mod	_	SpaceAfter=No
-55	étant	être	AUX	_	Tense=Pres|VerbForm=Part	57	aux:tense	_	_
+55	étant	être	AUX	_	VerbForm=Part	57	aux:tense	_	Tense[denom]=Pres
 56	récemment	récemment	ADV	_	_	57	advmod	_	_
 57	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	53	acl	_	Tense[denom]=Past
 58	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
@@ -1854,7 +1854,7 @@
 # text = 5 mg / 100 ml
 1	5	5	NUM	_	NumType=Card	2	nummod	_	Number[lex]=Plur
 2	mg	mg	NOUN	_	_	0	root	_	Gender[lex]=Masc
-3	/	/	ADP	_	_	5	case	_	_
+3	/	/	SYM	_	ExtPos=ADP	5	case	_	_
 4	100	100	NUM	_	NumType=Card	5	nummod	_	Number[lex]=Plur
 5	ml	ml	NOUN	_	_	2	nmod	_	Gender[lex]=Masc
 
@@ -1924,7 +1924,7 @@
 11	éducation	éducation	NOUN	_	Number=Sing	9	nmod	_	Gender[lex]=Fem
 12	qui	qui	PRON	_	PronType=Rel	15	nsubj:pass	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+14	été	être	AUX	_	VerbForm=Part	15	aux:pass	_	Tense[denom]=Past
 15	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	9	acl:relcl	_	Tense[denom]=Past
 16	en	en	ADP	_	_	17	case	_	_
 17	place	place	NOUN	_	Number=Sing	15	obl:arg	_	Gender[lex]=Fem
@@ -1977,7 +1977,7 @@
 62	chez	chez	ADP	_	_	64	case	_	_
 63	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	64	det	_	_
 64	patients	patient	NOUN	_	Number=Plur	41	nmod	_	Gender[lex]=Masc
-65	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	66	aux:tense	_	_
+65	ayant	avoir	AUX	_	VerbForm=Part	66	aux:tense	_	Tense[denom]=Pres
 66	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	64	acl	_	Tense[denom]=Past
 67	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
 68	fracture	fracture	NOUN	_	Number=Sing	66	obj	_	Gender[lex]=Fem
@@ -2105,7 +2105,7 @@
 19	chez	chez	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	patients	patient	NOUN	_	Number=Plur	11	conj	_	Gender[lex]=Masc
-22	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	23	aux:tense	_	_
+22	ayant	avoir	AUX	_	VerbForm=Part	23	aux:tense	_	Tense[denom]=Pres
 23	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	21	acl	_	Tense[denom]=Past
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	fracture	fracture	NOUN	_	Number=Sing	23	obj	_	Gender[lex]=Fem
@@ -2169,7 +2169,7 @@
 1	Chez	chez	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	patients	patient	NOUN	_	Number=Plur	19	obl:mod	_	Gender[lex]=Masc
-4	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	5	aux:tense	_	_
+4	ayant	avoir	AUX	_	VerbForm=Part	5	aux:tense	_	Tense[denom]=Pres
 5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	acl	_	Tense[denom]=Past
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	fracture	fracture	NOUN	_	Number=Sing	5	obj	_	Gender[lex]=Fem
@@ -2279,7 +2279,7 @@
 # text = Il a été observé une période de rémission prolongée chez les patients répondeurs au traitement de la maladie de Paget après une unique administration d'Aclasta (voir rubrique 5.1).
 1	Il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+3	été	être	AUX	_	VerbForm=Part	4	aux:pass	_	Tense[denom]=Past
 4	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	période	période	NOUN	_	Number=Sing	4	obj	_	Gender[lex]=Fem
@@ -2318,7 +2318,7 @@
 2	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 3	5	5	NUM	_	NumType=Card	4	nummod	_	Number[lex]=Plur
 4	mg	mg	NOUN	_	_	1	parataxis	_	Gender[lex]=Masc
-5	/	/	ADP	_	_	7	case	_	_
+5	/	/	SYM	_	ExtPos=ADP	7	case	_	_
 6	100	100	NUM	_	NumType=Card	7	nummod	_	Number[lex]=Plur
 7	ml	ml	NOUN	_	_	4	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -2511,7 +2511,7 @@
 1	Chez	chez	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	patients	patient	NOUN	_	Number=Plur	19	obl:mod	_	Gender[lex]=Masc
-4	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	5	aux:tense	_	_
+4	ayant	avoir	AUX	_	VerbForm=Part	5	aux:tense	_	Tense[denom]=Pres
 5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	acl	_	Tense[denom]=Past
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	fracture	fracture	NOUN	_	Number=Sing	5	obj	_	Gender[lex]=Fem
@@ -2627,7 +2627,7 @@
 19	<	<	SYM	_	ExtPos=VERB	11	acl:relcl	_	_
 20	35	35	NUM	_	NumType=Card	21	nummod	_	Number[lex]=Plur
 21	ml	ml	NOUN	_	_	19	obj	_	Gender[lex]=Masc|SpaceAfter=No
-22	/	/	ADP	_	_	23	case	_	SpaceAfter=No
+22	/	/	SYM	_	ExtPos=ADP	23	case	_	SpaceAfter=No
 23	min	min	NOUN	_	_	21	nmod	_	Gender[lex]=Masc
 24	en	en	ADP	_	_	25	case	_	_
 25	raison	raison	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Fem
@@ -2663,7 +2663,7 @@
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 19	35	35	NUM	_	NumType=Card	20	nummod	_	Number[lex]=Plur
 20	ml	ml	NOUN	_	_	11	acl:relcl	_	Gender[lex]=Masc|SpaceAfter=No
-21	/	/	ADP	_	_	22	case	_	SpaceAfter=No
+21	/	/	SYM	_	ExtPos=ADP	22	case	_	SpaceAfter=No
 22	min	min	NOUN	_	_	20	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 23	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2719,7 +2719,7 @@
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 17	élimination	élimination	NOUN	_	Number=Sing	11	conj	_	Gender[lex]=Fem
 18	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
-19	été	être	AUX	_	Tense=Past|VerbForm=Part	20	cop	_	_
+19	été	être	AUX	_	VerbForm=Part	20	cop	_	Tense[denom]=Past
 20	similaires	similaire	ADJ	_	Number=Plur	8	advcl	_	Gender[ctxt]=Fem
 21	chez	chez	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
@@ -2876,7 +2876,7 @@
 19	<	<	SYM	_	ExtPos=ADP	21	case	_	_
 20	35	35	NUM	_	NumType=Card	21	nummod	_	_
 21	ml	ml	NOUN	_	_	11	parataxis	_	Gender[lex]=Masc|SpaceAfter=No
-22	/	/	ADP	_	_	23	case	_	SpaceAfter=No
+22	/	/	SYM	_	ExtPos=ADP	23	case	_	SpaceAfter=No
 23	min	min	NOUN	_	_	21	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 24	)	)	PUNCT	_	_	21	punct	_	_
 25	en	en	ADP	_	_	26	case	_	_
@@ -3250,16 +3250,16 @@
 3	osseuses	osseux	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	articulaires	articulaire	ADJ	_	Number=Plur	3	conj	_	Gender[ctxt]=Fem
-6	et	et	CCONJ	_	ExtPos=CCONJ	9	cc	_	Idiom=Yes
-7	/	/	SYM	_	_	6	fixed	_	InIdiom=Yes
-8	ou	ou	CCONJ	_	_	6	fixed	_	InIdiom=Yes
+6	et	et	CCONJ	_	_	9	cc	_	_
+7	/	/	SYM	_	ExtPos=CCONJ	8	cc	_	_
+8	ou	ou	CCONJ	_	_	6	conj	_	_
 9	musculaires	musculaire	ADJ	_	Number=Plur	3	conj	_	Gender[ctxt]=Fem
 10	sévères	sévère	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Fem
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	parfois	parfois	ADV	_	_	13	advmod	_	_
 13	invalidantes	invalidant	ADJ	_	Gender=Fem|Number=Plur	10	conj	_	_
 14	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-15	été	être	AUX	_	Tense=Past|VerbForm=Part	17	aux:pass	_	_
+15	été	être	AUX	_	VerbForm=Part	17	aux:pass	_	Tense[denom]=Past
 16	rarement	rarement	ADV	_	_	17	advmod	_	_
 17	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 18	chez	chez	ADP	_	_	20	case	_	_
@@ -3270,8 +3270,8 @@
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
 24	bisphosphonates	bisphosphonate	NOUN	_	Number=Plur	21	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
 25	,	,	PUNCT	_	_	28	punct	_	_
-26	y	y	PRON	_	Person=3|PronType=Prs	28	dep:comp	_	InIdiom=Yes
-27	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	28	cc	_	Idiom=Yes|Tense[denom]=Past
+26	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	28	cc	_	Idiom=Yes
+27	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	26	fixed	_	InIdiom=Yes|Tense[denom]=Past
 28	Aclasta	Aclasta	PROPN	_	_	24	conj	_	Gender[lex]=Unknown|SpaceAfter=No
 29	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -3329,7 +3329,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	mâchoire	mâchoire	NOUN	_	Number=Sing	2	nmod	_	Gender[lex]=Fem
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	8	aux:pass	_	_
+7	été	être	AUX	_	VerbForm=Part	8	aux:pass	_	Tense[denom]=Past
 8	rapportée	rapporter	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 9	principalement	principalement	ADV	_	_	8	advmod	_	_
 10	chez	chez	ADP	_	_	12	case	_	_
@@ -3346,8 +3346,8 @@
 21	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 22	bisphosphonates	bisphosphonate	NOUN	_	Number=Plur	18	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
-24	y	y	PRON	_	Person=3|PronType=Prs	27	dep:comp	_	InIdiom=Yes
-25	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	27	cc	_	Idiom=Yes|Tense[denom]=Past
+24	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	27	cc	_	Idiom=Yes
+25	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	24	fixed	_	InIdiom=Yes|Tense[denom]=Past
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 27	acide	acide	NOUN	_	Number=Sing	22	conj	_	Gender[lex]=Masc
 28	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
@@ -3379,7 +3379,7 @@
 5	cas	cas	NOUN	_	_	2	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 6	rapportés	rapporter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	acl	_	Tense[denom]=Past
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+8	été	être	AUX	_	VerbForm=Part	9	aux:pass	_	Tense[denom]=Past
 9	associés	associer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 10	à	à	ADP	_	_	12	case	_	_
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	_
@@ -3402,8 +3402,8 @@
 6	infection	infection	NOUN	_	Number=Sing	4	nmod	_	Gender[lex]=Fem
 7	localisée	localisé	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	12	dep:comp	_	InIdiom=Yes
-10	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	12	cc	_	Idiom=Yes|Tense[denom]=Past
+9	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	12	cc	_	Idiom=Yes
+10	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	9	fixed	_	InIdiom=Yes|Tense[denom]=Past
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	ostéomyélite	ostéomyélite	NOUN	_	Number=Sing	6	conj	_	Gender[lex]=Fem|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -3585,7 +3585,7 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	rapport	rapport	NOUN	_	Number=Sing	22	nmod	_	Gender[lex]=Masc
 27	bénéfice	bénéfice	NOUN	_	Number=Sing	26	nmod	_	Gender[lex]=Masc|SpaceAfter=No
-28	/	/	SYM	_	_	29	cc	_	SpaceAfter=No
+28	/	/	SYM	_	ExtPos=CCONJ	29	cc	_	SpaceAfter=No
 29	risque	risque	NOUN	_	Number=Sing	27	conj	_	Gender[lex]=Masc|SpaceAfter=No
 30	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -3599,7 +3599,7 @@
 6	médicamenteuse	médicamenteux	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+9	été	être	AUX	_	VerbForm=Part	10	aux:pass	_	Tense[denom]=Past
 10	conduite	conduire	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 11	avec	avec	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gender[ctxt]=Masc|SpaceAfter=No
@@ -3873,7 +3873,7 @@
 15	n'	ne	ADV	_	Polarity=Neg	19	advmod	_	SpaceAfter=No
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
 17	pas	pas	ADV	_	Polarity=Neg	19	advmod	_	_
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	19	aux:pass	_	_
+18	été	être	AUX	_	VerbForm=Part	19	aux:pass	_	Tense[denom]=Past
 19	étudiés	étudier	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
 20	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -4000,7 +4000,7 @@
 17	Aclasta	Aclasta	PROPN	_	_	15	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-20	été	être	AUX	_	Tense=Past|VerbForm=Part	22	cop	_	_
+20	été	être	AUX	_	VerbForm=Part	22	cop	_	Tense[denom]=Past
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
 22	intensité	intensité	NOUN	_	Number=Sing	7	conj	_	Gender[lex]=Fem
 23	légère	léger	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
@@ -4064,7 +4064,7 @@
 42	décrit	décrire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	40	acl	_	Tense[denom]=Past
 43	ci-dessous	ci-dessous	ADV	_	_	42	advmod	_	_
 44	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	46	aux:tense	_	_
-45	été	être	AUX	_	Tense=Past|VerbForm=Part	46	aux:pass	_	_
+45	été	être	AUX	_	VerbForm=Part	46	aux:pass	_	Tense[denom]=Past
 46	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	33	acl:relcl	_	SpaceAfter=No|Tense[denom]=Past
 47	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -4137,7 +4137,7 @@
 21	fibrillations	fibrillation	NOUN	_	Number=Plur	17	nmod	_	Gender[lex]=Fem
 22	auriculaires	auriculaire	ADJ	_	Number=Plur	21	amod	_	Gender[ctxt]=Fem
 23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
-24	été	être	AUX	_	Tense=Past|VerbForm=Part	27	cop	_	_
+24	été	être	AUX	_	VerbForm=Part	27	cop	_	Tense[denom]=Past
 25	de	de	ADP	_	_	27	case	_	_
 26	2,5	2,5	NUM	_	NumType=Card	27	nummod	_	Number[lex]=Plur|SpaceAfter=No
 27	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
@@ -4260,7 +4260,7 @@
 20	fibrillations	fibrillation	NOUN	_	Number=Plur	16	nmod	_	Gender[lex]=Fem
 21	auriculaires	auriculaire	ADJ	_	Number=Plur	20	amod	_	Gender[ctxt]=Fem
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
-23	été	être	AUX	_	Tense=Past|VerbForm=Part	24	cop	_	_
+23	été	être	AUX	_	VerbForm=Part	24	cop	_	Tense[denom]=Past
 24	comparable	comparable	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Fem
 25	entre	entre	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -4335,22 +4335,22 @@
 18	peu	peu	ADV	_	_	19	advmod	_	_
 19	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	1/1000	1/1000	NUM	_	NumType=Card	19	parataxis:insert	_	Number[lex]=Sing|SpaceAfter=No
+21	1/1000	1/1000	NUM	_	NumType=Card	19	parataxis:insert	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	<	<	SYM	_	ExtPos=ADP	24	case	_	_
-24	1/100	1/100	NUM	_	NumType=Card	21	conj	_	Number[lex]=Sing|SpaceAfter=No
+24	1/100	1/100	NUM	_	NumType=Card	21	conj	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	24	punct	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	rares	rare	ADJ	_	Number=Plur	5	conj	_	Gender[ctxt]=Masc
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	1	1	NUM	_	NumType=Card	27	parataxis:insert	_	Number[lex]=Sing|SpaceAfter=No
-30	/	/	SYM	_	_	29	advmod	_	SpaceAfter=No
-31	10 000	10 000	NUM	_	NumType=Card	30	obj	_	Number[lex]=Sing|SpaceAfter=No
+30	/	/	SYM	_	ExtPos=ADP	31	case	_	SpaceAfter=No
+31	10 000	10 000	NUM	_	NumType=Card	29	nmod	_	Number[lex]=Sing|SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	<	<	SYM	_	ExtPos=ADP	34	case	_	_
 34	1	1	NUM	_	NumType=Card	29	conj	_	Number[lex]=Sing|SpaceAfter=No
-35	/	/	SYM	_	_	34	advmod	_	SpaceAfter=No
-36	1 000	1 000	NUM	_	NumType=Card	35	obj	_	Number[lex]=Sing|SpaceAfter=No
+35	/	/	SYM	_	ExtPos=ADP	36	case	_	SpaceAfter=No
+36	1 000	1 000	NUM	_	NumType=Card	34	nmod	_	Number[lex]=Sing|SpaceAfter=No
 37	)	)	PUNCT	_	_	34	punct	_	_
 38	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
 39	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
@@ -4494,7 +4494,7 @@
 2	acide	acide	NOUN	_	Number=Sing	6	nsubj:pass	_	Gender[lex]=Masc
 3	zolédronique	zolédronique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	été	être	AUX	_	VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
 6	associé	associer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 7	à	à	ADP	_	_	9	case	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -4537,7 +4537,7 @@
 2	insuffisance	insuffisance	NOUN	_	Number=Sing	6	nsubj:pass	_	Gender[lex]=Fem
 3	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	été	être	AUX	_	VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
 6	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 7	après	après	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -4610,12 +4610,12 @@
 26	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:tense	_	_
 28	également	également	ADV	_	_	30	advmod	_	_
-29	été	être	AUX	_	Tense=Past|VerbForm=Part	30	aux:pass	_	_
+29	été	être	AUX	_	VerbForm=Part	30	aux:pass	_	Tense[denom]=Past
 30	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	conj	_	Tense[denom]=Past
 31	chez	chez	ADP	_	_	33	case	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
 33	patients	patient	NOUN	_	Number=Plur	30	obl:mod	_	Gender[lex]=Masc
-34	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	35	aux:tense	_	_
+34	ayant	avoir	AUX	_	VerbForm=Part	35	aux:tense	_	Tense[denom]=Pres
 35	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	33	acl	_	Tense[denom]=Past
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 37	seule	seul	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
@@ -4690,7 +4690,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	créatininémie	créatininémie	NOUN	_	Number=Sing	2	nmod	_	Gender[lex]=Fem
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+8	été	être	AUX	_	VerbForm=Part	9	aux:pass	_	Tense[denom]=Past
 9	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 10	sur	sur	ADP	_	_	12	case	_	_
 11	10	10	NUM	_	NumType=Card	12	nummod	_	Number[lex]=Plur
@@ -4757,7 +4757,7 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	1,87	1,87	NUM	_	NumType=Card	30	nummod	_	Number[lex]=Plur
 30	mmol	mmol	NOUN	_	_	27	obl:arg	_	SpaceAfter=No
-31	/	/	ADP	_	_	32	case	_	SpaceAfter=No
+31	/	/	SYM	_	ExtPos=ADP	32	case	_	SpaceAfter=No
 32	l	l	NOUN	_	_	30	nmod	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	38	punct	_	_
@@ -4778,7 +4778,7 @@
 5	symptomatique	symptomatique	ADJ	_	Number=Sing	4	amod	_	Gender[ctxt]=Fem
 6	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+8	été	être	AUX	_	VerbForm=Part	9	aux:pass	_	Tense[denom]=Past
 9	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -4805,7 +4805,7 @@
 18	hypocalcémie	hypocalcémie	NOUN	_	Number=Sing	22	nsubj:pass	_	Gender[lex]=Fem
 19	symptomatique	symptomatique	ADJ	_	Number=Sing	18	amod	_	Gender[ctxt]=Fem
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-21	été	être	AUX	_	Tense=Past|VerbForm=Part	22	aux:pass	_	_
+21	été	être	AUX	_	VerbForm=Part	22	aux:pass	_	Tense[denom]=Past
 22	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 23	chez	chez	ADP	_	_	26	case	_	_
 24	environ	environ	ADV	_	_	26	advmod	_	_
@@ -4837,7 +4837,7 @@
 15	,	,	PUNCT	_	_	4	punct	_	_
 16	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	19	aux:pass	_	_
+18	été	être	AUX	_	VerbForm=Part	19	aux:pass	_	Tense[denom]=Past
 19	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
 21	valeurs	valeur	NOUN	_	Number=Plur	19	obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -5006,7 +5006,7 @@
 32	n'	ne	ADV	_	Polarity=Neg	36	advmod	_	SpaceAfter=No
 33	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux:tense	_	_
 34	pas	pas	ADV	_	Polarity=Neg	36	advmod	_	_
-35	été	être	AUX	_	Tense=Past|VerbForm=Part	36	aux:pass	_	_
+35	été	être	AUX	_	VerbForm=Part	36	aux:pass	_	Tense[denom]=Past
 36	mesuré	mesurer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	Tense[denom]=Past
 37	de	de	ADP	_	_	38	case	_	_
 38	façon	façon	NOUN	_	Number=Sing	36	obl:mod	_	Gender[lex]=Fem
@@ -5051,9 +5051,9 @@
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	gonflement	gonflement	NOUN	_	Number=Sing	21	conj	_	Gender[lex]=Masc
-25	et	et	CCONJ	_	ExtPos=CCONJ	29	cc	_	Idiom=Yes|SpaceAfter=No
-26	/	/	SYM	_	_	25	fixed	_	InIdiom=Yes|SpaceAfter=No
-27	ou	ou	CCONJ	_	_	25	fixed	_	InIdiom=Yes
+25	et	et	CCONJ	_	_	29	cc	_	SpaceAfter=No
+26	/	/	SYM	_	ExtPos=CCONJ	27	cc	_	SpaceAfter=No
+27	ou	ou	CCONJ	_	_	25	conj	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	douleur	douleur	NOUN	_	Number=Sing	21	conj	_	Gender[lex]=Fem
 30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
@@ -5062,7 +5062,7 @@
 33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	32	punct	_	_
 35	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux:tense	_	_
-36	été	être	AUX	_	Tense=Past|VerbForm=Part	37	aux:pass	_	_
+36	été	être	AUX	_	VerbForm=Part	37	aux:pass	_	Tense[denom]=Past
 37	observées	observer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 38	après	après	ADP	_	_	40	case	_	_
 39	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	40	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -5092,7 +5092,7 @@
 9	mâchoire	mâchoire	NOUN	_	Number=Sing	4	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-12	été	être	AUX	_	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+12	été	être	AUX	_	VerbForm=Part	15	aux:pass	_	Tense[denom]=Past
 13	peu	peu	ADV	_	_	14	advmod	_	_
 14	fréquemment	fréquemment	ADV	_	_	15	advmod	_	_
 15	rapportés	rapporter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
@@ -5128,8 +5128,8 @@
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	infection	infection	NOUN	_	Number=Sing	7	nmod	_	Gender[lex]=Fem
 10	locale	local	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-11	y	y	PRON	_	Person=3|PronType=Prs	14	dep:comp	_	InIdiom=Yes
-12	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	14	cc	_	Idiom=Yes|Tense[denom]=Past
+11	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	14	cc	_	Idiom=Yes
+12	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	11	fixed	_	InIdiom=Yes|Tense[denom]=Past
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	ostéomyélite	ostéomyélite	NOUN	_	Number=Sing	9	conj	_	Gender[lex]=Fem|SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -5150,7 +5150,7 @@
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	cancer	cancer	NOUN	_	Number=Sing	9	obl:agent	_	Gender[lex]=Masc
 13	et	et	CCONJ	_	_	15	cc	_	_
-14	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	15	aux:tense	_	_
+14	ayant	avoir	AUX	_	VerbForm=Part	15	aux:tense	_	Tense[denom]=Pres
 15	subi	subir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	conj	_	Tense[denom]=Past
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	extraction	extraction	NOUN	_	Number=Sing	15	obj	_	Gender[lex]=Fem
@@ -5274,7 +5274,7 @@
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	mâchoire	mâchoire	NOUN	_	Number=Sing	15	nmod	_	Gender[lex]=Fem
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:tense	_	_
-20	été	être	AUX	_	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+20	été	être	AUX	_	VerbForm=Part	21	aux:pass	_	Tense[denom]=Past
 21	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 22	chez	chez	ADP	_	_	24	case	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -5302,7 +5302,7 @@
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 7	évolution	évolution	NOUN	_	Number=Sing	10	nsubj	_	Gender[lex]=Fem
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	cop	_	_
+9	été	être	AUX	_	VerbForm=Part	10	cop	_	Tense[denom]=Past
 10	favorable	favorable	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Fem|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -5329,7 +5329,7 @@
 # text = Les patients ayant reçu une dose supérieure à la dose recommandée doivent être surveillés attentivement.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	patients	patient	NOUN	_	Number=Plur	12	nsubj	_	Gender[lex]=Masc
-3	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	4	aux:tense	_	_
+3	ayant	avoir	AUX	_	VerbForm=Part	4	aux:tense	_	Tense[denom]=Pres
 4	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	acl	_	Tense[denom]=Past
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	dose	dose	NOUN	_	Number=Sing	4	obj	_	Gender[lex]=Fem
@@ -5370,9 +5370,9 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	calcium	calcium	NOUN	_	Number=Sing	21	nmod	_	Gender[lex]=Masc
 24	oral	oral	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
-25	et	et	CCONJ	_	ExtPos=CCONJ	29	cc	_	Idiom=Yes|SpaceAfter=No
-26	/	/	SYM	_	_	25	fixed	_	InIdiom=Yes|SpaceAfter=No
-27	ou	ou	CCONJ	_	_	25	fixed	_	InIdiom=Yes
+25	et	et	CCONJ	_	_	29	cc	_	SpaceAfter=No
+26	/	/	SYM	_	ExtPos=CCONJ	27	cc	_	SpaceAfter=No
+27	ou	ou	CCONJ	_	_	25	conj	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	perfusion	perfusion	NOUN	_	Number=Sing	18	conj	_	Gender[lex]=Fem
 30	intraveineuse	intraveineux	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
@@ -5529,7 +5529,7 @@
 9	osseux	osseux	ADJ	_	Gender=Masc	8	amod	_	Number[ctxt]=Sing
 10	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-12	été	être	AUX	_	Tense=Past|VerbForm=Part	13	aux:pass	_	_
+12	été	être	AUX	_	VerbForm=Part	13	aux:pass	_	Tense[denom]=Past
 13	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 14	en	en	ADP	_	_	15	case	_	_
 15	cas	cas	NOUN	_	_	13	obl:mod	_	Gender[lex]=Masc
@@ -5576,7 +5576,7 @@
 18	années	année	NOUN	_	Number=Plur	7	nmod	_	Gender[lex]=Fem
 19	consécutives	consécutif	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
 20	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-21	été	être	AUX	_	Tense=Past|VerbForm=Part	22	aux:pass	_	_
+21	été	être	AUX	_	VerbForm=Part	22	aux:pass	_	Tense[denom]=Past
 22	démontrées	démontrer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 23	chez	chez	ADP	_	_	25	case	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	25	det	_	_
@@ -5704,7 +5704,7 @@
 32	chez	chez	ADP	_	_	34	case	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
 34	femmes	femme	NOUN	_	Number=Plur	31	obl:mod	_	Gender[lex]=Fem
-35	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	36	aux:tense	_	_
+35	ayant	avoir	AUX	_	VerbForm=Part	36	aux:tense	_	Tense[denom]=Pres
 36	participé	participer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	34	acl	_	Tense[denom]=Past
 37-38	aux	_	_	_	_	_	_	_	_
 37	à	à	ADP	_	_	39	case	_	_
@@ -5914,7 +5914,7 @@
 23	fracture	fracture	NOUN	_	Number=Sing	21	nmod	_	Gender[lex]=Fem
 24	vertébrale	vertébral	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:tense	_	_
-26	été	être	AUX	_	Tense=Past|VerbForm=Part	27	aux:pass	_	_
+26	été	être	AUX	_	VerbForm=Part	27	aux:pass	_	Tense[denom]=Past
 27	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 28	en	en	ADP	_	_	29	case	_	_
 29	comparaison	comparaison	NOUN	_	Number=Sing	27	obl:mod	_	Gender[lex]=Fem
@@ -5957,7 +5957,7 @@
 12	de	de	ADP	_	_	13	case	_	_
 13	hanche	hanche	NOUN	_	Number=Sing	11	nmod	_	Gender[lex]=Fem
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
-15	été	être	AUX	_	Tense=Past|VerbForm=Part	16	aux:pass	_	_
+15	été	être	AUX	_	VerbForm=Part	16	aux:pass	_	Tense[denom]=Past
 16	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 17	sous	sous	ADP	_	_	18	case	_	_
 18	Aclasta	Aclasta	PROPN	_	_	16	obl:mod	_	Gender[lex]=Unknown
@@ -6025,7 +6025,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	risque	risque	NOUN	_	Number=Sing	2	nmod	_	Gender[lex]=Masc
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	10	cop	_	_
+7	été	être	AUX	_	VerbForm=Part	10	cop	_	Tense[denom]=Past
 8	de	de	ADP	_	_	10	case	_	_
 9	51	51	NUM	_	NumType=Card	10	nummod	_	Number[lex]=Plur|SpaceAfter=No
 10	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
@@ -6033,7 +6033,7 @@
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	patientes	patient	NOUN	_	Number=Plur	10	nmod	_	Gender[lex]=Fem
 14	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
-15	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	17	aux:tense	_	_
+15	ayant	avoir	AUX	_	VerbForm=Part	17	aux:tense	_	Tense[denom]=Pres
 16	jamais	jamais	ADV	_	Polarity=Neg	17	advmod	_	_
 17	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	13	acl	_	Tense[denom]=Past
 18	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
@@ -6070,7 +6070,7 @@
 3	fractures	fracture	NOUN	_	Number=Plur	7	nsubj:pass	_	Gender[lex]=Fem
 4	cliniques	clinique	ADJ	_	Number=Plur	3	amod	_	Gender[ctxt]=Fem
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
-6	été	être	AUX	_	Tense=Past|VerbForm=Part	7	aux:pass	_	_
+6	été	être	AUX	_	VerbForm=Part	7	aux:pass	_	Tense[denom]=Past
 7	vérifiées	vérifier	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 8	par	par	ADP	_	_	9	case	_	_
 9	radiographie	radiographie	NOUN	_	Number=Sing	7	obl:mod	_	Gender[lex]=Fem|SpaceAfter=No
@@ -6252,7 +6252,7 @@
 20	groupe	groupe	NOUN	_	Number=Sing	17	nmod	_	Gender[lex]=Masc
 21	placebo	placebo	NOUN	_	Number=Sing	20	nmod	_	Gender[lex]=Masc
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
-23	été	être	AUX	_	Tense=Past|VerbForm=Part	26	cop	_	_
+23	été	être	AUX	_	VerbForm=Part	26	cop	_	Tense[denom]=Past
 24	de	de	ADP	_	_	26	case	_	_
 25	6,7	6,7	NUM	_	NumType=Card	26	nummod	_	Number[lex]=Plur|SpaceAfter=No
 26	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
@@ -6312,7 +6312,7 @@
 13	biopsies	biopsie	NOUN	_	Number=Plur	17	nsubj:pass	_	Gender[lex]=Fem
 14	osseuses	osseux	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
 15	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
-16	été	être	AUX	_	Tense=Past|VerbForm=Part	17	aux:pass	_	_
+16	été	être	AUX	_	VerbForm=Part	17	aux:pass	_	Tense[denom]=Past
 17	effectuées	effectuer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
@@ -6375,7 +6375,7 @@
 9	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
 11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
-12	été	être	AUX	_	Tense=Past|VerbForm=Part	13	aux:pass	_	_
+12	été	être	AUX	_	VerbForm=Part	13	aux:pass	_	Tense[denom]=Past
 13	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 14	d'	un	DET	_	Definite=Ind|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	ostéomalacie	ostéomalacie	NOUN	_	Number=Sing	13	obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -6483,7 +6483,7 @@
 33	-CTx	-CTx	NOUN	_	_	31	appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	_
 35	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux:tense	_	_
-36	été	être	AUX	_	Tense=Past|VerbForm=Part	37	aux:pass	_	_
+36	été	être	AUX	_	VerbForm=Part	37	aux:pass	_	Tense[denom]=Past
 37	évalués	évaluer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 38	à	à	ADP	_	_	39	case	_	_
 39	intervalles	intervalle	NOUN	_	Number=Plur	37	obl:mod	_	Gender[lex]=Masc
@@ -6566,7 +6566,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	P1NP	P1NP	NOUN	_	Number=Sing	9	nsubj:pass	_	Gender[lex]=Masc
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	_
+8	été	être	AUX	_	VerbForm=Part	9	aux:pass	_	Tense[denom]=Past
 9	réduit	réduire	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 10	significativement	significativement	ADV	_	_	9	advmod	_	_
 11	de	de	ADP	_	_	13	case	_	_
@@ -6610,7 +6610,7 @@
 7	de	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	-CTx	-CTx	NOUN	_	_	6	nmod	_	_
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
-10	été	être	AUX	_	Tense=Past|VerbForm=Part	11	aux:pass	_	_
+10	été	être	AUX	_	VerbForm=Part	11	aux:pass	_	Tense[denom]=Past
 11	réduits	réduire	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 12	significativement	significativement	ADV	_	_	11	advmod	_	_
 13	de	de	ADP	_	_	15	case	_	_
@@ -6723,7 +6723,7 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	taille	taille	NOUN	_	Number=Sing	19	nsubj:pass	_	Gender[lex]=Fem
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
-18	été	être	AUX	_	Tense=Past|VerbForm=Part	19	aux:pass	_	_
+18	été	être	AUX	_	VerbForm=Part	19	aux:pass	_	Tense[denom]=Past
 19	mesurée	mesurer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 20	annuellement	annuellement	ADV	_	_	19	advmod	_	_
 21	en	en	ADP	_	_	22	mark	_	_
@@ -6920,7 +6920,7 @@
 18	de	de	ADP	_	_	19	case	_	_
 19	hanche	hanche	NOUN	_	Number=Sing	17	nmod	_	Gender[lex]=Fem
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
-21	été	être	AUX	_	Tense=Past|VerbForm=Part	22	aux:pass	_	_
+21	été	être	AUX	_	VerbForm=Part	22	aux:pass	_	Tense[denom]=Past
 22	évaluée	évaluer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 23	chez	chez	ADP	_	_	25	case	_	_
 24	2 127	2 127	NUM	_	_	25	nummod	_	Number[lex]=Plur
@@ -7012,7 +7012,7 @@
 # text = Aclasta a été administré une fois par an au moins jusqu'à ce que 211 patients dans la population aient une fracture clinique confirmée.
 1	Aclasta	Aclasta	PROPN	_	_	4	nsubj:pass	_	Gender[lex]=Unknown
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+3	été	être	AUX	_	VerbForm=Part	4	aux:pass	_	Tense[denom]=Past
 4	administré	administrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	fois	fois	NOUN	_	_	4	obl:mod	_	Gender[lex]=Fem|Number[ctxt]=Sing
@@ -7278,7 +7278,7 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	hanche	hanche	NOUN	_	Number=Sing	23	nmod	_	Gender[lex]=Fem
 26	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:tense	_	_
-27	été	être	AUX	_	Tense=Past|VerbForm=Part	28	aux:pass	_	_
+27	été	être	AUX	_	VerbForm=Part	28	aux:pass	_	Tense[denom]=Past
 28	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	conj	_	SpaceAfter=No|Tense[denom]=Past
 29	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -7290,7 +7290,7 @@
 4	causes	cause	NOUN	_	Number=Plur	5	nsubj:pass	_	Gender[lex]=Fem
 5	confondues	confondre	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-7	été	être	AUX	_	Tense=Past|VerbForm=Part	10	cop	_	_
+7	été	être	AUX	_	VerbForm=Part	10	cop	_	Tense[denom]=Past
 8	de	de	ADP	_	_	10	case	_	_
 9	10	10	NUM	_	NumType=Card	10	nummod	_	Number[lex]=Plur|SpaceAfter=No
 10	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
@@ -7359,7 +7359,7 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	hanche	hanche	NOUN	_	Number=Sing	10	nmod	_	Gender[lex]=Fem
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
-14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	cop	_	_
+14	été	être	AUX	_	VerbForm=Part	15	cop	_	Tense[denom]=Past
 15	comparable	comparable	ADJ	_	Number=Sing	0	root	_	Gender[ctxt]=Fem
 16	entre	entre	ADP	_	_	17	case	_	_
 17	Aclasta	Aclasta	PROPN	_	_	15	obl:mod	_	Gender[lex]=Unknown
@@ -7455,7 +7455,7 @@
 16	col	col	NOUN	_	Number=Sing	13	orphan	_	Gender[lex]=Masc
 17	fémoral	fémoral	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
-19	été	être	AUX	_	Tense=Past|VerbForm=Part	20	aux:pass	_	_
+19	été	être	AUX	_	VerbForm=Part	20	aux:pass	_	Tense[denom]=Past
 20	observé	observer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 21	sous	sous	ADP	_	_	22	case	_	_
 22	Aclasta	Aclasta	PROPN	_	_	20	obl:mod	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -7490,7 +7490,7 @@
 6	508	508	NUM	_	NumType=Card	7	nummod	_	Number[lex]=Plur
 7	hommes	homme	NOUN	_	Number=Plur	10	nsubj:pass	_	Gender[lex]=Masc
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+9	été	être	AUX	_	VerbForm=Part	10	aux:pass	_	Tense[denom]=Past
 10	randomisés	randomiser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 11	dans	dans	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gender[ctxt]=Fem|SpaceAfter=No
@@ -7531,7 +7531,7 @@
 16	fémur	fémur	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Masc
 17	total	total	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:tense	_	_
-19	été	être	AUX	_	Tense=Past|VerbForm=Part	20	aux:pass	_	_
+19	été	être	AUX	_	VerbForm=Part	20	aux:pass	_	Tense[denom]=Past
 20	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 21	chez	chez	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
@@ -7586,7 +7586,7 @@
 5	fractures	fracture	NOUN	_	Number=Plur	2	nmod	_	Gender[lex]=Fem
 6	cliniques	clinique	ADJ	_	Number=Plur	5	amod	_	Gender[ctxt]=Fem
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
-8	été	être	AUX	_	Tense=Past|VerbForm=Part	11	cop	_	_
+8	été	être	AUX	_	VerbForm=Part	11	cop	_	Tense[denom]=Past
 9	de	de	ADP	_	_	11	case	_	_
 10	7,5	7,5	NUM	_	NumType=Card	11	nummod	_	Number[lex]=Plur|SpaceAfter=No
 11	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
@@ -7674,7 +7674,7 @@
 # text = Aclasta a été étudié chez des hommes et femmes âgés de plus de 30 ans atteints de la maladie de Paget principalement légère à modérée (taux médians de phosphatases alcalines sériques 2,6 à 3,0 fois la limite supérieure de la normale en fonction de l'âge à l'inclusion dans l'étude) et confirmée par radiographies.
 1	Aclasta	Aclasta	PROPN	_	_	4	nsubj:pass	_	Gender[lex]=Unknown
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
-3	été	être	AUX	_	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+3	été	être	AUX	_	VerbForm=Part	4	aux:pass	_	Tense[denom]=Past
 4	étudié	étudier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 5	chez	chez	ADP	_	_	7	case	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
@@ -7756,7 +7756,7 @@
 20	2	2	NUM	_	NumType=Card	21	nummod	_	Number[lex]=Plur
 21	mois	mois	NOUN	_	_	5	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
-23	été	être	AUX	_	Tense=Past|VerbForm=Part	24	aux:pass	_	_
+23	été	être	AUX	_	VerbForm=Part	24	aux:pass	_	Tense[denom]=Past
 24	démontrée	démontrer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 25	dans	dans	ADP	_	_	27	case	_	_
 26	deux	deux	NUM	_	NumType=Card	27	nummod	_	Number[lex]=Plur
@@ -7858,7 +7858,7 @@
 21	retentissement	retentissement	NOUN	_	Number=Sing	17	conj	_	Gender[lex]=Masc
 22	fonctionnel	fonctionnel	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
-24	été	être	AUX	_	Tense=Past|VerbForm=Part	25	aux:pass	_	_
+24	été	être	AUX	_	VerbForm=Part	25	aux:pass	_	Tense[denom]=Past
 25	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 26	sur	sur	ADP	_	_	28	case	_	_
 27	6	6	NUM	_	NumType=Card	28	nummod	_	Number[lex]=Plur
@@ -7894,7 +7894,7 @@
 14	6	6	NUM	_	NumType=Card	15	nummod	_	Number[lex]=Plur
 15	mois	mois	NOUN	_	_	11	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
-17	été	être	AUX	_	Tense=Past|VerbForm=Part	18	cop	_	_
+17	été	être	AUX	_	VerbForm=Part	18	cop	_	Tense[denom]=Past
 18	éligibles	éligible	ADJ	_	Number=Plur	0	root	_	Gender[ctxt]=Masc
 19	pour	pour	ADP	_	_	20	mark	_	_
 20	entrer	entrer	VERB	_	VerbForm=Inf	18	ccomp	_	_
@@ -7994,7 +7994,7 @@
 2	histologie	histologie	NOUN	_	Number=Sing	6	nsubj:pass	_	Gender[lex]=Fem
 3	osseuse	osseux	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	été	être	AUX	_	VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
 6	évaluée	évaluer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 7	6	6	NUM	_	NumType=Card	8	nummod	_	Number[lex]=Plur
 8	mois	mois	NOUN	_	_	11	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
@@ -8272,7 +8272,7 @@
 6	active	actif	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
-9	été	être	AUX	_	Tense=Past|VerbForm=Part	10	aux:pass	_	_
+9	été	être	AUX	_	VerbForm=Part	10	aux:pass	_	Tense[denom]=Past
 10	observée	observer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 11	dans	dans	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -8420,7 +8420,7 @@
 8	±	±	ADP	_	_	9	case	_	_
 9	2,5	2,5	NUM	_	NumType=Card	7	nmod	_	Number[lex]=Plur
 10	l	l	NOUN	_	_	0	root	_	SpaceAfter=No
-11	/	/	ADP	_	_	12	case	_	SpaceAfter=No
+11	/	/	SYM	_	ExtPos=ADP	12	case	_	SpaceAfter=No
 12	h	h	NOUN	_	Number=Sing	10	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
@@ -9174,7 +9174,7 @@
 11	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 13	pas	pas	ADV	_	Polarity=Neg	15	advmod	_	_
-14	été	être	AUX	_	Tense=Past|VerbForm=Part	15	aux:pass	_	_
+14	été	être	AUX	_	VerbForm=Part	15	aux:pass	_	Tense[denom]=Past
 15	étudiée	étudier	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
 16	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -9198,8 +9198,8 @@
 9	autre	autre	ADJ	_	Number=Sing	10	amod	_	Gender[ctxt]=Masc
 10	médicament	médicament	NOUN	_	Number=Sing	6	obj	_	Gender[lex]=Masc|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
-12	y	y	PRON	_	Person=3|PronType=Prs	15	dep:comp	_	InIdiom=Yes
-13	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part|Voice=Pass	15	cc	_	Idiom=Yes|Tense[denom]=Past
+12	y	y	PRON	_	ExtPos=CCONJ|Person=3|PronType=Prs	15	cc	_	Idiom=Yes
+13	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	12	fixed	_	InIdiom=Yes|Tense[denom]=Past
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	médicament	médicament	NOUN	_	Number=Sing	10	conj	_	Gender[lex]=Masc
 16	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	acl	_	Tense[denom]=Past
@@ -9239,7 +9239,7 @@
 14	médicaments	médicament	NOUN	_	Number=Plur	12	obj	_	Gender[lex]=Masc
 15	connus	connaître	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	14	acl	_	Tense[denom]=Past
 16	comme	comme	ADP	_	_	18	mark	_	_
-17	étant	être	AUX	_	Tense=Pres|VerbForm=Part	18	cop	_	_
+17	étant	être	AUX	_	VerbForm=Part	18	cop	_	Tense[denom]=Pres
 18	nuisibles	nuisible	ADJ	_	Number=Plur	15	advcl	_	Gender[ctxt]=Masc
 19	pour	pour	ADP	_	_	21	case	_	_
 20	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	21	det	_	_
@@ -10092,7 +10092,7 @@
 9	auriculaire	auriculaire	ADJ	_	Number=Sing	8	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
 10	)	)	PUNCT	_	_	8	punct	_	_
 11	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
-12	été	être	AUX	_	Tense=Past|VerbForm=Part	13	aux:pass	_	_
+12	été	être	AUX	_	VerbForm=Part	13	aux:pass	_	Tense[denom]=Past
 13	observées	observer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 14	chez	chez	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -10212,9 +10212,9 @@
 19	dans	dans	ADP	_	_	21	case	_	_
 20	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	21	det	_	_
 21	os	os	NOUN	_	_	18	nmod	_	Gender[lex]=Masc|Number[ctxt]=Plur
-22	et	et	CCONJ	_	ExtPos=CCONJ	26	cc	_	Idiom=Yes|SpaceAfter=No
-23	/	/	SYM	_	_	22	fixed	_	InIdiom=Yes|SpaceAfter=No
-24	ou	ou	CCONJ	_	_	22	fixed	_	InIdiom=Yes
+22	et	et	CCONJ	_	_	26	cc	_	SpaceAfter=No
+23	/	/	SYM	_	ExtPos=CCONJ	24	cc	_	SpaceAfter=No
+24	ou	ou	CCONJ	_	_	22	conj	_	_
 25	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	26	det	_	_
 26	articulations	articulation	NOUN	_	Number=Plur	21	conj	_	Gender[lex]=Fem|SpaceAfter=No
 27	,	,	PUNCT	_	_	1	punct	_	_
@@ -10468,9 +10468,9 @@
 6	rougeur	rougeur	NOUN	_	Number=Sing	4	dep	_	Gender[lex]=Fem|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	gonflement	gonflement	NOUN	_	Number=Sing	6	conj	_	Gender[lex]=Masc
-9	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes|SpaceAfter=No
-10	/	/	SYM	_	_	9	fixed	_	InIdiom=Yes|SpaceAfter=No
-11	ou	ou	CCONJ	_	_	9	fixed	_	InIdiom=Yes
+9	et	et	CCONJ	_	_	12	cc	_	SpaceAfter=No
+10	/	/	SYM	_	ExtPos=CCONJ	11	cc	_	SpaceAfter=No
+11	ou	ou	CCONJ	_	_	9	conj	_	_
 12	douleur	douleur	NOUN	_	Number=Sing	6	conj	_	Gender[lex]=Fem
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -10527,9 +10527,9 @@
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
 2	douleurs	douleur	NOUN	_	Number=Plur	25	nsubj:pass	_	Gender[lex]=Fem
 3	persistantes	persistant	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-4	et	et	CCONJ	_	ExtPos=CCONJ	8	cc	_	Idiom=Yes|SpaceAfter=No
-5	/	/	SYM	_	_	4	fixed	_	InIdiom=Yes|SpaceAfter=No
-6	ou	ou	CCONJ	_	_	4	fixed	_	InIdiom=Yes
+4	et	et	CCONJ	_	_	8	cc	_	SpaceAfter=No
+5	/	/	SYM	_	ExtPos=CCONJ	6	cc	_	SpaceAfter=No
+6	ou	ou	CCONJ	_	_	4	conj	_	_
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
 8	plaies	plaie	NOUN	_	Number=Plur	2	conj	_	Gender[lex]=Fem
 9	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
@@ -10548,7 +10548,7 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	mâchoire	mâchoire	NOUN	_	Number=Sing	18	conj	_	Gender[lex]=Fem
 23	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
-24	été	être	AUX	_	Tense=Past|VerbForm=Part	25	aux:pass	_	_
+24	été	être	AUX	_	VerbForm=Part	25	aux:pass	_	Tense[denom]=Past
 25	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 26	chez	chez	ADP	_	_	28	case	_	_
 27	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	28	det	_	_
@@ -10585,7 +10585,7 @@
 2	réactions	réaction	NOUN	_	Number=Plur	6	nsubj:pass	_	Gender[lex]=Fem
 3	allergiques	allergique	ADJ	_	Number=Plur	2	amod	_	Gender[ctxt]=Fem
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	été	être	AUX	_	VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
 6	rapportées	rapporter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	incluant	inclure	VERB	_	VerbForm=Part	6	advcl	_	Tense[denom]=Pres
@@ -11090,7 +11090,7 @@
 19	<	<	SYM	_	ExtPos=ADP	21	case	_	_
 20	35	35	NUM	_	NumType=Card	21	nummod	_	_
 21	ml	ml	NOUN	_	_	11	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
-22	/	/	ADP	_	_	23	case	_	SpaceAfter=No
+22	/	/	SYM	_	ExtPos=ADP	23	case	_	SpaceAfter=No
 23	min	min	NOUN	_	_	21	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 24	)	)	PUNCT	_	_	21	punct	_	_
 25	en	en	ADP	_	_	26	case	_	_
@@ -11134,7 +11134,7 @@
 1	Chez	chez	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	patients	patient	NOUN	_	Number=Plur	14	obl:mod	_	Gender[lex]=Masc
-4	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	5	aux:tense	_	_
+4	ayant	avoir	AUX	_	VerbForm=Part	5	aux:tense	_	Tense[denom]=Pres
 5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	acl	_	Tense[denom]=Past
 6	récemment	récemment	ADV	_	_	5	advmod	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -11503,7 +11503,7 @@
 1	Chez	chez	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	patients	patient	NOUN	_	Number=Plur	34	obl:mod	_	Gender[lex]=Masc
-4	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	5	aux:tense	_	_
+4	ayant	avoir	AUX	_	VerbForm=Part	5	aux:tense	_	Tense[denom]=Pres
 5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	acl	_	Tense[denom]=Past
 6	récemment	récemment	ADV	_	_	5	advmod	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -11637,7 +11637,7 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	solution	solution	NOUN	_	Number=Sing	6	nsubj:pass	_	Gender[lex]=Fem
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
-5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+5	été	être	AUX	_	VerbForm=Part	6	aux:pass	_	Tense[denom]=Past
 6	réfrigérée	réfrigérer	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	SpaceAfter=No|Tense[denom]=Past
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
