@@ -78,6 +78,7 @@ The Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-
 Data available since: UD v2.0
 License: LGPL-LR
 Includes text: yes
+Parallel: no
 Genre: wiki medical news nonfiction
 Lemmas: converted from manual
 UPOS: converted from manual
