@@ -2748,7 +2748,7 @@
 23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	_
 24	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 25	pas	pas	ADV	_	Polarity=Neg	24	advmod	_	_
-26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	obl:mod	_	_
+26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	iobj	_	_
 27	voiler	voiler	VERB	_	VerbForm=Inf	24	ccomp	_	Subject=Generic
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	face	face	NOUN	_	Number=Sing	27	obj	_	Gender[lex]=Fem|SpaceAfter=No

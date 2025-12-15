@@ -2819,7 +2819,7 @@
 19	ans	an	NOUN	_	Number=Plur	16	obl:arg	_	Gender[lex]=Masc|SpaceAfter=No
 20	,	,	PUNCT	_	_	25	punct	_	_
 21	qui	qui	PRON	_	PronType=Rel	25	nsubj	_	_
-22	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	25	obl:mod	_	SpaceAfter=No
+22	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	25	iobj	_	SpaceAfter=No
 23	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	aux:tense	_	_
 24	récemment	récemment	ADV	_	_	25	advmod	_	_
 25	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	acl:relcl	_	Tense[denom]=Past
@@ -3017,7 +3017,7 @@
 51	chez	chez	ADP	_	_	53	case	_	_
 52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	_
 53	patients	patient	NOUN	_	Number=Plur	35	conj	_	Gender[lex]=Masc
-54	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	57	obl:mod	_	SpaceAfter=No
+54	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	57	iobj	_	SpaceAfter=No
 55	étant	être	AUX	_	VerbForm=Part	57	aux:tense	_	Tense[denom]=Pres
 56	récemment	récemment	ADV	_	_	57	advmod	_	_
 57	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	53	acl	_	Tense[denom]=Past

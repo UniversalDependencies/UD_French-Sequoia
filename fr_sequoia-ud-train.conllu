@@ -4823,7 +4823,7 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 7	renseigner	renseigner	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
-8	auprès	auprès	ADP	_	ExtPos=ADV	7	obl:arg	_	_
+8	auprès	auprès	ADV	_	_	7	advmod	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -8038,7 +8038,7 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	lion	lion	NOUN	_	Number=Sing	12	obj	_	Gender[lex]=Masc
 15	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
-16	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	obl:mod	_	_
+16	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	17	iobj	_	_
 17	frotte	frotter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	ventre	ventre	NOUN	_	Number=Sing	17	obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -8064,7 +8064,7 @@
 16	lion	lion	NOUN	_	Number=Sing	17	nsubj	_	Gender[lex]=Masc
 17	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 18	à	à	ADP	_	_	20	mark	_	_
-19	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	obl:mod	_	_
+19	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	20	iobj	_	_
 20	frotter	frotter	VERB	_	VerbForm=Inf	17	xcomp	_	Subject=SubjRaising
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	ventre	ventre	NOUN	_	Number=Sing	20	obj	_	Gender[lex]=Masc|SpaceAfter=No
@@ -18195,7 +18195,7 @@
 21	chez	chez	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	patients	patient	NOUN	_	Number=Plur	3	obl:mod	_	Gender[lex]=Masc
-24	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	obl:mod	_	SpaceAfter=No
+24	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	iobj	_	SpaceAfter=No
 25	étant	être	AUX	_	VerbForm=Part	27	aux:tense	_	Tense[denom]=Pres
 26	récemment	récemment	ADV	_	_	27	advmod	_	_
 27	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	23	acl	_	Tense[denom]=Past
@@ -18273,7 +18273,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	patients	patient	NOUN	_	Number=Plur	9	nsubj	_	Gender[lex]=Masc
 3	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
-4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	obl:mod	_	_
+4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	6	iobj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	acl:relcl	_	Tense[denom]=Past
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -18700,7 +18700,7 @@
 8	et	et	CCONJ	_	_	10	cc	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	femmes	femme	NOUN	_	Number=Plur	7	conj	_	Gender[lex]=Fem
-11	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	obl:mod	_	SpaceAfter=No
+11	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	iobj	_	SpaceAfter=No
 12	étant	être	AUX	_	VerbForm=Part	13	aux:tense	_	Tense[denom]=Pres
 13	fracturé	fracturer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	acl	_	Tense[denom]=Past
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -27910,7 +27910,7 @@
 23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	_
 24	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 25	pas	pas	ADV	_	Polarity=Neg	24	advmod	_	_
-26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	obl:mod	_	_
+26	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	27	iobj	_	_
 27	voiler	voiler	VERB	_	VerbForm=Inf	24	ccomp	_	Subject=Generic
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	face	face	NOUN	_	Number=Sing	27	obj	_	Gender[lex]=Fem|SpaceAfter=No
@@ -40051,7 +40051,7 @@
 15	à	à	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Koweit	Koweit	PROPN	_	_	12	obl:mod	_	Gender[lex]=Unknown
-18	auprès	auprès	ADP	_	ExtPos=ADV	12	obl:arg	_	_
+18	auprès	auprès	ADV	_	_	12	advmod	_	_
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl:arg	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_

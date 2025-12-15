@@ -2209,7 +2209,7 @@
 15	à	à	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Koweit	Koweit	PROPN	_	_	12	obl:mod	_	Gender[lex]=Unknown
-18	auprès	auprès	ADP	_	ExtPos=ADV	12	obl:arg	_	_
+18	auprès	auprès	ADV	_	_	12	advmod	_	_
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obl:arg	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	5	punct	_	_
