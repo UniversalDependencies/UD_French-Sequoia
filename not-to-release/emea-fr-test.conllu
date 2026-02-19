@@ -735,7 +735,7 @@
 8	que	que	SCONJ	_	_	9	case	_	_
 9	Zometa	Zometa	PROPN	_	_	6	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
-11	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+11	certaines	certains	DET	_	Gender=Fem|PronType=Ind	12	det	_	Number[lex]=Plur
 12	données	donnée	NOUN	_	Number=Plur	18	nsubj:pass	_	Gender[lex]=Fem
 13	présentées	présenter	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	12	acl	_	Tense[denom]=Past
 14	pour	pour	ADP	_	_	15	case	_	_
@@ -745,7 +745,7 @@
 18	prises	prendre	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 19	en	en	ADP	_	_	20	case	_	_
 20	compte	compte	NOUN	_	Number=Sing	18	obl:arg	_	Gender[lex]=Masc
-21	lors	lors	ADV	_	ExtPos=ADV	18	advmod	_	_
+21	lors	lors	ADV	_	_	18	advmod	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 24	évaluation	évaluation	NOUN	_	Number=Sing	21	obl:arg	_	Gender[lex]=Fem
@@ -1131,7 +1131,7 @@
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 28	exclusion	exclusion	NOUN	_	Number=Sing	24	nmod	_	Gender[lex]=Fem
 29	de	de	ADP	_	_	32	case	_	_
-30	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+30	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
 31	autre	autre	ADJ	_	Number=Sing	32	amod	_	Gender[ctxt]=Masc
 32	traitement	traitement	NOUN	_	Number=Sing	28	nmod	_	Gender[lex]=Masc
 33	anti-ostéoporosique	anti-ostéoporosique	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
@@ -1385,7 +1385,7 @@
 24	deviennent	devenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 25	moins	moins	ADV	_	_	26	advmod	_	_
 26	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	24	xcomp	_	_
-27	lors	lors	ADV	_	ExtPos=ADV	24	advmod	_	_
+27	lors	lors	ADV	_	_	24	advmod	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -1430,7 +1430,7 @@
 8	effets	effet	NOUN	_	Number=Plur	4	nmod	_	Gender[lex]=Masc
 9	indésirables	indésirable	ADJ	_	Number=Plur	8	amod	_	Gender[ctxt]=Masc
 10	observés	observer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	8	acl	_	Tense[denom]=Past
-11	lors	lors	ADV	_	ExtPos=ADV	10	advmod	_	_
+11	lors	lors	ADV	_	_	10	advmod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Fem|SpaceAfter=No
 14	utilisation	utilisation	NOUN	_	Number=Sing	11	obl:arg	_	Gender[lex]=Fem
@@ -2201,11 +2201,11 @@
 33	sur	sur	ADP	_	_	35	case	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	fracture	fracture	NOUN	_	Number=Sing	32	nmod	_	Gender[lex]=Fem
-36	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	voir	voir	VERB	_	VerbForm=Inf	19	parataxis:insert	_	Subject=Generic
 38	rubrique	rubrique	NOUN	_	Number=Sing	37	obj	_	Gender[lex]=Fem
 39	5.1	5.1	NUM	_	NumType=Card	38	nmod	_	Number[lex]=Sing|SpaceAfter=No
-40	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+40	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = emea-fr-test_00084
@@ -2305,11 +2305,11 @@
 25	administration	administration	NOUN	_	Number=Sing	4	obl:mod	_	Gender[lex]=Fem
 26	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
 27	Aclasta	Aclasta	PROPN	_	_	25	nmod	_	Gender[lex]=Unknown
-28	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	voir	voir	VERB	_	VerbForm=Inf	4	parataxis:insert	_	Subject=Generic
 30	rubrique	rubrique	NOUN	_	Number=Sing	29	obj	_	Gender[lex]=Fem
 31	5.1	5.1	NUM	_	NumType=Card	30	nmod	_	Number[lex]=Sing|SpaceAfter=No
-32	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00088
@@ -2499,11 +2499,11 @@
 51	administration	administration	NOUN	_	Number=Sing	49	obj	_	Gender[lex]=Fem
 52	d'	de	ADP	_	_	53	case	_	SpaceAfter=No
 53	Aclasta	Aclasta	PROPN	_	_	51	nmod	_	Gender[lex]=Unknown
-54	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
+54	(	(	PUNCT	_	_	55	punct	_	SpaceAfter=No
 55	voir	voir	VERB	_	VerbForm=Inf	17	parataxis:insert	_	Subject=Generic
 56	rubrique	rubrique	NOUN	_	Number=Sing	55	obj	_	Gender[lex]=Fem
 57	4.4	4.4	NUM	_	NumType=Card	56	nmod	_	Number[lex]=Sing|SpaceAfter=No
-58	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+58	)	)	PUNCT	_	_	55	punct	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = emea-fr-test_00095
@@ -2805,11 +2805,11 @@
 7	ayant	avoir	VERB	_	VerbForm=Part	6	acl	_	Tense[denom]=Pres
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	hypocalcémie	hypocalcémie	NOUN	_	Number=Sing	7	obj	_	Gender[lex]=Fem
-10	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 12	rubrique	rubrique	NOUN	_	Number=Sing	11	obj	_	Gender[lex]=Fem
 13	4.4	4.4	NUM	_	NumType=Card	12	nmod	_	Number[lex]=Sing|SpaceAfter=No
-14	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00108
@@ -2824,11 +2824,11 @@
 8	ou	ou	CCONJ	_	_	10	cc	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 10	allaite	allaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
-11	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 13	rubrique	rubrique	NOUN	_	Number=Sing	12	obj	_	Gender[lex]=Fem
 14	4.6	4.6	NUM	_	NumType=Card	13	nmod	_	Number[lex]=Sing|SpaceAfter=No
-15	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00109
@@ -3181,11 +3181,11 @@
 49	administration	administration	NOUN	_	Number=Sing	47	obj	_	Gender[lex]=Fem
 50	d'	de	ADP	_	_	51	case	_	SpaceAfter=No
 51	Aclasta	Aclasta	PROPN	_	_	49	nmod	_	Gender[lex]=Unknown
-52	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+52	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
 53	voir	voir	VERB	_	VerbForm=Inf	16	parataxis:insert	_	Subject=Generic
 54	rubrique	rubrique	NOUN	_	Number=Sing	53	obj	_	Gender[lex]=Fem
 55	4.2	4.2	NUM	_	NumType=Card	54	nmod	_	Number[lex]=Sing|SpaceAfter=No
-56	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+56	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
 57	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = emea-fr-test_00120
@@ -3479,7 +3479,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	possible	possible	NOUN	_	Number=Sing	14	nmod	_	_
-18	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
 19	intervention	intervention	NOUN	_	Number=Sing	11	obj	_	Gender[lex]=Fem
 20	dentaire	dentaire	ADJ	_	Number=Sing	19	amod	_	Gender[ctxt]=Fem
 21	invasive	invasif	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
@@ -3793,11 +3793,11 @@
 21	dont	dont	CCONJ	_	_	23	advmod	_	_
 22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	_
 23	malformations	malformation	NOUN	_	Number=Plur	16	appos	_	Gender[lex]=Fem
-24	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	voir	voir	VERB	_	VerbForm=Inf	12	parataxis:insert	_	Subject=Generic
 26	rubrique	rubrique	NOUN	_	Number=Sing	25	obj	_	Gender[lex]=Fem
 27	5.3	5.3	NUM	_	NumType=Card	26	nmod	_	Number[lex]=Sing|SpaceAfter=No
-28	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = emea-fr-test_00144
@@ -3847,11 +3847,11 @@
 10	femme	femme	NOUN	_	Number=Sing	6	conj	_	Gender[lex]=Fem
 11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	allaite	allaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
-13	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 15	rubrique	rubrique	NOUN	_	Number=Sing	14	obj	_	Gender[lex]=Fem
 16	4.3	4.3	NUM	_	NumType=Card	15	nmod	_	Number[lex]=Sing|SpaceAfter=No
-17	)	)	PUNCT	_	_	3	punct	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-test_00147
@@ -4057,7 +4057,7 @@
 35	plus	plus	ADV	_	_	36	advmod	_	_
 36	petite	petit	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
 37	taille	taille	NOUN	_	Number=Sing	33	nmod	_	Gender[lex]=Fem
-38	où	où	PRON	_	PronType=Rel	46	obl:mod	_	_
+38	où	où	ADV	_	PronType=Rel	46	advmod	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	traitement	traitement	NOUN	_	Number=Sing	46	nsubj:pass	_	Gender[lex]=Masc
 41	symptomatique	symptomatique	ADJ	_	Number=Sing	40	amod	_	Gender[ctxt]=Masc
@@ -4274,9 +4274,9 @@
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	groupe	groupe	NOUN	_	Number=Sing	27	conj	_	Gender[lex]=Masc
 36	placebo	placebo	NOUN	_	Number=Sing	35	nmod	_	Gender[lex]=Masc
-37	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	2,1	2,1	NUM	_	NumType=Card	40	nummod	_	Number[lex]=Plur|SpaceAfter=No
-39	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 40	%	%	NOUN	_	_	35	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
 41	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -4514,7 +4514,7 @@
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	fonction	fonction	NOUN	_	Number=Sing	20	nmod	_	Gender[lex]=Fem
 24	rénale	rénal	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
-25	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 26	c-à-d.	c-à-d.	CCONJ	_	_	27	cc	_	_
 27	augmentation	augmentation	NOUN	_	Number=Sing	20	conj	_	Gender[lex]=Fem
 28	de	de	ADP	_	_	30	case	_	_
@@ -4961,12 +4961,12 @@
 53	maladie	maladie	NOUN	_	Number=Sing	50	nmod	_	Gender[lex]=Fem
 54	de	de	ADP	_	_	55	case	_	_
 55	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	53	nmod	_	_
-56	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+56	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
 57	voir	voir	VERB	_	VerbForm=Inf	5	parataxis:insert	_	Subject=Generic
 58	également	également	ADV	_	_	57	advmod	_	_
 59	rubrique	rubrique	NOUN	_	Number=Sing	57	obj	_	Gender[lex]=Fem
 60	4.2	4.2	NUM	_	NumType=Card	59	nmod	_	Number[lex]=Sing|SpaceAfter=No
-61	)	)	PUNCT	_	_	5	punct	_	SpaceAfter=No
+61	)	)	PUNCT	_	_	57	punct	_	SpaceAfter=No
 62	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00181
@@ -5011,11 +5011,11 @@
 37	de	de	ADP	_	_	38	case	_	_
 38	façon	façon	NOUN	_	Number=Sing	36	obl:mod	_	Gender[lex]=Fem
 39	systématique	systématique	ADJ	_	Number=Sing	38	amod	_	Gender[ctxt]=Fem
-40	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	voir	voir	VERB	_	VerbForm=Inf	12	parataxis:insert	_	Subject=Generic
 42	rubrique	rubrique	NOUN	_	Number=Sing	41	obj	_	Gender[lex]=Fem
 43	4.2	4.2	NUM	_	NumType=Card	42	nmod	_	Number[lex]=Sing|SpaceAfter=No
-44	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = emea-fr-test_00182
@@ -5121,7 +5121,7 @@
 1	Beaucoup	beaucoup	ADV	_	_	5	nsubj	_	_
 2	d'	de	ADP	_	ExtPos=ADP	4	case	_	Idiom=Yes|SpaceAfter=No
 3	entre	entre	ADP	_	_	2	fixed	_	InIdiom=Yes
-4	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
+4	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nmod	_	_
 5	présentaient	présenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	signes	signe	NOUN	_	Number=Plur	5	obj	_	Gender[lex]=Masc
@@ -5924,11 +5924,11 @@
 32	patientes	patient	NOUN	_	Number=Plur	29	nmod	_	Gender[lex]=Fem
 33	sous	sous	ADP	_	_	34	case	_	_
 34	placebo	placebo	NOUN	_	Number=Sing	32	nmod	_	Gender[lex]=Masc
-35	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+35	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 36	p	p	NOUN	_	_	38	nsubj	_	_
 37	<	<	SYM	_	ExtPos=ADP	38	case	_	_
 38	0,0001	0,0001	NUM	_	NumType=Card	27	parataxis:insert	_	SpaceAfter=No
-39	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = emea-fr-test_00220
@@ -6762,11 +6762,11 @@
 25	%	%	NOUN	_	_	22	nmod	_	Gender[lex]=Masc
 26	:	:	PUNCT	_	_	28	punct	_	_
 27	1,6	1,6	NUM	_	NumType=Card	28	nummod	_	_
-28	mm	mm	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
+28	mm	mm	NOUN	_	_	22	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	3,5	3,5	NUM	_	NumType=Card	31	nummod	_	_
-31	mm	mm	NOUN	_	_	5	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
-32	)	)	PUNCT	_	_	31	punct	_	_
+31	mm	mm	NOUN	_	_	22	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+32	)	)	PUNCT	_	_	22	punct	_	_
 33	[	[	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	p	p	NOUN	_	_	36	nsubj	_	_
 35	<	<	SYM	_	ExtPos=ADP	36	case	_	_
@@ -6858,7 +6858,7 @@
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 34	groupe	groupe	NOUN	_	Number=Sing	31	nmod	_	Gender[lex]=Masc
 35	placebo	placebo	NOUN	_	Number=Sing	34	nmod	_	Gender[lex]=Masc
-36	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+36	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
 37	p	p	NOUN	_	_	39	nsubj	_	_
 38	<	<	SYM	_	ExtPos=ADP	39	case	_	_
 39	0,01	0,01	NUM	_	NumType=Card	4	parataxis:insert	_	_
@@ -6866,7 +6866,7 @@
 41	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	_
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
 43	valeurs	valeur	NOUN	_	Number=Plur	39	nmod	_	Gender[lex]=Fem|SpaceAfter=No
-44	)	)	PUNCT	_	_	4	punct	_	SpaceAfter=No
+44	)	)	PUNCT	_	_	39	punct	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00253
@@ -6933,7 +6933,7 @@
 31	à	à	ADP	_	_	32	case	_	_
 32	95	95	NUM	_	NumType=Card	30	obl:arg	_	Number[lex]=Plur
 33	ans	an	NOUN	_	Number=Plur	28	obl:arg	_	Gender[lex]=Masc
-34	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
+34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
 35	âge	âge	NOUN	_	Number=Sing	25	appos	_	Gender[lex]=Masc
 36	moyen	moyen	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 37	74,5	74,5	NUM	_	NumType=Card	38	nummod	_	Number[lex]=Plur
@@ -7117,7 +7117,7 @@
 2	%	%	NOUN	_	_	7	nsubj	_	Gender[lex]=Masc
 3	d'	de	ADP	_	ExtPos=ADP	5	case	_	Idiom=Yes|SpaceAfter=No
 4	entre	entre	ADP	_	_	3	fixed	_	InIdiom=Yes
-5	eux	eux	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
+5	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	_
@@ -7195,7 +7195,7 @@
 
 # sent_id = emea-fr-test_00263
 # text = Toute fracture clinique
-1	Toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+1	Toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	fracture	fracture	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 3	clinique	clinique	ADJ	_	Number=Sing	2	amod	_	Gender[ctxt]=Fem
 
@@ -7286,7 +7286,7 @@
 # text = La mortalité toutes causes confondues a été de 10% dans le groupe traité par Aclasta (101 patients) et de 13% dans le groupe traité par placebo (141 patients).
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	mortalité	mortalité	NOUN	_	Number=Sing	10	nsubj	_	Gender[lex]=Fem
-3	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+3	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
 4	causes	cause	NOUN	_	Number=Plur	5	nsubj:pass	_	Gender[lex]=Fem
 5	confondues	confondre	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	acl	_	Tense[denom]=Past
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
@@ -7334,7 +7334,7 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	mortalité	mortalité	NOUN	_	Number=Sing	5	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
-13	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	toutes	tout	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
 14	causes	cause	NOUN	_	Number=Plur	15	nsubj:pass	_	Gender[lex]=Fem
 15	confondues	confondre	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	advcl	_	Tense[denom]=Past
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -7820,7 +7820,7 @@
 48	pour	pour	ADP	_	_	50	case	_	_
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
 50	risédronate	risédronate	NOUN	_	Number=Sing	38	nmod	_	Gender[lex]=Masc
-51	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+51	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
 52	p	p	NOUN	_	_	54	nsubj	_	_
 53	<	<	SYM	_	ExtPos=ADP	54	case	_	_
 54	0,001	0,001	NUM	_	NumType=Card	7	parataxis:insert	_	_
@@ -7828,7 +7828,7 @@
 56	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	58	amod	_	_
 57	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	58	det	_	_
 58	valeurs	valeur	NOUN	_	Number=Plur	54	nmod	_	Gender[lex]=Fem|SpaceAfter=No
-59	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+59	)	)	PUNCT	_	_	54	punct	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00285
@@ -8296,7 +8296,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	distribution	distribution	NOUN	_	Number=Sing	2	nmod	_	Gender[lex]=Fem
 5	précoce	précoce	ADJ	_	Number=Sing	4	amod	_	Gender[ctxt]=Fem
-6	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+6	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 7	et	et	CCONJ	_	_	11	cc	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
@@ -8804,7 +8804,7 @@
 22	,	,	PUNCT	_	_	18	punct	_	_
 23	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	parataxis	_	_
 24	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
-25	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+25	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
 27	plus	plus	ADV	_	_	28	advmod	_	_
 28	faible	faible	ADJ	_	Number=Sing	26	xcomp	_	Gender[ctxt]=Masc
@@ -9061,7 +9061,7 @@
 8	intervention	intervention	NOUN	_	Number=Sing	6	obj	_	Gender[lex]=Fem
 9	chirurgicale	chirurgical	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	certaines	certain	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	8	nmod	_	_
+11	certaines	certains	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Ind	8	nmod	_	_
 12	ou	ou	CCONJ	_	_	16	cc	_	_
 13	de	de	ADP	_	_	16	case	_	_
 14	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
@@ -9388,7 +9388,7 @@
 12	avant	avant	ADP	_	_	14	mark	_	_
 13	de	de	ADP	_	_	14	mark	_	_
 14	prendre	prendre	VERB	_	VerbForm=Inf	1	advcl	_	Subject=Generic
-15	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
 16	médicament	médicament	NOUN	_	Number=Sing	14	obj	_	Gender[lex]=Masc|SpaceAfter=No
 17	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -9476,7 +9476,7 @@
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	cas	cas	NOUN	_	_	16	obl:mod	_	Gender[lex]=Masc|Number[ctxt]=Sing
-4	où	où	PRON	_	PronType=Rel	7	obl:mod	_	_
+4	où	où	ADV	_	PronType=Rel	7	advmod	_	_
 5	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	Polite=Unknown
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	acl:relcl	_	Tense[denom]=Past
@@ -9949,7 +9949,7 @@
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	très	très	ADV	_	_	11	advmod	_	_
 11	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
-12	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	survenant	survenir	VERB	_	VerbForm=Part	2	acl	_	Tense[denom]=Pres
 14	chez	chez	ADP	_	_	15	case	_	_
 15	plus	plus	ADV	_	ExtPos=PRON	13	obl:mod	_	_
@@ -9965,7 +9965,7 @@
 24	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 25	moins	moins	ADV	_	_	26	advmod	_	_
 26	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	11	conj	_	_
-27	lors	lors	ADV	_	ExtPos=ADV	26	advmod	_	_
+27	lors	lors	ADV	_	_	26	advmod	_	_
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
@@ -10001,7 +10001,7 @@
 23	tête	tête	NOUN	_	Number=Sing	21	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	surviennent	survenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-26	lors	lors	ADV	_	ExtPos=ADV	25	advmod	_	_
+26	lors	lors	ADV	_	_	25	advmod	_	_
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	31	case	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
@@ -11111,7 +11111,7 @@
 # text = Avant de leur administrer Aclasta, il faut mesurer les taux sériques de créatinine des patients.
 1	Avant	avant	ADP	_	_	4	mark	_	_
 2	de	de	ADP	_	_	4	mark	_	_
-3	leur	eux	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
+3	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
 4	administrer	administrer	VERB	_	VerbForm=Inf	8	advcl	_	Subject=Generic
 5	Aclasta	Aclasta	PROPN	_	_	4	obj	_	Gender[lex]=Unknown|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
@@ -11752,7 +11752,7 @@
 14	afin	afin	ADV	_	_	12	advmod	_	_
 15	d'	de	ADP	_	_	16	mark	_	SpaceAfter=No
 16	éviter	éviter	VERB	_	VerbForm=Inf	14	ccomp	_	Subject=Generic
-17	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	toute	tout	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
 18	contamination	contamination	NOUN	_	Number=Sing	16	obj	_	Gender[lex]=Fem
 19	microbienne	microbien	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	_
