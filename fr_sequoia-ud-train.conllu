@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = annodis.er_00001
 # text = Gutenberg
 1	Gutenberg	Gutenberg	PROPN	_	_	0	root	_	Gender[lex]=Unknown

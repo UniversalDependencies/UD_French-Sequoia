@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = annodis.er_00014
 # text = L'association a changé les décors et avec l'aide de plusieurs bénévoles, établi différents tableaux sur le thème de "Cinq siècles d'activité économique de la région d'Ancerville".
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No

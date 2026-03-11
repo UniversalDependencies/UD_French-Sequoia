@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Europar.550_00011
 # text = cela signifie que leur consommation énergétique, qui représente actuellement 10% de la consommation énergétique moyenne de l'UE, enregistrera une forte augmentation à mesure qu'ils exigeront des commodités élémentaires comme l'eau chaude et, peut-être même, l'air conditionné, des moyens de transport et la modernisation de leurs industries.
 1	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
