@@ -328,7 +328,7 @@
 9	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 10	actuellement	actuellement	ADV	_	_	9	advmod	_	_
 11	10	10	NUM	_	NumType=Card	12	nummod	_	Number[lex]=Plur|SpaceAfter=No
-12	%	%	NOUN	_	_	9	obj	_	Gender[lex]=Masc
+12	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	obj	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	consommation	consommation	NOUN	_	Number=Sing	12	nmod	_	Gender[lex]=Fem
@@ -416,7 +416,7 @@
 9	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	30	30	NUM	_	NumType=Card	12	nummod	_	Number[lex]=Plur|SpaceAfter=No
-12	%	%	NOUN	_	_	9	obl:arg	_	Gender[lex]=Masc
+12	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	obl:arg	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -436,7 +436,7 @@
 3	électricité	électricité	NOUN	_	Number=Sing	4	nsubj	_	Gender[lex]=Fem
 4	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	35	35	NUM	_	NumType=Card	6	nummod	_	Number[lex]=Plur|SpaceAfter=No
-6	%	%	NOUN	_	_	4	obj	_	Gender[lex]=Masc
+6	%	%	SYM	_	ExtPos=NOUN|Number=Plur	4	obj	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gender[ctxt]=Masc|SpaceAfter=No
 9	ensemble	ensemble	NOUN	_	Number=Sing	6	nmod	_	Gender[lex]=Masc
@@ -463,7 +463,7 @@
 6	fluorescence	fluorescence	NOUN	_	Number=Sing	3	nmod	_	Gender[lex]=Fem
 7	représentent	représenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	53	53	NUM	_	NumType=Card	9	nummod	_	Number[lex]=Plur|SpaceAfter=No
-9	%	%	NOUN	_	_	7	obj	_	Gender[lex]=Masc
+9	%	%	SYM	_	ExtPos=NOUN|Number=Plur	7	obj	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	consommation	consommation	NOUN	_	Number=Sing	9	nmod	_	Gender[lex]=Fem
@@ -513,7 +513,7 @@
 1	Nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	économiserons	économiser	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	10	10	NUM	_	NumType=Card	4	nummod	_	Number[lex]=Plur|SpaceAfter=No
-4	%	%	NOUN	_	_	2	obj	_	Gender[lex]=Masc
+4	%	%	SYM	_	ExtPos=NOUN|Number=Plur	2	obj	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	consommation	consommation	NOUN	_	Number=Sing	4	nmod	_	Gender[lex]=Fem
@@ -2414,7 +2414,7 @@
 9	programmation	programmation	NOUN	_	Number=Sing	7	nmod	_	Gender[lex]=Fem|SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	9	9	NUM	_	NumType=Card	12	nummod	_	Number[lex]=Plur|SpaceAfter=No
-12	%	%	NOUN	_	_	19	nsubj:pass	_	Gender[lex]=Masc
+12	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	nsubj:pass	_	_
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -2437,7 +2437,7 @@
 4	maintenant	maintenant	ADV	_	_	7	advmod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	5,3	5,3	NUM	_	NumType=Card	7	nummod	_	Number[lex]=Plur|SpaceAfter=No
-7	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+7	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Europar.550_00075
@@ -11334,7 +11334,7 @@
 18	millions	million	NOUN	_	Number=Plur|NumType=Card	25	obl:mod	_	Gender[lex]=Masc|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	50	50	NUM	_	NumType=Card	21	nummod	_	Number[lex]=Plur|SpaceAfter=No
-21	%	%	NOUN	_	_	25	nsubj	_	Gender[lex]=Masc
+21	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	nsubj	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
 23	de	de	ADP	_	ExtPos=DET	25	det	_	Idiom=Yes
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	fixed	_	InIdiom=Yes|SpaceAfter=No
@@ -11355,7 +11355,7 @@
 38	,	,	PUNCT	_	_	42	punct	_	_
 39	et	et	CCONJ	_	_	42	cc	_	_
 40	30	30	NUM	_	NumType=Card	41	nummod	_	Number[lex]=Plur|SpaceAfter=No
-41	%	%	NOUN	_	_	42	nsubj	_	Gender[lex]=Masc
+41	%	%	SYM	_	ExtPos=NOUN|Number=Plur	42	nsubj	_	_
 42	provenait	provenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	conj	_	_
 43-44	des	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	46	case	_	_
@@ -11749,7 +11749,7 @@
 6	milliards	milliard	NOUN	_	Number=Plur|NumType=Card	3	nmod	_	Gender[lex]=Masc|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	80	80	NUM	_	NumType=Card	9	nummod	_	Number[lex]=Plur|SpaceAfter=No
-9	%	%	NOUN	_	_	11	nsubj:pass	_	Gender[lex]=Masc
+9	%	%	SYM	_	ExtPos=NOUN|Number=Plur	11	nsubj:pass	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 11	consacré	consacrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 12	à	à	ADP	_	_	14	case	_	_
@@ -11757,14 +11757,14 @@
 14	reconstruction	reconstruction	NOUN	_	Number=Sing	11	obl:arg	_	Gender[lex]=Fem|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	17	17	NUM	_	NumType=Card	17	nummod	_	Number[lex]=Plur|SpaceAfter=No
-17	%	%	NOUN	_	_	11	conj	_	Gender[lex]=Masc
+17	%	%	SYM	_	ExtPos=NOUN|Number=Plur	11	conj	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	démocratie	démocratie	NOUN	_	Number=Sing	17	orphan	_	Gender[lex]=Fem
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	seulement	seulement	ADV	_	_	24	advmod	_	_
 23	3	3	NUM	_	NumType=Card	24	nummod	_	Number[lex]=Plur|SpaceAfter=No
-24	%	%	NOUN	_	_	11	conj	_	Gender[lex]=Masc
+24	%	%	SYM	_	ExtPos=NOUN|Number=Plur	11	conj	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	sécurité	sécurité	NOUN	_	Number=Sing	24	orphan	_	Gender[lex]=Fem|SpaceAfter=No
@@ -11800,7 +11800,7 @@
 26	3	3	NUM	_	NumType=Card	29	nummod	_	Number[lex]=Plur
 27	à	à	ADP	_	_	28	case	_	_
 28	4	4	NUM	_	NumType=Card	26	obl:arg	_	Number[lex]=Plur|SpaceAfter=No
-29	%	%	NOUN	_	_	23	obj	_	Gender[lex]=Masc
+29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	23	obj	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	à	à	ADP	_	_	32	mark	_	_
 32	augmenter	augmenter	VERB	_	VerbForm=Inf	23	conj	_	Subject=Instantiated
@@ -14047,7 +14047,7 @@
 25	technique	technique	ADJ	_	Number=Sing	24	amod	_	Gender[ctxt]=Fem
 26	représentent	représenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
 27	47	47	NUM	_	NumType=Card	28	nummod	_	Number[lex]=Plur|SpaceAfter=No
-28	%	%	NOUN	_	_	26	obj	_	Gender[lex]=Masc
+28	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	obj	_	_
 29-30	du	_	_	_	_	_	_	_	_
 29	de	de	ADP	_	_	31	case	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_

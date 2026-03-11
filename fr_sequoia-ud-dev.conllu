@@ -1865,7 +1865,7 @@
 # text = Environ 30% des patients recevant de la bivalirudine ont présenté au moins un événement indésirable et 3% ont présenté une réaction indésirable au médicament.
 1	Environ	environ	ADV	_	_	3	advmod	_	_
 2	30	30	NUM	_	NumType=Card	3	nummod	_	Number[lex]=Plur|SpaceAfter=No
-3	%	%	NOUN	_	_	12	nsubj	_	Gender[lex]=Masc
+3	%	%	SYM	_	ExtPos=NOUN|Number=Plur	12	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -1885,7 +1885,7 @@
 18	indésirable	indésirable	ADJ	_	Number=Sing	17	amod	_	Gender[ctxt]=Masc
 19	et	et	CCONJ	_	_	23	cc	_	_
 20	3	3	NUM	_	NumType=Card	21	nummod	_	Number[lex]=Plur|SpaceAfter=No
-21	%	%	NOUN	_	_	23	nsubj	_	Gender[lex]=Masc
+21	%	%	SYM	_	ExtPos=NOUN|Number=Plur	23	nsubj	_	_
 22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
 23	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	conj	_	Tense[denom]=Past
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -2919,7 +2919,7 @@
 37	hanche	hanche	NOUN	_	Number=Sing	34	nmod	_	Gender[lex]=Fem
 38	de	de	ADP	_	_	40	case	_	_
 39	41	41	NUM	_	NumType=Card	40	nummod	_	Number[lex]=Plur|SpaceAfter=No
-40	%	%	NOUN	_	_	29	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+40	%	%	SYM	_	ExtPos=NOUN|Number=Plur	29	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = emea-fr-test_00047
@@ -3500,7 +3500,7 @@
 12	jours	jour	NOUN	_	Number=Plur	9	obl:mod	_	Gender[lex]=Masc
 13	chez	chez	ADP	_	_	15	case	_	_
 14	1,8	1,8	NUM	_	NumType=Card	15	nummod	_	Number[lex]=Plur|SpaceAfter=No
-15	%	%	NOUN	_	_	9	obl:mod	_	Gender[lex]=Masc
+15	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	obl:mod	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -3510,7 +3510,7 @@
 21	Aclasta	Aclasta	PROPN	_	_	19	obl:mod	_	Gender[lex]=Unknown
 22	versus	vs	ADP	_	_	24	case	_	_
 23	0,8	0,8	NUM	_	NumType=Card	24	nummod	_	Number[lex]=Plur|SpaceAfter=No
-24	%	%	NOUN	_	_	15	nmod	_	Gender[lex]=Masc
+24	%	%	SYM	_	ExtPos=NOUN|Number=Plur	15	nmod	_	_
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
@@ -3545,7 +3545,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	fractures	fracture	NOUN	_	Number=Plur	2	nmod	_	Gender[lex]=Fem
 6	en	en	ADP	_	_	7	case	_	SpaceAfter=No
-7	%	%	NOUN	_	_	2	nmod	_	Gender[lex]=Masc
+7	%	%	SYM	_	ExtPos=NOUN|Number=Plur	2	nmod	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	IC	IC	PROPN	_	_	2	appos	_	Gender[lex]=Unknown|SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
@@ -3612,7 +3612,7 @@
 # sent_id = emea-fr-test_00259
 # text = 95% d'entre eux ont reçu leur perfusion 2 semaines ou plus après intervention sur la fracture.
 1	95	95	NUM	_	NumType=Card	2	nummod	_	Number[lex]=Plur|SpaceAfter=No
-2	%	%	NOUN	_	_	7	nsubj	_	Gender[lex]=Masc
+2	%	%	SYM	_	ExtPos=NOUN|Number=Plur	7	nsubj	_	_
 3	d'	de	ADP	_	ExtPos=ADP	5	case	_	Idiom=Yes|SpaceAfter=No
 4	entre	entre	ADP	_	_	3	fixed	_	InIdiom=Yes
 5	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
@@ -3666,7 +3666,7 @@
 19	34	34	NUM	_	NumType=Card	17	parataxis:insert	_	Number[lex]=Sing
 20	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	3,2	3,2	NUM	_	NumType=Card	22	nummod	_	Number[lex]=Plur|SpaceAfter=No
-22	%	%	NOUN	_	_	19	appos	_	Gender[lex]=Masc|SpaceAfter=No
+22	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	appos	_	SpaceAfter=No
 23	]	]	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	19	punct	_	_
 25	et	et	CCONJ	_	_	27	cc	_	_
@@ -3676,7 +3676,7 @@
 29	29	29	NUM	_	NumType=Card	27	parataxis:insert	_	Number[lex]=Sing
 30	[	[	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	2,7	2,7	NUM	_	NumType=Card	32	nummod	_	Number[lex]=Plur|SpaceAfter=No
-32	%	%	NOUN	_	_	29	appos	_	Gender[lex]=Masc|SpaceAfter=No
+32	%	%	SYM	_	ExtPos=NOUN|Number=Plur	29	appos	_	SpaceAfter=No
 33	]	]	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	15	punct	_	_
@@ -6707,10 +6707,10 @@
 26	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 27	entre	entre	ADP	_	_	29	case	_	_
 28	1	1	NUM	_	NumType=Card	29	nummod	_	Number[lex]=Plur|SpaceAfter=No
-29	%	%	NOUN	_	_	25	nmod	_	Gender[lex]=Masc
+29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	nmod	_	_
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	5	5	NUM	_	NumType=Card	32	nummod	_	Number[lex]=Plur|SpaceAfter=No
-32	%	%	NOUN	_	_	29	conj	_	Gender[lex]=Masc
+32	%	%	SYM	_	ExtPos=NOUN|Number=Plur	29	conj	_	_
 33-34	du	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -7091,7 +7091,7 @@
 6	fluorescence	fluorescence	NOUN	_	Number=Sing	3	nmod	_	Gender[lex]=Fem
 7	représentent	représenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	53	53	NUM	_	NumType=Card	9	nummod	_	Number[lex]=Plur|SpaceAfter=No
-9	%	%	NOUN	_	_	7	obj	_	Gender[lex]=Masc
+9	%	%	SYM	_	ExtPos=NOUN|Number=Plur	7	obj	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	consommation	consommation	NOUN	_	Number=Sing	9	nmod	_	Gender[lex]=Fem

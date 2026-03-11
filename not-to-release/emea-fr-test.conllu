@@ -1042,7 +1042,7 @@
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	fixed	_	InIdiom=Yes
 44	moins	moins	ADV	_	_	42	fixed	_	InIdiom=Yes
 45	75	75	NUM	_	NumType=Card	46	nummod	_	Number[lex]=Plur|SpaceAfter=No
-46	%	%	NOUN	_	_	40	obl:arg	_	Gender[lex]=Masc
+46	%	%	SYM	_	ExtPos=NOUN|Number=Plur	40	obl:arg	_	_
 47	pour	pour	ADP	_	_	49	mark	_	_
 48	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	49	expl:pv	_	_
 49	rapprocher	rapprocher	VERB	_	VerbForm=Inf	40	advcl	_	Subject=Instantiated
@@ -1120,7 +1120,7 @@
 16	diminué	diminuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 17	de	de	ADP	_	_	19	case	_	_
 18	70	70	NUM	_	NumType=Card	19	nummod	_	Number[lex]=Plur|SpaceAfter=No
-19	%	%	NOUN	_	_	16	obl:arg	_	Gender[lex]=Masc
+19	%	%	SYM	_	ExtPos=NOUN|Number=Plur	16	obl:arg	_	_
 20	chez	chez	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
 22	patientes	patient	NOUN	_	Number=Plur	16	obl:mod	_	Gender[lex]=Fem
@@ -1196,7 +1196,7 @@
 37	hanche	hanche	NOUN	_	Number=Sing	34	nmod	_	Gender[lex]=Fem
 38	de	de	ADP	_	_	40	case	_	_
 39	41	41	NUM	_	NumType=Card	40	nummod	_	Number[lex]=Plur|SpaceAfter=No
-40	%	%	NOUN	_	_	29	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+40	%	%	SYM	_	ExtPos=NOUN|Number=Plur	29	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = emea-fr-test_00043
@@ -1218,7 +1218,7 @@
 15	hanche	hanche	NOUN	_	Number=Sing	13	obj	_	Gender[lex]=Fem|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	9	9	NUM	_	NumType=Card	18	nummod	_	Number[lex]=Plur|SpaceAfter=No
-18	%	%	NOUN	_	_	25	nsubj	_	Gender[lex]=Masc
+18	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	nsubj	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
@@ -1237,7 +1237,7 @@
 33	,	,	PUNCT	_	_	29	punct	_	_
 34	contre	contre	ADP	_	_	36	case	_	_
 35	13	13	NUM	_	NumType=Card	36	nummod	_	Number[lex]=Plur|SpaceAfter=No
-36	%	%	NOUN	_	_	25	obl:mod	_	Gender[lex]=Masc
+36	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	obl:mod	_	_
 37-38	des	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
@@ -1260,7 +1260,7 @@
 5	diminution	diminution	NOUN	_	Number=Sing	3	obj	_	Gender[lex]=Fem
 6	de	de	ADP	_	_	8	case	_	_
 7	35	35	NUM	_	NumType=Card	8	nummod	_	Number[lex]=Plur|SpaceAfter=No
-8	%	%	NOUN	_	_	5	nmod	_	Gender[lex]=Masc
+8	%	%	SYM	_	ExtPos=NOUN|Number=Plur	5	nmod	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -1316,24 +1316,24 @@
 16	été	être	AUX	_	VerbForm=Part	19	cop	_	Tense[denom]=Past
 17	de	de	ADP	_	_	19	case	_	_
 18	95	95	NUM	_	NumType=Card	19	nummod	_	Number[lex]=Plur|SpaceAfter=No
-19	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+19	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 20	dans	dans	ADP	_	_	22	case	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	étude	étude	NOUN	_	Number=Sing	19	obl:mod	_	Gender[lex]=Fem
 23	et	et	CCONJ	_	_	26	cc	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	97	97	NUM	_	NumType=Card	26	nummod	_	Number[lex]=Plur|SpaceAfter=No
-26	%	%	NOUN	_	_	19	conj	_	Gender[lex]=Masc
+26	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	conj	_	_
 27	dans	dans	ADP	_	_	29	case	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
 29	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	26	orphan	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	contre	contre	ADP	_	_	33	case	_	_
 32	75	75	NUM	_	NumType=Card	33	nummod	_	Number[lex]=Plur|SpaceAfter=No
-33	%	%	NOUN	_	_	19	obl:mod	_	Gender[lex]=Masc
+33	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	obl:mod	_	_
 34	et	et	CCONJ	_	_	36	cc	_	_
 35	73	73	NUM	_	NumType=Card	36	nummod	_	Number[lex]=Plur|SpaceAfter=No
-36	%	%	NOUN	_	_	33	conj	_	Gender[lex]=Masc
+36	%	%	SYM	_	ExtPos=NOUN|Number=Plur	33	conj	_	_
 37-38	des	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
@@ -3663,7 +3663,7 @@
 17	43	43	NUM	_	NumType=Card	20	nummod	_	Number[lex]=Plur
 18	à	à	ADP	_	_	19	case	_	_
 19	55	55	NUM	_	NumType=Card	17	obl:arg	_	Number[lex]=Plur|SpaceAfter=No
-20	%	%	NOUN	_	_	14	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+20	%	%	SYM	_	ExtPos=NOUN|Number=Plur	14	nmod	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	14	punct	_	_
 22	;	;	PUNCT	_	_	6	punct	_	_
 
@@ -3897,13 +3897,13 @@
 16	de	de	ADP	_	_	19	case	_	_
 17	respectivement	respectivement	ADV	_	_	19	advmod	_	_
 18	44,7	44,7	NUM	_	NumType=Card	19	nummod	_	Number[lex]=Plur|SpaceAfter=No
-19	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+19	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	16,7	16,7	NUM	_	NumType=Card	22	nummod	_	Number[lex]=Plur|SpaceAfter=No
-22	%	%	NOUN	_	_	19	conj	_	Gender[lex]=Masc
+22	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	conj	_	_
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	10,2	10,2	NUM	_	NumType=Card	25	nummod	_	Number[lex]=Plur|SpaceAfter=No
-25	%	%	NOUN	_	_	19	conj	_	Gender[lex]=Masc
+25	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	conj	_	_
 26	après	après	ADP	_	_	33	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 28	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	33	amod	_	SpaceAfter=No
@@ -3932,32 +3932,32 @@
 13	fièvre	fièvre	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Fem
 14	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 15	17,1	17,1	NUM	_	NumType=Card	16	nummod	_	Number[lex]=Plur|SpaceAfter=No
-16	%	%	NOUN	_	_	13	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+16	%	%	SYM	_	ExtPos=NOUN|Number=Plur	13	parataxis:insert	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	myalgie	myalgie	NOUN	_	Number=Sing	13	conj	_	Gender[lex]=Fem
 20	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	7,8	7,8	NUM	_	NumType=Card	22	nummod	_	Number[lex]=Plur|SpaceAfter=No
-22	%	%	NOUN	_	_	19	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+22	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	parataxis:insert	_	SpaceAfter=No
 23	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	syndrome	syndrome	NOUN	_	Number=Sing	13	conj	_	Gender[lex]=Masc
 26	pseudo-grippal	pseudo-grippal	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 27	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 28	6,7	6,7	NUM	_	NumType=Card	29	nummod	_	Number[lex]=Plur|SpaceAfter=No
-29	%	%	NOUN	_	_	25	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	parataxis:insert	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	arthralgie	arthralgie	NOUN	_	Number=Sing	13	conj	_	Gender[lex]=Fem
 33	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
 34	4,8	4,8	NUM	_	NumType=Card	35	nummod	_	Number[lex]=Plur|SpaceAfter=No
-35	%	%	NOUN	_	_	32	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+35	%	%	SYM	_	ExtPos=NOUN|Number=Plur	32	parataxis:insert	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	35	punct	_	_
 37	et	et	CCONJ	_	_	38	cc	_	_
 38	céphalée	céphalée	NOUN	_	Number=Sing	13	conj	_	Gender[lex]=Fem
 39	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 40	5,1	5,1	NUM	_	NumType=Card	41	nummod	_	Number[lex]=Plur|SpaceAfter=No
-41	%	%	NOUN	_	_	38	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+41	%	%	SYM	_	ExtPos=NOUN|Number=Plur	38	parataxis:insert	_	SpaceAfter=No
 42	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -4034,13 +4034,13 @@
 12	respectivement	respectivement	ADV	_	_	15	advmod	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	19,5	19,5	NUM	_	NumType=Card	15	nummod	_	Number[lex]=Plur|SpaceAfter=No
-15	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc|SpaceAfter=No
+15	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	10,4	10,4	NUM	_	NumType=Card	18	nummod	_	Number[lex]=Plur|SpaceAfter=No
-18	%	%	NOUN	_	_	15	conj	_	Gender[lex]=Masc|SpaceAfter=No
+18	%	%	SYM	_	ExtPos=NOUN|Number=Plur	15	conj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
 20	10,7	10,7	NUM	_	NumType=Card	21	nummod	_	Number[lex]=Plur|SpaceAfter=No
-21	%	%	NOUN	_	_	15	conj	_	Gender[lex]=Masc
+21	%	%	SYM	_	ExtPos=NOUN|Number=Plur	15	conj	_	_
 22	après	après	ADP	_	_	29	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 24	première	premier	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	29	amod	_	SpaceAfter=No
@@ -4140,7 +4140,7 @@
 24	été	être	AUX	_	VerbForm=Part	27	cop	_	Tense[denom]=Past
 25	de	de	ADP	_	_	27	case	_	_
 26	2,5	2,5	NUM	_	NumType=Card	27	nummod	_	Number[lex]=Plur|SpaceAfter=No
-27	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+27	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	96	96	NUM	_	NumType=Card	27	appos	_	Number[lex]=Plur
 30-31	des	_	_	_	_	_	_	_	_
@@ -4151,7 +4151,7 @@
 34	et	et	CCONJ	_	_	37	cc	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	1,9	1,9	NUM	_	NumType=Card	37	nummod	_	Number[lex]=Plur|SpaceAfter=No
-37	%	%	NOUN	_	_	27	conj	_	Gender[lex]=Masc
+37	%	%	SYM	_	ExtPos=NOUN|Number=Plur	27	conj	_	_
 38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
 39	75	75	NUM	_	NumType=Card	37	appos	_	Number[lex]=Plur
 40-41	des	_	_	_	_	_	_	_	_
@@ -4185,7 +4185,7 @@
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	1,3	1,3	NUM	_	NumType=Card	14	nummod	_	Number[lex]=Plur|SpaceAfter=No
-14	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+14	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	51	51	NUM	_	NumType=Card	14	appos	_	Number[lex]=Plur
 17	sur	sur	ADP	_	_	18	case	_	_
@@ -4200,7 +4200,7 @@
 26	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	advcl	_	Tense[denom]=Past
 27	à	à	ADP	_	_	29	case	_	_
 28	0,6	0,6	NUM	_	NumType=Card	29	nummod	_	Number[lex]=Plur|SpaceAfter=No
-29	%	%	NOUN	_	_	26	obl:arg	_	Gender[lex]=Masc
+29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	obl:arg	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	22	22	NUM	_	NumType=Card	29	appos	_	Number[lex]=Plur
 32	sur	sur	ADP	_	_	33	case	_	_
@@ -4268,7 +4268,7 @@
 28	Aclasta	Aclasta	PROPN	_	_	27	nmod	_	Gender[lex]=Unknown
 29	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 30	2,6	2,6	NUM	_	NumType=Card	31	nummod	_	Number[lex]=Plur|SpaceAfter=No
-31	%	%	NOUN	_	_	27	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+31	%	%	SYM	_	ExtPos=NOUN|Number=Plur	27	parataxis:insert	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	31	punct	_	_
 33	et	et	CCONJ	_	_	35	cc	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -4277,7 +4277,7 @@
 37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 38	2,1	2,1	NUM	_	NumType=Card	40	nummod	_	Number[lex]=Plur|SpaceAfter=No
 39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
-40	%	%	NOUN	_	_	35	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+40	%	%	SYM	_	ExtPos=NOUN|Number=Plur	35	parataxis:insert	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = emea-fr-test_00158
@@ -4298,7 +4298,7 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	1,3	1,3	NUM	_	NumType=Card	16	nummod	_	Number[lex]=Plur|SpaceAfter=No
-16	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+16	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 17	pour	pour	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	groupe	groupe	NOUN	_	Number=Sing	16	nmod	_	Gender[lex]=Masc
@@ -4306,7 +4306,7 @@
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	0,8	0,8	NUM	_	NumType=Card	24	nummod	_	Number[lex]=Plur|SpaceAfter=No
-24	%	%	NOUN	_	_	16	conj	_	Gender[lex]=Masc
+24	%	%	SYM	_	ExtPos=NOUN|Number=Plur	16	conj	_	_
 25	pour	pour	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	groupe	groupe	NOUN	_	Number=Sing	24	nmod	_	Gender[lex]=Masc
@@ -4697,7 +4697,7 @@
 12	jours	jour	NOUN	_	Number=Plur	9	obl:mod	_	Gender[lex]=Masc
 13	chez	chez	ADP	_	_	15	case	_	_
 14	1,8	1,8	NUM	_	NumType=Card	15	nummod	_	Number[lex]=Plur|SpaceAfter=No
-15	%	%	NOUN	_	_	9	obl:mod	_	Gender[lex]=Masc
+15	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	obl:mod	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -4707,7 +4707,7 @@
 21	Aclasta	Aclasta	PROPN	_	_	19	obl:mod	_	Gender[lex]=Unknown
 22	versus	vs	ADP	_	_	24	case	_	_
 23	0,8	0,8	NUM	_	NumType=Card	24	nummod	_	Number[lex]=Plur|SpaceAfter=No
-24	%	%	NOUN	_	_	15	nmod	_	Gender[lex]=Masc
+24	%	%	SYM	_	ExtPos=NOUN|Number=Plur	15	nmod	_	_
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
@@ -4739,7 +4739,7 @@
 11	,	,	PUNCT	_	_	3	punct	_	_
 12	environ	environ	ADV	_	_	14	advmod	_	_
 13	0,2	0,2	NUM	_	NumType=Card	14	nummod	_	Number[lex]=Plur|SpaceAfter=No
-14	%	%	NOUN	_	_	19	nsubj	_	Gender[lex]=Masc
+14	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	nsubj	_	_
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -4810,7 +4810,7 @@
 23	chez	chez	ADP	_	_	26	case	_	_
 24	environ	environ	ADV	_	_	26	advmod	_	_
 25	1	1	NUM	_	NumType=Card	26	nummod	_	Number[lex]=Plur|SpaceAfter=No
-26	%	%	NOUN	_	_	22	obl:mod	_	Gender[lex]=Masc
+26	%	%	SYM	_	ExtPos=NOUN|Number=Plur	22	obl:mod	_	_
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
@@ -4858,7 +4858,7 @@
 35	référence	référence	NOUN	_	Number=Sing	32	nmod	_	Gender[lex]=Fem
 36	chez	chez	ADP	_	_	38	case	_	_
 37	2,3	2,3	NUM	_	NumType=Card	38	nummod	_	Number[lex]=Plur|SpaceAfter=No
-38	%	%	NOUN	_	_	19	obl:mod	_	Gender[lex]=Masc
+38	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	obl:mod	_	_
 39-40	des	_	_	_	_	_	_	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	det	_	_
@@ -4869,7 +4869,7 @@
 45	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	38	acl	_	Tense[denom]=Past
 46	à	à	ADP	_	_	48	case	_	_
 47	21	21	NUM	_	NumType=Card	48	nummod	_	Number[lex]=Plur|SpaceAfter=No
-48	%	%	NOUN	_	_	45	obl:arg	_	Gender[lex]=Masc
+48	%	%	SYM	_	ExtPos=NOUN|Number=Plur	45	obl:arg	_	_
 49-50	des	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	51	case	_	_
 50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	51	det	_	_
@@ -5058,7 +5058,7 @@
 29	douleur	douleur	NOUN	_	Number=Sing	21	conj	_	Gender[lex]=Fem
 30	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	0,7	0,7	NUM	_	NumType=Card	32	nummod	_	Number[lex]=Plur|SpaceAfter=No
-32	%	%	NOUN	_	_	10	parataxis:insert	_	Gender[lex]=Masc|SpaceAfter=No
+32	%	%	SYM	_	ExtPos=NOUN|Number=Plur	10	parataxis:insert	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	32	punct	_	_
 35	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux:tense	_	_
@@ -5654,7 +5654,7 @@
 # sent_id = emea-fr-test_00208
 # text = 85% des patients n'avaient jamais reçu de bisphosphonates.
 1	85	85	NUM	_	NumType=Card	2	nummod	_	Number[lex]=Plur|SpaceAfter=No
-2	%	%	NOUN	_	_	9	nsubj	_	Gender[lex]=Masc
+2	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -5836,7 +5836,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	fractures	fracture	NOUN	_	Number=Plur	2	nmod	_	Gender[lex]=Fem
 6	en	en	ADP	_	_	7	case	_	SpaceAfter=No
-7	%	%	NOUN	_	_	2	nmod	_	Gender[lex]=Masc
+7	%	%	SYM	_	ExtPos=NOUN|Number=Plur	2	nmod	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	IC	IC	PROPN	_	_	2	appos	_	Gender[lex]=Unknown|SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
@@ -5905,7 +5905,7 @@
 15	réduction	réduction	NOUN	_	Number=Sing	27	nsubj:pass	_	Gender[lex]=Fem
 16	de	de	ADP	_	_	18	case	_	_
 17	60	60	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
-18	%	%	NOUN	_	_	15	nmod	_	Gender[lex]=Masc
+18	%	%	SYM	_	ExtPos=NOUN|Number=Plur	15	nmod	_	_
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -5947,7 +5947,7 @@
 3	significative	significatif	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	41	41	NUM	_	NumType=Card	6	nummod	_	Number[lex]=Plur|SpaceAfter=No
-6	%	%	NOUN	_	_	2	nmod	_	Gender[lex]=Masc
+6	%	%	SYM	_	ExtPos=NOUN|Number=Plur	2	nmod	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -5971,13 +5971,13 @@
 26	IC	IC	PROPN	_	_	16	parataxis:insert	_	Gender[lex]=Unknown
 27	à	à	ADP	_	_	29	case	_	_
 28	95	95	NUM	_	NumType=Card	29	nummod	_	Number[lex]=Plur|SpaceAfter=No
-29	%	%	NOUN	_	_	26	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	17	17	NUM	_	NumType=Card	32	nummod	_	Number[lex]=Plur|SpaceAfter=No
-32	%	%	NOUN	_	_	26	parataxis	_	Gender[lex]=Masc
+32	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	parataxis	_	_
 33	à	à	ADP	_	_	35	case	_	_
 34	58	58	NUM	_	NumType=Card	35	nummod	_	Number[lex]=Plur|SpaceAfter=No
-35	%	%	NOUN	_	_	32	nmod	_	Gender[lex]=Masc|SpaceAfter=No
+35	%	%	SYM	_	ExtPos=NOUN|Number=Plur	32	nmod	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -5996,7 +5996,7 @@
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	1,44	1,44	NUM	_	NumType=Card	13	nummod	_	Number[lex]=Plur|SpaceAfter=No
-13	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+13	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 14	chez	chez	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	patients	patient	NOUN	_	Number=Plur	13	nmod	_	Gender[lex]=Masc
@@ -6007,7 +6007,7 @@
 21	rapport	rapport	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Masc
 22	à	à	ADP	_	_	24	case	_	_
 23	2,49	2,49	NUM	_	NumType=Card	24	nummod	_	Number[lex]=Plur|SpaceAfter=No
-24	%	%	NOUN	_	_	21	nmod	_	Gender[lex]=Masc
+24	%	%	SYM	_	ExtPos=NOUN|Number=Plur	21	nmod	_	_
 25	chez	chez	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	patientes	patient	NOUN	_	Number=Plur	24	nmod	_	Gender[lex]=Fem
@@ -6028,7 +6028,7 @@
 7	été	être	AUX	_	VerbForm=Part	10	cop	_	Tense[denom]=Past
 8	de	de	ADP	_	_	10	case	_	_
 9	51	51	NUM	_	NumType=Card	10	nummod	_	Number[lex]=Plur|SpaceAfter=No
-10	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+10	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 11	chez	chez	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	patientes	patient	NOUN	_	Number=Plur	10	nmod	_	Gender[lex]=Fem
@@ -6041,7 +6041,7 @@
 20	et	et	CCONJ	_	_	23	cc	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	42	42	NUM	_	NumType=Card	23	nummod	_	Number[lex]=Plur|SpaceAfter=No
-23	%	%	NOUN	_	_	10	conj	_	Gender[lex]=Masc
+23	%	%	SYM	_	ExtPos=NOUN|Number=Plur	10	conj	_	_
 24	chez	chez	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	patientes	patient	NOUN	_	Number=Plur	23	nmod	_	Gender[lex]=Fem
@@ -6255,7 +6255,7 @@
 23	été	être	AUX	_	VerbForm=Part	26	cop	_	Tense[denom]=Past
 24	de	de	ADP	_	_	26	case	_	_
 25	6,7	6,7	NUM	_	NumType=Card	26	nummod	_	Number[lex]=Plur|SpaceAfter=No
-26	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+26	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 27-28	au	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -6264,7 +6264,7 @@
 31	,	,	PUNCT	_	_	34	punct	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	6,0	6,0	NUM	_	NumType=Card	34	nummod	_	Number[lex]=Plur|SpaceAfter=No
-34	%	%	NOUN	_	_	26	conj	_	Gender[lex]=Masc
+34	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	conj	_	_
 35-36	au	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -6273,7 +6273,7 @@
 39	,	,	PUNCT	_	_	42	punct	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	5,1	5,1	NUM	_	NumType=Card	42	nummod	_	Number[lex]=Plur|SpaceAfter=No
-42	%	%	NOUN	_	_	26	conj	_	Gender[lex]=Masc
+42	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	conj	_	_
 43-44	au	_	_	_	_	_	_	_	_
 43	à	à	ADP	_	_	45	case	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -6282,7 +6282,7 @@
 47	et	et	CCONJ	_	_	50	cc	_	_
 48	de	de	ADP	_	_	50	case	_	_
 49	3,2	3,2	NUM	_	NumType=Card	50	nummod	_	Number[lex]=Plur|SpaceAfter=No
-50	%	%	NOUN	_	_	26	conj	_	Gender[lex]=Masc
+50	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	conj	_	_
 51-52	au	_	_	_	_	_	_	_	_
 51	à	à	ADP	_	_	53	case	_	_
 52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
@@ -6354,7 +6354,7 @@
 7	réduction	réduction	NOUN	_	Number=Sing	5	obj	_	Gender[lex]=Fem
 8	de	de	ADP	_	_	10	case	_	_
 9	63	63	NUM	_	NumType=Card	10	nummod	_	Number[lex]=Plur|SpaceAfter=No
-10	%	%	NOUN	_	_	7	nmod	_	Gender[lex]=Masc
+10	%	%	SYM	_	ExtPos=NOUN|Number=Plur	7	nmod	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -6529,7 +6529,7 @@
 20	PASO	PASO	NOUN	_	Number=Plur	17	obj	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	30	30	NUM	_	NumType=Card	23	nummod	_	Number[lex]=Plur|SpaceAfter=No
-23	%	%	NOUN	_	_	17	obl:arg	_	Gender[lex]=Masc
+23	%	%	SYM	_	ExtPos=NOUN|Number=Plur	17	obl:arg	_	_
 24	par	par	ADP	_	_	25	case	_	_
 25	rapport	rapport	NOUN	_	Number=Sing	17	obl:mod	_	Gender[lex]=Masc
 26-27	aux	_	_	_	_	_	_	_	_
@@ -6548,7 +6548,7 @@
 38	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	17	conj	_	Tense[denom]=Past
 39	à	à	ADP	_	_	41	case	_	_
 40	28	28	NUM	_	NumType=Card	41	nummod	_	Number[lex]=Plur|SpaceAfter=No
-41	%	%	NOUN	_	_	38	obl:arg	_	Gender[lex]=Masc
+41	%	%	SYM	_	ExtPos=NOUN|Number=Plur	38	obl:arg	_	_
 42	en-dessous	en-dessous	ADV	_	_	41	advmod	_	_
 43-44	des	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
@@ -6571,7 +6571,7 @@
 10	significativement	significativement	ADV	_	_	9	advmod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	61	61	NUM	_	NumType=Card	13	nummod	_	Number[lex]=Plur|SpaceAfter=No
-13	%	%	NOUN	_	_	9	obl:arg	_	Gender[lex]=Masc
+13	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	obl:arg	_	_
 14	par	par	ADP	_	_	15	case	_	_
 15	rapport	rapport	NOUN	_	Number=Sing	9	obl:mod	_	Gender[lex]=Masc
 16-17	aux	_	_	_	_	_	_	_	_
@@ -6590,7 +6590,7 @@
 28	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	9	conj	_	Tense[denom]=Past
 29	à	à	ADP	_	_	31	case	_	_
 30	52	52	NUM	_	NumType=Card	31	nummod	_	Number[lex]=Plur|SpaceAfter=No
-31	%	%	NOUN	_	_	28	obl:arg	_	Gender[lex]=Masc
+31	%	%	SYM	_	ExtPos=NOUN|Number=Plur	28	obl:arg	_	_
 32	en-dessous	en-dessous	ADV	_	_	31	advmod	_	_
 33-34	des	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	35	case	_	_
@@ -6615,7 +6615,7 @@
 12	significativement	significativement	ADV	_	_	11	advmod	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	61	61	NUM	_	NumType=Card	15	nummod	_	Number[lex]=Plur|SpaceAfter=No
-15	%	%	NOUN	_	_	11	obl:arg	_	Gender[lex]=Masc
+15	%	%	SYM	_	ExtPos=NOUN|Number=Plur	11	obl:arg	_	_
 16	par	par	ADP	_	_	17	case	_	_
 17	rapport	rapport	NOUN	_	Number=Sing	11	obl:mod	_	Gender[lex]=Masc
 18-19	aux	_	_	_	_	_	_	_	_
@@ -6634,7 +6634,7 @@
 30	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	11	conj	_	Tense[denom]=Past
 31	à	à	ADP	_	_	33	case	_	_
 32	55	55	NUM	_	NumType=Card	33	nummod	_	Number[lex]=Plur|SpaceAfter=No
-33	%	%	NOUN	_	_	30	obl:arg	_	Gender[lex]=Masc
+33	%	%	SYM	_	ExtPos=NOUN|Number=Plur	30	obl:arg	_	_
 34	en-dessous	en-dessous	ADV	_	_	33	advmod	_	_
 35-36	des	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
@@ -6759,7 +6759,7 @@
 22	IC	IC	PROPN	_	_	5	parataxis:insert	_	_
 23	à	à	ADP	_	_	25	case	_	_
 24	95	95	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
-25	%	%	NOUN	_	_	22	nmod	_	Gender[lex]=Masc
+25	%	%	SYM	_	ExtPos=NOUN|Number=Plur	22	nmod	_	_
 26	:	:	PUNCT	_	_	28	punct	_	_
 27	1,6	1,6	NUM	_	NumType=Card	28	nummod	_	_
 28	mm	mm	NOUN	_	_	22	nmod	_	Gender[lex]=Masc|SpaceAfter=No
@@ -6971,7 +6971,7 @@
 # text = Environ 42% des patients avaient un T-score au col fémoral inférieur à- 2,5 et 45% des patients avaient un T-score au col fémoral supérieur à-2,5.
 1	Environ	environ	ADV	_	_	3	advmod	_	_
 2	42	42	NUM	_	NumType=Card	3	nummod	_	Number[lex]=Plur|SpaceAfter=No
-3	%	%	NOUN	_	_	7	nsubj	_	Gender[lex]=Masc
+3	%	%	SYM	_	ExtPos=NOUN|Number=Plur	7	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -6990,7 +6990,7 @@
 17	2,5	2,5	NUM	_	NumType=Card	14	obl:arg	_	Number[lex]=Sing
 18	et	et	CCONJ	_	_	24	cc	_	_
 19	45	45	NUM	_	NumType=Card	20	nummod	_	Number[lex]=Plur|SpaceAfter=No
-20	%	%	NOUN	_	_	24	nsubj	_	Gender[lex]=Masc
+20	%	%	SYM	_	ExtPos=NOUN|Number=Plur	24	nsubj	_	_
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
@@ -7114,7 +7114,7 @@
 # sent_id = emea-fr-test_00259
 # text = 95% d'entre eux ont reçu leur perfusion 2 semaines ou plus après intervention sur la fracture.
 1	95	95	NUM	_	NumType=Card	2	nummod	_	Number[lex]=Plur|SpaceAfter=No
-2	%	%	NOUN	_	_	7	nsubj	_	Gender[lex]=Masc
+2	%	%	SYM	_	ExtPos=NOUN|Number=Plur	7	nsubj	_	_
 3	d'	de	ADP	_	ExtPos=ADP	5	case	_	Idiom=Yes|SpaceAfter=No
 4	entre	entre	ADP	_	_	3	fixed	_	InIdiom=Yes
 5	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod	_	_
@@ -7293,7 +7293,7 @@
 7	été	être	AUX	_	VerbForm=Part	10	cop	_	Tense[denom]=Past
 8	de	de	ADP	_	_	10	case	_	_
 9	10	10	NUM	_	NumType=Card	10	nummod	_	Number[lex]=Plur|SpaceAfter=No
-10	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+10	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	groupe	groupe	NOUN	_	Number=Sing	10	nmod	_	Gender[lex]=Masc
@@ -7307,7 +7307,7 @@
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	13	13	NUM	_	NumType=Card	24	nummod	_	Number[lex]=Plur|SpaceAfter=No
-24	%	%	NOUN	_	_	10	conj	_	Gender[lex]=Masc
+24	%	%	SYM	_	ExtPos=NOUN|Number=Plur	10	conj	_	_
 25	dans	dans	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	groupe	groupe	NOUN	_	Number=Sing	24	nmod	_	Gender[lex]=Masc
@@ -7329,7 +7329,7 @@
 5	réduction	réduction	NOUN	_	Number=Sing	2	obl:arg	_	Gender[lex]=Fem
 6	de	de	ADP	_	_	8	case	_	_
 7	28	28	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
-8	%	%	NOUN	_	_	5	nmod	_	Gender[lex]=Masc
+8	%	%	SYM	_	ExtPos=NOUN|Number=Plur	5	nmod	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	mortalité	mortalité	NOUN	_	Number=Sing	5	nmod	_	Gender[lex]=Fem|SpaceAfter=No
@@ -7367,7 +7367,7 @@
 19	34	34	NUM	_	NumType=Card	17	parataxis:insert	_	Number[lex]=Sing
 20	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	3,2	3,2	NUM	_	NumType=Card	22	nummod	_	Number[lex]=Plur|SpaceAfter=No
-22	%	%	NOUN	_	_	19	appos	_	Gender[lex]=Masc|SpaceAfter=No
+22	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	appos	_	SpaceAfter=No
 23	]	]	PUNCT	_	_	22	punct	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	19	punct	_	_
 25	et	et	CCONJ	_	_	27	cc	_	_
@@ -7377,7 +7377,7 @@
 29	29	29	NUM	_	NumType=Card	27	parataxis:insert	_	Number[lex]=Sing
 30	[	[	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	2,7	2,7	NUM	_	NumType=Card	32	nummod	_	Number[lex]=Plur|SpaceAfter=No
-32	%	%	NOUN	_	_	29	appos	_	Gender[lex]=Masc|SpaceAfter=No
+32	%	%	SYM	_	ExtPos=NOUN|Number=Plur	29	appos	_	SpaceAfter=No
 33	]	]	PUNCT	_	_	32	punct	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	15	punct	_	_
@@ -7439,7 +7439,7 @@
 2	augmentation	augmentation	NOUN	_	Number=Sing	20	nsubj:pass	_	Gender[lex]=Fem
 3	de	de	ADP	_	_	5	case	_	_
 4	5,4	5,4	NUM	_	NumType=Card	5	nummod	_	Number[lex]=Plur|SpaceAfter=No
-5	%	%	NOUN	_	_	2	nmod	_	Gender[lex]=Masc
+5	%	%	SYM	_	ExtPos=NOUN|Number=Plur	2	nmod	_	_
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -7448,7 +7448,7 @@
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	4,3	4,3	NUM	_	NumType=Card	13	nummod	_	Number[lex]=Plur|SpaceAfter=No
-13	%	%	NOUN	_	_	5	conj	_	Gender[lex]=Masc
+13	%	%	SYM	_	ExtPos=NOUN|Number=Plur	5	conj	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -7521,7 +7521,7 @@
 7	significative	significatif	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	3,6	3,6	NUM	_	NumType=Card	10	nummod	_	Number[lex]=Plur|SpaceAfter=No
-10	%	%	NOUN	_	_	6	nmod	_	Gender[lex]=Masc
+10	%	%	SYM	_	ExtPos=NOUN|Number=Plur	6	nmod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	DMO	DMO	NOUN	_	Number=Sing	6	nmod	_	Gender[lex]=Fem
@@ -7589,7 +7589,7 @@
 8	été	être	AUX	_	VerbForm=Part	11	cop	_	Tense[denom]=Past
 9	de	de	ADP	_	_	11	case	_	_
 10	7,5	7,5	NUM	_	NumType=Card	11	nummod	_	Number[lex]=Plur|SpaceAfter=No
-11	%	%	NOUN	_	_	0	root	_	Gender[lex]=Masc
+11	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 12	chez	chez	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	hommes	homme	NOUN	_	Number=Plur	11	obl:mod	_	Gender[lex]=Masc
@@ -7598,7 +7598,7 @@
 17	Aclasta	Aclasta	PROPN	_	_	15	obl:mod	_	Gender[lex]=Unknown
 18	versus	vs	ADP	_	_	20	case	_	_
 19	8,7	8,7	NUM	_	NumType=Card	20	nummod	_	Number[lex]=Plur|SpaceAfter=No
-20	%	%	NOUN	_	_	11	obl:mod	_	Gender[lex]=Masc
+20	%	%	SYM	_	ExtPos=NOUN|Number=Plur	11	obl:mod	_	_
 21	chez	chez	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	hommes	homme	NOUN	_	Number=Plur	20	nmod	_	Gender[lex]=Masc
@@ -7794,26 +7794,26 @@
 22	)	)	PUNCT	_	_	21	punct	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	96	96	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
-25	%	%	NOUN	_	_	9	nmod	_	Gender[lex]=Masc
+25	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	nmod	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 27	169/176	169/176	NOUN	_	NumType=Card	25	appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
 30	89	89	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
-31	%	%	NOUN	_	_	25	conj	_	Gender[lex]=Masc
+31	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	conj	_	_
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
 33	156/176	156/176	NOUN	_	NumType=Card	31	appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	_
 35	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	9	acl	_	CorrectForm=comparés|CorrectNumber=Plur|Tense[denom]=Past
 36	à	à	ADP	_	_	38	case	_	_
 37	74	74	NUM	_	NumType=Card	38	nummod	_	SpaceAfter=No
-38	%	%	NOUN	_	_	35	obl:arg	_	Gender[lex]=Masc
+38	%	%	SYM	_	ExtPos=NOUN|Number=Plur	35	obl:arg	_	_
 39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
 40	127/171	127/171	NOUN	_	NumType=Card	38	appos	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	40	punct	_	_
 42	et	et	CCONJ	_	_	44	cc	_	_
 43	58	58	NUM	_	NumType=Card	44	nummod	_	SpaceAfter=No
-44	%	%	NOUN	_	_	38	conj	_	Gender[lex]=Masc
+44	%	%	SYM	_	ExtPos=NOUN|Number=Plur	38	conj	_	_
 45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
 46	99/171	99/171	NOUN	_	NumType=Card	44	appos	_	SpaceAfter=No
 47	)	)	PUNCT	_	_	46	punct	_	_
@@ -7971,7 +7971,7 @@
 10	rechute	rechute	NOUN	_	Number=Sing	8	nmod	_	Gender[lex]=Fem
 11	de	de	ADP	_	_	13	case	_	_
 12	96	96	NUM	_	NumType=Card	13	nummod	_	Number[lex]=Plur|SpaceAfter=No
-13	%	%	NOUN	_	_	5	nmod	_	Gender[lex]=Masc
+13	%	%	SYM	_	ExtPos=NOUN|Number=Plur	5	nmod	_	_
 14	pour	pour	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	patients	patient	NOUN	_	Number=Plur	5	nmod	_	Gender[lex]=Masc
@@ -8165,7 +8165,7 @@
 39	inférieure	inférieur	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	10	10	NUM	_	NumType=Card	42	nummod	_	Number[lex]=Plur|SpaceAfter=No
-42	%	%	NOUN	_	_	39	obl:arg	_	Gender[lex]=Masc
+42	%	%	SYM	_	ExtPos=NOUN|Number=Plur	39	obl:arg	_	_
 43-44	du	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -8177,7 +8177,7 @@
 50	inférieure	inférieur	ADJ	_	Gender=Fem|Number=Sing	39	conj	_	_
 51	à	à	ADP	_	_	53	case	_	_
 52	1	1	NUM	_	NumType=Card	53	nummod	_	Number[lex]=Plur|SpaceAfter=No
-53	%	%	NOUN	_	_	50	obl:arg	_	Gender[lex]=Masc
+53	%	%	SYM	_	ExtPos=NOUN|Number=Plur	50	obl:arg	_	_
 54-55	du	_	_	_	_	_	_	_	_
 54	de	de	ADP	_	_	56	case	_	_
 55	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
@@ -8199,7 +8199,7 @@
 71	dépassant	dépasser	VERB	_	VerbForm=Part	67	acl	_	Tense[denom]=Pres
 72	pas	pas	ADV	_	Polarity=Neg	71	advmod	_	_
 73	0,1	0,1	NUM	_	NumType=Card	74	nummod	_	Number[lex]=Plur|SpaceAfter=No
-74	%	%	NOUN	_	_	71	obj	_	Gender[lex]=Masc
+74	%	%	SYM	_	ExtPos=NOUN|Number=Plur	71	obj	_	_
 75-76	des	_	_	_	_	_	_	_	_
 75	de	de	ADP	_	_	77	case	_	_
 76	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	77	det	_	_
@@ -8358,7 +8358,7 @@
 10	39	39	NUM	_	NumType=Card	13	nummod	_	Number[lex]=Plur
 11	±	±	ADP	_	_	12	case	_	_
 12	16	16	NUM	_	NumType=Card	10	nmod	_	Number[lex]=Plur|SpaceAfter=No
-13	%	%	NOUN	_	_	19	nsubj:pass	_	Gender[lex]=Masc
+13	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	nsubj:pass	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	dose	dose	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Fem
@@ -9955,7 +9955,7 @@
 15	plus	plus	ADV	_	ExtPos=PRON	13	obl:mod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	30	30	NUM	_	NumType=Card	18	nummod	_	Number[lex]=Plur|SpaceAfter=No
-18	%	%	NOUN	_	_	15	obl:arg	_	Gender[lex]=Masc
+18	%	%	SYM	_	ExtPos=NOUN|Number=Plur	15	obl:arg	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
