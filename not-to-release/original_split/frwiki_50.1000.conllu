@@ -361,10 +361,10 @@
 
 # sent_id = frwiki_50.1000_00011
 # text = Suite à la désobéissance des hommes de la 21e, le général Réveilhac exige des sanctions.
-1	Suite	suite	NOUN	_	ExtPos=ADP|Number=Sing	4	case	_	Gender[lex]=Fem|Idiom=Yes
-2	à	à	ADP	_	_	1	fixed	_	InIdiom=Yes
+1	Suite	suite	NOUN	_	ExtPos=ADV|Number=Sing	15	advmod	_	Gender[lex]=Fem
+2	à	à	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	désobéissance	désobéissance	NOUN	_	Number=Sing	15	obl:mod	_	Gender[lex]=Fem
+4	désobéissance	désobéissance	NOUN	_	Number=Sing	1	obl:arg	_	Gender[lex]=Fem
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -372,7 +372,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	21e	21e	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	7	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	4	punct	_	_
+11	,	,	PUNCT	_	_	1	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	général	général	NOUN	_	Number=Sing	15	nsubj	_	Gender[lex]=Masc
 14	Réveilhac	Réveilhac	PROPN	_	_	13	nmod	_	Gender[lex]=Unknown
@@ -2614,10 +2614,10 @@
 2	machination	machination	NOUN	_	Number=Sing	4	nsubj	_	Gender[lex]=Fem
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 4	fonctionné	fonctionner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
-5	grâce	grâce	NOUN	_	ExtPos=ADP|Number=Sing	8	case	_	Gender[lex]=Fem|Idiom=Yes
-6	à	à	ADP	_	_	5	fixed	_	InIdiom=Yes
+5	grâce	grâce	NOUN	_	ExtPos=ADV|Number=Sing	4	advmod	_	Gender[lex]=Fem
+6	à	à	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-8	intervention	intervention	NOUN	_	Number=Sing	4	obl:mod	_	Gender[lex]=Fem
+8	intervention	intervention	NOUN	_	Number=Sing	5	obl:arg	_	Gender[lex]=Fem
 9	de	de	ADP	_	_	10	case	_	_
 10	Lauri	Lauri	PROPN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	Fitz-Pegado	Fitz-Pegado	PROPN	_	_	10	flat:name	_	Gender[lex]=Unknown|SpaceAfter=No
@@ -3817,11 +3817,11 @@
 17	Giscard	Giscard	PROPN	_	_	16	flat:name	_	Gender[lex]=Unknown
 18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
 19	Estaing	Estaing	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	face	face	NOUN	_	ExtPos=ADP|Number=Sing	23	case	_	Gender[lex]=Fem|Idiom=Yes
+20	face	face	NOUN	_	ExtPos=ADV|Number=Sing	14	advmod	_	Gender[lex]=Fem
 21-22	au	_	_	_	_	_	_	_	_
-21	à	à	ADP	_	_	20	fixed	_	InIdiom=Yes
+21	à	à	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	candidat	candidat	NOUN	_	Number=Sing	14	nmod	_	Gender[lex]=Masc
+23	candidat	candidat	NOUN	_	Number=Sing	20	obl:arg	_	Gender[lex]=Masc
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -5649,12 +5649,12 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	point	point	NOUN	_	Number=Sing	0	root	_	Gender[lex]=Masc
 12	mort	mort	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	18	punct	_	_
-14	grâce	grâce	NOUN	_	ExtPos=ADP|Number=Sing	18	case	_	Gender[lex]=Fem|Idiom=Yes
-15	à	à	ADP	_	_	14	fixed	_	InIdiom=Yes
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	grâce	grâce	NOUN	_	ExtPos=ADV|Number=Sing	11	advmod	_	Gender[lex]=Fem
+15	à	à	ADP	_	_	18	case	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	interminable	interminable	ADJ	_	Number=Sing	18	amod	_	Gender[ctxt]=Fem
-18	guérilla	guérilla	NOUN	_	Number=Sing	11	obl:mod	_	Gender[lex]=Fem
+18	guérilla	guérilla	NOUN	_	Number=Sing	14	obl:arg	_	Gender[lex]=Fem
 19	de	de	ADP	_	_	20	case	_	_
 20	recours	recours	NOUN	_	_	18	nmod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 21	.	.	PUNCT	_	_	11	punct	_	_
@@ -8016,12 +8016,12 @@
 45	avec	avec	ADP	_	_	47	case	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 47	Saint-Siège	Saint-Siège	PROPN	_	Gender=Masc|Number=Sing	37	nmod	_	_
-48	suite	suite	NOUN	_	ExtPos=ADP|Number=Sing	52	case	_	Gender[lex]=Fem|Idiom=Yes
+48	suite	suite	NOUN	_	ExtPos=ADV|Number=Sing	37	advmod	_	Gender[lex]=Fem
 49-50	aux	_	_	_	_	_	_	_	_
-49	à	à	ADP	_	_	48	fixed	_	InIdiom=Yes
+49	à	à	ADP	_	_	52	case	_	_
 50	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	52	det	_	_
 51	malheureuses	malheureux	ADJ	_	Gender=Fem|Number=Plur	52	amod	_	_
-52	affaires	affaire	NOUN	_	Number=Plur	37	nmod	_	Gender[lex]=Fem
+52	affaires	affaire	NOUN	_	Number=Plur	48	obl:arg	_	Gender[lex]=Fem
 53-54	des	_	_	_	_	_	_	_	_
 53	de	de	ADP	_	_	55	case	_	_
 54	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	55	det	_	_
@@ -8783,13 +8783,13 @@
 # text = En outre, suite à l'affaire Dreyfus, le service de renseignement de l'armée (2ème Bureau), considéré comme subversif, a déjà été épuré et complètement désorganisé durant un certain temps, ce qui donnera aux services allemands une longueur d'avance dans ce domaine en plein développement de l'art de la guerre.
 1	En	en	ADP	_	ExtPos=ADV	29	advmod	_	Idiom=Yes
 2	outre	outre	ADP	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
-3	,	,	PUNCT	_	_	7	punct	_	_
-4	suite	suite	NOUN	_	ExtPos=ADP|Number=Sing	7	case	_	Gender[lex]=Fem|Idiom=Yes
-5	à	à	ADP	_	_	4	fixed	_	InIdiom=Yes
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	suite	suite	NOUN	_	ExtPos=ADV|Number=Sing	29	advmod	_	Gender[lex]=Fem
+5	à	à	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	Gender[ctxt]=Fem|SpaceAfter=No
-7	affaire	affaire	NOUN	_	Number=Sing	29	obl:mod	_	Gender[lex]=Fem
+7	affaire	affaire	NOUN	_	Number=Sing	4	obl:arg	_	Gender[lex]=Fem
 8	Dreyfus	Dreyfus	PROPN	_	_	7	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	_
+9	,	,	PUNCT	_	_	4	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	service	service	NOUN	_	Number=Sing	29	nsubj:pass	_	Gender[lex]=Masc
 12	de	de	ADP	_	_	13	case	_	_
@@ -9639,10 +9639,10 @@
 15	Dumas	Dumas	PROPN	_	_	14	flat:name	_	Gender[lex]=Unknown|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	acheté	acheter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	acl	_	Tense[denom]=Past
-18	grâce	grâce	NOUN	_	ExtPos=ADP|Number=Sing	21	case	_	Gender[lex]=Fem|Idiom=Yes
-19	à	à	ADP	_	_	18	fixed	_	InIdiom=Yes
+18	grâce	grâce	NOUN	_	ExtPos=ADV|Number=Sing	17	advmod	_	Gender[lex]=Fem
+19	à	à	ADP	_	_	21	case	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	virement	virement	NOUN	_	Number=Sing	17	obl:mod	_	Gender[lex]=Masc
+21	virement	virement	NOUN	_	Number=Sing	18	obl:arg	_	Gender[lex]=Masc
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	Elf	Elf	PROPN	_	_	21	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	_
@@ -16988,18 +16988,18 @@
 5	aide	aider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:cleft	_	Filler=subj
 6	Francis	Francis	PROPN	_	Number=Sing	5	obj	_	Gender[lex]=Unknown
 7	Poullain	Poullain	PROPN	_	_	6	flat:name	_	Gender[lex]=Unknown|SpaceAfter=No
-8	,	,	PUNCT	_	_	12	punct	_	_
-9	grâce	grâce	NOUN	_	ExtPos=ADP|Number=Sing	12	case	_	Gender[lex]=Fem|Idiom=Yes
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	grâce	grâce	NOUN	_	ExtPos=ADV|Number=Sing	5	advmod	_	Gender[lex]=Fem
 10-11	au	_	_	_	_	_	_	_	_
-10	à	à	ADP	_	_	9	fixed	_	InIdiom=Yes
+10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	produit	produit	NOUN	_	Number=Sing	5	obl:mod	_	Gender[lex]=Masc
+12	produit	produit	NOUN	_	Number=Sing	9	obl:arg	_	Gender[lex]=Masc
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	16	case	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 15	fausses	faux	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 16	factures	facture	NOUN	_	Number=Plur	12	nmod	_	Gender[lex]=Fem|SpaceAfter=No
-17	,	,	PUNCT	_	_	12	punct	_	_
+17	,	,	PUNCT	_	_	9	punct	_	_
 18	à	à	ADP	_	_	19	mark	_	_
 19	obtenir	obtenir	VERB	_	VerbForm=Inf	5	xcomp	_	Subject=ObjRaising
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	_
@@ -17138,12 +17138,12 @@
 5	par	par	ADP	_	_	6	case	_	_
 6	Francis	Francis	PROPN	_	Number=Sing	4	obl:agent	_	Gender[lex]=Unknown
 7	Poullain	Poullain	PROPN	_	_	6	flat:name	_	Gender[lex]=Unknown
-8	grâce	grâce	NOUN	_	ExtPos=ADP|Number=Sing	12	case	_	Gender[lex]=Fem|Idiom=Yes
+8	grâce	grâce	NOUN	_	ExtPos=ADV|Number=Sing	4	advmod	_	Gender[lex]=Fem
 9-10	aux	_	_	_	_	_	_	_	_
-9	à	à	ADP	_	_	8	fixed	_	InIdiom=Yes
+9	à	à	ADP	_	_	12	case	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 11	fausses	faux	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
-12	factures	facture	NOUN	_	Number=Plur	4	obl:mod	_	Gender[lex]=Fem
+12	factures	facture	NOUN	_	Number=Plur	8	obl:arg	_	Gender[lex]=Fem
 13	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
 14	bénéficié	bénéficier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 15	à	à	ADP	_	_	17	case	_	_
@@ -21996,10 +21996,10 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	scandale	scandale	NOUN	_	Number=Sing	8	nsubj	_	Gender[lex]=Masc
 8	éclate	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	suite	suite	NOUN	_	ExtPos=ADP|Number=Sing	12	case	_	Gender[lex]=Fem|Idiom=Yes
-10	à	à	ADP	_	_	9	fixed	_	InIdiom=Yes
+9	suite	suite	NOUN	_	ExtPos=ADV|Number=Sing	8	advmod	_	Gender[lex]=Fem
+10	à	à	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	publication	publication	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Fem
+12	publication	publication	NOUN	_	Number=Sing	9	obl:arg	_	Gender[lex]=Fem
 13	dans	dans	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	presse	presse	NOUN	_	Number=Sing	12	nmod	_	Gender[lex]=Fem
@@ -22185,17 +22185,17 @@
 
 # sent_id = frwiki_50.1000_00803
 # text = suite aux publications des conversations téléphoniques, la commission disciplinaire du football italien a été saisie du dossier.
-1	suite	suite	NOUN	_	ExtPos=ADP|Number=Sing	4	case	_	Gender[lex]=Fem|Idiom=Yes
+1	suite	suite	NOUN	_	ExtPos=ADV|Number=Sing	19	advmod	_	Gender[lex]=Fem
 2-3	aux	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	InIdiom=Yes
+2	à	à	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	publications	publication	NOUN	_	Number=Plur	19	obl:mod	_	Gender[lex]=Fem
+4	publications	publication	NOUN	_	Number=Plur	1	obl:arg	_	Gender[lex]=Fem
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	conversations	conversation	NOUN	_	Number=Plur	4	nmod	_	Gender[lex]=Fem
 8	téléphoniques	téléphonique	ADJ	_	Number=Plur	7	amod	_	Gender[ctxt]=Fem|SpaceAfter=No
-9	,	,	PUNCT	_	_	4	punct	_	_
+9	,	,	PUNCT	_	_	1	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	commission	commission	NOUN	_	Number=Sing	19	nsubj:pass	_	Gender[lex]=Fem
 12	disciplinaire	disciplinaire	ADJ	_	Number=Sing	11	amod	_	Gender[ctxt]=Fem
@@ -26206,10 +26206,10 @@
 58	donc	donc	ADV	_	_	60	advmod	_	_
 59	été	être	AUX	_	VerbForm=Part	60	aux:pass	_	Tense[denom]=Past
 60	acquises	acquérir	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	34	conj	_	Tense[denom]=Past
-61	grâce	grâce	NOUN	_	ExtPos=ADP|Number=Sing	64	case	_	Gender[lex]=Fem|Idiom=Yes
-62	à	à	ADP	_	_	61	fixed	_	InIdiom=Yes
+61	grâce	grâce	NOUN	_	ExtPos=ADV|Number=Sing	60	advmod	_	Gender[lex]=Fem
+62	à	à	ADP	_	_	64	case	_	_
 63	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	64	det	_	_
-64	trafic	trafic	NOUN	_	Number=Sing	60	obl:mod	_	Gender[lex]=Masc
+64	trafic	trafic	NOUN	_	Number=Sing	61	obl:arg	_	Gender[lex]=Masc
 65	entretenu	entretenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	64	acl	_	Tense[denom]=Past
 66	par	par	ADP	_	_	68	case	_	_
 67	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	68	det	_	Gender[ctxt]=Fem|SpaceAfter=No

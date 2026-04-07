@@ -8326,11 +8326,11 @@
 17	Giscard	Giscard	PROPN	_	_	16	flat:name	_	Gender[lex]=Unknown
 18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
 19	Estaing	Estaing	PROPN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	face	face	NOUN	_	ExtPos=ADP|Number=Sing	23	case	_	Gender[lex]=Fem|Idiom=Yes
+20	face	face	NOUN	_	ExtPos=ADV|Number=Sing	14	advmod	_	Gender[lex]=Fem
 21-22	au	_	_	_	_	_	_	_	_
-21	à	à	ADP	_	_	20	fixed	_	InIdiom=Yes
+21	à	à	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	candidat	candidat	NOUN	_	Number=Sing	14	nmod	_	Gender[lex]=Masc
+23	candidat	candidat	NOUN	_	Number=Sing	20	obl:arg	_	Gender[lex]=Masc
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
