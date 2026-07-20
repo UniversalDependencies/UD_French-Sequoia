@@ -536,8 +536,8 @@
 21	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 23	durer	durer	VERB	_	VerbForm=Inf	22	xcomp	_	Subject=SubjRaising
-24	jusqu'	jusque	ADP	_	_	25	dep:comp	_	SpaceAfter=No
-25	à	à	ADP	_	_	27	dep	_	_
+24	jusqu'	jusque	ADP	_	_	27	case	_	SpaceAfter=No
+25	à	à	ADP	_	_	27	case	_	_
 26	72	72	NUM	_	Number=Plur|NumType=Card	27	nummod	_	Exponence[Number]=Inherent
 27	heures	heure	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	Exponence[Gender]=Inherent
 28-29	au	_	_	_	_	_	_	_	_
@@ -588,8 +588,8 @@
 31	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
 32	être	être	AUX	_	VerbForm=Inf	33	aux:pass	_	Subject=SubjRaising
 33	poursuivie	poursuivre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	31	xcomp	_	Tense[denom]=Past
-34	jusqu'	jusque	ADP	_	_	35	dep:comp	_	SpaceAfter=No
-35	à	à	ADP	_	_	37	dep	_	_
+34	jusqu'	jusque	ADP	_	_	37	case	_	SpaceAfter=No
+35	à	à	ADP	_	_	37	case	_	_
 36	quatre	quatre	NUM	_	Number=Plur|NumType=Card	37	nummod	_	Exponence[Number]=Inherent
 37	heures	heure	NOUN	_	Gender=Fem|Number=Plur	40	nmod	_	Exponence[Gender]=Inherent
 38	après	après	ADP	_	_	40	case	_	_
@@ -2261,8 +2261,8 @@
 16	devra	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 17	être	être	AUX	_	VerbForm=Inf	18	aux:pass	_	Subject=SubjRaising
 18	maintenue	maintenir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	16	xcomp	_	Tense[denom]=Past
-19	jusqu'	jusque	ADP	_	_	20	dep:comp	_	SpaceAfter=No
-20	à	à	ADP	_	_	22	dep	_	_
+19	jusqu'	jusque	ADP	_	_	22	case	_	SpaceAfter=No
+20	à	à	ADP	_	_	22	case	_	_
 21	1	1	NUM	_	Number=Plur|NumType=Card	22	nummod	_	Exponence[Number]=Inherent
 22	heure	heure	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	Exponence[Gender]=Inherent
 23	avant	avant	ADP	_	_	25	case	_	_
@@ -2354,8 +2354,8 @@
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	5	expl:pv	_	_
 5	poursuivre	poursuivre	VERB	_	VerbForm=Inf	3	xcomp	_	Subject=SubjRaising
-6	jusqu'	jusque	ADP	_	_	7	dep:comp	_	SpaceAfter=No
-7	à	à	ADP	_	_	9	dep	_	_
+6	jusqu'	jusque	ADP	_	_	9	case	_	SpaceAfter=No
+7	à	à	ADP	_	_	9	case	_	_
 8	4	4	NUM	_	Number=Plur|NumType=Card	9	nummod	_	Exponence[Number]=Inherent
 9	heures	heure	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	Exponence[Gender]=Inherent
 10	après	après	ADP	_	_	12	case	_	_

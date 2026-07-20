@@ -7898,7 +7898,7 @@
 23	:	:	PUNCT	_	_	34	punct	_	_
 24	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	général	général	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	Exponence[Gender]=Inherent
-26	Réveilhac	Réveilhac	PROPN	_	_	25	nmod	_	SpaceAfter=No
+26	Réveilhac	Réveilhac	PROPN	_	_	25	appos	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	ordonnateur	ordonnateur	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	Exponence[Gender]=Inherent
 29	de	de	ADP	_	_	31	case	_	_
@@ -8985,7 +8985,7 @@
 75	,	,	PUNCT	_	_	27	punct	_	_
 76	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
 77	général	général	NOUN	_	Gender=Masc|Number=Sing	79	nsubj	_	Exponence[Gender]=Inherent
-78	André	André	PROPN	_	Gender=Masc|Number=Sing	77	nmod	_	Exponence[Gender]=Inherent
+78	André	André	PROPN	_	Gender=Masc|Number=Sing	77	appos	_	Exponence[Gender]=Inherent
 79	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 80	paradoxalement	paradoxalement	ADV	_	_	79	advmod	_	_
 81	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_

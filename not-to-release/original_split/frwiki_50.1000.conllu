@@ -330,7 +330,7 @@
 23	:	:	PUNCT	_	_	34	punct	_	_
 24	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	général	général	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	Exponence[Gender]=Inherent
-26	Réveilhac	Réveilhac	PROPN	_	_	25	nmod	_	SpaceAfter=No
+26	Réveilhac	Réveilhac	PROPN	_	_	25	appos	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	ordonnateur	ordonnateur	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	Exponence[Gender]=Inherent
 29	de	de	ADP	_	_	31	case	_	_
@@ -374,7 +374,7 @@
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	général	général	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	Exponence[Gender]=Inherent
-14	Réveilhac	Réveilhac	PROPN	_	_	13	nmod	_	_
+14	Réveilhac	Réveilhac	PROPN	_	_	13	appos	_	_
 15	exige	exiger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	sanctions	sanction	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
@@ -479,7 +479,7 @@
 18	par	par	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	général	général	NOUN	_	Gender=Masc|Number=Sing	17	obl:agent	_	Exponence[Gender]=Inherent
-21	Réveilhac	Réveilhac	PROPN	_	_	20	nmod	_	_
+21	Réveilhac	Réveilhac	PROPN	_	_	20	appos	_	_
 22	avec	avec	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	motif	motif	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	Exponence[Gender]=Inherent
@@ -1537,7 +1537,7 @@
 # text = - Général André Bach, Fusillés pour l'exemple- 1914-1915, Éditions Tallandier, 2003).
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	Général	général	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
-3	André	André	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
+3	André	André	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	Exponence[Gender]=Inherent
 4	Bach	Bach	PROPN	_	Gender=Masc|Number=Sing	3	flat:name	_	Exponence[Gender]=Inherent|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Fusillés	fusillé	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	Exponence[Gender]=Inherent
@@ -6674,8 +6674,8 @@
 # text = Ils encourent jusqu'à un an de prison, 15 000 euros d'amende et une peine d'inéligibilité.
 1	Ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	encourent	encourir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	jusqu'	jusque	ADP	_	_	4	dep:comp	_	SpaceAfter=No
-4	à	à	ADP	_	_	6	dep	_	_
+3	jusqu'	jusque	ADP	_	_	6	case	_	SpaceAfter=No
+4	à	à	ADP	_	_	6	case	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	an	an	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	Exponence[Gender]=Inherent
 7	de	de	ADP	_	_	8	case	_	_
@@ -7228,7 +7228,7 @@
 # text = Le général André est nommé en 1900 ministre de la guerre, pour remplacer le général de Galliffet démissionnaire, dans le gouvernement de défense républicaine de Waldeck-Rousseau, puis reconduit dans celui d'Émile Combes, après le triomphe du bloc des gauches aux élections de 1902.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	général	général	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	Exponence[Gender]=Inherent
-3	André	André	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
+3	André	André	PROPN	_	Gender=Masc|Number=Sing	2	appos	_	Exponence[Gender]=Inherent
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	nommé	nommer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 6	en	en	ADP	_	_	7	case	_	_
@@ -7879,7 +7879,7 @@
 60	de	de	ADP	_	_	62	case	_	_
 61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	général	général	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	Exponence[Gender]=Inherent
-63	André	André	PROPN	_	_	62	nmod	_	SpaceAfter=No
+63	André	André	PROPN	_	_	62	appos	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	53	punct	_	_
 65	et	et	CCONJ	_	_	71	cc	_	_
 66	dont	dont	PRON	_	PronType=Rel	71	nmod	_	_
@@ -8277,7 +8277,7 @@
 75	,	,	PUNCT	_	_	27	punct	_	_
 76	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
 77	général	général	NOUN	_	Gender=Masc|Number=Sing	79	nsubj	_	Exponence[Gender]=Inherent
-78	André	André	PROPN	_	Gender=Masc|Number=Sing	77	nmod	_	Exponence[Gender]=Inherent
+78	André	André	PROPN	_	Gender=Masc|Number=Sing	77	appos	_	Exponence[Gender]=Inherent
 79	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 80	paradoxalement	paradoxalement	ADV	_	_	79	advmod	_	_
 81	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	82	det	_	_
@@ -8933,7 +8933,7 @@
 84	ou	ou	CCONJ	_	_	86	cc	_	_
 85	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
 86	général	général	NOUN	_	Gender=Masc|Number=Sing	82	conj	_	Exponence[Gender]=Inherent
-87	Joffre	Joffre	PROPN	_	_	86	nmod	_	SpaceAfter=No
+87	Joffre	Joffre	PROPN	_	_	86	appos	_	SpaceAfter=No
 88	.	.	PUNCT	_	_	31	punct	_	_
 
 # sent_id = frwiki_50.1000_00316
@@ -8993,7 +8993,7 @@
 5	que	que	SCONJ	_	_	16	mark	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	général	général	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	Exponence[Gender]=Inherent
-8	André	André	PROPN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent
+8	André	André	PROPN	_	Gender=Masc|Number=Sing	7	appos	_	Exponence[Gender]=Inherent
 9	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
 10	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
 11	jamais	jamais	ADV	_	Polarity=Neg	16	advmod	_	SpaceAfter=No
@@ -9098,7 +9098,7 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	général	général	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent
-15	André	André	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
+15	André	André	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	Exponence[Gender]=Inherent|SpaceAfter=No
 16	,	,	PUNCT	_	_	48	punct	_	_
 17	qui	qui	PRON	_	PronType=Rel	48	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -14599,7 +14599,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	général	général	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Exponence[Gender]=Inherent
-9	Imbot	Imbot	PROPN	_	_	8	nmod	_	SpaceAfter=No
+9	Imbot	Imbot	PROPN	_	_	8	appos	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	22	advcl	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -26081,7 +26081,7 @@
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	généraux	général	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	Exponence[Gender]=Inherent
-20	Charles	Charles	PROPN	_	Gender=Masc|Number=Sing	19	nmod	_	Exponence[Gender]=Inherent
+20	Charles	Charles	PROPN	_	Gender=Masc|Number=Sing	19	appos	_	Exponence[Gender]=Inherent
 21	Mast	Mast	PROPN	_	_	20	flat:name	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	Revers	Revers	PROPN	_	_	20	conj	_	SpaceAfter=No

@@ -8291,7 +8291,7 @@
 4	probable	probable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	vu	voir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl	_	Tense[denom]=Past
-7	qu'	que	SCONJ	_	_	6	dep:comp	_	SpaceAfter=No
+7	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
 8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nsubj:pass	_	_
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
 10	accusés	accuser	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	ccomp	_	Tense[denom]=Past
@@ -8449,7 +8449,7 @@
 50	aboutissants	aboutissants	NOUN	_	Gender=Masc|Number=Plur	48	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 51	,	,	PUNCT	_	_	52	punct	_	_
 52	vu	voir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	Tense[denom]=Past
-53	que	que	SCONJ	_	_	52	dep:comp	_	_
+53	que	que	SCONJ	_	_	58	mark	_	_
 54	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	55	det	_	_
 55	Assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	58	nsubj	_	Exponence[Gender]=Inherent
 56	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	58	expl:pv	_	SpaceAfter=No
