@@ -41,7 +41,7 @@
 2	tous	tout	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	jours	jour	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	Exponence[Gender]=Inherent
-5	sauf	sauf	CCONJ	_	_	7	case	_	_
+5	sauf	sauf	CCONJ	_	_	7	cc	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	Exponence[Gender]=Inherent
 8	de	de	ADP	_	_	10	case	_	_
@@ -895,7 +895,7 @@
 21	à	à	ADP	_	ExtPos=CCONJ	24	cc	_	Idiom=Yes
 22	savoir	savoir	VERB	_	VerbForm=Inf	21	fixed	_	InIdiom=Yes|Subject=Generic
 23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	_
-24	pénalités	pénalité	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	Exponence[Gender]=Inherent
+24	pénalités	pénalité	NOUN	_	Gender=Fem|Number=Plur	18	appos	_	Exponence[Gender]=Inherent
 25	financières	financier	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
 26	portant	porter	VERB	_	VerbForm=Part	24	acl	_	Tense[denom]=Pres
 27	sur	sur	ADP	_	_	29	case	_	_
@@ -2117,7 +2117,7 @@
 13	à	à	ADP	_	ExtPos=CCONJ	16	cc	_	Idiom=Yes
 14	savoir	savoir	VERB	_	VerbForm=Inf	13	fixed	_	InIdiom=Yes|Subject=Generic
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
-16	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	Exponence[Gender]=Inherent
+16	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	Exponence[Gender]=Inherent
 17	à	à	ADP	_	_	19	case	_	_
 18	haut	haut	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 19	risque	risque	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	Exponence[Gender]=Inherent

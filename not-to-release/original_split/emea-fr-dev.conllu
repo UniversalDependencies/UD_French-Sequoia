@@ -6853,7 +6853,7 @@
 13	à	à	ADP	_	ExtPos=CCONJ	16	cc	_	Idiom=Yes
 14	savoir	savoir	VERB	_	VerbForm=Inf	13	fixed	_	InIdiom=Yes|Subject=Generic
 15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	_
-16	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	Exponence[Gender]=Inherent
+16	patients	patient	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	Exponence[Gender]=Inherent
 17	à	à	ADP	_	_	19	case	_	_
 18	haut	haut	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 19	risque	risque	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	Exponence[Gender]=Inherent
@@ -8406,9 +8406,9 @@
 38	8	8	NUM	_	Number=Plur|NumType=Card	39	nummod	_	Exponence[Number]=Inherent
 39	°C	°C	NOUN	_	Gender=Masc	36	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
-41	sauf	sauf	CCONJ	_	_	43	mark	_	_
+41	sauf	sauf	CCONJ	_	_	43	cc	_	_
 42	en	en	ADP	_	_	43	case	_	_
-43	cas	cas	NOUN	_	Gender=Masc	29	appos	_	Exponence[Gender]=Inherent
+43	cas	cas	NOUN	_	Gender=Masc	29	obl:mod	_	Exponence[Gender]=Inherent
 44	de	de	ADP	_	_	45	case	_	_
 45	reconstitution	reconstitution	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 46	/	ou	CCONJ	_	_	47	cc	_	SpaceAfter=No

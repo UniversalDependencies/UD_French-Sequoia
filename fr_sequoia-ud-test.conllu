@@ -7554,27 +7554,29 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	rythme	rythme	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	Exponence[Gender]=Inherent
 18	cardiaque	cardiaque	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	Exponence[Gender]=Absent
-19	mais	mais	CCONJ	_	_	32	cc	_	_
+19	mais	mais	CCONJ	_	_	33	cc	_	_
 20	en	en	ADP	_	_	21	case	_	_
-21	cas	cas	NOUN	_	Gender=Masc	32	obl:mod	_	Exponence[Gender]=Inherent
+21	cas	cas	NOUN	_	Gender=Masc	33	obl:mod	_	Exponence[Gender]=Inherent
 22	de	de	ADP	_	_	23	case	_	_
 23	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	Exponence[Gender]=Inherent
-24	des	de	ADP	_	_	26	case	_	_
-25	ces	ce	DET	_	Number=Plur|PronType=Dem	26	det	_	_
-26	symptômes	symptôme	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	Exponence[Gender]=Inherent
-27	après	après	ADP	_	_	29	mark	_	_
-28	avoir	avoir	AUX	_	VerbForm=Inf	29	aux:tense	_	Subject=Instantiated
-29	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	23	acl	_	Tense[denom]=Past
-30	Aclasta	Aclasta	PROPN	_	_	29	obj	_	_
-31	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	32	nsubj	_	Polite=Unknown
-32	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	conj	_	_
-33	en	en	PRON	_	Person=3|PronType=Prs	34	iobj	_	_
-34	faire	faire	VERB	_	VerbForm=Inf	32	xcomp	_	Subject=SubjRaising
-35	part	part	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	Exponence[Gender]=Inherent
-36	à	à	ADP	_	_	38	case	_	_
-37	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	38	det	_	_
-38	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	34	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
-39	.	.	PUNCT	_	_	6	punct	_	_
+24-25	des	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	27	case	_	_
+25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+26	ces	ce	DET	_	Number=Plur|PronType=Dem	27	det	_	_
+27	symptômes	symptôme	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	Exponence[Gender]=Inherent
+28	après	après	ADP	_	_	30	mark	_	_
+29	avoir	avoir	AUX	_	VerbForm=Inf	30	aux:tense	_	Subject=Instantiated
+30	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	23	acl	_	Tense[denom]=Past
+31	Aclasta	Aclasta	PROPN	_	_	30	obj	_	_
+32	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	33	nsubj	_	Polite=Unknown
+33	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	conj	_	_
+34	en	en	PRON	_	Person=3|PronType=Prs	35	iobj	_	_
+35	faire	faire	VERB	_	VerbForm=Inf	33	xcomp	_	Subject=SubjRaising
+36	part	part	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	Exponence[Gender]=Inherent
+37	à	à	ADP	_	_	39	case	_	_
+38	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	39	det	_	_
+39	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	35	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
+40	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-test_00499
 # text = - Avant ouverture du flacon : pas de précautions particulières de conservation.

@@ -1907,8 +1907,8 @@
 33	plus	plus	ADV	_	_	29	advmod	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	80	80	NUM	_	Number=Plur|NumType=Card	36	nummod	_	Exponence[Number]=Inherent
-36	pour	pour	ADP	_	ExtPos=NOUN	33	obj	_	_
-37	cent	cent	NUM	_	Number=Sing|NumType=Card	36	obj	_	Exponence[Number]=Inherent
+36	pour	pour	ADP	_	ExtPos=NOUN	33	obl:arg	_	_
+37	cent	cent	NUM	_	Number=Sing|NumType=Card	36	dep:comp	_	Exponence[Number]=Inherent
 38	dans	dans	ADP	_	_	41	case	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 40	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
@@ -6295,7 +6295,7 @@
 16	à	à	ADP	_	ExtPos=CCONJ	19	cc	_	Idiom=Yes
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	fixed	_	InIdiom=Yes|Subject=Generic
 18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Exponence[Gender]=Absent|SpaceAfter=No
-19	effacement	effacement	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	Exponence[Gender]=Inherent
+19	effacement	effacement	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	Exponence[Gender]=Inherent
 20-21	des	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -10171,13 +10171,13 @@
 13	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 14	exécutons	exécuter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	22	punct	_	_
-16	à	à	ADP	_	ExtPos=ADP	22	case	_	Idiom=Yes
+16	à	à	ADP	_	ExtPos=CCONJ	22	cc	_	Idiom=Yes
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	fixed	_	InIdiom=Yes|Subject=Generic
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	part	part	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	Exponence[Gender]=Inherent
 21	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Exponence[Gender]=Absent|SpaceAfter=No
-22	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent
+22	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	Exponence[Gender]=Inherent
 23	politique	politique	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	Exponence[Gender]=Absent
 24	dans	dans	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -13441,7 +13441,7 @@
 33	produites	produire	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	31	acl	_	Tense[denom]=Past
 34	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	cop	_	_
 35	plus	plus	ADV	_	_	36	advmod	_	_
-36	important	important	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+36	important	important	ADJ	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00412
@@ -17373,12 +17373,12 @@
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	infraction	infraction	NOUN	_	Gender=Fem|Number=Sing	31	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
-36	sauf	sauf	CCONJ	_	_	41	mark	_	_
+36	sauf	sauf	CCONJ	_	_	41	cc	_	_
 37	si	si	SCONJ	_	_	41	mark	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	Bundestag	Bundestag	PROPN	_	Gender=Masc|Number=Sing	41	nsubj	_	Exponence[Gender]=Inherent
 40	en	en	PRON	_	Person=3|PronType=Prs	43	nmod	_	_
-41	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	appos	_	_
+41	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
 42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	permission	permission	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_

@@ -8340,7 +8340,7 @@
 12	en-dessous	en-dessous	ADV	_	_	21	obl:arg	_	_
 13-14	duquel	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	14	case	_	_
-14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	12	obj	_	_
+14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	12	obl:arg	_	_
 15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	_
 16	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	_
 17	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	cop	_	_
@@ -9335,7 +9335,7 @@
 27	savoir	savoir	VERB	_	VerbForm=Inf	26	fixed	_	InIdiom=Yes|SpaceAfter=No|Subject=Generic
 28	...	...	PUNCT	_	_	26	punct	_	_
 29	30	30	NUM	_	Number=Plur|NumType=Card	30	nummod	_	Exponence[Number]=Inherent
-30	F	F	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
+30	F	F	NOUN	_	Gender=Masc|Number=Plur	14	appos	_	Exponence[Gender]=Inherent|SpaceAfter=No
 31	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = annodis.er_00502
@@ -15790,9 +15790,9 @@
 38	8	8	NUM	_	Number=Plur|NumType=Card	39	nummod	_	Exponence[Number]=Inherent
 39	°C	°C	NOUN	_	Gender=Masc	36	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 40	,	,	PUNCT	_	_	43	punct	_	_
-41	sauf	sauf	CCONJ	_	_	43	mark	_	_
+41	sauf	sauf	CCONJ	_	_	43	cc	_	_
 42	en	en	ADP	_	_	43	case	_	_
-43	cas	cas	NOUN	_	Gender=Masc	29	appos	_	Exponence[Gender]=Inherent
+43	cas	cas	NOUN	_	Gender=Masc	29	obl:mod	_	Exponence[Gender]=Inherent
 44	de	de	ADP	_	_	45	case	_	_
 45	reconstitution	reconstitution	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 46	/	ou	CCONJ	_	_	47	cc	_	SpaceAfter=No
@@ -25350,22 +25350,24 @@
 # text = Si vous remarquez la survenue d'un des ces effets indésirables, veuillez-en informer votre médecin.
 1	Si	si	SCONJ	_	_	3	mark	_	_
 2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Polite=Unknown
-3	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+3	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	survenue	survenue	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	Exponence[Gender]=Inherent
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	nmod	_	_
-8	des	de	ADP	_	_	10	case	_	_
-9	ces	ce	DET	_	Number=Plur|PronType=Dem	10	det	_	_
-10	effets	effet	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	Exponence[Gender]=Inherent
-11	indésirables	indésirable	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
-12	,	,	PUNCT	_	_	3	punct	_	_
-13	veuillez	vouloir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-14	-en	en	PRON	_	Person=3|PronType=Prs	15	iobj	_	_
-15	informer	informer	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising
-16	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	17	det	_	_
-17	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
-18	.	.	PUNCT	_	_	13	punct	_	_
+8-9	des	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	ces	ce	DET	_	Number=Plur|PronType=Dem	11	det	_	_
+11	effets	effet	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	Exponence[Gender]=Inherent
+12	indésirables	indésirable	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	veuillez	vouloir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	-en	en	PRON	_	Person=3|PronType=Prs	16	iobj	_	_
+16	informer	informer	VERB	_	VerbForm=Inf	14	xcomp	_	Subject=SubjRaising
+17	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	18	det	_	_
+18	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
+19	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = emea-fr-test_00495
 # text = Si vous ressentez un des effets mentionnés comme graves ou si vous présentez des effets indésirables non mentionnés dans cette notice, veuillez-en informer votre médecin, votre pharmacien ou votre infirmière.
@@ -27505,8 +27507,8 @@
 33	plus	plus	ADV	_	_	29	advmod	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	80	80	NUM	_	Number=Plur|NumType=Card	36	nummod	_	Exponence[Number]=Inherent
-36	pour	pour	ADP	_	ExtPos=NOUN	33	obj	_	_
-37	cent	cent	NUM	_	Number=Sing|NumType=Card	36	obj	_	Exponence[Number]=Inherent
+36	pour	pour	ADP	_	ExtPos=NOUN	33	obl:arg	_	_
+37	cent	cent	NUM	_	Number=Sing|NumType=Card	36	dep:comp	_	Exponence[Number]=Inherent
 38	dans	dans	ADP	_	_	41	case	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 40	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
@@ -30295,7 +30297,7 @@
 16	à	à	ADP	_	ExtPos=CCONJ	19	cc	_	Idiom=Yes
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	fixed	_	InIdiom=Yes|Subject=Generic
 18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Exponence[Gender]=Absent|SpaceAfter=No
-19	effacement	effacement	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	Exponence[Gender]=Inherent
+19	effacement	effacement	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	Exponence[Gender]=Inherent
 20-21	des	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -33017,13 +33019,13 @@
 13	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
 14	exécutons	exécuter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	22	punct	_	_
-16	à	à	ADP	_	ExtPos=ADP	22	case	_	Idiom=Yes
+16	à	à	ADP	_	ExtPos=CCONJ	22	cc	_	Idiom=Yes
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	fixed	_	InIdiom=Yes|Subject=Generic
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	part	part	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	Exponence[Gender]=Inherent
 21	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	Exponence[Gender]=Absent|SpaceAfter=No
-22	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent
+22	évaluation	évaluation	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	Exponence[Gender]=Inherent
 23	politique	politique	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	Exponence[Gender]=Absent
 24	dans	dans	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -35370,7 +35372,7 @@
 33	produites	produire	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	31	acl	_	Tense[denom]=Past
 34	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	cop	_	_
 35	plus	plus	ADV	_	_	36	advmod	_	_
-36	important	important	ADJ	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+36	important	important	ADJ	_	Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00414
@@ -38133,12 +38135,12 @@
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	infraction	infraction	NOUN	_	Gender=Fem|Number=Sing	31	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	_
-36	sauf	sauf	CCONJ	_	_	41	mark	_	_
+36	sauf	sauf	CCONJ	_	_	41	cc	_	_
 37	si	si	SCONJ	_	_	41	mark	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	Bundestag	Bundestag	PROPN	_	Gender=Masc|Number=Sing	41	nsubj	_	Exponence[Gender]=Inherent
 40	en	en	PRON	_	Person=3|PronType=Prs	43	nmod	_	_
-41	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	appos	_	_
+41	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
 42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	permission	permission	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 44	,	,	PUNCT	_	_	45	punct	_	_
@@ -41589,7 +41591,7 @@
 3	ces	ce	DET	_	Number=Plur|PronType=Dem	4	det	_	_
 4	responsables	responsable	NOUN	_	Number=Plur	17	nsubj:pass	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
-6	vu	voir	VERB	_	ExtPos=ADP	8	case	_	_
+6	vu	voir	VERB	_	ExtPos=ADP|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	case	_	Tense[denom]=Past
 7	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	8	det	_	_
 8	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	17	obl:mod	_	Exponence[Gender]=Inherent
 9-10	au	_	_	_	_	_	_	_	_
