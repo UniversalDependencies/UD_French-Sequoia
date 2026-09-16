@@ -154,32 +154,30 @@
 
 # sent_id = annodis.er_00006
 # text = Tout au long des années, de nouveaux sites furent créés, notamment à Haironville, puis plus tard à Ancerville.
-1	Tout	tout	ADV	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
-2-3	au	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	InIdiom=Yes
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	InIdiom=Yes
-4	long	long	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
-5-6	des	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	années	année	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
-8	,	,	PUNCT	_	_	1	punct	_	_
-9	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
-10	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
-11	sites	site	NOUN	_	Gender=Masc|Number=Plur	13	nsubj:pass	_	Exponence[Gender]=Inherent
-12	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
-13	créés	créer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
-14	,	,	PUNCT	_	_	17	punct	_	_
-15	notamment	notamment	ADV	_	_	17	advmod	_	_
-16	à	à	ADP	_	_	17	case	_	_
-17	Haironville	Haironville	PROPN	_	Gender=Masc|Number=Sing	13	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-18	,	,	PUNCT	_	_	23	punct	_	_
-19	puis	puis	CCONJ	_	_	23	cc	_	_
-20	plus	plus	ADV	_	_	21	advmod	_	_
-21	tard	tard	ADV	_	_	23	advmod	_	_
-22	à	à	ADP	_	_	23	case	_	_
-23	Ancerville	Ancerville	PROPN	_	Gender=Masc|Number=Sing	17	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
-24	.	.	PUNCT	_	_	13	punct	_	_
+1	Tout	tout	ADV	_	ExtPos=ADV	12	advmod	_	Idiom=Yes
+2	au	au	ADP	_	_	1	fixed	_	InIdiom=Yes
+3	long	long	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
+4-5	des	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	années	année	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
+7	,	,	PUNCT	_	_	1	punct	_	_
+8	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+9	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+10	sites	site	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	Exponence[Gender]=Inherent
+11	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
+12	créés	créer	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No|Tense[denom]=Past
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	notamment	notamment	ADV	_	_	16	advmod	_	_
+15	à	à	ADP	_	_	16	case	_	_
+16	Haironville	Haironville	PROPN	_	Gender=Masc|Number=Sing	12	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
+17	,	,	PUNCT	_	_	22	punct	_	_
+18	puis	puis	CCONJ	_	_	22	cc	_	_
+19	plus	plus	ADV	_	_	20	advmod	_	_
+20	tard	tard	ADV	_	_	22	advmod	_	_
+21	à	à	ADP	_	_	22	case	_	_
+22	Ancerville	Ancerville	PROPN	_	Gender=Masc|Number=Sing	16	conj	_	Exponence[Gender]=Inherent|SpaceAfter=No
+23	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = annodis.er_00007
 # text = Amélioration de la sécurité
@@ -4829,31 +4827,29 @@
 # text = Dans la foulée, seize membres de la batterie -c'est du moins le nombre qu'ils avancent- rendaient également leur tablier.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	foulée	foulée	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
+3	foulée	foulée	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	seize	seize	NUM	_	Number=Plur|NumType=Card	6	nummod	_	Exponence[Number]=Inherent
-6	membres	membre	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	Exponence[Gender]=Inherent
+6	membres	membre	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	Exponence[Gender]=Inherent
 7	de	de	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	batterie	batterie	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent
-10	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
-11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	nsubj	_	SpaceAfter=No
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
-13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	ExtPos=ADV	17	advmod	_	Idiom=Yes
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	fixed	_	InIdiom=Yes
-15	moins	moins	ADV	_	_	13	fixed	_	InIdiom=Yes
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	6	parataxis:insert	_	Exponence[Gender]=Inherent
-18	qu'	que	PRON	_	PronType=Rel	20	obj	_	SpaceAfter=No
-19	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
-20	avancent	avancer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
-21	-	-	PUNCT	_	_	17	punct	_	_
-22	rendaient	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-23	également	également	ADV	_	_	22	advmod	_	_
-24	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	_
-25	tablier	tablier	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
-26	.	.	PUNCT	_	_	22	punct	_	_
+10	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+13	du	du	ADP	_	ExtPos=ADV	16	advmod	_	Idiom=Yes
+14	moins	moins	ADV	_	_	13	fixed	_	InIdiom=Yes
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	6	parataxis:insert	_	Exponence[Gender]=Inherent
+17	qu'	que	PRON	_	PronType=Rel	19	obj	_	SpaceAfter=No
+18	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+19	avancent	avancer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	16	punct	_	_
+21	rendaient	rendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+22	également	également	ADV	_	_	21	advmod	_	_
+23	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	24	det	_	_
+24	tablier	tablier	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
+25	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = annodis.er_00181
 # text = Pour soutenir "le chef", comme l'explique un des démissionnaires.
@@ -4904,19 +4900,17 @@
 
 # sent_id = annodis.er_00183
 # text = Au delà de cette querelle, l'affaire est triste.
-1-2	Au	_	_	_	_	_	_	_	_
-1	À	à	ADP	_	ExtPos=ADV	11	advmod	_	Idiom=Yes
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	InIdiom=Yes
-3	delà	delà	ADV	_	_	1	fixed	_	InIdiom=Yes
-4	de	de	ADP	_	_	6	case	_	_
-5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
-6	querelle	querelle	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
-7	,	,	PUNCT	_	_	1	punct	_	_
-8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	Exponence[Gender]=Absent|SpaceAfter=No
-9	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-11	triste	triste	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Absent|SpaceAfter=No
-12	.	.	PUNCT	_	_	11	punct	_	_
+1	Au	au	ADP	_	ExtPos=ADV	10	advmod	_	Idiom=Yes|wordform=au
+2	delà	delà	ADV	_	_	1	fixed	_	InIdiom=Yes
+3	de	de	ADP	_	_	5	case	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	querelle	querelle	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Exponence[Gender]=Absent|SpaceAfter=No
+8	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	Exponence[Gender]=Inherent
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	triste	triste	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Absent|SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = annodis.er_00184
 # text = Triste pour les musiciens qui, en majorité, faisaient partie de la batterie depuis au moins trente ans.
@@ -4934,14 +4928,12 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	batterie	batterie	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	Exponence[Gender]=Inherent
-15	depuis	depuis	ADP	_	_	20	case	_	_
-16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	ExtPos=ADV	20	advmod	_	Idiom=Yes
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	InIdiom=Yes
-18	moins	moins	ADV	_	_	16	fixed	_	InIdiom=Yes
-19	trente	trente	NUM	_	Number=Plur|NumType=Card	20	nummod	_	Exponence[Number]=Inherent
-20	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-21	.	.	PUNCT	_	_	1	punct	_	_
+15	depuis	depuis	ADP	_	_	19	case	_	_
+16	au	au	ADP	_	ExtPos=ADV	19	advmod	_	Idiom=Yes
+17	moins	moins	ADV	_	_	16	fixed	_	InIdiom=Yes
+18	trente	trente	NUM	_	Number=Plur|NumType=Card	19	nummod	_	Exponence[Number]=Inherent
+19	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = annodis.er_00185
 # text = Mais désolante aussi pour la ville.
@@ -5196,12 +5188,10 @@
 17	régler	régler	VERB	_	VerbForm=Inf	15	xcomp	_	Subject=OblRaising
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	problème	problème	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	Exponence[Gender]=Inherent
-20-21	au	_	_	_	_	_	_	_	_
-20	à	à	ADP	_	ExtPos=ADV	17	advmod	_	Idiom=Yes
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	InIdiom=Yes
-22	plus	plus	ADV	_	_	20	fixed	_	InIdiom=Yes
-23	vite	vite	ADV	_	_	20	fixed	_	InIdiom=Yes|SpaceAfter=No
-24	.	.	PUNCT	_	_	15	punct	_	_
+20	au	au	ADP	_	ExtPos=ADV	17	advmod	_	Idiom=Yes
+21	plus	plus	ADV	_	_	20	fixed	_	InIdiom=Yes
+22	vite	vite	ADV	_	_	20	fixed	_	InIdiom=Yes|SpaceAfter=No
+23	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = annodis.er_00197
 # text = à titre de rappel : nos chers bambins sont toujours dans le noir, sans salle d'attente chauffée, sans toilettes et sans lumière.
@@ -6000,18 +5990,16 @@
 33	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	35	expl:pass	_	SpaceAfter=No
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux:tense	_	_
 35	affaibli	affaiblir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	21	conj	_	Tense[denom]=Past
-36-37	au	_	_	_	_	_	_	_	_
-36	à	à	ADP	_	ExtPos=ADV	35	advmod	_	Idiom=Yes
-37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	fixed	_	InIdiom=Yes
-38	fur	fur	NOUN	_	Gender=Masc|Number=Sing	36	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
-39	et	et	CCONJ	_	_	36	fixed	_	InIdiom=Yes
-40	à	à	ADP	_	_	36	fixed	_	InIdiom=Yes
-41	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	36	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
-42-43	du	_	_	_	_	_	_	_	_
-42	de	de	ADP	_	_	44	case	_	_
-43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-44	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	36	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
-45	.	.	PUNCT	_	_	16	punct	_	_
+36	au	au	ADP	_	ExtPos=ADV	35	advmod	_	Idiom=Yes
+37	fur	fur	NOUN	_	Gender=Masc|Number=Sing	36	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
+38	et	et	CCONJ	_	_	36	fixed	_	InIdiom=Yes
+39	à	à	ADP	_	_	36	fixed	_	InIdiom=Yes
+40	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	36	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
+41-42	du	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	43	case	_	_
+42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	tournoi	tournoi	NOUN	_	Gender=Masc|Number=Sing	36	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
+44	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = annodis.er_00231
 # text = On continue à optimiser nos points forts et à travailler nos faiblesses."
@@ -9980,31 +9968,29 @@
 
 # sent_id = annodis.er_00383
 # text = Tout au plus ont-ils appris qu'elle était partie sans prendre soin de mettre des vêtements chauds malgré la rigueur hivernale.
-1	Tout	tout	ADV	_	ExtPos=ADV	7	advmod	_	Idiom=Yes
-2-3	au	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	InIdiom=Yes
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	InIdiom=Yes
-4	plus	plus	ADV	_	_	1	fixed	_	InIdiom=Yes
-5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	SpaceAfter=No
-6	-ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
-7	appris	apprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
-8	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
-9	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
-10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux:tense	_	_
-11	partie	partir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	7	ccomp	_	Tense[denom]=Past
-12	sans	sans	ADP	_	_	13	mark	_	_
-13	prendre	prendre	VERB	_	VerbForm=Inf	11	advcl	_	Subject=Instantiated
-14	soin	soin	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	Exponence[Gender]=Inherent
-15	de	de	ADP	_	_	16	mark	_	_
-16	mettre	mettre	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising
-17	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
-18	vêtements	vêtement	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	Exponence[Gender]=Inherent
-19	chauds	chaud	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
-20	malgré	malgré	ADP	_	_	22	case	_	_
-21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	rigueur	rigueur	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent
-23	hivernale	hivernal	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	7	punct	_	_
+1	Tout	tout	ADV	_	ExtPos=ADV	6	advmod	_	Idiom=Yes
+2	au	au	ADP	_	_	1	fixed	_	InIdiom=Yes
+3	plus	plus	ADV	_	_	1	fixed	_	InIdiom=Yes
+4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	SpaceAfter=No
+5	-ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	appris	apprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
+7	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
+8	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	_
+10	partie	partir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	6	ccomp	_	Tense[denom]=Past
+11	sans	sans	ADP	_	_	12	mark	_	_
+12	prendre	prendre	VERB	_	VerbForm=Inf	10	advcl	_	Subject=Instantiated
+13	soin	soin	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	Exponence[Gender]=Inherent
+14	de	de	ADP	_	_	15	mark	_	_
+15	mettre	mettre	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
+16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
+17	vêtements	vêtement	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	Exponence[Gender]=Inherent
+18	chauds	chaud	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	malgré	malgré	ADP	_	_	21	case	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	rigueur	rigueur	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	Exponence[Gender]=Inherent
+22	hivernale	hivernal	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = annodis.er_00384
 # text = Des fouilles dans le bois de Courcelles étaient effectuées.

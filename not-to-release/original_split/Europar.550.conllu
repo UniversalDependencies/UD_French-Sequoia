@@ -2002,15 +2002,13 @@
 21	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	Exponence[Gender]=Inherent
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	notion	notion	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	Exponence[Gender]=Inherent
-24-25	desdites	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	26	case	_	_
-25	lesdites	ledit	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-26	copies	copie	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	Exponence[Gender]=Inherent
-27	temporaires	temporaire	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	Exponence[Gender]=Absent
-28	dans	dans	ADP	_	_	30	case	_	_
-29	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	30	det	_	Exponence[Gender]=Absent
-30	avis	avis	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-31	.	.	PUNCT	_	_	8	punct	_	_
+24	desdites	de	ADP	_	_	25	case	_	wordform=de
+25	copies	copie	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	Exponence[Gender]=Inherent
+26	temporaires	temporaire	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	Exponence[Gender]=Absent
+27	dans	dans	ADP	_	_	29	case	_	_
+28	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	29	det	_	Exponence[Gender]=Absent
+29	avis	avis	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+30	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Europar.550_00058
 # text = Dans le traité de l'OMPI, on n'a pas consciemment pris position sur les copies temporaires.
@@ -3287,14 +3285,12 @@
 12	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
 13	le	le	DET	_	Definite=Def|ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	Idiom=Yes
 14	moins	moins	ADV	_	_	13	fixed	_	InIdiom=Yes
-15-16	du	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	13	fixed	_	InIdiom=Yes
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	fixed	_	InIdiom=Yes
-17	monde	monde	NOUN	_	Gender=Masc|Number=Sing	13	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
-18	à	à	ADP	_	_	20	case	_	_
-19	ces	ce	DET	_	Number=Plur|PronType=Dem	20	det	_	_
-20	tragédies	tragédie	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
-21	.	.	PUNCT	_	_	2	punct	_	_
+15	du	du	ADP	_	_	13	fixed	_	InIdiom=Yes
+16	monde	monde	NOUN	_	Gender=Masc|Number=Sing	13	fixed	_	Exponence[Gender]=Inherent|InIdiom=Yes
+17	à	à	ADP	_	_	19	case	_	_
+18	ces	ce	DET	_	Number=Plur|PronType=Dem	19	det	_	_
+19	tragédies	tragédie	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00110
 # text = Je trouve cela dramatique.
@@ -9650,23 +9646,21 @@
 
 # sent_id = Europar.550_00298
 # text = Celle-ci, du moins telle que nous la concevons, doit comporter deux éléments.
-1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	6	punct	_	_
-3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	ExtPos=ADV	6	advmod	_	Idiom=Yes
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	fixed	_	InIdiom=Yes
-5	moins	moins	ADV	_	_	3	fixed	_	InIdiom=Yes
-6	telle	tel	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
-7	que	que	SCONJ	_	_	10	mark	_	_
-8	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
-9	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
-10	concevons	concevoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	dep	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	6	punct	_	_
-12	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	comporter	comporter	VERB	_	VerbForm=Inf	12	xcomp	_	Subject=SubjRaising
-14	deux	deux	NUM	_	Number=Plur|NumType=Card	15	nummod	_	Exponence[Number]=Inherent
-15	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
-16	.	.	PUNCT	_	_	12	punct	_	_
+1	Celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	du	du	ADP	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
+4	moins	moins	ADV	_	_	3	fixed	_	InIdiom=Yes
+5	telle	tel	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	_
+6	que	que	SCONJ	_	_	9	mark	_	_
+7	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	la	lui	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	concevons	concevoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	dep	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	comporter	comporter	VERB	_	VerbForm=Inf	11	xcomp	_	Subject=SubjRaising
+13	deux	deux	NUM	_	Number=Plur|NumType=Card	14	nummod	_	Exponence[Number]=Inherent
+14	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
+15	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = Europar.550_00299
 # text = Le premier est qu'elle doit constituer une incitation et pas un obstacle -pas un obstacle, j'insiste-, une incitation pour tous les pays membres à une plus grande participation, en profondeur, aux procédures européennes.
@@ -9730,7 +9724,7 @@
 11	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	parataxis	_	_
 12	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 13	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
-14	que	que	SCONJ	_	_	47	mark	_	_
+14	que	que	SCONJ	_	_	46	mark	_	_
 15	si	si	SCONJ	_	_	31	mark	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 17	ou	ou	CCONJ	_	_	18	cc	_	_
@@ -9747,44 +9741,42 @@
 28	raison	raison	NOUN	_	Gender=Fem|Number=Sing	31	obl:mod	_	Exponence[Gender]=Inherent
 29	quelconque	quelconque	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
 30	,	,	PUNCT	_	_	28	punct	_	_
-31	souhaitent	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	advcl	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	39	punct	_	_
-33-34	du	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	ExtPos=ADV	39	advmod	_	Idiom=Yes
-34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	fixed	_	InIdiom=Yes
-35	moins	moins	ADV	_	_	33	fixed	_	InIdiom=Yes
-36	dans	dans	ADP	_	_	39	case	_	_
-37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-38	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	39	amod	_	_
-39	temps	temps	NOUN	_	Gender=Masc|Number=Sing	31	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-40	,	,	PUNCT	_	_	39	punct	_	_
-41	ne	ne	ADV	_	Polarity=Neg	43	advmod	_	_
-42	pas	pas	ADV	_	Polarity=Neg	43	advmod	_	_
-43	participer	participer	VERB	_	VerbForm=Inf	31	xcomp	_	SpaceAfter=No|Subject=SubjRaising
-44	,	,	PUNCT	_	_	31	punct	_	_
-45	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	47	nsubj	_	_
-46	ne	ne	ADV	_	Polarity=Neg	47	advmod	_	_
-47	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
-48	être	être	AUX	_	VerbForm=Inf	49	aux:pass	_	Subject=SubjRaising
-49	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	47	xcomp	_	Tense[denom]=Past
-50	pour	pour	ADP	_	_	52	case	_	_
-51	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
-52	exclusion	exclusion	NOUN	_	Gender=Fem|Number=Sing	49	obl:arg	_	Exponence[Gender]=Inherent
-53	ni	ni	CCONJ	_	_	56	cc	_	_
-54	pour	pour	ADP	_	_	56	case	_	_
-55	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
-56	limitation	limitation	NOUN	_	Gender=Fem|Number=Sing	52	conj	_	Exponence[Gender]=Inherent
-57	de	de	ADP	_	_	59	case	_	_
-58	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	59	det	_	_
-59	présence	présence	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	Exponence[Gender]=Inherent
-60-61	au	_	_	_	_	_	_	_	_
-60	à	à	ADP	_	_	62	case	_	_
-61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
-62	sein	sein	NOUN	_	Gender=Masc|Number=Sing	59	nmod	_	Exponence[Gender]=Inherent
-63	de	de	ADP	_	_	65	case	_	_
-64	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	Exponence[Gender]=Absent|SpaceAfter=No
-65	Union	union	NOUN	_	Gender=Fem|Number=Sing	62	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-66	.	.	PUNCT	_	_	6	punct	_	_
+31	souhaitent	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	advcl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	38	punct	_	_
+33	du	du	ADP	_	ExtPos=ADV	38	advmod	_	Idiom=Yes
+34	moins	moins	ADV	_	_	33	fixed	_	InIdiom=Yes
+35	dans	dans	ADP	_	_	38	case	_	_
+36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	premier	premier	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	38	amod	_	_
+38	temps	temps	NOUN	_	Gender=Masc|Number=Sing	31	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+39	,	,	PUNCT	_	_	38	punct	_	_
+40	ne	ne	ADV	_	Polarity=Neg	42	advmod	_	_
+41	pas	pas	ADV	_	Polarity=Neg	42	advmod	_	_
+42	participer	participer	VERB	_	VerbForm=Inf	31	xcomp	_	SpaceAfter=No|Subject=SubjRaising
+43	,	,	PUNCT	_	_	31	punct	_	_
+44	cela	cela	PRON	_	Number=Sing|Person=3|PronType=Dem	46	nsubj	_	_
+45	ne	ne	ADV	_	Polarity=Neg	46	advmod	_	_
+46	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+47	être	être	AUX	_	VerbForm=Inf	48	aux:pass	_	Subject=SubjRaising
+48	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	46	xcomp	_	Tense[denom]=Past
+49	pour	pour	ADP	_	_	51	case	_	_
+50	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	exclusion	exclusion	NOUN	_	Gender=Fem|Number=Sing	48	obl:arg	_	Exponence[Gender]=Inherent
+52	ni	ni	CCONJ	_	_	55	cc	_	_
+53	pour	pour	ADP	_	_	55	case	_	_
+54	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
+55	limitation	limitation	NOUN	_	Gender=Fem|Number=Sing	51	conj	_	Exponence[Gender]=Inherent
+56	de	de	ADP	_	_	58	case	_	_
+57	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	58	det	_	_
+58	présence	présence	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	Exponence[Gender]=Inherent
+59-60	au	_	_	_	_	_	_	_	_
+59	à	à	ADP	_	_	61	case	_	_
+60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	sein	sein	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	Exponence[Gender]=Inherent
+62	de	de	ADP	_	_	64	case	_	_
+63	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	Exponence[Gender]=Absent|SpaceAfter=No
+64	Union	union	NOUN	_	Gender=Fem|Number=Sing	61	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
+65	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00301
 # text = Nous avons accompli bien des pas en avant et nous avons en tout cas deux exemples de coopération renforcée : les accords de Schengen et l'union économique et monétaire proprement dite.
@@ -10738,12 +10730,10 @@
 16	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	être	être	AUX	_	VerbForm=Inf	18	aux:pass	_	Subject=SubjRaising
 18	envoyées	envoyer	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	16	xcomp	_	Tense[denom]=Past
-19-20	au	_	_	_	_	_	_	_	_
-19	à	à	ADP	_	ExtPos=ADV	18	advmod	_	Idiom=Yes
-20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	_	InIdiom=Yes
-21	plus	plus	ADV	_	_	19	fixed	_	InIdiom=Yes
-22	vite	vite	ADV	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
-23	.	.	PUNCT	_	_	16	punct	_	_
+19	au	au	ADP	_	ExtPos=ADV	18	advmod	_	Idiom=Yes
+20	plus	plus	ADV	_	_	19	fixed	_	InIdiom=Yes
+21	vite	vite	ADV	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
+22	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = Europar.550_00330
 # text = Encore faut-il que les pays de la zone mettent tout en oeuvre pour faciliter cet acheminement : ouverture des ports, des routes et des infrastructures.
@@ -11460,23 +11450,21 @@
 32	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 33	pas	pas	ADV	_	Polarity=Neg	34	advmod	_	_
 34	encore	encore	ADV	_	_	32	advmod	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	41	punct	_	_
-36-37	du	_	_	_	_	_	_	_	_
-36	de	de	ADP	_	ExtPos=ADV	41	advmod	_	Idiom=Yes
-37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	fixed	_	InIdiom=Yes
-38	moins	moins	ADV	_	_	36	fixed	_	InIdiom=Yes
-39	à	à	ADP	_	_	41	case	_	_
-40	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	41	det	_	Exponence[Gender]=Absent
-41	avis	avis	NOUN	_	Gender=Masc|Number=Sing	32	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
-42	,	,	PUNCT	_	_	41	punct	_	_
-43	comment	comment	ADV	_	PronType=Int	46	advmod	_	_
-44	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	46	nsubj:pass	_	_
-45	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	46	aux:pass	_	_
-46	déboursé	débourser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	ccomp	_	Tense[denom]=Past
-47	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	Exponence[Gender]=Absent|SpaceAfter=No
-48	année	année	NOUN	_	Gender=Fem|Number=Sing	46	obl:mod	_	Exponence[Gender]=Inherent
-49	prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	2	punct	_	_
+35	,	,	PUNCT	_	_	40	punct	_	_
+36	du	du	ADP	_	ExtPos=ADV	40	advmod	_	Idiom=Yes
+37	moins	moins	ADV	_	_	36	fixed	_	InIdiom=Yes
+38	à	à	ADP	_	_	40	case	_	_
+39	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	40	det	_	Exponence[Gender]=Absent
+40	avis	avis	NOUN	_	Gender=Masc|Number=Sing	32	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
+41	,	,	PUNCT	_	_	40	punct	_	_
+42	comment	comment	ADV	_	PronType=Int	45	advmod	_	_
+43	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	45	nsubj:pass	_	_
+44	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	45	aux:pass	_	_
+45	déboursé	débourser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	32	ccomp	_	Tense[denom]=Past
+46	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	Exponence[Gender]=Absent|SpaceAfter=No
+47	année	année	NOUN	_	Gender=Fem|Number=Sing	45	obl:mod	_	Exponence[Gender]=Inherent
+48	prochaine	prochain	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00351
 # text = La question que je pose au commissaire est donc de savoir comment les choses se présentent pour la première année, l'an 2001.
@@ -14158,30 +14146,28 @@
 11	incitants	incitant	NOUN	_	Number=Plur	6	conj	_	_
 12	pour	pour	ADP	_	_	13	mark	_	_
 13	promouvoir	promouvoir	VERB	_	VerbForm=Inf	4	advcl	_	Subject=Instantiated
-14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	fixed	_	InIdiom=Yes
-16	plus	plus	ADV	_	_	14	fixed	_	InIdiom=Yes
-17	vite	vite	ADV	_	_	14	fixed	_	InIdiom=Yes
-18	ces	ce	DET	_	Number=Plur|PronType=Dem	19	det	_	_
-19	projets	projet	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	Exponence[Gender]=Inherent
-20	prioritaires	prioritaire	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	Exponence[Gender]=Absent
-21	et	et	CCONJ	_	_	31	cc	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	31	punct	_	_
-23	en	en	ADP	_	_	24	case	_	_
-24	coordination	coordination	NOUN	_	Gender=Fem|Number=Sing	31	obl:mod	_	Exponence[Gender]=Inherent
-25	avec	avec	ADP	_	_	27	case	_	_
-26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
-27	États	état	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	Exponence[Gender]=Inherent
-28	membres	membre	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	Exponence[Gender]=Inherent
-29	concernés	concerner	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	27	acl	_	SpaceAfter=No|Tense[denom]=Past
-30	,	,	PUNCT	_	_	24	punct	_	_
-31	arrêter	arrêter	VERB	_	VerbForm=Inf	4	conj	_	Subject=Instantiated
-32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	calendrier	calendrier	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	Exponence[Gender]=Inherent
-34	d'	de	ADP	_	_	35	case	_	SpaceAfter=No
-35	exécution	exécution	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-36	.	.	PUNCT	_	_	3	punct	_	_
+14	au	au	ADP	_	ExtPos=ADV	13	advmod	_	Idiom=Yes
+15	plus	plus	ADV	_	_	14	fixed	_	InIdiom=Yes
+16	vite	vite	ADV	_	_	14	fixed	_	InIdiom=Yes
+17	ces	ce	DET	_	Number=Plur|PronType=Dem	18	det	_	_
+18	projets	projet	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	Exponence[Gender]=Inherent
+19	prioritaires	prioritaire	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	Exponence[Gender]=Absent
+20	et	et	CCONJ	_	_	30	cc	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	30	punct	_	_
+22	en	en	ADP	_	_	23	case	_	_
+23	coordination	coordination	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	Exponence[Gender]=Inherent
+24	avec	avec	ADP	_	_	26	case	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	États	état	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	Exponence[Gender]=Inherent
+27	membres	membre	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	Exponence[Gender]=Inherent
+28	concernés	concerner	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	26	acl	_	SpaceAfter=No|Tense[denom]=Past
+29	,	,	PUNCT	_	_	23	punct	_	_
+30	arrêter	arrêter	VERB	_	VerbForm=Inf	4	conj	_	Subject=Instantiated
+31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	calendrier	calendrier	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	Exponence[Gender]=Inherent
+33	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
+34	exécution	exécution	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
+35	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Europar.550_00437
 # text = Non, Madame van der Laan, vous devriez savoir qu'aux termes du règlement, cette demande aurait dû être introduite selon les formes et dans les temps, ce qui n'a pas été le cas.
