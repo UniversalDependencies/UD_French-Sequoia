@@ -1217,9 +1217,9 @@
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	fracture	fracture	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	Exponence[Gender]=Inherent
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	92	92	NUM	_	Number=Plur|NumType=Card	18	appos	_	Exponence[Number]=Inherent
+29	92	92	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	18	appos	_	Exponence[Number]=Inherent
 30	sur	sur	ADP	_	_	31	case	_	_
-31	1 065	1 065	NUM	_	Number=Plur|NumType=Card	29	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+31	1 065	1 065	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	29	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	29	punct	_	_
 34	contre	contre	ADP	_	_	36	case	_	_
@@ -1232,9 +1232,9 @@
 40	sous	sous	ADP	_	_	41	case	_	_
 41	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	Exponence[Gender]=Inherent
 42	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-43	139	139	NUM	_	Number=Plur|NumType=Card	36	appos	_	Exponence[Number]=Inherent
+43	139	139	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	36	appos	_	Exponence[Number]=Inherent
 44	sur	sur	ADP	_	_	45	case	_	_
-45	1 062	1 062	NUM	_	Number=Plur|NumType=Card	43	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+45	1 062	1 062	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	43	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 46	)	)	PUNCT	_	_	43	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	36	punct	_	_
 
@@ -1398,7 +1398,7 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	patient	patient	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	Exponence[Gender]=Inherent
 16	sur	sur	ADP	_	_	17	case	_	_
-17	10	10	NUM	_	Number=Plur|NumType=Card	15	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+17	10	10	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	15	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 18	)	)	PUNCT	_	_	10	punct	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -1792,9 +1792,9 @@
 24	Limited	Limited	X	_	Foreign=Yes	22	flat:name	_	Lang=en|SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	15	15	NUM	_	Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent
+27	15	15	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent
 28	avril	avril	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	Exponence[Gender]=Inherent
-29	2005	2005	NUM	_	Number=Sing|NumType=Card	28	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+29	2005	2005	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	28	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00062
@@ -1822,7 +1822,7 @@
 7	présent	présent	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	résumé	résumé	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
 9	:	:	PUNCT	_	_	10	punct	_	_
-10	09-2008	09-2008	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+10	09-2008	09-2008	NUM	_	ExtPos=PROPN|NumType=Card	2	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = emea-fr-test_00064
@@ -2191,7 +2191,7 @@
 36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	voir	voir	VERB	_	VerbForm=Inf	19	parataxis:insert	_	Subject=Generic
 38	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	Exponence[Gender]=Inherent
-39	5.1	5.1	NUM	_	Number=Sing|NumType=Card	38	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+39	5.1	5.1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	38	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 40	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -2295,7 +2295,7 @@
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	voir	voir	VERB	_	VerbForm=Inf	4	parataxis:insert	_	Subject=Generic
 30	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	Exponence[Gender]=Inherent
-31	5.1	5.1	NUM	_	Number=Sing|NumType=Card	30	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+31	5.1	5.1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	30	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2371,7 +2371,7 @@
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	voir	voir	VERB	_	VerbForm=Inf	0	root	_	Subject=Generic
 12	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	Exponence[Gender]=Inherent
-13	6.6	6.6	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+13	6.6	6.6	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = emea-fr-test_00091
@@ -2485,7 +2485,7 @@
 52	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
 53	voir	voir	VERB	_	VerbForm=Inf	17	parataxis:insert	_	Subject=Generic
 54	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	53	obj	_	Exponence[Gender]=Inherent
-55	4.4	4.4	NUM	_	Number=Sing|NumType=Card	54	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+55	4.4	4.4	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	54	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 56	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
 57	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -2584,7 +2584,7 @@
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	voir	voir	VERB	_	VerbForm=Inf	1	parataxis:insert	_	Subject=Generic
 6	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	Exponence[Gender]=Inherent
-7	4.4	4.4	NUM	_	Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+7	4.4	4.4	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 8	)	)	PUNCT	_	_	5	punct	_	_
 
 # sent_id = emea-fr-test_00098
@@ -2669,7 +2669,7 @@
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	voir	voir	VERB	_	VerbForm=Inf	8	parataxis:insert	_	Subject=Generic
 11	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Exponence[Gender]=Inherent
-12	5.2	5.2	NUM	_	Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+12	5.2	5.2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 13	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2791,7 +2791,7 @@
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 12	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	Exponence[Gender]=Inherent
-13	4.4	4.4	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+13	4.4	4.4	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -2810,7 +2810,7 @@
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 13	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	Exponence[Gender]=Inherent
-14	4.6	4.6	NUM	_	Number=Sing|NumType=Card	13	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+14	4.6	4.6	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	13	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 15	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -2947,7 +2947,7 @@
 37	,	,	PUNCT	_	_	4	punct	_	_
 38	voir	voir	VERB	_	VerbForm=Inf	4	parataxis:insert	_	Subject=Generic
 39	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	Exponence[Gender]=Inherent
-40	4.5	4.5	NUM	_	Number=Sing|NumType=Card	39	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+40	4.5	4.5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	39	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 41	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = emea-fr-test_00114
@@ -2980,7 +2980,7 @@
 25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	voir	voir	VERB	_	VerbForm=Inf	4	parataxis:insert	_	Subject=Generic
 27	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	Exponence[Gender]=Inherent
-28	4.3	4.3	NUM	_	Number=Sing|NumType=Card	27	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+28	4.3	4.3	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	27	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 29	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -3103,7 +3103,7 @@
 44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
 45	voir	voir	VERB	_	VerbForm=Inf	25	parataxis:insert	_	Subject=Generic
 46	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	Exponence[Gender]=Inherent
-47	4.8	4.8	NUM	_	Number=Sing|NumType=Card	46	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+47	4.8	4.8	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	46	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 48	)	)	PUNCT	_	_	45	punct	_	SpaceAfter=No
 49	.	.	PUNCT	_	_	25	punct	_	_
 
@@ -3161,7 +3161,7 @@
 50	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
 51	voir	voir	VERB	_	VerbForm=Inf	16	parataxis:insert	_	Subject=Generic
 52	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	51	obj	_	Exponence[Gender]=Inherent
-53	4.2	4.2	NUM	_	Number=Sing|NumType=Card	52	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+53	4.2	4.2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	52	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 54	)	)	PUNCT	_	_	51	punct	_	SpaceAfter=No
 55	.	.	PUNCT	_	_	16	punct	_	_
 
@@ -3614,7 +3614,7 @@
 25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
 26	voir	voir	VERB	_	VerbForm=Inf	7	parataxis:insert	_	Subject=Generic
 27	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	Exponence[Gender]=Inherent
-28	5.2	5.2	NUM	_	Number=Sing|NumType=Card	27	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+28	5.2	5.2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	27	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 29	)	)	PUNCT	_	_	26	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -3773,7 +3773,7 @@
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	voir	voir	VERB	_	VerbForm=Inf	12	parataxis:insert	_	Subject=Generic
 26	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	Exponence[Gender]=Inherent
-27	5.3	5.3	NUM	_	Number=Sing|NumType=Card	26	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+27	5.3	5.3	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	26	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 28	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -3827,7 +3827,7 @@
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 15	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	Exponence[Gender]=Inherent
-16	4.3	4.3	NUM	_	Number=Sing|NumType=Card	15	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+16	4.3	4.3	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	15	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 17	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4084,7 +4084,7 @@
 34	(	(	PUNCT	_	_	35	punct	_	SpaceAfter=No
 35	voir	voir	VERB	_	VerbForm=Inf	17	parataxis:insert	_	Subject=Generic
 36	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	Exponence[Gender]=Inherent
-37	4.2	4.2	NUM	_	Number=Sing|NumType=Card	36	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+37	4.2	4.2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	36	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 38	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -4102,7 +4102,7 @@
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	voir	voir	VERB	_	VerbForm=Inf	3	parataxis	_	Subject=Generic
 12	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	Exponence[Gender]=Inherent
-13	5.1	5.1	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+13	5.1	5.1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -4119,22 +4119,22 @@
 26	2,5	2,5	NUM	_	Number=Plur|NumType=Card	27	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 27	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	96	96	NUM	_	Number=Plur|NumType=Card	27	appos	_	Exponence[Number]=Inherent
+29	96	96	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	27	appos	_	Exponence[Number]=Inherent
 30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
-32	3 862	3 862	NUM	_	Number=Plur|NumType=Card	29	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+32	3 862	3 862	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	29	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 33	)	)	PUNCT	_	_	29	punct	_	_
 34	et	et	CCONJ	_	_	37	cc	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	1,9	1,9	NUM	_	Number=Plur|NumType=Card	37	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 37	%	%	SYM	_	ExtPos=NOUN|Number=Plur	27	conj	_	_
 38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
-39	75	75	NUM	_	Number=Plur|NumType=Card	37	appos	_	Exponence[Number]=Inherent
+39	75	75	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	37	appos	_	Exponence[Number]=Inherent
 40-41	des	_	_	_	_	_	_	_	_
 40	de	de	ADP	_	_	42	case	_	_
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
-42	3 852	3 852	NUM	_	Number=Plur|NumType=Card	39	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+42	3 852	3 852	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	39	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 43	)	)	PUNCT	_	_	39	punct	_	_
 44	chez	chez	ADP	_	_	46	case	_	_
 45	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	46	det	_	_
@@ -4164,9 +4164,9 @@
 13	1,3	1,3	NUM	_	Number=Plur|NumType=Card	14	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	51	51	NUM	_	Number=Plur|NumType=Card	14	appos	_	Exponence[Number]=Inherent
+16	51	51	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	14	appos	_	Exponence[Number]=Inherent
 17	sur	sur	ADP	_	_	18	case	_	_
-18	3 862	3 862	NUM	_	Number=Plur|NumType=Card	16	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+18	3 862	3 862	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	16	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
 20	chez	chez	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -4179,9 +4179,9 @@
 28	0,6	0,6	NUM	_	Number=Plur|NumType=Card	29	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	obl:arg	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	22	22	NUM	_	Number=Plur|NumType=Card	29	appos	_	Exponence[Number]=Inherent
+31	22	22	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	29	appos	_	Exponence[Number]=Inherent
 32	sur	sur	ADP	_	_	33	case	_	_
-33	3 852	3 852	NUM	_	Number=Plur|NumType=Card	31	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+33	3 852	3 852	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	31	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 34	)	)	PUNCT	_	_	31	punct	_	_
 35	chez	chez	ADP	_	_	37	case	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
@@ -4298,43 +4298,43 @@
 4	très	très	ADV	_	_	5	advmod	_	_
 5	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
-7	1/10	1/10	NUM	_	Number=Sing|NumType=Card	5	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
+7	1/10	1/10	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	5	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
 8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	1/100	1/100	NUM	_	Number=Sing|NumType=Card	10	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
+12	1/100	1/100	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	10	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	<	<	SYM	_	ExtPos=ADP	15	case	_	_
-15	1/10	1/10	NUM	_	Number=Sing|NumType=Card	12	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
+15	1/10	1/10	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	peu	peu	ADV	_	_	19	advmod	_	_
 19	fréquents	fréquent	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	1/1000	1/1000	NUM	_	NumType=Card	19	parataxis:insert	_	SpaceAfter=No
+21	1/1000	1/1000	NUM	_	ExtPos=PROPN|NumType=Card	19	parataxis:insert	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	<	<	SYM	_	ExtPos=ADP	24	case	_	_
-24	1/100	1/100	NUM	_	NumType=Card	21	conj	_	SpaceAfter=No
+24	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	21	conj	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	24	punct	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	rares	rare	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	Exponence[Gender]=Absent
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	1	1	NUM	_	Number=Sing|NumType=Card	27	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
+29	1	1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	27	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
 30	/	/	SYM	_	ExtPos=ADP	31	case	_	SpaceAfter=No
-31	10 000	10 000	NUM	_	Number=Sing|NumType=Card	29	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+31	10 000	10 000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	29	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	<	<	SYM	_	ExtPos=ADP	34	case	_	_
-34	1	1	NUM	_	Number=Sing|NumType=Card	29	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
+34	1	1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	29	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
 35	/	/	SYM	_	ExtPos=ADP	36	case	_	SpaceAfter=No
-36	1 000	1 000	NUM	_	Number=Sing|NumType=Card	34	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+36	1 000	1 000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	34	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 37	)	)	PUNCT	_	_	34	punct	_	_
 38	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
 39	présentés	présenter	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 40	dans	dans	ADP	_	_	42	case	_	_
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	39	obl:mod	_	Exponence[Gender]=Inherent
-43	1	1	NUM	_	Number=Sing|NumType=Card	42	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+43	1	1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	42	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 44	.	.	PUNCT	_	_	39	punct	_	_
 
 # sent_id = emea-fr-test_00160
@@ -4942,7 +4942,7 @@
 57	voir	voir	VERB	_	VerbForm=Inf	5	parataxis:insert	_	Subject=Generic
 58	également	également	ADV	_	_	57	advmod	_	_
 59	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	57	obj	_	Exponence[Gender]=Inherent
-60	4.2	4.2	NUM	_	Number=Sing|NumType=Card	59	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+60	4.2	4.2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	59	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 61	)	)	PUNCT	_	_	57	punct	_	SpaceAfter=No
 62	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -4991,7 +4991,7 @@
 40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	voir	voir	VERB	_	VerbForm=Inf	12	parataxis:insert	_	Subject=Generic
 42	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	Exponence[Gender]=Inherent
-43	4.2	4.2	NUM	_	Number=Sing|NumType=Card	42	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+43	4.2	4.2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	42	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 44	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -5225,7 +5225,7 @@
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 25	voir	voir	VERB	_	VerbForm=Inf	12	parataxis:insert	_	Subject=Generic
 26	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	Exponence[Gender]=Inherent
-27	4.4	4.4	NUM	_	Number=Sing|NumType=Card	26	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+27	4.4	4.4	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	26	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 28	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -5591,7 +5591,7 @@
 54	de	de	ADP	_	_	56	case	_	_
 55	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	fémur	fémur	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-57	-1,5	-1,5	NUM	_	NumType=Card	50	nmod	_	_
+57	-1,5	-1,5	NUM	_	ExtPos=PROPN|NumType=Card	50	nmod	_	_
 58	et	et	CCONJ	_	_	62	cc	_	_
 59	au	au	ADP	_	ExtPos=ADV	62	advmod	_	Idiom=Yes
 60	moins	moins	ADV	_	_	59	fixed	_	InIdiom=Yes
@@ -5616,7 +5616,7 @@
 77	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	_	_
 78	fémur	fémur	NOUN	_	Gender=Masc|Number=Sing	75	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 79	-	-	ADV	_	_	72	advmod	_	_
-80	2,5	2,5	NUM	_	Number=Sing|NumType=Card	72	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+80	2,5	2,5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	72	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 81	,	,	PUNCT	_	_	85	punct	_	_
 82	avec	avec	ADP	_	_	85	case	_	_
 83	ou	ou	CCONJ	_	_	84	cc	_	_
@@ -5793,7 +5793,7 @@
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 29	voir	voir	VERB	_	VerbForm=Inf	3	parataxis:insert	_	Subject=Generic
 30	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	Exponence[Gender]=Inherent
-31	2	2	NUM	_	Number=Sing|NumType=Card	30	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+31	2	2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	30	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -5896,7 +5896,7 @@
 35	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 36	p	p	NOUN	_	_	38	nsubj	_	_
 37	<	<	SYM	_	ExtPos=ADP	38	case	_	_
-38	0,0001	0,0001	NUM	_	NumType=Card	27	parataxis:insert	_	SpaceAfter=No
+38	0,0001	0,0001	NUM	_	ExtPos=PROPN|NumType=Card	27	parataxis:insert	_	SpaceAfter=No
 39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -6049,7 +6049,7 @@
 # text = Le Tableau 3 présente une synthèse des résultats.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	Exponence[Gender]=Inherent
-3	3	3	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
+3	3	3	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
 4	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	synthèse	synthèse	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	Exponence[Gender]=Inherent
@@ -6062,7 +6062,7 @@
 # sent_id = emea-fr-test_00227
 # text = Tableau 3
 1	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
-2	3	3	NUM	_	Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
+2	3	3	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
 
 # sent_id = emea-fr-test_00228
 # text = Comparaisons des traitements concernant l'incidence des fractures cliniques sur une période de 3 ans
@@ -6094,7 +6094,7 @@
 # sent_id = emea-fr-test_00230
 # text = (1) A l'exclusion des fractures des doigts, des orteils et des os de la face
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	1	1	NUM	_	Number=Sing|NumType=Card	6	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
+2	1	1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 4	A	à	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -6124,7 +6124,7 @@
 # sent_id = emea-fr-test_00231
 # text = (2) Y compris fractures cliniques dorsales et fractures cliniques vertébrales lombaires
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	2	2	NUM	_	Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+2	2	2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 4	Y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	6	case	_	Idiom=Yes
 5	compris	compris	ADJ	_	Gender=Masc|Number=Sing	4	fixed	_	Exponence[Number]=Absent|InIdiom=Yes
@@ -6739,7 +6739,7 @@
 33	[	[	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	p	p	NOUN	_	_	36	nsubj	_	_
 35	<	<	SYM	_	ExtPos=ADP	36	case	_	_
-36	0,0001	0,0001	NUM	_	NumType=Card	22	conj	_	SpaceAfter=No
+36	0,0001	0,0001	NUM	_	ExtPos=PROPN|NumType=Card	22	conj	_	SpaceAfter=No
 37	]	]	PUNCT	_	_	36	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6830,7 +6830,7 @@
 36	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
 37	p	p	NOUN	_	_	39	nsubj	_	_
 38	<	<	SYM	_	ExtPos=ADP	39	case	_	_
-39	0,01	0,01	NUM	_	NumType=Card	4	parataxis:insert	_	_
+39	0,01	0,01	NUM	_	ExtPos=PROPN|NumType=Card	4	parataxis:insert	_	_
 40	pour	pour	ADP	_	_	43	case	_	_
 41	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	_
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
@@ -6956,7 +6956,7 @@
 14	inférieur	inférieur	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 15	à	à	ADP	_	_	17	case	_	SpaceAfter=No
 16	-	-	ADV	_	_	17	advmod	_	_
-17	2,5	2,5	NUM	_	Number=Sing|NumType=Card	14	obl:arg	_	Exponence[Number]=Inherent
+17	2,5	2,5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	14	obl:arg	_	Exponence[Number]=Inherent
 18	et	et	CCONJ	_	_	24	cc	_	_
 19	45	45	NUM	_	Number=Plur|NumType=Card	20	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 20	%	%	SYM	_	ExtPos=NOUN|Number=Plur	24	nsubj	_	_
@@ -6974,7 +6974,7 @@
 30	fémoral	fémoral	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
 31	supérieur	supérieur	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
 32	à	à	ADP	_	_	33	case	_	SpaceAfter=No
-33	-2,5	-2,5	NUM	_	NumType=Card	31	obl:arg	_	SpaceAfter=No
+33	-2,5	-2,5	NUM	_	ExtPos=PROPN|NumType=Card	31	obl:arg	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = emea-fr-test_00256
@@ -7157,7 +7157,7 @@
 11	dans	dans	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	Exponence[Gender]=Inherent
-14	4	4	NUM	_	Number=Sing|NumType=Card	13	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+14	4	4	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	13	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = emea-fr-test_00263
@@ -7307,7 +7307,7 @@
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 17	p	p	NOUN	_	_	18	nsubj	_	_
 18	=	=	SYM	_	ExtPos=VERB	2	parataxis:insert	_	_
-19	0,01	0,01	NUM	_	NumType=Card	18	obj	_	SpaceAfter=No
+19	0,01	0,01	NUM	_	ExtPos=PROPN|NumType=Card	18	obj	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -7331,7 +7331,7 @@
 16	entre	entre	ADP	_	_	17	case	_	_
 17	Aclasta	Aclasta	PROPN	_	_	15	obl:mod	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-19	34	34	NUM	_	Number=Sing|NumType=Card	17	parataxis:insert	_	Exponence[Number]=Inherent
+19	34	34	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	17	parataxis:insert	_	Exponence[Number]=Inherent
 20	[	[	PUNCT	_	_	22	punct	_	SpaceAfter=No
 21	3,2	3,2	NUM	_	Number=Plur|NumType=Card	22	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 22	%	%	SYM	_	ExtPos=NOUN|Number=Plur	19	appos	_	SpaceAfter=No
@@ -7341,7 +7341,7 @@
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	Exponence[Gender]=Inherent
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	29	29	NUM	_	Number=Sing|NumType=Card	27	parataxis:insert	_	Exponence[Number]=Inherent
+29	29	29	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	27	parataxis:insert	_	Exponence[Number]=Inherent
 30	[	[	PUNCT	_	_	32	punct	_	SpaceAfter=No
 31	2,7	2,7	NUM	_	Number=Plur|NumType=Card	32	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 32	%	%	SYM	_	ExtPos=NOUN|Number=Plur	29	appos	_	SpaceAfter=No
@@ -7763,26 +7763,26 @@
 24	96	96	NUM	_	NumType=Card	25	nummod	_	SpaceAfter=No
 25	%	%	SYM	_	ExtPos=NOUN|Number=Plur	9	nmod	_	_
 26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-27	169/176	169/176	NUM	_	NumType=Card	25	appos	_	SpaceAfter=No
+27	169/176	169/176	NUM	_	ExtPos=PROPN|NumType=Card	25	appos	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	27	punct	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
 30	89	89	NUM	_	NumType=Card	31	nummod	_	SpaceAfter=No
 31	%	%	SYM	_	ExtPos=NOUN|Number=Plur	25	conj	_	_
 32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
-33	156/176	156/176	NUM	_	NumType=Card	31	appos	_	SpaceAfter=No
+33	156/176	156/176	NUM	_	ExtPos=PROPN|NumType=Card	31	appos	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	33	punct	_	_
 35	comparé	comparer	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	9	acl	_	CorrectForm=comparés|CorrectNumber=Plur|Tense[denom]=Past
 36	à	à	ADP	_	_	38	case	_	_
 37	74	74	NUM	_	NumType=Card	38	nummod	_	SpaceAfter=No
 38	%	%	SYM	_	ExtPos=NOUN|Number=Plur	35	obl:arg	_	_
 39	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-40	127/171	127/171	NUM	_	NumType=Card	38	appos	_	SpaceAfter=No
+40	127/171	127/171	NUM	_	ExtPos=PROPN|NumType=Card	38	appos	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	40	punct	_	_
 42	et	et	CCONJ	_	_	44	cc	_	_
 43	58	58	NUM	_	NumType=Card	44	nummod	_	SpaceAfter=No
 44	%	%	SYM	_	ExtPos=NOUN|Number=Plur	38	conj	_	_
 45	(	(	PUNCT	_	_	46	punct	_	SpaceAfter=No
-46	99/171	99/171	NUM	_	NumType=Card	44	appos	_	SpaceAfter=No
+46	99/171	99/171	NUM	_	ExtPos=PROPN|NumType=Card	44	appos	_	SpaceAfter=No
 47	)	)	PUNCT	_	_	46	punct	_	_
 48	pour	pour	ADP	_	_	50	case	_	_
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
@@ -7790,7 +7790,7 @@
 51	(	(	PUNCT	_	_	54	punct	_	SpaceAfter=No
 52	p	p	NOUN	_	_	54	nsubj	_	_
 53	<	<	SYM	_	ExtPos=ADP	54	case	_	_
-54	0,001	0,001	NUM	_	NumType=Card	7	parataxis:insert	_	_
+54	0,001	0,001	NUM	_	ExtPos=PROPN|NumType=Card	7	parataxis:insert	_	_
 55	pour	pour	ADP	_	_	58	case	_	_
 56	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	58	amod	_	_
 57	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	58	det	_	_
@@ -8203,7 +8203,7 @@
 25	demi-vies	demi-vie	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	Exponence[Gender]=Inherent
 26	t½	t½	NOUN	_	_	25	nmod	_	_
 27	de	de	ADP	_	_	28	case	_	_
-28	0,24	0,24	NUM	_	Number=Plur|NumType=Card	26	nmod	_	Exponence[Number]=Inherent
+28	0,24	0,24	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	26	nmod	_	Exponence[Number]=Inherent
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	t½	t½	NOUN	_	_	26	conj	_	_
 31	de	de	ADP	_	_	33	case	_	_
@@ -10123,7 +10123,7 @@
 7	10	10	NUM	_	Number=Plur|NumType=Card	8	nummod	_	Exponence[Number]=Inherent
 8	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	Exponence[Gender]=Inherent
 9	sur	sur	ADP	_	_	10	case	_	_
-10	100	100	NUM	_	Number=Plur|NumType=Card	8	nmod	_	Exponence[Number]=Inherent
+10	100	100	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	8	nmod	_	Exponence[Number]=Inherent
 11	ou	ou	CCONJ	_	_	12	cc	_	_
 12	plus	plus	ADV	_	_	10	conj	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	6	punct	_	_
@@ -10146,7 +10146,7 @@
 8	10	10	NUM	_	Number=Plur|NumType=Card	9	nummod	_	Exponence[Number]=Inherent
 9	patients	patient	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	Exponence[Gender]=Inherent
 10	sur	sur	ADP	_	_	11	case	_	_
-11	100	100	NUM	_	Number=Plur|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+11	100	100	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	_
 13	:	:	PUNCT	_	_	1	punct	_	_
 
@@ -10263,7 +10263,7 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	patient	patient	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	Exponence[Gender]=Inherent
 11	sur	sur	ADP	_	_	12	case	_	_
-12	100	100	NUM	_	Number=Plur|NumType=Card	10	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+12	100	100	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	10	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 13	)	)	PUNCT	_	_	6	punct	_	_
 14	:	:	PUNCT	_	_	1	punct	_	_
 
@@ -10407,7 +10407,7 @@
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	patient	patient	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	Exponence[Gender]=Inherent
 10	sur	sur	ADP	_	_	11	case	_	_
-11	1 000	1 000	NUM	_	Number=Plur|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+11	1 000	1 000	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	_
 13	:	:	PUNCT	_	_	1	punct	_	_
 

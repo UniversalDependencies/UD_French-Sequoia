@@ -1862,7 +1862,7 @@
 6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 7	euro	euro	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent
 8	en	en	ADP	_	_	9	case	_	_
-9	2002	2002	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+9	2002	2002	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pv	_	_
 12	traduire	traduire	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
@@ -1955,7 +1955,7 @@
 3	-ils	lui	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	expl:subj	_	_
 4	donc	donc	ADV	_	_	2	advmod	_	_
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	_
-6	32	32	NUM	_	Number=Plur|NumType=Card	2	nsubj	_	Exponence[Number]=Inherent
+6	32	32	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	2	nsubj	_	Exponence[Number]=Inherent
 7	et	et	CCONJ	_	ExtPos=ADJ	6	amod	_	Idiom=Yes
 8	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Ind	7	fixed	_	Exponence[Number]=Inherent|InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
@@ -2506,16 +2506,16 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	close	clore	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 7	à	à	ADP	_	_	9	case	_	_
-8	12	12	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
+8	12	12	NUM	_	ExtPos=PROPN|NumType=Card	9	nmod	_	SpaceAfter=No
 9	h	h	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-10	30	30	NUM	_	NumType=Card	9	nmod	_	SpaceAfter=No
+10	30	30	NUM	_	ExtPos=PROPN|NumType=Card	9	nmod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00512
 # text = Par ailleurs, la délégation britannique, composée actuellement de 36 députés, a présenté à nouveau la résolution dans sa forme originale.
-1	Par	par	ADP	_	_	2	case	_	_
-2	ailleurs	ailleurs	ADV	_	_	15	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+1	Par	par	ADP	_	ExtPos=ADV	15	advmod	_	Idiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	délégation	délégation	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	Exponence[Gender]=Inherent
 6	britannique	britannique	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -2637,7 +2637,7 @@
 12	partisans	partisan	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	Exponence[Gender]=Inherent
 13	en	en	ADP	_	_	14	case	_	_
 14	Septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent
-15	1998	1998	NUM	_	Number=Sing|NumType=Card	14	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+15	1998	1998	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	14	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 16	,	,	PUNCT	_	_	24	punct	_	_
 17	quand	quand	SCONJ	_	_	24	mark	_	_
 18	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
@@ -2786,7 +2786,7 @@
 40	amendes	amende	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	Exponence[Gender]=Inherent
 41	de	de	ADP	_	_	42	case	_	_
 42	police	police	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	Exponence[Gender]=Inherent
-43	1999	1999	NUM	_	Number=Sing|NumType=Card	40	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+43	1999	1999	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	40	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 44	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = annodis.er_00013
@@ -2938,7 +2938,7 @@
 9	matin	matin	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	à	à	ADP	_	_	13	case	_	_
-12	9	9	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+12	9	9	NUM	_	ExtPos=PROPN|NumType=Card	13	nmod	_	SpaceAfter=No
 13	h	h	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	place	place	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	Exponence[Gender]=Inherent
@@ -2970,7 +2970,7 @@
 8	à	à	ADP	_	ExtPos=ADV	6	advmod	_	Idiom=Yes
 9	partir	partir	VERB	_	VerbForm=Inf	8	fixed	_	InIdiom=Yes|Subject=Generic
 10	de	de	ADP	_	_	12	case	_	_
-11	9	9	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+11	9	9	NUM	_	ExtPos=PROPN|NumType=Card	12	nmod	_	SpaceAfter=No
 12	h	h	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	Exponence[Gender]=Inherent|SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	sur	sur	ADP	_	_	16	case	_	_
@@ -3014,7 +3014,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	autour	autour	ADV	_	_	0	root	_	_
 8	de	de	ADP	_	_	9	case	_	_
-9	1950	1950	NUM	_	Number=Sing|NumType=Card	7	obl:arg	_	Exponence[Number]=Inherent
+9	1950	1950	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	7	obl:arg	_	Exponence[Number]=Inherent
 10	que	que	SCONJ	_	_	19	mark	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	société	société	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	Exponence[Gender]=Inherent
@@ -3148,7 +3148,7 @@
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	23	23	NUM	_	Number=Sing|NumType=Card	15	conj	_	Exponence[Number]=Inherent
+21	23	23	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	15	conj	_	Exponence[Number]=Inherent
 22	juin	juin	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 23	,	,	PUNCT	_	_	11	punct	_	_
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -3394,7 +3394,7 @@
 10	mari	mari	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent
 11	en	en	ADP	_	_	12	case	_	_
 12	avril	avril	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Exponence[Gender]=Inherent
-13	1993	1993	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+13	1993	1993	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	disparition	disparition	NOUN	_	Gender=Fem|Number=Sing	7	appos	_	Exponence[Gender]=Inherent
@@ -3533,7 +3533,7 @@
 6	redressement	redressement	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	Exponence[Gender]=Inherent
 7	judiciaire	judiciaire	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	Exponence[Gender]=Absent
 8	en	en	ADP	_	_	9	case	_	_
-9	1998	1998	NUM	_	Number=Sing|NumType=Card	4	obl:mod	_	Exponence[Number]=Inherent
+9	1998	1998	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	4	obl:mod	_	Exponence[Number]=Inherent
 10	avec	avec	ADP	_	_	12	case	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	plan	plan	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent
@@ -3640,9 +3640,9 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	13	13	NUM	_	Number=Sing|NumType=Card	8	nmod	_	Exponence[Number]=Inherent
+11	13	13	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	8	nmod	_	Exponence[Number]=Inherent
 12	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent
-13	2000	2000	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent
+13	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent
 14	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	crée	créer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
@@ -4028,8 +4028,8 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	_
-8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
-9	ailleurs	ailleurs	ADV	_	_	10	advmod	_	_
+8	d'	de	ADP	_	ExtPos=ADV	10	advmod	_	Idiom=Yes|SpaceAfter=No
+9	ailleurs	ailleurs	ADV	_	_	8	fixed	_	InIdiom=Yes
 10	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	médaille	médaille	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	Exponence[Gender]=Inherent
@@ -4104,7 +4104,7 @@
 35	actions	action	NOUN	_	Gender=Fem|Number=Plur	32	obl:arg	_	Exponence[Gender]=Inherent
 36	menées	mener	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	35	acl	_	Tense[denom]=Past
 37	en	en	ADP	_	_	38	case	_	_
-38	2002	2002	NUM	_	Number=Sing|NumType=Card	36	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+38	2002	2002	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	36	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 39	,	,	PUNCT	_	_	30	punct	_	_
 40	et	et	CCONJ	_	_	42	cc	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -4267,7 +4267,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	Exponence[Gender]=Inherent
 3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	50	50	NUM	_	Number=Plur|NumType=Card	3	obj	_	Exponence[Number]=Inherent
+4	50	50	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	3	obj	_	Exponence[Number]=Inherent
 5	de	de	ADP	_	_	7	case	_	_
 6	ces	ce	DET	_	Number=Plur|PronType=Dem	7	det	_	_
 7	avaloirs	avaloir	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	Exponence[Gender]=Inherent
@@ -4341,7 +4341,7 @@
 30	qui	qui	PRON	_	PronType=Rel	32	nsubj	_	_
 31	en	en	PRON	_	Person=3|PronType=Prs	33	nmod	_	_
 32	souhaitait	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
-33	deux	deux	NUM	_	Number=Plur|NumType=Card	32	obj	_	Exponence[Number]=Inherent
+33	deux	deux	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	32	obj	_	Exponence[Number]=Inherent
 34	:	:	PUNCT	_	_	38	punct	_	_
 35	"	"	PUNCT	_	_	38	punct	_	SpaceAfter=No
 36	Notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	37	det	_	_
@@ -5261,16 +5261,16 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	Exponence[Gender]=Inherent
-21	2	2	NUM	_	Number=Sing|NumType=Card	20	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+21	2	2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	20	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = emea-fr-dev_00208
 # text = Rare (1/10000 à 1/1000)
 1	Rare	rare	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Absent
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	1/10000	1/10000	NUM	_	NumType=Card	1	parataxis:insert	_	_
+3	1/10000	1/10000	NUM	_	ExtPos=PROPN|NumType=Card	1	parataxis:insert	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	1/1000	1/1000	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+5	1/1000	1/1000	NUM	_	ExtPos=PROPN|NumType=Card	3	nmod	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	3	punct	_	_
 
 # sent_id = emea-fr-dev_00214
@@ -5328,7 +5328,7 @@
 9	très	très	ADV	_	_	10	advmod	_	_
 10	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	1/10	1/10	NUM	_	NumType=Card	10	parataxis:insert	_	SpaceAfter=No
+12	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	10	parataxis:insert	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
@@ -5338,10 +5338,10 @@
 19	façon	façon	NOUN	_	Gender=Fem|Number=Sing	16	orphan	_	Exponence[Gender]=Inherent
 20	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-22	1/100	1/100	NUM	_	NumType=Card	20	parataxis:insert	_	_
+22	1/100	1/100	NUM	_	ExtPos=PROPN|NumType=Card	20	parataxis:insert	_	_
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	<	<	SYM	_	ExtPos=ADP	25	case	_	_
-25	1/10	1/10	NUM	_	NumType=Card	22	conj	_	SpaceAfter=No
+25	1/10	1/10	NUM	_	ExtPos=PROPN|NumType=Card	22	conj	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -5381,7 +5381,7 @@
 # sent_id = emea-fr-dev_00260
 # text = Tableau 5 :
 1	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
-2	5	5	NUM	_	Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
+2	5	5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
 3	:	:	PUNCT	_	_	1	punct	_	_
 
 # sent_id = emea-fr-dev_00263
@@ -6278,7 +6278,7 @@
 36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	voir	voir	VERB	_	VerbForm=Inf	19	parataxis:insert	_	Subject=Generic
 38	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	37	obj	_	Exponence[Gender]=Inherent
-39	5.1	5.1	NUM	_	Number=Sing|NumType=Card	38	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+39	5.1	5.1	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	38	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 40	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	19	punct	_	_
 
@@ -6374,9 +6374,9 @@
 13	1,3	1,3	NUM	_	Number=Plur|NumType=Card	14	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	%	%	SYM	_	ExtPos=NOUN|Number=Plur	0	root	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	51	51	NUM	_	Number=Plur|NumType=Card	14	appos	_	Exponence[Number]=Inherent
+16	51	51	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	14	appos	_	Exponence[Number]=Inherent
 17	sur	sur	ADP	_	_	18	case	_	_
-18	3 862	3 862	NUM	_	Number=Plur|NumType=Card	16	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+18	3 862	3 862	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	16	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 19	)	)	PUNCT	_	_	16	punct	_	_
 20	chez	chez	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
@@ -6389,9 +6389,9 @@
 28	0,6	0,6	NUM	_	Number=Plur|NumType=Card	29	nummod	_	Exponence[Number]=Inherent|SpaceAfter=No
 29	%	%	SYM	_	ExtPos=NOUN|Number=Plur	26	obl:arg	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-31	22	22	NUM	_	Number=Plur|NumType=Card	29	appos	_	Exponence[Number]=Inherent
+31	22	22	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	29	appos	_	Exponence[Number]=Inherent
 32	sur	sur	ADP	_	_	33	case	_	_
-33	3 852	3 852	NUM	_	Number=Plur|NumType=Card	31	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+33	3 852	3 852	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	31	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 34	)	)	PUNCT	_	_	31	punct	_	_
 35	chez	chez	ADP	_	_	37	case	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
@@ -6621,7 +6621,7 @@
 54	de	de	ADP	_	_	56	case	_	_
 55	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	fémur	fémur	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-57	-1,5	-1,5	NUM	_	NumType=Card	50	nmod	_	_
+57	-1,5	-1,5	NUM	_	ExtPos=PROPN|NumType=Card	50	nmod	_	_
 58	et	et	CCONJ	_	_	62	cc	_	_
 59	au	au	ADP	_	ExtPos=ADV	62	advmod	_	Idiom=Yes
 60	moins	moins	ADV	_	_	59	fixed	_	InIdiom=Yes
@@ -6646,7 +6646,7 @@
 77	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	_	_
 78	fémur	fémur	NOUN	_	Gender=Masc|Number=Sing	75	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 79	-	-	ADV	_	_	72	advmod	_	_
-80	2,5	2,5	NUM	_	Number=Sing|NumType=Card	72	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+80	2,5	2,5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	72	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 81	,	,	PUNCT	_	_	85	punct	_	_
 82	avec	avec	ADP	_	_	85	case	_	_
 83	ou	ou	CCONJ	_	_	84	cc	_	_
@@ -6697,12 +6697,12 @@
 # sent_id = emea-fr-test_00227
 # text = Tableau 3
 1	Tableau	tableau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
-2	3	3	NUM	_	Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
+2	3	3	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
 
 # sent_id = emea-fr-test_00231
 # text = (2) Y compris fractures cliniques dorsales et fractures cliniques vertébrales lombaires
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	2	2	NUM	_	Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+2	2	2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 3	)	)	PUNCT	_	_	2	punct	_	_
 4	Y	y	PRON	_	ExtPos=ADP|Person=3|PronType=Prs	6	case	_	Idiom=Yes
 5	compris	compris	ADJ	_	Gender=Masc|Number=Sing	4	fixed	_	Exponence[Number]=Absent|InIdiom=Yes
@@ -6838,7 +6838,7 @@
 36	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
 37	p	p	NOUN	_	_	39	nsubj	_	_
 38	<	<	SYM	_	ExtPos=ADP	39	case	_	_
-39	0,01	0,01	NUM	_	NumType=Card	4	parataxis:insert	_	_
+39	0,01	0,01	NUM	_	ExtPos=PROPN|NumType=Card	4	parataxis:insert	_	_
 40	pour	pour	ADP	_	_	43	case	_	_
 41	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	43	amod	_	_
 42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	43	det	_	_
@@ -7917,7 +7917,7 @@
 # sent_id = frwiki_50.1000_00013
 # text = Le 15 mars, le général donne l'ordre de mise de jugement directe des 24 hommes désignés.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	15	15	NUM	_	Number=Sing|NumType=Card	7	obl:mod	_	Exponence[Number]=Inherent
+2	15	15	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	7	advcl	_	Exponence[Number]=Inherent
 3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -8064,7 +8064,7 @@
 13	Maupas	Maupas	PROPN	_	Gender=Masc|Number=Sing	10	flat:name	_	Exponence[Gender]=Inherent|SpaceAfter=No
 14	"	"	PUNCT	_	_	10	punct	_	_
 15	depuis	depuis	ADP	_	_	16	case	_	_
-16	1998	1998	NUM	_	Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+16	1998	1998	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00045
@@ -8130,9 +8130,9 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	28	28	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
+10	28	28	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
 11	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	Exponence[Gender]=Inherent
-12	1989	1989	NUM	_	Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent
+12	1989	1989	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 14	même	même	ADV	_	_	15	advmod	_	_
 15	titré	titrer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
@@ -8217,9 +8217,9 @@
 16	Guardian	Guardian	X	_	Foreign=Yes	15	flat:name	_	Lang=en|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	December	December	X	_	Foreign=Yes	15	parataxis	_	Lang=en
-19	5	5	NUM	_	Number=Sing|NumType=Card	18	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
+19	5	5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	18	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	2002	2002	NUM	_	Number=Sing|NumType=Card	19	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
+21	2002	2002	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	19	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
 22	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00117
@@ -8243,9 +8243,9 @@
 17	Times	Times	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	Nov	Nov	X	_	Foreign=Yes	16	parataxis	_	Lang=en
-20	13	13	NUM	_	Number=Sing|NumType=Card	19	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+20	13	13	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	19	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 21	,	,	PUNCT	_	_	20	punct	_	_
-22	2002	2002	NUM	_	Number=Sing|NumType=Card	19	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
+22	2002	2002	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	19	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = frwiki_50.1000_00140
@@ -8295,7 +8295,7 @@
 # sent_id = frwiki_50.1000_00143
 # text = En 1981, cette affaire pourrait être une des causes de la défaite de Valéry Giscard d'Estaing face au candidat du parti socialiste François Mitterrand.
 1	En	en	ADP	_	_	2	case	_	_
-2	1981	1981	NUM	_	Number=Sing|NumType=Card	6	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+2	1981	1981	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	Exponence[Gender]=Inherent
@@ -8571,7 +8571,7 @@
 4	rendue	rendre	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	acl	_	Tense[denom]=Past
 5	en	en	ADP	_	_	6	case	_	_
 6	avril	avril	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	Exponence[Gender]=Inherent
-7	1999	1999	NUM	_	Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+7	1999	1999	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Procureur	procureur	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	Exponence[Gender]=Inherent
@@ -8635,9 +8635,9 @@
 8	cassation	cassation	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent
 9	Jean-François	Jean-François	PROPN	_	_	2	nmod	_	_
 10	Burgelin	Burgelin	PROPN	_	_	9	flat:name	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	13	punct	_	_
-12	par	par	ADP	_	_	13	case	_	_
-13	ailleurs	ailleurs	ADV	_	_	2	advmod	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	par	par	ADP	_	ExtPos=ADV	2	advmod	_	Idiom=Yes
+13	ailleurs	ailleurs	ADV	_	_	12	fixed	_	InIdiom=Yes
 14	proche	proche	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Exponence[Gender]=Absent
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
@@ -8709,7 +8709,7 @@
 9	en	en	ADP	_	_	10	case	_	_
 10	cassation	cassation	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	Exponence[Gender]=Inherent
 11	en	en	ADP	_	_	12	case	_	_
-12	2002	2002	NUM	_	Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+12	2002	2002	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00261
@@ -8781,17 +8781,17 @@
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	31	31	NUM	_	Number=Sing|NumType=Card	4	obl:arg	_	Exponence[Number]=Inherent
+8	31	31	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	4	obl:arg	_	Exponence[Number]=Inherent
 9	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Exponence[Gender]=Inherent
-10	2006	2006	NUM	_	Number=Sing|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+10	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00276
 # text = Le 25 octobre 2006, le parquet de Paris a requis contre Jacques Dominati une peine de douze mois de prison avec sursis, 2 000 euros d'amende et cinq ans d'inéligibilité.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	25	25	NUM	_	Number=Sing|NumType=Card	11	obl:mod	_	Exponence[Number]=Inherent
+2	25	25	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	11	advcl	_	Exponence[Number]=Inherent
 3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-4	2006	2006	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+4	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	parquet	parquet	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent
@@ -9136,7 +9136,7 @@
 # text = En août 1991, le contrat des frégates de Taïwan (contrat Bravo) est signé pour 2,8 milliards de dollars US.
 1	En	en	ADP	_	_	2	case	_	_
 2	août	août	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	Exponence[Gender]=Inherent
-3	1991	1991	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+3	1991	1991	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	contrat	contrat	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	Exponence[Gender]=Inherent
@@ -9223,9 +9223,9 @@
 # text = Depuis le 4 juillet 1991, Alfred Sirven et Christine Deviers-Joncour avaient mis en place un dispositif bancaire destiné à accueillir la commission espérée.
 1	Depuis	depuis	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	4	4	NUM	_	Number=Sing|NumType=Card	13	obl:mod	_	Exponence[Number]=Inherent
+3	4	4	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	13	obl:mod	_	Exponence[Number]=Inherent
 4	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent
-5	1991	1991	NUM	_	Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+5	1991	1991	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	Alfred	Alfred	PROPN	_	Gender=Masc|Number=Sing	13	nsubj	_	Exponence[Gender]=Inherent
 8	Sirven	Sirven	PROPN	_	_	7	flat:name	_	_
@@ -9338,9 +9338,9 @@
 15	Sogenal	Sogenal	PROPN	_	_	10	appos	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	15	punct	_	_
 17	entre	entre	ADP	_	_	18	case	_	_
-18	1987	1987	NUM	_	Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent
+18	1987	1987	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent
 19	et	et	CCONJ	_	_	20	cc	_	_
-20	1990	1990	NUM	_	Number=Sing|NumType=Card	18	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
+20	1990	1990	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	18	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
 21	,	,	PUNCT	_	_	6	punct	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:tense	_	_
 23	souligné	souligner	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
@@ -9367,14 +9367,14 @@
 42	de	de	ADP	_	_	44	case	_	_
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	début	début	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	Exponence[Gender]=Inherent
-45	1990	1990	NUM	_	Number=Sing|NumType=Card	44	nmod	_	Exponence[Number]=Inherent
+45	1990	1990	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	44	nmod	_	Exponence[Number]=Inherent
 46	(	(	PUNCT	_	_	47	punct	_	SpaceAfter=No
 47	frégates	frégate	NOUN	_	Gender=Fem|Number=Plur	41	appos	_	Exponence[Gender]=Inherent
 48	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
 49	Fayette	Fayette	PROPN	_	Gender=Fem|Number=Sing	47	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 50	,	,	PUNCT	_	_	51	punct	_	_
 51	Mirages	mirage	NOUN	_	Gender=Masc|Number=Plur	47	conj	_	Exponence[Gender]=Inherent
-52	2000	2000	NUM	_	Number=Sing|NumType=Card	51	nmod	_	Exponence[Number]=Inherent
+52	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	51	nmod	_	Exponence[Number]=Inherent
 53	Dassault	Dassault	PROPN	_	_	51	nmod	_	SpaceAfter=No
 54	,	,	PUNCT	_	_	55	punct	_	_
 55	missiles	missile	NOUN	_	Gender=Masc|Number=Plur	47	conj	_	Exponence[Gender]=Inherent
@@ -9435,12 +9435,12 @@
 45	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	40	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 46	,	,	PUNCT	_	_	48	punct	_	_
 47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	22	22	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
+48	22	22	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
 49	mars	mars	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-50	2001	2001	NUM	_	Number=Sing|NumType=Card	49	nmod	_	Exponence[Number]=Inherent
+50	2001	2001	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	49	nmod	_	Exponence[Number]=Inherent
 51	(	(	PUNCT	_	_	57	punct	_	SpaceAfter=No
 52	Volume	volume	NOUN	_	Gender=Masc|Number=Sing	57	parataxis	_	Exponence[Gender]=Inherent
-53	5	5	NUM	_	Number=Sing|NumType=Card	52	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
+53	5	5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	52	parataxis:insert	_	Exponence[Number]=Inherent|SpaceAfter=No
 54	-	-	PUNCT	_	_	52	punct	_	_
 55	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
 56	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	_
@@ -9465,7 +9465,7 @@
 9	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 10	en	en	ADP	_	_	11	case	_	_
 11	juin	juin	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	Exponence[Gender]=Inherent
-12	2001	2001	NUM	_	Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent
+12	2001	2001	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent
 13	pour	pour	ADP	_	_	15	case	_	_
 14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	abus	abus	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
@@ -9513,16 +9513,16 @@
 # sent_id = frwiki_50.1000_00452
 # text = Le 4 octobre 2006 et pour la quatrième fois depuis 2001, le ministre de l'Economie Thierry Breton a une nouvelle fois refusé de déclassifier les documents des douanes dans l'affaire des frégates de Taïwan.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	4	4	NUM	_	Number=Sing|NumType=Card	24	obl:mod	_	Exponence[Number]=Inherent
+2	4	4	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	24	advcl	_	Exponence[Number]=Inherent
 3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-4	2006	2006	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+4	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	et	et	CCONJ	_	_	9	cc	_	_
 6	pour	pour	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	quatrième	quatrième	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	Exponence[Gender]=Absent
 9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
 10	depuis	depuis	ADP	_	_	11	case	_	_
-11	2001	2001	NUM	_	Number=Sing|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+11	2001	2001	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	Exponence[Gender]=Inherent
@@ -9559,9 +9559,9 @@
 # text = - Le 16 juin 2006, les juges Renaud van Ruymbeke et Xavière Simeoni (qui remplace Dominique de Talancé) ont adressé une nouvelle demande de levée du secret défense au ministère de l'Économie et des Finances, seul habilité à saisir la commission consultative du secret de la défense nationale (CCSDN).
 1	-	-	PUNCT	_	_	23	punct	_	_
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	16	16	NUM	_	Number=Sing|NumType=Card	23	obl:mod	_	Exponence[Number]=Inherent
+3	16	16	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	23	advcl	_	Exponence[Number]=Inherent
 4	juin	juin	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent
-5	2006	2006	NUM	_	Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+5	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	juges	juge	NOUN	_	Gender=Masc|Number=Plur	23	nsubj	_	Exponence[Gender]=Inherent
@@ -9627,7 +9627,7 @@
 # text = - En 2001, le juge genevois Paul Perraudin a bloqué à Zurich 1,2 milliard de francs suisses appartenant sur les comptes suisses de l'intermédiaire taiwanais, Andrew Wang, 73 ans.
 1	-	-	PUNCT	_	_	11	punct	_	_
 2	En	en	ADP	_	_	3	case	_	_
-3	2001	2001	NUM	_	Number=Sing|NumType=Card	11	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+3	2001	2001	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	11	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	juge	juge	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent
@@ -9774,9 +9774,9 @@
 8	Swiss	Swiss	PROPN	_	_	3	nmod	_	_
 9	Info	Info	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	22	22	NUM	_	Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent
+11	22	22	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent
 12	juin	juin	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Exponence[Gender]=Inherent
-13	2002	2002	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent
+13	2002	2002	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent
 
 # sent_id = frwiki_50.1000_00524
 # text = Épilogue
@@ -9789,7 +9789,7 @@
 # sent_id = frwiki_50.1000_00546
 # text = ISBN 2840985314
 1	ISBN	ISBN	NOUN	_	_	0	root	_	_
-2	2840985314	2840985314	NUM	_	Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
+2	2840985314	2840985314	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
 
 # sent_id = frwiki_50.1000_00551
 # text = - Christine Deviers-Joncour, Opération Bravo, Pocket (2000).
@@ -9802,7 +9802,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	Pocket	Pocket	PROPN	_	_	2	nmod	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	2000	2000	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+10	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -9832,7 +9832,7 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	page	page	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	Exponence[Gender]=Inherent
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	15 000	15 000	NUM	_	Number=Plur|NumType=Card	10	appos	_	Exponence[Number]=Inherent|SpaceAfter=No
+14	15 000	15 000	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	10	appos	_	Exponence[Number]=Inherent|SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	-	-	PUNCT	_	_	10	punct	_	_
 17	demandés	demander	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	acl	_	Tense[denom]=Past
@@ -9859,9 +9859,9 @@
 # sent_id = frwiki_50.1000_00567
 # text = - 21 décembre 1994 : le Dr Jean-Pierre Maréchal, beau-père du juge Eric Halphen, est mis en examen pour trafic d'influence et extorsion de fonds.
 1	-	-	PUNCT	_	_	19	punct	_	_
-2	21	21	NUM	_	Number=Sing|NumType=Card	19	obl:mod	_	Exponence[Number]=Inherent
+2	21	21	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	19	advcl	_	Exponence[Number]=Inherent
 3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-4	1994	1994	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+4	1994	1994	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	:	:	PUNCT	_	_	19	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Dr	Docteur	NOUN	_	Gender=Masc|Number=Sing	19	nsubj:pass	_	Exponence[Gender]=Inherent
@@ -9928,7 +9928,7 @@
 # text = - octobre 1997 : Demande d'extradition de Didier Schuller, localisé aux Bahamas, puis en République Dominicaine
 1	-	-	PUNCT	_	_	2	punct	_	_
 2	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Exponence[Gender]=Inherent
-3	1997	1997	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
+3	1997	1997	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
 4	:	:	PUNCT	_	_	2	punct	_	_
 5	Demande	demande	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
@@ -9952,7 +9952,7 @@
 # text = - février 2005 : Didier Schuller et Patrick Balkany sont renvoyés devant le tribunal correctionnel de Créteil aux côtés de huit autres prévenus.
 1	-	-	PUNCT	_	_	11	punct	_	_
 2	février	février	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	Exponence[Gender]=Inherent
-3	2005	2005	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
+3	2005	2005	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
 4	:	:	PUNCT	_	_	11	punct	_	_
 5	Didier	Didier	PROPN	_	Gender=Masc|Number=Sing	11	nsubj:pass	_	Exponence[Gender]=Inherent
 6	Schuller	Schuller	PROPN	_	_	5	flat:name	_	_
@@ -9980,9 +9980,9 @@
 # sent_id = frwiki_50.1000_00588
 # text = - 18 octobre 2005 : A l'issue du procès, Didier Schuller est condamné à cinq ans de prison, dont trois avec sursis, ainsi qu'à une amende de 150.000 euros, pour trafic d'influence, recel et complicité d'abus de biens sociaux.
 1	-	-	PUNCT	_	_	16	punct	_	_
-2	18	18	NUM	_	Number=Sing|NumType=Card	16	obl:mod	_	Exponence[Number]=Inherent
+2	18	18	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	16	advcl	_	Exponence[Number]=Inherent
 3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-4	2005	2005	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+4	2005	2005	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	:	:	PUNCT	_	_	16	punct	_	_
 6	A	à	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -10003,7 +10003,7 @@
 21	prison	prison	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	dont	dont	CCONJ	_	_	24	advmod	_	_
-24	trois	trois	NUM	_	Number=Plur|NumType=Card	19	appos	_	Exponence[Number]=Inherent
+24	trois	trois	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	19	appos	_	Exponence[Number]=Inherent
 25	avec	avec	ADP	_	_	26	case	_	_
 26	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 27	,	,	PUNCT	_	_	32	punct	_	_
@@ -10071,7 +10071,7 @@
 # text = - Été 1994 : une information judiciaire est ouverte : le juge Éric Halphen acquiert vite la conviction que Jean-Claude Méry est l'un des hommes clefs du système.
 1	-	-	PUNCT	_	_	9	punct	_	_
 2	Été	Été	NOUN	_	Gender=Masc|Number=Sing	9	advcl	_	Exponence[Gender]=Inherent
-3	1994	1994	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
+3	1994	1994	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent
 4	:	:	PUNCT	_	_	9	punct	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	information	information	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:pass	_	Exponence[Gender]=Inherent
@@ -10162,7 +10162,7 @@
 # text = RH : 190 500 ;
 1	RH	RH	PROPN	_	_	0	root	_	_
 2	:	:	PUNCT	_	_	3	punct	_	_
-3	190 500	190 500	NUM	_	Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
+3	190 500	190 500	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	1	nmod	_	Exponence[Number]=Inherent
 4	;	;	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00637
@@ -10185,9 +10185,9 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	25	25	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+6	25	25	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent
-8	2006	2006	NUM	_	Number=Sing|NumType=Card	7	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+8	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	7	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
 11	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
@@ -10225,9 +10225,9 @@
 # sent_id = frwiki_50.1000_00639
 # text = - 8 novembre 1994 : Rémy Halbwax est mis en examen.
 1	-	-	PUNCT	_	_	9	punct	_	_
-2	8	8	NUM	_	Number=Sing|NumType=Card	9	obl:mod	_	Exponence[Number]=Inherent
+2	8	8	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	9	advcl	_	Exponence[Number]=Inherent
 3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-4	1994	1994	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+4	1994	1994	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	:	:	PUNCT	_	_	9	punct	_	_
 6	Rémy	Rémy	PROPN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	Exponence[Gender]=Inherent
 7	Halbwax	Halbwax	PROPN	_	_	6	flat:name	_	_
@@ -10240,9 +10240,9 @@
 # sent_id = frwiki_50.1000_00640
 # text = - 14 novembre 1994 : Michel Roussin, ancien directeur de cabinet de Jacques Chirac, est mis en examen.
 1	-	-	PUNCT	_	_	18	punct	_	_
-2	14	14	NUM	_	Number=Sing|NumType=Card	18	obl:mod	_	Exponence[Number]=Inherent
+2	14	14	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	18	advcl	_	Exponence[Number]=Inherent
 3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-4	1994	1994	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+4	1994	1994	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	:	:	PUNCT	_	_	18	punct	_	_
 6	Michel	Michel	PROPN	_	Gender=Masc|Number=Sing	18	nsubj:pass	_	Exponence[Gender]=Inherent
 7	Roussin	Roussin	PROPN	_	_	6	flat:name	_	SpaceAfter=No
@@ -10282,9 +10282,9 @@
 5	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 6	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	11	11	NUM	_	Number=Sing|NumType=Card	6	obl:mod	_	Exponence[Number]=Inherent
+8	11	11	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	obl:mod	_	Exponence[Number]=Inherent
 9	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Exponence[Gender]=Inherent
-10	1994	1994	NUM	_	Number=Sing|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+10	1994	1994	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	9	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
 12	de	de	ADP	_	_	13	mark	_	_
 13	faire	faire	VERB	_	VerbForm=Inf	6	xcomp	_	Subject=SubjRaising
@@ -10355,9 +10355,9 @@
 # sent_id = frwiki_50.1000_00665
 # text = - 17 mars 1995 : mise en examen de Robert Pandraud, membre RPR du conseil régional d'Ile-de-France.
 1	-	-	PUNCT	_	_	6	punct	_	_
-2	17	17	NUM	_	Number=Sing|NumType=Card	6	nummod	_	Exponence[Number]=Inherent
-3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
-4	1995	1995	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+2	17	17	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	nmod	_	Exponence[Number]=Inherent
+3	mars	mars	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent
+4	1995	1995	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	:	:	PUNCT	_	_	6	punct	_	_
 6	mise	mise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent
 7	en	en	ADP	_	_	8	case	_	_
@@ -10384,7 +10384,7 @@
 3	annulée	annuler	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 4	en	en	ADP	_	_	5	case	_	_
 5	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	Exponence[Gender]=Inherent
-6	2000	2000	NUM	_	Number=Sing|NumType=Card	5	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+6	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	5	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00673
@@ -10551,7 +10551,7 @@
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
 22	attribué	attribuer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 23	en	en	ADP	_	_	24	case	_	_
-24	1992	1992	NUM	_	Number=Sing|NumType=Card	22	obl:arg	_	Exponence[Number]=Inherent|SpaceAfter=No
+24	1992	1992	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	22	obl:arg	_	Exponence[Number]=Inherent|SpaceAfter=No
 25	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = frwiki_50.1000_00715
@@ -10567,7 +10567,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	années	année	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	Exponence[Gender]=Inherent
-11	1990	1990	NUM	_	Number=Sing|NumType=Card	10	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+11	1990	1990	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	10	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	14	det	_	_
 14	protagonistes	protagoniste	NOUN	_	Number=Plur	18	nsubj	_	_
@@ -10605,9 +10605,9 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	22	22	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+6	22	22	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent
-8	2000	2000	NUM	_	Number=Sing|NumType=Card	7	nmod	_	Exponence[Number]=Inherent
+8	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	7	nmod	_	Exponence[Number]=Inherent
 
 # sent_id = frwiki_50.1000_00724
 # text = Affaire des marchés publics d'Île-de-France
@@ -10664,7 +10664,7 @@
 34	dans	dans	ADP	_	_	36	case	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
 36	années	année	NOUN	_	Gender=Fem|Number=Plur	29	nmod	_	Exponence[Gender]=Inherent
-37	1990	1990	NUM	_	Number=Sing|NumType=Card	36	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+37	1990	1990	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	36	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 38	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = frwiki_50.1000_00730
@@ -10699,9 +10699,9 @@
 27	engagé	engager	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Tense[denom]=Past
 28	,	,	PUNCT	_	_	30	punct	_	_
 29	entre	entre	ADP	_	_	30	case	_	_
-30	1988	1988	NUM	_	Number=Sing|NumType=Card	27	obl:mod	_	Exponence[Number]=Inherent
+30	1988	1988	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	27	obl:mod	_	Exponence[Number]=Inherent
 31	et	et	CCONJ	_	_	32	cc	_	_
-32	1997	1997	NUM	_	Number=Sing|NumType=Card	30	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
+32	1997	1997	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	30	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
 33	,	,	PUNCT	_	_	30	punct	_	_
 34	24	24	NUM	_	Number=Plur|NumType=Card	35	nummod	_	Exponence[Number]=Inherent
 35	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	27	obj	_	Exponence[Gender]=Inherent
@@ -10874,7 +10874,7 @@
 10	en	en	ADP	_	_	11	case	_	_
 11	espèces	espèce	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	Exponence[Gender]=Inherent
 12	en	en	ADP	_	_	13	case	_	_
-13	1986	1986	NUM	_	Number=Sing|NumType=Card	6	obl:mod	_	Exponence[Number]=Inherent
+13	1986	1986	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	6	obl:mod	_	Exponence[Number]=Inherent
 14	à	à	ADP	_	_	15	case	_	_
 15	Jacques	Jacques	PROPN	_	Gender=Masc|Number=Sing	6	obl:arg	_	Exponence[Gender]=Inherent
 16	Chirac	Chirac	PROPN	_	Gender=Masc|Number=Sing	15	flat:name	_	Exponence[Gender]=Inherent
@@ -10931,7 +10931,7 @@
 36	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	37	aux:tense	_	_
 37	motivé	motiver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	22	acl:relcl	_	Tense[denom]=Past
 38	en	en	ADP	_	_	39	case	_	_
-39	2001	2001	NUM	_	Number=Sing|NumType=Card	37	obl:mod	_	Exponence[Number]=Inherent
+39	2001	2001	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	37	obl:mod	_	Exponence[Number]=Inherent
 40	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 41	interrogatoire	interrogatoire	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	Exponence[Gender]=Inherent
 42	par	par	ADP	_	_	44	case	_	_
@@ -10975,9 +10975,9 @@
 8	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	Exponence[Gender]=Inherent
-11	26	26	NUM	_	Number=Sing|NumType=Card	10	nmod	_	Exponence[Number]=Inherent
+11	26	26	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	10	nmod	_	Exponence[Number]=Inherent
 12	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Exponence[Gender]=Inherent
-13	2005	2005	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+13	2005	2005	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = frwiki_50.1000_00771
@@ -11008,7 +11008,7 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	prison	prison	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	Exponence[Gender]=Inherent
 26	dont	dont	CCONJ	_	_	27	advmod	_	_
-27	deux	deux	NUM	_	Number=Plur|NumType=Card	23	appos	_	Exponence[Number]=Inherent
+27	deux	deux	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	23	appos	_	Exponence[Number]=Inherent
 28	avec	avec	ADP	_	_	29	case	_	_
 29	sursis	sursis	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 30	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -11035,9 +11035,9 @@
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	22	22	NUM	_	Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent
+13	22	22	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	5	obl:mod	_	Exponence[Number]=Inherent
 14	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	Exponence[Gender]=Inherent
-15	2006	2006	NUM	_	Number=Sing|NumType=Card	14	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+15	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	14	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	à	à	ADP	_	_	18	case	_	_
 18	raison	raison	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	Exponence[Gender]=Inherent
@@ -11130,11 +11130,11 @@
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	démissionnent	démissionner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	11	11	NUM	_	Number=Sing|NumType=Card	18	obl:mod	_	Exponence[Number]=Inherent
+20	11	11	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	18	obl:mod	_	Exponence[Number]=Inherent
 21	mai	mai	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	Exponence[Gender]=Inherent
-22	2006	2006	NUM	_	Number=Sing|NumType=Card	21	nmod	_	Exponence[Number]=Inherent
+22	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	21	nmod	_	Exponence[Number]=Inherent
 23	[	[	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	2	2	NUM	_	Number=Sing|NumType=Card	18	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+24	2	2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	18	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 25	]	]	PUNCT	_	_	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -11233,9 +11233,9 @@
 # sent_id = frwiki_50.1000_00874
 # text = Le 19 avril 1999 un incendie ravage la paillote Chez Francis construite dans l'illégalité en bord de mer, sur le domaine public maritime, plage de Cala d'Orzo au sud du golfe d'Ajaccio en Corse (France).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	19	19	NUM	_	Number=Sing|NumType=Card	7	obl:mod	_	Exponence[Number]=Inherent
+2	19	19	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	7	advcl	_	Exponence[Number]=Inherent
 3	avril	avril	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-4	1999	1999	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+4	1999	1999	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	incendie	incendie	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	Exponence[Gender]=Inherent
 7	ravage	ravager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11350,15 +11350,15 @@
 26-27	du	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	24	24	NUM	_	Number=Sing|NumType=Card	24	obl:arg	_	Exponence[Number]=Inherent
+28	24	24	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	24	obl:arg	_	Exponence[Number]=Inherent
 29	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	Exponence[Gender]=Inherent
 30	et	et	CCONJ	_	_	33	cc	_	_
 31-32	du	_	_	_	_	_	_	_	_
 31	de	de	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	5	5	NUM	_	Number=Sing|NumType=Card	28	conj	_	Exponence[Number]=Inherent
+33	5	5	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	28	conj	_	Exponence[Number]=Inherent
 34	août	août	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	Exponence[Gender]=Inherent
-35	2006	2006	NUM	_	Number=Sing|NumType=Card	34	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+35	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	34	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 36	,	,	PUNCT	_	_	39	punct	_	_
 37	qui	qui	PRON	_	PronType=Rel	39	nsubj	_	_
 38	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
@@ -11380,7 +11380,7 @@
 54	israélien	israélien	ADJ	_	Gender=Masc|Number=Sing	53	amod	_	SpaceAfter=No
 55	"	"	PUNCT	_	_	44	punct	_	_
 56	[	[	PUNCT	_	_	57	punct	_	SpaceAfter=No
-57	3	3	NUM	_	Number=Sing|NumType=Card	15	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+57	3	3	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	15	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 58	]	]	PUNCT	_	_	57	punct	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -11462,9 +11462,9 @@
 13	Reuters	Reuters	PROPN	_	_	4	parataxis	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	August	August	NOUN	_	Gender=Masc|Number=Sing	13	parataxis	_	Exponence[Gender]=Inherent
-16	7	7	NUM	_	Number=Sing|NumType=Card	15	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+16	7	7	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	15	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	2006	2006	NUM	_	Number=Sing|NumType=Card	15	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
+18	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	15	parataxis	_	Exponence[Number]=Inherent|SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = frwiki_50.1000_00939
@@ -11472,7 +11472,7 @@
 1	Page	page	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Exponence[Gender]=Inherent
 2	accédé	accéder	VERB	_	Gender=Masc|Number=Sing|Typo=Yes|VerbForm=Part|Voice=Pass	1	acl	_	CorrectForm=accédée|CorrectGender=Fem|Tense[denom]=Past
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	2006-08-07	2006-08-07	NUM	_	Gender=Masc|Number=Sing|NumType=Card	2	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
+4	2006-08-07	2006-08-07	NUM	_	ExtPos=PROPN|Gender=Masc|Number=Sing|NumType=Card	2	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = frwiki_50.1000_00942
@@ -11507,9 +11507,9 @@
 26	à	à	ADP	_	_	27	case	_	_
 27	Images	image	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	8	8	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+29	8	8	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 30	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	Exponence[Gender]=Inherent
-31	2006	2006	NUM	_	Number=Sing|NumType=Card	30	nmod	_	Exponence[Number]=Inherent
+31	2006	2006	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	30	nmod	_	Exponence[Number]=Inherent
 
 # sent_id = frwiki_50.1000_00952
 # text = Après avoir contribué à diminuer le soutien à la guerre, il tourna court avec la perte de l'Indochine et le climat politique et social qui s'ensuivit, peu propice aux débats sur la période coloniale ; il n'eut pas de suites judiciaires en France.
@@ -11570,7 +11570,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	trafic	trafic	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	1948-1953	1948-1953	NUM	_	NumType=Card	2	nmod	_	SpaceAfter=No
+4	1948-1953	1948-1953	NUM	_	ExtPos=PROPN|NumType=Card	2	nmod	_	SpaceAfter=No
 5	)	)	PUNCT	_	_	4	punct	_	_
 
 # sent_id = frwiki_50.1000_00955
@@ -11682,7 +11682,7 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	Paris	Paris	PROPN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	1979	1979	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+18	1979	1979	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = frwiki_50.1000_00986

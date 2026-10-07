@@ -493,7 +493,7 @@
 11	économisé	économiser	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|Tense[denom]=Past
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	en	en	ADP	_	_	14	case	_	_
-14	2020	2020	NUM	_	Number=Sing|NumType=Card	11	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+14	2020	2020	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	11	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	6	6	NUM	_	Number=Plur|NumType=Card	17	nummod	_	Exponence[Number]=Inherent
 17	millions	million	NOUN	_	Gender=Masc|Number=Plur|NumType=Card	11	obj	_	Exponence[Gender]=Inherent
@@ -608,7 +608,7 @@
 18	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
 19	cas	cas	NOUN	_	Gender=Masc	21	nmod	_	Exponence[Gender]=Inherent
 20	depuis	depuis	ADP	_	_	21	case	_	_
-21	1992	1992	NUM	_	Number=Sing|NumType=Card	15	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+21	1992	1992	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	15	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	que	que	SCONJ	_	_	31	mark	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
@@ -620,7 +620,7 @@
 30	moins	moins	ADV	_	_	28	conj	_	_
 31	interdits	interdire	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	ccomp	_	Tense[denom]=Past
 32	vers	vers	ADP	_	_	33	case	_	_
-33	2009	2009	NUM	_	Number=Sing|NumType=Card	31	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
+33	2009	2009	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	31	obl:mod	_	Exponence[Number]=Inherent|SpaceAfter=No
 34	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Europar.550_00021
@@ -832,7 +832,7 @@
 37	de	de	ADP	_	_	39	case	_	_
 38	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 39	article	article	NOUN	_	Gender=Masc|Number=Sing	33	conj	_	Exponence[Gender]=Inherent
-40	7	7	NUM	_	Number=Sing|NumType=Card	39	nmod	_	Exponence[Number]=Inherent
+40	7	7	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	39	nmod	_	Exponence[Number]=Inherent
 41-42	du	_	_	_	_	_	_	_	_
 41	de	de	ADP	_	_	43	case	_	_
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
@@ -995,7 +995,7 @@
 40	de	de	ADP	_	_	42	case	_	_
 41	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 42	article	article	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	Exponence[Gender]=Inherent
-43	50	50	NUM	_	Number=Sing|NumType=Card	42	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+43	50	50	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	42	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 44	,	,	PUNCT	_	_	10	punct	_	_
 45	alors	alors	ADV	_	_	47	advmod	_	_
 46	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	47	nsubj	_	_
@@ -1513,9 +1513,9 @@
 42	de	de	ADP	_	_	44	case	_	_
 43	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	44	det	_	_
 44	articles	article	NOUN	_	Gender=Masc|Number=Plur	41	nmod	_	Exponence[Gender]=Inherent
-45	6	6	NUM	_	Number=Sing|NumType=Card	44	nmod	_	Exponence[Number]=Inherent
+45	6	6	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	44	nmod	_	Exponence[Number]=Inherent
 46	et	et	CCONJ	_	_	47	cc	_	_
-47	7	7	NUM	_	Number=Sing|NumType=Card	45	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
+47	7	7	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	45	conj	_	Exponence[Number]=Inherent|SpaceAfter=No
 48	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00045
@@ -1908,7 +1908,7 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	80	80	NUM	_	Number=Plur|NumType=Card	36	nummod	_	Exponence[Number]=Inherent
 36	pour	pour	ADP	_	ExtPos=NOUN	33	obl:arg	_	_
-37	cent	cent	NUM	_	Number=Sing|NumType=Card	36	dep:comp	_	Exponence[Number]=Inherent
+37	cent	cent	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	36	dep:comp	_	Exponence[Number]=Inherent
 38	dans	dans	ADP	_	_	41	case	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 40	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
@@ -3189,7 +3189,7 @@
 6	albanaise	albanais	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	condamnée	condamner	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	acl	_	Tense[denom]=Past
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	13	13	NUM	_	Number=Sing|NumType=Card	7	obl:mod	_	Exponence[Number]=Inherent
+9	13	13	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	7	obl:mod	_	Exponence[Number]=Inherent
 10	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	Exponence[Gender]=Inherent
 11	à	à	ADP	_	_	12	case	_	_
 12	Nis	Nis	PROPN	_	_	7	obl:mod	_	SpaceAfter=No
@@ -4737,7 +4737,7 @@
 21	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	Exponence[Gender]=Inherent
 22	intergouvernementale	intergouvernemental	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23	de	de	ADP	_	_	24	case	_	_
-24	1996	1996	NUM	_	Number=Sing|NumType=Card	21	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+24	1996	1996	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	21	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 25	,	,	PUNCT	_	_	18	punct	_	_
 26	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	expl:subj	_	_
 27	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7333,7 +7333,7 @@
 51	aujourd'hui	aujourd'hui	ADV	_	_	50	advmod	_	_
 52	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	résolution	résolution	NOUN	_	Gender=Fem|Number=Sing	50	nsubj	_	Exponence[Gender]=Inherent
-54	1284	1284	NUM	_	Number=Sing|NumType=Card	53	nmod	_	Exponence[Number]=Inherent
+54	1284	1284	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	53	nmod	_	Exponence[Number]=Inherent
 55-56	du	_	_	_	_	_	_	_	_
 55	de	de	ADP	_	_	57	case	_	_
 56	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
@@ -7560,7 +7560,7 @@
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
 18	publié	publier	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	Tense[denom]=Past
 19	hier	hier	ADV	_	_	18	advmod	_	_
-20	14	14	NUM	_	Number=Sing|NumType=Card	18	obl:mod	_	Exponence[Number]=Inherent
+20	14	14	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	18	obl:mod	_	Exponence[Number]=Inherent
 21	mars	mars	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	Exponence[Gender]=Inherent|Exponence[Number]=Absent|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23-24	au	_	_	_	_	_	_	_	_
@@ -8260,7 +8260,7 @@
 3	Présidente	président	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	13	13	NUM	_	Number=Sing|NumType=Card	9	obl:mod	_	Exponence[Number]=Inherent
+6	13	13	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	9	obl:mod	_	Exponence[Number]=Inherent
 7	avril	avril	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent
 8	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	débutera	débuter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -8305,8 +8305,8 @@
 21	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
 22	lesquels	lequel	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	26	nsubj	_	_
 23	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
-24	par	par	ADP	_	_	25	case	_	_
-25	ailleurs	ailleurs	ADV	_	_	26	advmod	_	_
+24	par	par	ADP	_	ExtPos=ADV	26	advmod	_	Idiom=Yes
+25	ailleurs	ailleurs	ADV	_	_	24	fixed	_	InIdiom=Yes
 26	démenti	démentir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	20	acl:relcl	_	Tense[denom]=Past
 27	tout	tout	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	28	det	_	_
 28	lien	lien	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	Exponence[Gender]=Inherent
@@ -8838,7 +8838,7 @@
 31	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	32	nsubj	_	_
 32	soumettez	soumettre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	58	advcl	_	_
 33	tous	tout	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
-34	deux	deux	NUM	_	Number=Plur|NumType=Card	32	obl:mod	_	Exponence[Number]=Inherent
+34	deux	deux	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	32	obl:mod	_	Exponence[Number]=Inherent
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	question	question	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	Exponence[Gender]=Inherent
 37	que	que	PRON	_	PronType=Rel	41	obj	_	_
@@ -10578,7 +10578,7 @@
 22	famine	famine	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	dont	dont	CCONJ	_	_	25	advmod	_	_
-25	8	8	NUM	_	Number=Plur|NumType=Card	17	appos	_	Exponence[Number]=Inherent
+25	8	8	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	17	appos	_	Exponence[Number]=Inherent
 26	en	en	ADP	_	_	27	case	_	_
 27	Éthiopie	Éthiopie	PROPN	_	Gender=Fem|Number=Sing	25	nmod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
@@ -10681,8 +10681,8 @@
 # text = Je remercie d'ailleurs le Conseil et la Commission pour ce qu'ils ont déjà entrepris et pour les précisions qu'ils nous ont apportées tout à l'heure.
 1	Je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	_
+3	d'	de	ADP	_	ExtPos=ADV	2	advmod	_	Idiom=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	InIdiom=Yes
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	Exponence[Gender]=Inherent
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -11331,7 +11331,7 @@
 26	récupéré	récupérer	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	acl	_	Tense[denom]=Past
 27	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 28	avant	avant	ADP	_	_	29	case	_	_
-29	2000	2000	NUM	_	Number=Sing|NumType=Card	25	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+29	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	25	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
 31	venant	venir	VERB	_	VerbForm=Part	25	acl	_	Tense[denom]=Pres
 32-33	des	_	_	_	_	_	_	_	_
@@ -11354,7 +11354,7 @@
 47	pour	pour	ADP	_	_	49	case	_	_
 48	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 49	année	année	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	Exponence[Gender]=Inherent
-50	2000	2000	NUM	_	Number=Sing|NumType=Card	49	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+50	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	49	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 51	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00348
@@ -11493,7 +11493,7 @@
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 24	an	an	NOUN	_	Gender=Masc|Number=Sing	21	appos	_	Exponence[Gender]=Inherent
-25	2001	2001	NUM	_	Number=Sing|NumType=Card	24	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+25	2001	2001	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	24	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 26	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Europar.550_00352
@@ -12423,7 +12423,7 @@
 6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 7	euro	euro	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent
 8	en	en	ADP	_	_	9	case	_	_
-9	2002	2002	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+9	2002	2002	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	expl:pv	_	_
 12	traduire	traduire	VERB	_	VerbForm=Inf	10	xcomp	_	Subject=SubjRaising
@@ -12753,10 +12753,10 @@
 # text = L'article 105, paragraphe 6 du traité, stipule que le Conseil peut confier à la B.C.E. des missions spécifiques ayant trait aux politiques en matière de contrôle prudentiel des établissements de crédit et d'autres établissements financiers, à l'exception des entreprises d'assurances.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	article	article	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	Exponence[Gender]=Inherent
-3	105	105	NUM	_	Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+3	105	105	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	2	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	paragraphe	paragraphe	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	Exponence[Gender]=Inherent
-6	6	6	NUM	_	Number=Sing|NumType=Card	5	nmod	_	Exponence[Number]=Inherent
+6	6	6	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	5	nmod	_	Exponence[Number]=Inherent
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -12995,7 +12995,7 @@
 41	de	de	ADP	_	_	43	case	_	_
 42	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 43	article	article	NOUN	_	Gender=Masc|Number=Sing	39	obl:arg	_	Exponence[Gender]=Inherent
-44	161	161	NUM	_	Number=Sing|NumType=Card	43	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+44	161	161	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	43	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 45	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = Europar.550_00398
@@ -13241,7 +13241,7 @@
 3	-ils	lui	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	expl:subj	_	_
 4	donc	donc	ADV	_	_	2	advmod	_	_
 5	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	_
-6	32	32	NUM	_	Number=Plur|NumType=Card	2	nsubj	_	Exponence[Number]=Inherent
+6	32	32	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	2	nsubj	_	Exponence[Number]=Inherent
 7	et	et	CCONJ	_	ExtPos=ADJ	6	amod	_	Idiom=Yes
 8	quelques	quelques	DET	_	Definite=Ind|Number=Plur|PronType=Ind	7	fixed	_	Exponence[Number]=Inherent|InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
@@ -13899,9 +13899,9 @@
 
 # sent_id = Europar.550_00429
 # text = Par ailleurs, nous souhaitons la transparence des appels d'offres lors des lancements de partenariats publics et privés afin que tous puissent réellement participer au développement des réseaux.
-1	Par	par	ADP	_	_	2	case	_	_
-2	ailleurs	ailleurs	ADV	_	_	5	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+1	Par	par	ADP	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 5	souhaitons	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -13944,7 +13944,7 @@
 2	approuvons	approuver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	point	point	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	Exponence[Gender]=Inherent
-5	9	9	NUM	_	Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent
+5	9	9	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -14105,7 +14105,7 @@
 4	sept	sept	NUM	_	Number=Plur|NumType=Card	5	nummod	_	Exponence[Number]=Inherent
 5	projets	projet	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	Exponence[Gender]=Inherent
 6	sur	sur	ADP	_	_	7	case	_	_
-7	quatorze	quatorze	NUM	_	Number=Plur|NumType=Card	5	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+7	quatorze	quatorze	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	5	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	soit	soit	CCONJ	_	_	11	advmod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -15474,7 +15474,7 @@
 10	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
 11	en	en	PRON	_	Person=3|PronType=Prs	13	nmod	_	_
 12	aurai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	parataxis	_	_
-13	69	69	NUM	_	Number=Plur|NumType=Card	12	obj	_	Exponence[Number]=Inherent|SpaceAfter=No
+13	69	69	NUM	_	ExtPos=PRON|Number=Plur|NumType=Card	12	obj	_	Exponence[Number]=Inherent|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Europar.550_00489
@@ -16113,9 +16113,9 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
 6	close	clore	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
 7	à	à	ADP	_	_	9	case	_	_
-8	12	12	NUM	_	NumType=Card	9	nummod	_	SpaceAfter=No
+8	12	12	NUM	_	ExtPos=PROPN|NumType=Card	9	nmod	_	SpaceAfter=No
 9	h	h	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
-10	30	30	NUM	_	NumType=Card	9	nmod	_	SpaceAfter=No
+10	30	30	NUM	_	ExtPos=PROPN|NumType=Card	9	nmod	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Europar.550_00509
@@ -16197,7 +16197,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 17	Euro	Euro	PROPN	_	Gender=Masc|Number=Sing	14	nmod	_	Exponence[Gender]=Inherent
-18	2000	2000	NUM	_	Number=Sing|NumType=Card	17	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+18	2000	2000	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	17	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 19	,	,	PUNCT	_	_	2	punct	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	Exponence[Gender]=Inherent
@@ -16220,9 +16220,9 @@
 
 # sent_id = Europar.550_00512
 # text = Par ailleurs, la délégation britannique, composée actuellement de 36 députés, a présenté à nouveau la résolution dans sa forme originale.
-1	Par	par	ADP	_	_	2	case	_	_
-2	ailleurs	ailleurs	ADV	_	_	15	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+1	Par	par	ADP	_	ExtPos=ADV	15	advmod	_	Idiom=Yes
+2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	InIdiom=Yes|SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	délégation	délégation	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	Exponence[Gender]=Inherent
 6	britannique	britannique	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
@@ -17167,7 +17167,7 @@
 12	partisans	partisan	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	Exponence[Gender]=Inherent
 13	en	en	ADP	_	_	14	case	_	_
 14	Septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	Exponence[Gender]=Inherent
-15	1998	1998	NUM	_	Number=Sing|NumType=Card	14	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+15	1998	1998	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	14	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 16	,	,	PUNCT	_	_	24	punct	_	_
 17	quand	quand	SCONJ	_	_	24	mark	_	_
 18	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
@@ -17232,9 +17232,9 @@
 9	à	à	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 11	article	article	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Exponence[Gender]=Inherent
-12	26	26	NUM	_	Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent
+12	26	26	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	11	nmod	_	Exponence[Number]=Inherent
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-14	2	2	NUM	_	Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+14	2	2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	12	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -17326,9 +17326,9 @@
 1	Selon	selon	ADP	_	_	3	case	_	_
 2	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Exponence[Gender]=Absent|SpaceAfter=No
 3	article	article	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	Exponence[Gender]=Inherent
-4	46	46	NUM	_	Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
+4	46	46	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	3	nmod	_	Exponence[Number]=Inherent
 5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
-6	2	2	NUM	_	Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
+6	2	2	NUM	_	ExtPos=PROPN|Number=Sing|NumType=Card	4	nmod	_	Exponence[Number]=Inherent|SpaceAfter=No
 7	)	)	PUNCT	_	_	6	punct	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
