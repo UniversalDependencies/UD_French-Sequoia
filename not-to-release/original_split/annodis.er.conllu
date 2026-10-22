@@ -8600,8 +8600,8 @@
 6	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	écartait	écarter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	10	case	_	Idiom=Yes|SpaceAfter=No
-10	ailleurs	ailleurs	ADV	_	_	8	advmod	_	InIdiom=Yes
+9	d'	de	ADP	_	ExtPos=ADV	8	advmod	_	Idiom=Yes|SpaceAfter=No
+10	ailleurs	ailleurs	ADV	_	_	9	fixed	_	InIdiom=Yes
 11	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	thèse	thèse	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Exponence[Gender]=Inherent

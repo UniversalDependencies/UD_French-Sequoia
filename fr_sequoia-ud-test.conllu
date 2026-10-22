@@ -505,7 +505,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	été	être	AUX	_	Tense=Past|VerbForm=Part	4	aux:pass	_	Status[Tense]=Denom
 4	condamnée	condamner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Status[Tense]=Denom
-5	parce	parce	SCONJ	_	ExtPos=SCONJ	14	mark	_	Idiom=Yes
+5	parce	parce	ADV	_	ExtPos=SCONJ	14	mark	_	Idiom=Yes
 6	qu'	que	SCONJ	_	_	5	fixed	_	InIdiom=Yes|SpaceAfter=No
 7	en	en	ADP	_	ExtPos=ADP	10	case	_	Idiom=Yes
 8	tant	tant	ADV	_	_	7	fixed	_	InIdiom=Yes
@@ -1676,7 +1676,7 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	commissaire	commissaire	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	Exponence[Gender]=Inherent|SpaceAfter=No
 18	,	,	PUNCT	_	_	23	punct	_	_
-19	parce	parce	SCONJ	_	ExtPos=SCONJ	23	mark	_	Idiom=Yes
+19	parce	parce	ADV	_	ExtPos=SCONJ	23	mark	_	Idiom=Yes
 20	qu'	que	SCONJ	_	_	19	fixed	_	InIdiom=Yes|SpaceAfter=No
 21	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	expl:subj	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_

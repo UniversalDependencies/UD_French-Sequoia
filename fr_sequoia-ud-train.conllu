@@ -6316,8 +6316,8 @@
 6	commune	commune	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	Exponence[Gender]=Inherent
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	écartait	écarter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	10	case	_	Idiom=Yes|SpaceAfter=No
-10	ailleurs	ailleurs	ADV	_	_	8	advmod	_	InIdiom=Yes
+9	d'	de	ADP	_	ExtPos=ADV	8	advmod	_	Idiom=Yes|SpaceAfter=No
+10	ailleurs	ailleurs	ADV	_	_	9	fixed	_	InIdiom=Yes
 11	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	thèse	thèse	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Exponence[Gender]=Inherent
@@ -10900,7 +10900,7 @@
 # sent_id = emea-fr-dev_00066
 # text = Numéro UE
 1	Numéro	numéro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Exponence[Gender]=Inherent
-2	UE	UE	NOUN	_	_	1	nmod	_	_
+2	UE	UE	PROPN	_	Gender=Fem	1	nmod	_	Exponence[Gender]=Inherent
 
 # sent_id = emea-fr-dev_00067
 # text = Nom de fantaisie
@@ -14504,8 +14504,8 @@
 31	angor	angor	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	Exponence[Gender]=Inherent
 32	instable	instable	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	Exponence[Gender]=Absent
 33	ou	ou	CCONJ	_	_	34	cc	_	_
-34	IDM	IDM	NOUN	_	_	31	conj	_	_
-35	ST-	ST-	ADJ	_	Gender=Masc|Number=Sing	34	amod	_	SpaceAfter=No
+34	IDM	IDM	X	_	_	31	conj	_	_
+35	ST-	ST-	X	_	_	34	flat:name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = emea-fr-dev_00313
@@ -28983,7 +28983,7 @@
 45	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	51	punct	_	_
 47	ensuite	ensuite	ADV	_	_	51	advmod	_	_
-48	parce	parce	SCONJ	_	ExtPos=SCONJ	51	mark	_	Idiom=Yes
+48	parce	parce	ADV	_	ExtPos=SCONJ	51	mark	_	Idiom=Yes
 49	qu'	que	SCONJ	_	_	48	fixed	_	InIdiom=Yes|SpaceAfter=No
 50	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	nsubj	_	_
 51	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
@@ -29265,7 +29265,7 @@
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	amendement	amendement	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Exponence[Gender]=Inherent
 9	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
-10	quand	quand	ADV	_	ExtPos=SCONJ	17	mark	_	Idiom=Yes
+10	quand	quand	SCONJ	_	ExtPos=SCONJ	17	mark	_	Idiom=Yes
 11	bien	bien	ADV	_	_	10	fixed	_	InIdiom=Yes
 12	même	même	ADV	_	_	10	fixed	_	InIdiom=Yes
 13	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
@@ -29850,7 +29850,7 @@
 23	avec	avec	ADP	_	_	25	case	_	_
 24	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	25	det	_	_
 25	conscience	conscience	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	Exponence[Gender]=Inherent
-26	parce	parce	SCONJ	_	ExtPos=SCONJ	31	mark	_	Idiom=Yes
+26	parce	parce	ADV	_	ExtPos=SCONJ	31	mark	_	Idiom=Yes
 27	qu'	que	SCONJ	_	_	26	fixed	_	InIdiom=Yes|SpaceAfter=No
 28	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
 29	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	31	expl:pv	_	_
@@ -30404,7 +30404,7 @@
 21	criminels	criminel	NOUN	_	Gender=Masc|Number=Plur	12	xcomp	_	Exponence[Gender]=Inherent
 22	tout	tout	ADV	_	_	23	advmod	_	_
 23	bonnement	bonnement	ADV	_	_	28	advmod	_	_
-24	parce	parce	SCONJ	_	ExtPos=SCONJ	28	mark	_	Idiom=Yes
+24	parce	parce	ADV	_	ExtPos=SCONJ	28	mark	_	Idiom=Yes
 25	qu'	que	SCONJ	_	_	24	fixed	_	InIdiom=Yes|SpaceAfter=No
 26	on	on	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=3|PronType=Ind	28	nsubj	_	_
 27	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:tense	_	_
@@ -32269,7 +32269,7 @@
 27	réussites	réussite	NOUN	_	Gender=Fem|Number=Plur	18	obl:mod	_	Exponence[Gender]=Inherent|SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	précisément	précisément	ADV	_	_	34	advmod	_	_
-30	parce	parce	SCONJ	_	ExtPos=SCONJ	34	mark	_	Idiom=Yes
+30	parce	parce	ADV	_	ExtPos=SCONJ	34	mark	_	Idiom=Yes
 31	qu'	que	SCONJ	_	_	30	fixed	_	InIdiom=Yes|SpaceAfter=No
 32	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 33	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:tense	_	_
@@ -32369,7 +32369,7 @@
 12	indispensable	indispensable	ADJ	_	Gender=Fem|Number=Sing	10	conj	_	Exponence[Gender]=Absent|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	notamment	notamment	ADV	_	_	4	advmod	_	_
-15	parce	parce	SCONJ	_	ExtPos=SCONJ	39	mark	_	Idiom=Yes
+15	parce	parce	ADV	_	ExtPos=SCONJ	39	mark	_	Idiom=Yes
 16	qu'	que	SCONJ	_	_	15	fixed	_	InIdiom=Yes|SpaceAfter=No
 17	avant	avant	ADP	_	_	18	case	_	_
 18	tout	tout	ADV	_	_	39	advmod	_	SpaceAfter=No
@@ -37810,7 +37810,7 @@
 30	assassinats	assassinat	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	Exponence[Gender]=Inherent
 31	terroristes	terroriste	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	Exponence[Gender]=Absent|SpaceAfter=No
 32	,	,	PUNCT	_	_	37	punct	_	_
-33	parce	parce	SCONJ	_	ExtPos=SCONJ	37	mark	_	Idiom=Yes
+33	parce	parce	ADV	_	ExtPos=SCONJ	37	mark	_	Idiom=Yes
 34	qu'	que	SCONJ	_	_	33	fixed	_	InIdiom=Yes|SpaceAfter=No
 35	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
 36	n'	ne	ADV	_	Polarity=Neg	37	advmod	_	SpaceAfter=No
@@ -37848,7 +37848,7 @@
 17	dans	dans	ADP	_	_	19	case	_	_
 18	certaines	certains	DET	_	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	Exponence[Number]=Inherent
 19	municipalités	municipalité	NOUN	_	Gender=Fem|Number=Plur	13	obl:mod	_	Exponence[Gender]=Inherent
-20	parce	parce	SCONJ	_	ExtPos=SCONJ	24	mark	_	Idiom=Yes
+20	parce	parce	ADV	_	ExtPos=SCONJ	24	mark	_	Idiom=Yes
 21	qu'	que	SCONJ	_	_	20	fixed	_	InIdiom=Yes|SpaceAfter=No
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	expl:subj	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
