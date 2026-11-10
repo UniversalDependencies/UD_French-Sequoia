@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_French-Sequoia:
-commit 5ee57673e313bd7a2e66cddd4b9bba52140ee435
-Merge: e952bf8 bac9194
+commit 0c2245de190e63c19289f0fbf8544e66c7fd0e44
+Merge: 21e377f 429a308
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'fr_sequoia'
 Language code (from CoNLL-U file name) = 'fr'
 Found the following data files: fr_sequoia-ud-dev.conllu, fr_sequoia-ud-test.conllu, fr_sequoia-ud-train.conllu
-Size: counted 70545 of 70545 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.51250160813024.
+Size: counted 70502 of 70502 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.51128215642033.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 45715 out of 70545 total words have one or more features.
+Features: 45686 out of 70502 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -34,10 +34,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.222222222222222) = 0.0246913580246914
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
-(weight=0.37037037037037) * (score{size}=0.616155412600587) = 0.228205708370588
+(weight=0.37037037037037) * (score{size}=0.616067145742493) = 0.228173016941664
 (weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
 (weight=0.111111111111111) * (score{udeprels}=0.713513513513514) = 0.0792792792792793
-(TOTAL score=0.64324388380092) * (availability=1) * (validity=1) = 0.64324388380092
+(TOTAL score=0.643211192371996) * (availability=1) * (validity=1) = 0.643211192371996
 STARS = 3
-UD_French-Sequoia	0.64324388380092	3
+UD_French-Sequoia	0.643211192371996	3
