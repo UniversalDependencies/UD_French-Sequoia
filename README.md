@@ -3,20 +3,20 @@
 
 # Introduction
 **UD_French-Sequoia** is an automatic conversion of the [SUD_French-Sequoia](https://github.com/surfacesyntacticud/SUD_French-Sequoia) treebank, which comes from the former corpus [French Sequoia corpus](http://deep-sequoia.inria.fr).
-The French Sequoia corpus was converted in April 2023 to SUD with the Grew rewriting system [described here](https://gitlab.inria.fr/grew/DSQ_SUD).
+The French Sequoia corpus was converted in April 2023 to SUD with the Grew rewriting system [described here](https://gitlab.inria.fr/grew/DSQtoSUD).
 Since this date, the corpus is maintained in SUD and converted to UD.
 
 ## Origin
 The first version of the Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-diderot.archives-ouvertes.fr/hal-00698938/).
 
 ## Splitting
-The whole corpus contains 70,546 tokens in 3,099 sentences.
+The whole corpus contains 70,502 tokens in 3,099 sentences.
 
 In **UD_French-Sequoia**, data were randomly split into:
 
- * `fr_sequoia-ud-test.conllu`: 10,044 tokens in 456 sentences
- * `fr_sequoia-ud-dev.conllu`: 9,999 tokens in 412 sentences
- * `fr_sequoia-ud-train.conllu`: 50,503 tokens in 2,231 sentences
+ * `fr_sequoia-ud-test.conllu`: 10,036 tokens in 456 sentences
+ * `fr_sequoia-ud-dev.conllu`: 9,988 tokens in 412 sentences
+ * `fr_sequoia-ud-train.conllu`: 50,478 tokens in 2,231 sentences
 
 ## Genres
 The original sentences of the corpus are taken from:
@@ -42,6 +42,8 @@ The Sequoia Corpus was presented in [(Candito & Seddah, 2012)](https://hal-univ-
 **(Bonfante & al. 2018)** Guillaume Bonfante, Bruno Guillaume, Guy Perrier. [Application of Graph Rewriting to Natural Language Processing](https://hal.inria.fr/hal-01814386). ISTE Wiley, 1, pp.272, 2018, Logic, Linguistics and Computer Science Set.
 
 # Changelog
+* 2026_11_16 v2.19
+  * Restore basic (non-layered) featues (see https://github.com/UniversalDependencies/UD_French-GSD/blob/master/README.md for details)
 * 2024-05-15 v2.14
   * Add missing features (mainly Gender)
   * More consistant annotations of idioms wrt other French treebanks
